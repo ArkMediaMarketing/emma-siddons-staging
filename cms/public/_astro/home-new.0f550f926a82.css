@@ -78,6 +78,9 @@
 .new-home .nh-offmarket__note { font-style: italic; border-top: 1px solid #738577; padding-top: var(--nh-space-md); }
 .new-home .nh-offmarket .button { background: transparent; color: var(--cream); border-color: #aebbad; }
 .new-home .nh-offmarket .button:hover { background: var(--cream); color: var(--ink); }
+@media (min-width:801px) and (min-height:650px) {
+  .nh-process__intro { position: sticky; top: 32px; align-self: start; }
+}
 .nh-journey { list-style: none; padding: 0; margin: 0; }
 .nh-journey li { display: grid; grid-template-columns: 35px minmax(0,1fr); gap: 20px; border-top: 1px solid var(--nh-divider); padding: var(--nh-space-md) 0; }
 .nh-journey .nh-index { padding-top: 5px; margin-bottom: 0; }
