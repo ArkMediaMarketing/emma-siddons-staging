@@ -1,0 +1,14 @@
+/* Match the homepage's 1600px outer container and viewport-based gutters.
+   Existing inner-page sections use these variables for both contained copy
+   and full-width backgrounds, so their content edges stay aligned. */
+body.site-refined {
+  --content-gutter: 5vw;
+  --content-width: calc(min(100vw, 1600px) - var(--content-gutter) - var(--content-gutter));
+  --bottom-content-gutter: var(--content-gutter);
+  --bottom-content-width: var(--content-width);
+}
+body.site-refined .page-intro--plain .page-intro__copy,
+body.site-refined .guide-copy { max-width: none; }
+@media(max-width:1350px) { body.site-refined { --content-gutter: 4vw; } }
+@media(max-width:1100px) { body.site-refined { --content-gutter: 5vw; } }
+@media(max-width:540px) { body.site-refined { --content-gutter: 6vw; } }
