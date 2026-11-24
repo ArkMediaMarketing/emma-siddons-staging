@@ -1,0 +1,12 @@
+/* Shared banner: a quiet copy panel beside an edge-to-edge portrait. */
+.site-refined .page-intro.split-banner{grid-template-columns:54% 46%;gap:0;padding:0;min-height:500px;background:#f1eee9}
+.site-refined .split-banner .page-intro__copy{padding:50px 48px 50px max(var(--content-gutter),calc((100vw - var(--content-width))/2));align-self:center}
+.site-refined .split-banner h1{font-size:clamp(36px,3.2vw,52px);line-height:1.08;max-width:540px;margin:0 0 24px}
+.site-refined .split-banner .eyebrow{margin:0 0 20px}
+.site-refined .split-banner .rule{margin-bottom:26px}
+.site-refined .split-banner .page-intro__lead{max-width:510px}
+.site-refined .split-banner .page-intro__lead p{font-size:18px;line-height:1.45;margin:0 0 20px}
+.site-refined .split-banner .page-intro__media{min-height:100%;margin:0;height:auto}
+.site-refined .split-banner .page-intro__media.portrait img{object-position:50% 35%}
+@media(max-width:900px){.site-refined .split-banner .page-intro__copy{padding-top:44px;padding-bottom:44px;padding-right:30px}.site-refined .split-banner h1{font-size:36px}}
+@media(max-width:650px){.site-refined .page-intro.split-banner{grid-template-columns:1fr;min-height:0}.site-refined .split-banner .page-intro__copy{padding:40px var(--content-gutter)}.site-refined .split-banner h1{font-size:36px}.site-refined .split-banner .page-intro__media{height:340px;min-height:0}.site-refined .split-banner .page-intro__media.portrait img{object-position:50% 30%}}
