@@ -1,6 +1,6 @@
 /* About banner: a quiet copy panel beside an edge-to-edge portrait. */
 .site-refined .page-intro.about-banner{grid-template-columns:54% 46%;gap:0;padding:0;min-height:500px;background:#f1eee9}
-.site-refined .about-banner .page-intro__copy{padding:40px 48px 40px max(var(--content-gutter),calc((100vw - var(--content-width))/2));align-self:center}
+.site-refined .about-banner .page-intro__copy{padding:50px 48px 50px max(var(--content-gutter),calc((100vw - var(--content-width))/2));align-self:center}
 .site-refined .about-banner h1{font-size:clamp(36px,3.2vw,52px);line-height:1.08;max-width:540px;margin:0 0 24px}
 .site-refined .about-banner .eyebrow{margin:0 0 20px}
 .site-refined .about-banner .rule{margin-bottom:26px}
