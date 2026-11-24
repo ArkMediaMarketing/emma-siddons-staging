@@ -3554,6 +3554,16 @@
           }
         },
         {
+          "id": "home-new-image-4",
+          "type": "image",
+          "label": "About me image",
+          "section": "About me",
+          "value": {
+            "src": "/images/chp-6607-emma-siddons.webp",
+            "alt": "Emma Siddons seated on a leather sofa with her laptop"
+          }
+        },
+        {
           "id": "home-new-link-0",
           "type": "link",
           "linkTextIds": [
@@ -14049,6 +14059,10 @@
     {
       "src": "/images/village.jpg",
       "name": "village.jpg"
+    },
+    {
+      "src": "/images/chp-6607-emma-siddons.webp",
+      "name": "chp-6607-emma-siddons.webp"
     },
     {
       "src": "/images/emma-research-960.webp",

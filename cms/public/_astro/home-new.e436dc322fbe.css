@@ -198,3 +198,5 @@
 @media (prefers-reduced-motion:reduce) {
   .new-home .nh-text-link svg, .new-home .nh-faq summary span { transition: none; }
 }
+
+.nh-introduction__photo { display: block; width: 100%; height: auto; }
