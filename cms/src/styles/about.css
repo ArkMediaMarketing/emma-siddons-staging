@@ -10,18 +10,16 @@
 .site-refined .about-banner .page-intro__media.portrait img{object-position:50% 35%}
 @media(max-width:900px){.site-refined .about-banner .page-intro__copy{padding-top:44px;padding-bottom:44px;padding-right:30px}.site-refined .about-banner h1{font-size:36px}}
 @media(max-width:650px){.site-refined .page-intro.about-banner{grid-template-columns:1fr;min-height:0}.site-refined .about-banner .page-intro__copy{padding:40px var(--content-gutter)}.site-refined .about-banner h1{font-size:36px}.site-refined .about-banner .page-intro__media{height:340px;min-height:0}.site-refined .about-banner .page-intro__media.portrait img{object-position:50% 30%}}
-/* A paired editorial spread, aligned with the existing site container. */
-.site-refined section.about-perspective{display:grid;grid-template-columns:1.05fr .95fr;gap:0;padding:0;margin-block:72px;background:#e2e8e1;align-items:stretch}
-.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:clamp(28px,3.2vw,48px);min-width:0}
-.about-perspective__local{background:#e2e8e1;color:#24392c}
-.about-perspective__background{background:#344d3d;color:#f8f7f4}
-.about-perspective .eyebrow{margin:0 0 20px;font-size:11px;line-height:1.6;letter-spacing:2px}
-.about-perspective .eyebrow:before{content:"";display:block;width:36px;height:1px;background:currentColor;opacity:.55;margin-bottom:22px}
-.about-perspective h2{font-size:clamp(29px,2.3vw,38px);line-height:1.18;letter-spacing:-.5px;margin:0 0 24px}
-.about-perspective .about-perspective__local h2{color:#24392c}
-.about-perspective .about-perspective__background h2,.about-perspective .about-perspective__background .eyebrow{color:#f8f7f4}
-.about-perspective p:not(.eyebrow){font-size:18px;line-height:1.75;margin:0 0 20px}
-.about-perspective .about-perspective__background p:not(.eyebrow){color:#edf1eb}
+/* Local knowledge and professional background cards. */
+.site-refined section.about-perspective{display:grid;grid-template-columns:1fr 1fr;gap:28px;width:100%;max-width:none;margin:0;padding:56px max(var(--content-gutter),calc((100% - var(--content-width))/2));background:#f5f2ef;align-items:stretch}
+.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:28px 36px 32px;min-width:0;background:#fff;border-radius:22px;box-shadow:0 8px 16px #29352d0b;color:#182630;border-bottom:4px solid transparent}
+.about-perspective>.about-perspective__local{border-bottom-color:#99b873}
+.about-perspective .eyebrow{display:flex;align-items:center;gap:30px;margin:0 0 12px;font-size:11px;font-weight:600;line-height:1.6;letter-spacing:2px;color:#182630}
+.about-perspective .eyebrow:before{content:"";display:block;flex:0 0 48px;width:48px;height:48px;border-radius:50%;background-color:#e0ead1;background-position:center;background-repeat:no-repeat;background-size:26px}
+.about-perspective__local .eyebrow:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232b4033' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 9c0 5-6 12-6 12S6 14 6 9a6 6 0 1 1 12 0Z'/%3E%3Ccircle cx='12' cy='9' r='2'/%3E%3C/svg%3E")}
+.about-perspective__background .eyebrow:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232b4033' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 7 9-4 9 4-9 4-9-4Zm0 5 9 4 9-4M3 17l9 4 9-4'/%3E%3C/svg%3E")}
+.about-perspective h2{font-size:clamp(28px,2.1vw,36px);line-height:1.18;letter-spacing:-.5px;margin:0 0 20px;color:#182630}
+.about-perspective p:not(.eyebrow){font-size:18px;line-height:1.5;margin:0 0 16px;color:#43474b}
 .about-perspective p:last-child{margin-bottom:0}
-@media(max-width:800px){.site-refined section.about-perspective{grid-template-columns:1fr;margin-block:48px}.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:30px}.about-perspective h2{font-size:30px}}
-@media(max-width:480px){.site-refined section.about-perspective{margin-block:36px}.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:26px 24px}.about-perspective h2{font-size:28px}.about-perspective p:not(.eyebrow){font-size:17px;line-height:1.7}}
+@media(max-width:800px){.site-refined section.about-perspective{grid-template-columns:1fr;gap:24px;padding-block:40px}.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:26px 30px}.about-perspective h2{font-size:30px}}
+@media(max-width:480px){.site-refined section.about-perspective{padding-block:32px}.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:24px}.about-perspective .eyebrow{gap:18px;letter-spacing:1.5px}.about-perspective h2{font-size:28px}}
