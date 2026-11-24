@@ -17,26 +17,6 @@
     "services-and-fees/index.html": "8e3085b9ed0909fc16e000608eca9fc4f033e3a8a92106775c768fc058aebc18",
     "v2/index.html": "340a8dd864401cef3f4d3ad456e980d764cace8d7548137a92af2eee8ffcab5e"
   },
-  "fields": {
-    "header": "276dbebdb97e991805b5cf5daacea27b5dd6510310617929d78cfcf9509f1c8c",
-    "footer": "90ed74b22fb8c2d6944582281f07fe542072a13c7b9db57e5c3da3d99e3d8d16",
-    "home": "2eb0aa0ec9bb56fb68b62c116e0143c7a99ae5ee1e997cd05818e4f6ab11cd1f",
-    "home-new": "8252b4a5ba5e2dc0f55a510c3a0acc07f8e2dd5aa6fd95513da273bc1ea7e759",
-    "v2": "2fbe1b3dd5ecf2692eb9df32b907d01944f28bba9ef9f6d99066febad1aac80d",
-    "about-me": "acb9f11d69c52498de4c83d2a3fc5015d57acbb61f52462335bfafa1e538796e",
-    "areas-covered": "924af8f907210426e2239545ea3aaf7da8d1a31b574b5a501720ce82f574588e",
-    "blog": "e1ed0e7f8c3ab5fb2944374823094ea47d1261f704edcad2b5aad15929c35368",
-    "contact": "e15dd91bcc7f5755b61bf35d38cea4d645acb5d354e61ae0dcc301cff8c1d165",
-    "guides--finding-off-market-homes": "b43a91d67bb61edbab9040d24a7509a31d63acfa95477aba7b3545325263e111",
-    "how-i-can-help-you": "1ce4a0ed6b42dda1fad1199db4277a32696a16a24294107eaf9a9f162d53db4b",
-    "off-market-homes-hertfordshire": "64f1126d4b8186003ae02ccde60ab60492bc7fd1a0fd5bbed67b13b68a66d171",
-    "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market": "4ed22a3e5d27d9dc368fa975ad5a0486dfea94ed177549380a6ac159b6f45109",
-    "post--it-s-a-minefield": "035db123ad7c90d63256446c0d1cf8f7817222dec561eccfa3155155913038a5",
-    "post--should-you-have-a-buying-agent": "b8ea646ffaebf6db3d37196de755322c7044df24ad0ff931c6e8667c7d14ff58",
-    "post--the-busy-life-of-a-propertyfinder": "02ffa8cd662278e13fc614a90b5305169bfb563452b40668dfba6dc844e2d76b",
-    "post--why-it-s-not-okay-to-wait-for-rightmove": "7f8e722297790961458a6167ba4bfad271b1a5f143d2f217006bb7351821771b",
-    "services-and-fees": "5a23ba5a9a359c7b4e2d0879dd660b858d4dbc5e50db29363b010118e8117e57"
-  },
   "assets": {
     "containers.css": "c9aba54db8885169d7326605f5dad0bf32dfdbddc3f3a4d4dc12ab3aa07e50ad",
     "favicon.svg": "284267465a2b7781d6da46d39fc1d262c98dfff85020d2e15ce3bd302fc33cee",
@@ -86,5 +66,3198 @@
     "_astro/baselayout.b6mcq5pf.css": "12da56b4d6b20bc061d9a7d2b7fe087098daf81ec41fca445c9f08325d55521c",
     "_astro/home-new.czkdqt_3.css": "e0d469e0797f43206ce32b01c43438753401771d8d58e65e958d310ae5d01470",
     "_astro/v2.v1d_-bdz.css": "4a009734242949caef82ac40ae79fa04241731a968e3ea8083ca4f4ca82ac663"
+  },
+  "legacyFields": {
+    "header": {
+      "header-text-0": {
+        "type": "text",
+        "value": "Emma Siddons"
+      },
+      "header-text-1": {
+        "type": "text",
+        "value": "Hertfordshire buying agent"
+      },
+      "header-text-2": {
+        "type": "text",
+        "value": "About"
+      },
+      "header-text-3": {
+        "type": "text",
+        "value": "How I can help you"
+      },
+      "header-text-4": {
+        "type": "text",
+        "value": "Services & fees"
+      },
+      "header-text-5": {
+        "type": "text",
+        "value": "Off-market"
+      },
+      "header-text-6": {
+        "type": "text",
+        "value": "Areas covered"
+      },
+      "header-text-7": {
+        "type": "text",
+        "value": "Contact"
+      },
+      "header-text-8": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "header-text-9": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "header-text-10": {
+        "type": "text",
+        "value": "Menu"
+      },
+      "header-text-11": {
+        "type": "text",
+        "value": "About"
+      },
+      "header-text-12": {
+        "type": "text",
+        "value": "How I can help you"
+      },
+      "header-text-13": {
+        "type": "text",
+        "value": "Services & fees"
+      },
+      "header-text-14": {
+        "type": "text",
+        "value": "Off-market"
+      },
+      "header-text-15": {
+        "type": "text",
+        "value": "Areas covered"
+      },
+      "header-text-16": {
+        "type": "text",
+        "value": "Contact"
+      },
+      "header-text-17": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "header-text-18": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "header-link-0": {
+        "type": "link",
+        "value": "/"
+      },
+      "header-link-1": {
+        "type": "link",
+        "value": "/about-me/"
+      },
+      "header-link-2": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "header-link-3": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "header-link-4": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "header-link-5": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "header-link-6": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "header-link-7": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "header-link-8": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      },
+      "header-link-9": {
+        "type": "link",
+        "value": "/about-me/"
+      },
+      "header-link-10": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "header-link-11": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "header-link-12": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "header-link-13": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "header-link-14": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "header-link-15": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "header-link-16": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "footer": {
+      "footer-text-0": {
+        "type": "text",
+        "value": "Emma Siddons"
+      },
+      "footer-text-1": {
+        "type": "text",
+        "value": "Hertfordshire buying agent"
+      },
+      "footer-text-2": {
+        "type": "text",
+        "value": "About"
+      },
+      "footer-text-3": {
+        "type": "text",
+        "value": "How I can help you"
+      },
+      "footer-text-4": {
+        "type": "text",
+        "value": "Services & fees"
+      },
+      "footer-text-5": {
+        "type": "text",
+        "value": "Off-market"
+      },
+      "footer-text-6": {
+        "type": "text",
+        "value": "Areas covered"
+      },
+      "footer-text-7": {
+        "type": "text",
+        "value": "Contact"
+      },
+      "footer-text-8": {
+        "type": "text",
+        "value": "© 2026 Emma Siddons"
+      },
+      "footer-text-9": {
+        "type": "text",
+        "value": "All rights reserved."
+      },
+      "footer-link-0": {
+        "type": "link",
+        "value": "/"
+      },
+      "footer-link-1": {
+        "type": "link",
+        "value": "/about-me/"
+      },
+      "footer-link-2": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "footer-link-3": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "footer-link-4": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "footer-link-5": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "footer-link-6": {
+        "type": "link",
+        "value": "/contact/"
+      }
+    },
+    "home": {
+      "home-seo-title": {
+        "type": "text",
+        "value": "Emma Siddons | Hertfordshire Buying Agent & Property Search"
+      },
+      "home-seo-description": {
+        "type": "meta",
+        "value": "My personal property search and acquisition service across Hertfordshire, west Essex and South Cambridgeshire. Independent advice and local knowledge."
+      },
+      "home-text-0": {
+        "type": "text",
+        "value": "Find the right home"
+      },
+      "home-text-1": {
+        "type": "text",
+        "value": "in the right place"
+      },
+      "home-text-2": {
+        "type": "text",
+        "value": "A personal property search and acquisition service"
+      },
+      "home-text-3": {
+        "type": "text",
+        "value": " across Hertfordshire, west Essex and South Cambridgeshire."
+      },
+      "home-text-4": {
+        "type": "text",
+        "value": " Independent advice, local knowledge and a"
+      },
+      "home-text-5": {
+        "type": "text",
+        "value": " sensible, supportive approach."
+      },
+      "home-text-6": {
+        "type": "text",
+        "value": "Discuss your property search"
+      },
+      "home-text-7": {
+        "type": "text",
+        "value": "Kind words from my clients"
+      },
+      "home-text-8": {
+        "type": "text",
+        "value": "★★★★★"
+      },
+      "home-text-9": {
+        "type": "text",
+        "value": "5.0 on Google"
+      },
+      "home-text-10": {
+        "type": "text",
+        "value": " · 19 reviews"
+      },
+      "home-text-11": {
+        "type": "text",
+        "value": "Rating checked 8 November 2026"
+      },
+      "home-text-12": {
+        "type": "text",
+        "value": "“Working with Emma was a great experience from start to finish.”"
+      },
+      "home-text-13": {
+        "type": "text",
+        "value": "Andy Clark · Google review"
+      },
+      "home-text-14": {
+        "type": "text",
+        "value": "Read my Google reviews"
+      },
+      "home-text-15": {
+        "type": "text",
+        "value": "A complete property search and acquisition service"
+      },
+      "home-text-16": {
+        "type": "text",
+        "value": "I will help you through the process of finding and securing your home. Every search is different,"
+      },
+      "home-text-17": {
+        "type": "text",
+        "value": " but my service typically includes the following:"
+      },
+      "home-text-18": {
+        "type": "text",
+        "value": "1"
+      },
+      "home-text-19": {
+        "type": "text",
+        "value": "Define your search"
+      },
+      "home-text-20": {
+        "type": "text",
+        "value": "Get to know the area and establish your requirements."
+      },
+      "home-text-21": {
+        "type": "text",
+        "value": "2"
+      },
+      "home-text-22": {
+        "type": "text",
+        "value": "Find the right properties"
+      },
+      "home-text-23": {
+        "type": "text",
+        "value": "Research suitable homes, including off-market opportunities."
+      },
+      "home-text-24": {
+        "type": "text",
+        "value": "3"
+      },
+      "home-text-25": {
+        "type": "text",
+        "value": "Preview and view"
+      },
+      "home-text-26": {
+        "type": "text",
+        "value": "I can view properties on your behalf or accompany you."
+      },
+      "home-text-27": {
+        "type": "text",
+        "value": "4"
+      },
+      "home-text-28": {
+        "type": "text",
+        "value": "Negotiate the purchase"
+      },
+      "home-text-29": {
+        "type": "text",
+        "value": "Support with price and terms to secure the best possible outcome."
+      },
+      "home-text-30": {
+        "type": "text",
+        "value": "5"
+      },
+      "home-text-31": {
+        "type": "text",
+        "value": "Progress to completion"
+      },
+      "home-text-32": {
+        "type": "text",
+        "value": "Provide expertise, liaison and guidance through exchange and completion."
+      },
+      "home-text-33": {
+        "type": "text",
+        "value": "Find out more about the service"
+      },
+      "home-text-34": {
+        "type": "text",
+        "value": "About me"
+      },
+      "home-text-35": {
+        "type": "text",
+        "value": "Local knowledge."
+      },
+      "home-text-36": {
+        "type": "text",
+        "value": "Independent advice. A personal service."
+      },
+      "home-text-37": {
+        "type": "text",
+        "value": "I help buyers find the right home in Hertfordshire, west Essex and South Cambridgeshire. I am completely independent and work for you, the buyer. My personal, discreet service draws on detailed local knowledge and established relationships with local agents."
+      },
+      "home-text-38": {
+        "type": "text",
+        "value": "I research and preview suitable homes, saving you time and helping you focus on the properties that meet your needs."
+      },
+      "home-text-39": {
+        "type": "text",
+        "value": "More about me"
+      },
+      "home-text-40": {
+        "type": "text",
+        "value": "Areas covered"
+      },
+      "home-text-41": {
+        "type": "text",
+        "value": "Hertfordshire, west Essex and South Cambridgeshire"
+      },
+      "home-text-42": {
+        "type": "text",
+        "value": "In-depth local knowledge and strong relationships with agents"
+      },
+      "home-text-43": {
+        "type": "text",
+        "value": " across the region, helping you access the right opportunities."
+      },
+      "home-text-44": {
+        "type": "text",
+        "value": "Where I can help"
+      },
+      "home-text-45": {
+        "type": "text",
+        "value": "Off-market homes"
+      },
+      "home-text-46": {
+        "type": "text",
+        "value": "A search beyond the property portals"
+      },
+      "home-text-47": {
+        "type": "text",
+        "value": "Some homes are discussed privately before they are ever advertised. I use local knowledge and established relationships to explore opportunities that fit your search."
+      },
+      "home-text-48": {
+        "type": "text",
+        "value": "Explore off-market homes"
+      },
+      "home-text-49": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "home-text-50": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "home-text-51": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "home-text-52": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "home-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/oilseed-rape-hero.jpg",
+          "alt": "A grassy countryside path through yellow oilseed rape fields beneath a blue, cloud-filled sky"
+        }
+      },
+      "home-image-1": {
+        "type": "image",
+        "value": {
+          "src": "/images/about-country-home.jpg",
+          "alt": "An ivy-covered brick country home with blue windows and a landscaped garden"
+        }
+      },
+      "home-image-2": {
+        "type": "image",
+        "value": {
+          "src": "/images/areas-map.png",
+          "alt": "Coverage map: Hertfordshire, Essex and South Cambridgeshire"
+        }
+      },
+      "home-image-3": {
+        "type": "image",
+        "value": {
+          "src": "/images/off-market-gardens.jpg",
+          "alt": "A country home surrounded by mature gardens and trees beside a pond"
+        }
+      },
+      "home-link-0": {
+        "type": "link",
+        "value": "#contact"
+      },
+      "home-link-1": {
+        "type": "link",
+        "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
+      },
+      "home-link-2": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "home-link-3": {
+        "type": "link",
+        "value": "/about-me/"
+      },
+      "home-link-4": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "home-link-5": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "home-link-6": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "home-link-7": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "home-new": {
+      "home-new-seo-title": {
+        "type": "text",
+        "value": "Emma Siddons | A personal home search in Hertfordshire"
+      },
+      "home-new-seo-description": {
+        "type": "meta",
+        "value": "I’m Emma, your independent Hertfordshire buying agent. A personal search for homes on and off market, with local knowledge and support through to completion."
+      },
+      "home-new-text-0": {
+        "type": "text",
+        "value": "Your independent Hertfordshire buying agent"
+      },
+      "home-new-text-1": {
+        "type": "text",
+        "value": "The right home."
+      },
+      "home-new-text-2": {
+        "type": "text",
+        "value": "The right place."
+      },
+      "home-new-text-3": {
+        "type": "text",
+        "value": "With me by your side."
+      },
+      "home-new-text-4": {
+        "type": "text",
+        "value": "I’m Emma. I help you find and buy a home in Hertfordshire, west Essex and South Cambridgeshire — with local knowledge, independent advice and a personal approach."
+      },
+      "home-new-text-5": {
+        "type": "text",
+        "value": "Let’s talk about your move"
+      },
+      "home-new-text-6": {
+        "type": "text",
+        "value": "Explore how I can help "
+      },
+      "home-new-text-7": {
+        "type": "text",
+        "value": "↓"
+      },
+      "home-new-text-8": {
+        "type": "text",
+        "value": "Emma Siddons"
+      },
+      "home-new-text-9": {
+        "type": "text",
+        "value": "Independent. Local. On your side."
+      },
+      "home-new-text-10": {
+        "type": "text",
+        "value": "★★★★★"
+      },
+      "home-new-text-11": {
+        "type": "text",
+        "value": "5.0 on Google"
+      },
+      "home-new-text-12": {
+        "type": "text",
+        "value": " · 19 reviews"
+      },
+      "home-new-text-13": {
+        "type": "text",
+        "value": "Checked 8 November 2026"
+      },
+      "home-new-text-14": {
+        "type": "text",
+        "value": "Hertfordshire has been"
+      },
+      "home-new-text-15": {
+        "type": "text",
+        "value": "my home for over 40 years"
+      },
+      "home-new-text-16": {
+        "type": "text",
+        "value": "From the first conversation"
+      },
+      "home-new-text-17": {
+        "type": "text",
+        "value": "you work directly with me"
+      },
+      "home-new-text-18": {
+        "type": "text",
+        "value": "Hello, I’m Emma"
+      },
+      "home-new-text-19": {
+        "type": "text",
+        "value": "Finding a home is personal."
+      },
+      "home-new-text-20": {
+        "type": "text",
+        "value": "So is the way I work."
+      },
+      "home-new-text-21": {
+        "type": "text",
+        "value": "A home is more than its particulars. It is the place you come back to, the life around it and the feeling that it is right for you."
+      },
+      "home-new-text-22": {
+        "type": "text",
+        "value": "I am completely independent and work for you, the buyer. I take the time to understand your priorities, then bring a focused search and a clear, considered view to each opportunity."
+      },
+      "home-new-text-23": {
+        "type": "text",
+        "value": "My background in law, accountancy and investment banking informs my attention to detail and approach to negotiation. My long-standing connection to Hertfordshire brings the local perspective."
+      },
+      "home-new-text-24": {
+        "type": "text",
+        "value": "A little more about me "
+      },
+      "home-new-text-25": {
+        "type": "text",
+        "value": "Room to think. Time to find."
+      },
+      "home-new-text-26": {
+        "type": "text",
+        "value": "What would make your"
+      },
+      "home-new-text-27": {
+        "type": "text",
+        "value": "home search easier?"
+      },
+      "home-new-text-28": {
+        "type": "text",
+        "value": "You may be moving to a new area, short of time or wondering why the right home hasn’t appeared. This is where I can help."
+      },
+      "home-new-text-29": {
+        "type": "text",
+        "value": "01"
+      },
+      "home-new-text-30": {
+        "type": "text",
+        "value": "More time for you"
+      },
+      "home-new-text-31": {
+        "type": "text",
+        "value": "I research and preview properties, so you can focus your time on the homes that are worth a closer look."
+      },
+      "home-new-text-32": {
+        "type": "text",
+        "value": "02"
+      },
+      "home-new-text-33": {
+        "type": "text",
+        "value": "A local perspective"
+      },
+      "home-new-text-34": {
+        "type": "text",
+        "value": "I help you look beyond a postcode to the villages, surroundings and everyday details that make a place feel right."
+      },
+      "home-new-text-35": {
+        "type": "text",
+        "value": "03"
+      },
+      "home-new-text-36": {
+        "type": "text",
+        "value": "Someone in your corner"
+      },
+      "home-new-text-37": {
+        "type": "text",
+        "value": "I offer an independent view, negotiate on your behalf and help you decide when to pursue a home — and when to walk away."
+      },
+      "home-new-text-38": {
+        "type": "text",
+        "value": "Off-market homes in Hertfordshire"
+      },
+      "home-new-text-39": {
+        "type": "text",
+        "value": "Some doors open"
+      },
+      "home-new-text-40": {
+        "type": "text",
+        "value": "through a conversation."
+      },
+      "home-new-text-41": {
+        "type": "text",
+        "value": "Not every home appears on a property portal. Some owners prefer a private sale; others speak to suitable buyers before a public launch."
+      },
+      "home-new-text-42": {
+        "type": "text",
+        "value": "I draw on local relationships, word of mouth and direct approaches to homeowners to explore those possibilities alongside the open market."
+      },
+      "home-new-text-43": {
+        "type": "text",
+        "value": "A wider search. The same careful consideration of what is right for you."
+      },
+      "home-new-text-44": {
+        "type": "text",
+        "value": "Explore off-market homes"
+      },
+      "home-new-text-45": {
+        "type": "text",
+        "value": "How I work with you"
+      },
+      "home-new-text-46": {
+        "type": "text",
+        "value": "From your first ideas"
+      },
+      "home-new-text-47": {
+        "type": "text",
+        "value": "to your new front door."
+      },
+      "home-new-text-48": {
+        "type": "text",
+        "value": "Every search is different. I stay involved at each stage, with practical support and your priorities at the centre."
+      },
+      "home-new-text-49": {
+        "type": "text",
+        "value": "My approach, in more detail "
+      },
+      "home-new-text-50": {
+        "type": "text",
+        "value": "01"
+      },
+      "home-new-text-51": {
+        "type": "text",
+        "value": "First, I listen"
+      },
+      "home-new-text-52": {
+        "type": "text",
+        "value": "We talk about how you want to live, where you want to be and what your next home needs to offer. Together, we turn that into a clear brief."
+      },
+      "home-new-text-53": {
+        "type": "text",
+        "value": "02"
+      },
+      "home-new-text-54": {
+        "type": "text",
+        "value": "I look beyond the obvious"
+      },
+      "home-new-text-55": {
+        "type": "text",
+        "value": "I research the open market, speak with local agents and contacts, and explore private and pre-market opportunities that fit your search."
+      },
+      "home-new-text-56": {
+        "type": "text",
+        "value": "03"
+      },
+      "home-new-text-57": {
+        "type": "text",
+        "value": "We explore the possibilities"
+      },
+      "home-new-text-58": {
+        "type": "text",
+        "value": "I can preview properties for you and accompany you on viewings, helping you weigh up the house, its setting and its potential."
+      },
+      "home-new-text-59": {
+        "type": "text",
+        "value": "04"
+      },
+      "home-new-text-60": {
+        "type": "text",
+        "value": "I negotiate on your behalf"
+      },
+      "home-new-text-61": {
+        "type": "text",
+        "value": "When the right home comes along, I offer an independent view of its value and negotiate the price and terms with your interests in mind."
+      },
+      "home-new-text-62": {
+        "type": "text",
+        "value": "05"
+      },
+      "home-new-text-63": {
+        "type": "text",
+        "value": "I stay with you to completion"
+      },
+      "home-new-text-64": {
+        "type": "text",
+        "value": "I liaise with agents, solicitors and other professionals to help keep the purchase moving through exchange and completion."
+      },
+      "home-new-text-65": {
+        "type": "text",
+        "value": "My service & fees"
+      },
+      "home-new-text-66": {
+        "type": "text",
+        "value": "Personal attention."
+      },
+      "home-new-text-67": {
+        "type": "text",
+        "value": "Clear from the outset."
+      },
+      "home-new-text-68": {
+        "type": "text",
+        "value": "I work with a small number of clients so I can give each search the time it deserves. We agree the scope of my service and the fee arrangement before I begin."
+      },
+      "home-new-text-69": {
+        "type": "text",
+        "value": "Read about my services & fees "
+      },
+      "home-new-text-70": {
+        "type": "text",
+        "value": "Initial retainer"
+      },
+      "home-new-text-71": {
+        "type": "text",
+        "value": "£1,500 "
+      },
+      "home-new-text-72": {
+        "type": "text",
+        "value": "typically, plus VAT"
+      },
+      "home-new-text-73": {
+        "type": "text",
+        "value": "To begin your property search."
+      },
+      "home-new-text-74": {
+        "type": "text",
+        "value": "Success fee"
+      },
+      "home-new-text-75": {
+        "type": "text",
+        "value": "1–1.5% "
+      },
+      "home-new-text-76": {
+        "type": "text",
+        "value": "of the purchase price, plus VAT"
+      },
+      "home-new-text-77": {
+        "type": "text",
+        "value": "When you purchase your home."
+      },
+      "home-new-text-78": {
+        "type": "text",
+        "value": "Indicative fees. I will confirm the full arrangement and payment terms for your individual search in writing."
+      },
+      "home-new-text-79": {
+        "type": "text",
+        "value": "Braughing, Hertfordshire"
+      },
+      "home-new-text-80": {
+        "type": "text",
+        "value": "A place to call home"
+      },
+      "home-new-text-81": {
+        "type": "text",
+        "value": "Local knowledge."
+      },
+      "home-new-text-82": {
+        "type": "text",
+        "value": "A wider view."
+      },
+      "home-new-text-83": {
+        "type": "text",
+        "value": "Hertfordshire is at the heart of my work. Your search can also take us into neighbouring west Essex and South Cambridgeshire."
+      },
+      "home-new-text-84": {
+        "type": "text",
+        "value": "Hertfordshire"
+      },
+      "home-new-text-85": {
+        "type": "text",
+        "value": "My home, and the heart of my search area"
+      },
+      "home-new-text-86": {
+        "type": "text",
+        "value": "West Essex"
+      },
+      "home-new-text-87": {
+        "type": "text",
+        "value": "Exploring the possibilities across the border"
+      },
+      "home-new-text-88": {
+        "type": "text",
+        "value": "South Cambridgeshire"
+      },
+      "home-new-text-89": {
+        "type": "text",
+        "value": "More places to consider for your next chapter"
+      },
+      "home-new-text-90": {
+        "type": "text",
+        "value": "Find your part of the countryside "
+      },
+      "home-new-text-91": {
+        "type": "text",
+        "value": "Kind words from my clients"
+      },
+      "home-new-text-92": {
+        "type": "text",
+        "value": "★★★★★"
+      },
+      "home-new-text-93": {
+        "type": "text",
+        "value": "“Working with Emma was a great experience from start to finish.”"
+      },
+      "home-new-text-94": {
+        "type": "text",
+        "value": "Andy Clark "
+      },
+      "home-new-text-95": {
+        "type": "text",
+        "value": "Google review"
+      },
+      "home-new-text-96": {
+        "type": "text",
+        "value": "Read my Google reviews "
+      },
+      "home-new-text-97": {
+        "type": "text",
+        "value": "A little reading before you begin"
+      },
+      "home-new-text-98": {
+        "type": "text",
+        "value": "Looking beyond"
+      },
+      "home-new-text-99": {
+        "type": "text",
+        "value": "the property portals"
+      },
+      "home-new-text-100": {
+        "type": "text",
+        "value": "What off-market really means, why a home may be sold privately, and how to prepare for a focused search."
+      },
+      "home-new-text-101": {
+        "type": "text",
+        "value": "Read my off-market guide "
+      },
+      "home-new-text-102": {
+        "type": "text",
+        "value": "A few things you may be wondering"
+      },
+      "home-new-text-103": {
+        "type": "text",
+        "value": "Your questions,"
+      },
+      "home-new-text-104": {
+        "type": "text",
+        "value": "answered."
+      },
+      "home-new-text-105": {
+        "type": "text",
+        "value": "And if you would rather talk it through, I’m always happy to hear about your plans."
+      },
+      "home-new-text-106": {
+        "type": "text",
+        "value": "Call me on 07702 630983 "
+      },
+      "home-new-text-107": {
+        "type": "text",
+        "value": "What does a buying agent do?"
+      },
+      "home-new-text-108": {
+        "type": "text",
+        "value": "+"
+      },
+      "home-new-text-109": {
+        "type": "text",
+        "value": "I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests."
+      },
+      "home-new-text-110": {
+        "type": "text",
+        "value": "Can you help if I don’t know the area?"
+      },
+      "home-new-text-111": {
+        "type": "text",
+        "value": "+"
+      },
+      "home-new-text-112": {
+        "type": "text",
+        "value": "Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life."
+      },
+      "home-new-text-113": {
+        "type": "text",
+        "value": "Do you only search for off-market homes?"
+      },
+      "home-new-text-114": {
+        "type": "text",
+        "value": "+"
+      },
+      "home-new-text-115": {
+        "type": "text",
+        "value": "No. I consider homes on the open market alongside private and pre-market opportunities. The important thing is how well a property fits your brief. Off-market availability varies, so I cannot promise a particular home will be available."
+      },
+      "home-new-text-116": {
+        "type": "text",
+        "value": "Will I work with you directly?"
+      },
+      "home-new-text-117": {
+        "type": "text",
+        "value": "+"
+      },
+      "home-new-text-118": {
+        "type": "text",
+        "value": "Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other."
+      },
+      "home-new-text-119": {
+        "type": "text",
+        "value": "How do I get started?"
+      },
+      "home-new-text-120": {
+        "type": "text",
+        "value": "+"
+      },
+      "home-new-text-121": {
+        "type": "text",
+        "value": "Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins."
+      },
+      "home-new-text-122": {
+        "type": "text",
+        "value": "Your next chapter"
+      },
+      "home-new-text-123": {
+        "type": "text",
+        "value": "Tell me about the home"
+      },
+      "home-new-text-124": {
+        "type": "text",
+        "value": "you have in mind."
+      },
+      "home-new-text-125": {
+        "type": "text",
+        "value": "A favourite village, more space, a different pace of life."
+      },
+      "home-new-text-126": {
+        "type": "text",
+        "value": " Let’s start with what matters to you."
+      },
+      "home-new-text-127": {
+        "type": "text",
+        "value": "Call me"
+      },
+      "home-new-text-128": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "home-new-text-129": {
+        "type": "text",
+        "value": "Email me"
+      },
+      "home-new-text-130": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "home-new-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-at-home-960.webp",
+          "alt": "Emma outside a country house, ready to help with your property search"
+        }
+      },
+      "home-new-image-1": {
+        "type": "image",
+        "value": {
+          "src": "/images/country-property.webp",
+          "alt": "A country house framed by mature trees and gardens"
+        }
+      },
+      "home-new-image-2": {
+        "type": "image",
+        "value": {
+          "src": "/images/braughing.webp",
+          "alt": "Traditional houses along a quiet lane in Braughing"
+        }
+      },
+      "home-new-image-3": {
+        "type": "image",
+        "value": {
+          "src": "/images/village.jpg",
+          "alt": "A village bridge and river beneath a church spire"
+        }
+      },
+      "home-new-link-0": {
+        "type": "link",
+        "value": "#contact"
+      },
+      "home-new-link-1": {
+        "type": "link",
+        "value": "#how-i-work"
+      },
+      "home-new-link-2": {
+        "type": "link",
+        "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
+      },
+      "home-new-link-3": {
+        "type": "link",
+        "value": "/about-me/"
+      },
+      "home-new-link-4": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "home-new-link-5": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "home-new-link-6": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "home-new-link-7": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "home-new-link-8": {
+        "type": "link",
+        "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
+      },
+      "home-new-link-9": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "home-new-link-10": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "home-new-link-11": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "home-new-link-12": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "v2": {
+      "v2-seo-title": {
+        "type": "text",
+        "value": "Emma Siddons | Classic homepage, refined"
+      },
+      "v2-seo-description": {
+        "type": "meta",
+        "value": "A personal property search and acquisition service across Hertfordshire, west Essex and South Cambridgeshire. Independent advice, local knowledge and support."
+      },
+      "v2-text-0": {
+        "type": "text",
+        "value": "Find the right home"
+      },
+      "v2-text-1": {
+        "type": "text",
+        "value": "in the right place"
+      },
+      "v2-text-2": {
+        "type": "text",
+        "value": "A personal property search and acquisition service across Hertfordshire, west Essex and South Cambridgeshire. Independent advice, local knowledge and a sensible, supportive approach."
+      },
+      "v2-text-3": {
+        "type": "text",
+        "value": "Discuss your property search"
+      },
+      "v2-text-4": {
+        "type": "text",
+        "value": "A complete property search"
+      },
+      "v2-text-5": {
+        "type": "text",
+        "value": " and acquisition service"
+      },
+      "v2-text-6": {
+        "type": "text",
+        "value": "I will help you through the process of finding and securing your home."
+      },
+      "v2-text-7": {
+        "type": "text",
+        "value": " Every search is different, but my service typically includes the following:"
+      },
+      "v2-text-8": {
+        "type": "text",
+        "value": "1"
+      },
+      "v2-text-9": {
+        "type": "text",
+        "value": "Define your search"
+      },
+      "v2-text-10": {
+        "type": "text",
+        "value": "Get to know the area and establish what matters to you."
+      },
+      "v2-text-11": {
+        "type": "text",
+        "value": "2"
+      },
+      "v2-text-12": {
+        "type": "text",
+        "value": "Find the right properties"
+      },
+      "v2-text-13": {
+        "type": "text",
+        "value": "Research suitable homes, including off-market opportunities."
+      },
+      "v2-text-14": {
+        "type": "text",
+        "value": "3"
+      },
+      "v2-text-15": {
+        "type": "text",
+        "value": "Preview and view"
+      },
+      "v2-text-16": {
+        "type": "text",
+        "value": "I can view properties on your behalf or accompany you."
+      },
+      "v2-text-17": {
+        "type": "text",
+        "value": "4"
+      },
+      "v2-text-18": {
+        "type": "text",
+        "value": "Negotiate the purchase"
+      },
+      "v2-text-19": {
+        "type": "text",
+        "value": "Independent support with the price and terms of your purchase."
+      },
+      "v2-text-20": {
+        "type": "text",
+        "value": "5"
+      },
+      "v2-text-21": {
+        "type": "text",
+        "value": "Progress to completion"
+      },
+      "v2-text-22": {
+        "type": "text",
+        "value": "Personal guidance through exchange and completion."
+      },
+      "v2-text-23": {
+        "type": "text",
+        "value": "Find out more about the service"
+      },
+      "v2-text-24": {
+        "type": "text",
+        "value": "About Emma"
+      },
+      "v2-text-25": {
+        "type": "text",
+        "value": "Local knowledge."
+      },
+      "v2-text-26": {
+        "type": "text",
+        "value": "Independent advice."
+      },
+      "v2-text-27": {
+        "type": "text",
+        "value": "A personal service."
+      },
+      "v2-text-28": {
+        "type": "text",
+        "value": "I help buyers find the right home in Hertfordshire, west Essex and South Cambridgeshire. I am completely independent and work for you, the buyer."
+      },
+      "v2-text-29": {
+        "type": "text",
+        "value": "Hertfordshire has been my home for more than 40 years. My service draws on detailed local knowledge, established relationships with local agents and time spent understanding what matters to you."
+      },
+      "v2-text-30": {
+        "type": "text",
+        "value": "By researching and previewing suitable homes, I save you time and help you focus on the properties that meet your needs."
+      },
+      "v2-text-31": {
+        "type": "text",
+        "value": "More about me"
+      },
+      "v2-text-32": {
+        "type": "text",
+        "value": "Off-market homes"
+      },
+      "v2-text-33": {
+        "type": "text",
+        "value": "A search beyond"
+      },
+      "v2-text-34": {
+        "type": "text",
+        "value": "the property portals"
+      },
+      "v2-text-35": {
+        "type": "text",
+        "value": "Some homes are discussed privately before they are ever advertised. I draw on local relationships, word of mouth and direct approaches to homeowners to explore those opportunities."
+      },
+      "v2-text-36": {
+        "type": "text",
+        "value": "Alongside the open market, it gives us a wider view of the homes that could be right for you."
+      },
+      "v2-text-37": {
+        "type": "text",
+        "value": "Explore off-market homes"
+      },
+      "v2-text-38": {
+        "type": "text",
+        "value": "Areas covered"
+      },
+      "v2-text-39": {
+        "type": "text",
+        "value": "Hertfordshire, west Essex"
+      },
+      "v2-text-40": {
+        "type": "text",
+        "value": "and South Cambridgeshire"
+      },
+      "v2-text-41": {
+        "type": "text",
+        "value": "In-depth local knowledge and strong relationships with agents across the region, helping you access the right opportunities."
+      },
+      "v2-text-42": {
+        "type": "text",
+        "value": "Where I can help"
+      },
+      "v2-text-43": {
+        "type": "text",
+        "value": "Kind words from my clients"
+      },
+      "v2-text-44": {
+        "type": "text",
+        "value": "★★★★★"
+      },
+      "v2-text-45": {
+        "type": "text",
+        "value": "“Working with Emma was a great experience from start to finish.”"
+      },
+      "v2-text-46": {
+        "type": "text",
+        "value": "Andy Clark · Google review"
+      },
+      "v2-text-47": {
+        "type": "text",
+        "value": "Read my Google reviews "
+      },
+      "v2-text-48": {
+        "type": "text",
+        "value": "→"
+      },
+      "v2-text-49": {
+        "type": "text",
+        "value": "Before we begin"
+      },
+      "v2-text-50": {
+        "type": "text",
+        "value": "A few questions,"
+      },
+      "v2-text-51": {
+        "type": "text",
+        "value": "answered."
+      },
+      "v2-text-52": {
+        "type": "text",
+        "value": "If you would rather talk it through, I would be happy to hear about your plans."
+      },
+      "v2-text-53": {
+        "type": "text",
+        "value": "Explore my services & fees →"
+      },
+      "v2-text-54": {
+        "type": "text",
+        "value": "What does a buying agent do?"
+      },
+      "v2-text-55": {
+        "type": "text",
+        "value": "I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests."
+      },
+      "v2-text-56": {
+        "type": "text",
+        "value": "Can you help if I don’t know the area?"
+      },
+      "v2-text-57": {
+        "type": "text",
+        "value": "Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life."
+      },
+      "v2-text-58": {
+        "type": "text",
+        "value": "Do you only search for off-market homes?"
+      },
+      "v2-text-59": {
+        "type": "text",
+        "value": "No. I consider homes on the open market alongside private and pre-market opportunities. The important thing is how well a property fits your brief. Availability varies with the market and your requirements."
+      },
+      "v2-text-60": {
+        "type": "text",
+        "value": "How do I get started?"
+      },
+      "v2-text-61": {
+        "type": "text",
+        "value": "Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins."
+      },
+      "v2-text-62": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "v2-text-63": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "v2-text-64": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "v2-text-65": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "v2-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/country-house-hero-1920.webp",
+          "alt": "Stone country house with sash windows and a formal garden"
+        }
+      },
+      "v2-image-1": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-search-960.webp",
+          "alt": "Emma Siddons outdoors with her property-search notes"
+        }
+      },
+      "v2-image-2": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-working-960.webp",
+          "alt": "Emma researching properties on her laptop"
+        }
+      },
+      "v2-image-3": {
+        "type": "image",
+        "value": {
+          "src": "/images/areas-map.png",
+          "alt": "Illustrative coverage map: Hertfordshire, Essex and South Cambridgeshire"
+        }
+      },
+      "v2-link-0": {
+        "type": "link",
+        "value": "#contact"
+      },
+      "v2-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "v2-link-2": {
+        "type": "link",
+        "value": "/about-me/"
+      },
+      "v2-link-3": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "v2-link-4": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "v2-link-5": {
+        "type": "link",
+        "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
+      },
+      "v2-link-6": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "v2-link-7": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "v2-link-8": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "about-me": {
+      "about-me-seo-title": {
+        "type": "text",
+        "value": "About me | Emma Siddons, independent Hertfordshire buying agent"
+      },
+      "about-me-seo-description": {
+        "type": "meta",
+        "value": "Get to know me and my approach to finding your next home. Independent advice, detailed local knowledge and a personal property search service."
+      },
+      "about-me-text-0": {
+        "type": "text",
+        "value": "About me"
+      },
+      "about-me-text-1": {
+        "type": "text",
+        "value": "Local knowledge. A personal perspective."
+      },
+      "about-me-text-2": {
+        "type": "text",
+        "value": "I’m Emma, an independent buying agent. I help you find and secure a home in Hertfordshire, west Essex and South Cambridgeshire."
+      },
+      "about-me-text-3": {
+        "type": "text",
+        "value": "I work for you, the buyer, with your priorities at the heart of the search."
+      },
+      "about-me-text-4": {
+        "type": "text",
+        "value": "Talk to me about your move"
+      },
+      "about-me-text-5": {
+        "type": "text",
+        "value": "A place I know well"
+      },
+      "about-me-text-6": {
+        "type": "text",
+        "value": "More than a postcode"
+      },
+      "about-me-text-7": {
+        "type": "text",
+        "value": "Hertfordshire has been my home for more than 40 years. I know how much the feel of a place can change from one village to the next, and how important those differences are when choosing where to live."
+      },
+      "about-me-text-8": {
+        "type": "text",
+        "value": "I help you look beyond the particulars: the setting, the surrounding area and how a home could work for your everyday life."
+      },
+      "about-me-text-9": {
+        "type": "text",
+        "value": "My background"
+      },
+      "about-me-text-10": {
+        "type": "text",
+        "value": "A considered approach"
+      },
+      "about-me-text-11": {
+        "type": "text",
+        "value": "After studying law at UCL, I qualified as a chartered accountant with a Big Five firm and spent ten years in investment banking in the City."
+      },
+      "about-me-text-12": {
+        "type": "text",
+        "value": "That background informs the way I work: careful research, attention to detail and a clear head when it comes to negotiating a purchase."
+      },
+      "about-me-text-13": {
+        "type": "text",
+        "value": "Independent by choice"
+      },
+      "about-me-text-14": {
+        "type": "text",
+        "value": "You work directly with me"
+      },
+      "about-me-text-15": {
+        "type": "text",
+        "value": "I take on a small number of searches so I can give each client personal attention. From understanding your brief to keeping a purchase moving, I stay involved throughout."
+      },
+      "about-me-text-16": {
+        "type": "text",
+        "value": "My role is to be on your side: offering an independent view, helping you weigh up the options and knowing when a property is worth pursuing — or when it is time to walk away."
+      },
+      "about-me-text-17": {
+        "type": "text",
+        "value": "Explore my service"
+      },
+      "about-me-text-18": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "about-me-text-19": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "about-me-text-20": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "about-me-text-21": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "about-me-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-village-960.webp",
+          "alt": "Emma Siddons outdoors in Hertfordshire"
+        }
+      },
+      "about-me-image-1": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-countryside-960.webp",
+          "alt": "Emma with her dog in the Hertfordshire countryside"
+        }
+      },
+      "about-me-link-0": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "about-me-link-1": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "about-me-link-2": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "about-me-link-3": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "areas-covered": {
+      "areas-covered-seo-title": {
+        "type": "text",
+        "value": "Areas I cover | Hertfordshire, west Essex & South Cambridgeshire"
+      },
+      "areas-covered-seo-description": {
+        "type": "meta",
+        "value": "My property search service focuses on Hertfordshire, west Essex and South Cambridgeshire, with personal advice on finding an area that suits your life."
+      },
+      "areas-covered-text-0": {
+        "type": "text",
+        "value": "Areas I cover"
+      },
+      "areas-covered-text-1": {
+        "type": "text",
+        "value": "Finding the right place is part of finding the right home."
+      },
+      "areas-covered-text-2": {
+        "type": "text",
+        "value": "Hertfordshire is at the heart of my work. I also help buyers find homes in west Essex and South Cambridgeshire."
+      },
+      "areas-covered-text-3": {
+        "type": "text",
+        "value": "We can start with a favourite village or a much broader brief. I’ll help you focus on the places that fit the way you want to live."
+      },
+      "areas-covered-text-4": {
+        "type": "text",
+        "value": "Hertfordshire"
+      },
+      "areas-covered-text-5": {
+        "type": "text",
+        "value": "Local knowledge, built over years"
+      },
+      "areas-covered-text-6": {
+        "type": "text",
+        "value": "Having lived in Hertfordshire for more than 40 years, I bring a personal understanding of its towns, villages and countryside to your search."
+      },
+      "areas-covered-text-7": {
+        "type": "text",
+        "value": "A home’s setting can be as important as the house itself. We can explore what matters to you, from village life and access to the countryside to schools, commuting and day-to-day convenience."
+      },
+      "areas-covered-text-8": {
+        "type": "text",
+        "value": "Looking for off-market homes in Hertfordshire? →"
+      },
+      "areas-covered-text-9": {
+        "type": "text",
+        "value": "My search area focuses on Hertfordshire, west Essex and South Cambridgeshire. The map is illustrative; please contact me about a particular location."
+      },
+      "areas-covered-text-10": {
+        "type": "text",
+        "value": "West Essex"
+      },
+      "areas-covered-text-11": {
+        "type": "text",
+        "value": "Looking across the border"
+      },
+      "areas-covered-text-12": {
+        "type": "text",
+        "value": "A search need not stop at a county boundary. If west Essex is part of your plans, I can help you consider it alongside neighbouring Hertfordshire and understand which locations best match your brief."
+      },
+      "areas-covered-text-13": {
+        "type": "text",
+        "value": "South Cambridgeshire"
+      },
+      "areas-covered-text-14": {
+        "type": "text",
+        "value": "A wider view of your options"
+      },
+      "areas-covered-text-15": {
+        "type": "text",
+        "value": "I also work with buyers considering South Cambridgeshire. We can discuss the areas you are drawn to and the balance you want between your home, work and everyday life."
+      },
+      "areas-covered-text-16": {
+        "type": "text",
+        "value": "Still deciding where to look?"
+      },
+      "areas-covered-text-17": {
+        "type": "text",
+        "value": "You do not need to have chosen a postcode before we speak. Tell me what you enjoy about where you live now, what you would like to change and what your next home needs to offer."
+      },
+      "areas-covered-text-18": {
+        "type": "text",
+        "value": "Talk through your search area"
+      },
+      "areas-covered-text-19": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "areas-covered-text-20": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "areas-covered-text-21": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "areas-covered-text-22": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "areas-covered-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-local-960.webp",
+          "alt": "Emma walking along a leafy village lane"
+        }
+      },
+      "areas-covered-image-1": {
+        "type": "image",
+        "value": {
+          "src": "/images/areas-map.png",
+          "alt": "Illustrative coverage map showing Hertfordshire, Essex and South Cambridgeshire"
+        }
+      },
+      "areas-covered-link-0": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "areas-covered-link-1": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "areas-covered-link-2": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "areas-covered-link-3": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "blog": {
+      "blog-seo-title": {
+        "type": "text",
+        "value": "My journal archive | Emma Siddons"
+      },
+      "blog-seo-description": {
+        "type": "meta",
+        "value": "Past notes on property finding and the Hertfordshire housing market, preserved with their original publication dates."
+      },
+      "blog-text-0": {
+        "type": "text",
+        "value": "My journal archive"
+      },
+      "blog-text-1": {
+        "type": "text",
+        "value": "Notes from past searches and markets."
+      },
+      "blog-text-2": {
+        "type": "text",
+        "value": "These articles reflect the time they were written. For an introduction to my approach today, read "
+      },
+      "blog-text-3": {
+        "type": "text",
+        "value": "my guide to finding off-market homes"
+      },
+      "blog-text-4": {
+        "type": "text",
+        "value": "."
+      },
+      "blog-text-5": {
+        "type": "text",
+        "value": "28 June 2023"
+      },
+      "blog-text-6": {
+        "type": "text",
+        "value": "Current sentiment in Hertfordshire's prime housing market"
+      },
+      "blog-text-7": {
+        "type": "text",
+        "value": "Read this archive article →"
+      },
+      "blog-text-8": {
+        "type": "text",
+        "value": "15 November 2021"
+      },
+      "blog-text-9": {
+        "type": "text",
+        "value": "The rise of off-market house buying"
+      },
+      "blog-text-10": {
+        "type": "text",
+        "value": "Read this archive article →"
+      },
+      "blog-text-11": {
+        "type": "text",
+        "value": "10 July 2021"
+      },
+      "blog-text-12": {
+        "type": "text",
+        "value": "The busy life of a #propertyfinder"
+      },
+      "blog-text-13": {
+        "type": "text",
+        "value": "Read this archive article →"
+      },
+      "blog-text-14": {
+        "type": "text",
+        "value": "31 December 2020"
+      },
+      "blog-text-15": {
+        "type": "text",
+        "value": "Should you have a buying agent?"
+      },
+      "blog-text-16": {
+        "type": "text",
+        "value": "Read this archive article →"
+      },
+      "blog-text-17": {
+        "type": "text",
+        "value": "2 October 2020"
+      },
+      "blog-text-18": {
+        "type": "text",
+        "value": "2020 the year of feast and famine in the UK housing market"
+      },
+      "blog-text-19": {
+        "type": "text",
+        "value": "Read this archive article →"
+      },
+      "blog-link-0": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "blog-link-1": {
+        "type": "link",
+        "value": "/post/it-s-a-minefield/"
+      },
+      "blog-link-2": {
+        "type": "link",
+        "value": "/post/why-it-s-not-okay-to-wait-for-rightmove/"
+      },
+      "blog-link-3": {
+        "type": "link",
+        "value": "/post/the-busy-life-of-a-propertyfinder/"
+      },
+      "blog-link-4": {
+        "type": "link",
+        "value": "/post/should-you-have-a-buying-agent/"
+      },
+      "blog-link-5": {
+        "type": "link",
+        "value": "/post/2020-the-year-of-feast-and-famine-in-the-uk-housing-market/"
+      }
+    },
+    "contact": {
+      "contact-seo-title": {
+        "type": "text",
+        "value": "Contact me | Emma Siddons"
+      },
+      "contact-seo-description": {
+        "type": "meta",
+        "value": "Talk to me about your property search in Hertfordshire, west Essex or South Cambridgeshire. Call 07702 630983 or email info@emmasiddons.com."
+      },
+      "contact-text-0": {
+        "type": "text",
+        "value": "Contact me"
+      },
+      "contact-text-1": {
+        "type": "text",
+        "value": "Your next home starts with a conversation."
+      },
+      "contact-text-2": {
+        "type": "text",
+        "value": "Whether you have a clear idea of your next home or are still working out where to begin, I would love to hear from you."
+      },
+      "contact-text-3": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "contact-text-4": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "contact-text-5": {
+        "type": "text",
+        "value": "You’ll speak directly to me about your search, the areas you are considering and the support you need."
+      },
+      "contact-text-6": {
+        "type": "text",
+        "value": "Call me"
+      },
+      "contact-text-7": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "contact-text-8": {
+        "type": "text",
+        "value": "A conversation is a good place to start."
+      },
+      "contact-text-9": {
+        "type": "text",
+        "value": "Email me"
+      },
+      "contact-text-10": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "contact-text-11": {
+        "type": "text",
+        "value": "Tell me a little about your plans and what matters to you."
+      },
+      "contact-text-12": {
+        "type": "text",
+        "value": "My local focus"
+      },
+      "contact-text-13": {
+        "type": "text",
+        "value": "Hertfordshire, west Essex"
+      },
+      "contact-text-14": {
+        "type": "text",
+        "value": "and South Cambridgeshire"
+      },
+      "contact-text-15": {
+        "type": "text",
+        "value": "My service is personal, independent and tailored to your search. If you are considering a move in or around these areas, get in touch to discuss it with me."
+      },
+      "contact-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-conversation-960.webp",
+          "alt": "Emma seated with a cup of coffee"
+        }
+      },
+      "contact-link-0": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "contact-link-1": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      },
+      "contact-link-2": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "contact-link-3": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "guides--finding-off-market-homes": {
+      "guides--finding-off-market-homes-seo-title": {
+        "type": "text",
+        "value": "My guide to finding off-market homes | Emma Siddons"
+      },
+      "guides--finding-off-market-homes-seo-description": {
+        "type": "meta",
+        "value": "What off-market property means, why sellers choose a private sale and how to prepare for a focused search beyond the property portals."
+      },
+      "guides--finding-off-market-homes-text-0": {
+        "type": "text",
+        "value": "My property-search guide"
+      },
+      "guides--finding-off-market-homes-text-1": {
+        "type": "text",
+        "value": "Finding a home beyond the property portals."
+      },
+      "guides--finding-off-market-homes-text-2": {
+        "type": "text",
+        "value": "Waiting for a listing can leave you seeing only part of the picture. Here is how I approach a search that includes private and pre-market opportunities."
+      },
+      "guides--finding-off-market-homes-text-3": {
+        "type": "text",
+        "value": "Start with what matters to you"
+      },
+      "guides--finding-off-market-homes-text-4": {
+        "type": "text",
+        "value": "Before looking for a property, get clear about the life you want it to support. Think about location, space, budget and timing, as well as the things you could compromise on. A focused brief makes it easier to recognise a suitable opportunity."
+      },
+      "guides--finding-off-market-homes-text-5": {
+        "type": "text",
+        "value": "Understand why a home may be sold privately"
+      },
+      "guides--finding-off-market-homes-text-6": {
+        "type": "text",
+        "value": "Not every seller wants a public launch. Some value privacy; others want to explore demand before committing to a wider marketing campaign. An agent may also introduce a home to a few suitable buyers before it appears online."
+      },
+      "guides--finding-off-market-homes-text-7": {
+        "type": "text",
+        "value": "These situations are different from one another. Understanding the seller’s intentions helps you decide how to approach the opportunity."
+      },
+      "guides--finding-off-market-homes-text-8": {
+        "type": "text",
+        "value": "Keep conversations going"
+      },
+      "guides--finding-off-market-homes-text-9": {
+        "type": "text",
+        "value": "Off-market searches depend on people as much as property listings. I stay in touch with local agents and contacts, explain my clients’ requirements and explore relevant introductions. Where appropriate, I also approach homeowners directly."
+      },
+      "guides--finding-off-market-homes-text-10": {
+        "type": "text",
+        "value": "Be clear about your buying position"
+      },
+      "guides--finding-off-market-homes-text-11": {
+        "type": "text",
+        "value": "A seller will want to understand your timing and whether you are in a position to proceed. Having a realistic budget and a clear picture of your own sale, if you have one, helps make those conversations productive."
+      },
+      "guides--finding-off-market-homes-text-12": {
+        "type": "text",
+        "value": "Assess the home on its merits"
+      },
+      "guides--finding-off-market-homes-text-13": {
+        "type": "text",
+        "value": "A private sale is not automatically a bargain. Look at how the property meets your needs, its condition, the surrounding area and the asking price. The usual care and professional checks still matter."
+      },
+      "guides--finding-off-market-homes-text-14": {
+        "type": "text",
+        "value": "I help my clients weigh up the opportunity, negotiate and keep the purchase progressing. My search includes both openly advertised and privately offered homes: the aim is to find the right fit for you."
+      },
+      "guides--finding-off-market-homes-text-15": {
+        "type": "text",
+        "value": "Find out about my off-market search in Hertfordshire →"
+      },
+      "guides--finding-off-market-homes-text-16": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "guides--finding-off-market-homes-text-17": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "guides--finding-off-market-homes-text-18": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "guides--finding-off-market-homes-text-19": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "guides--finding-off-market-homes-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/property-research-960.webp",
+          "alt": "Property research, local reading and a laptop"
+        }
+      },
+      "guides--finding-off-market-homes-link-0": {
+        "type": "link",
+        "value": "/off-market-homes-hertfordshire/"
+      },
+      "guides--finding-off-market-homes-link-1": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "guides--finding-off-market-homes-link-2": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "how-i-can-help-you": {
+      "how-i-can-help-you-seo-title": {
+        "type": "text",
+        "value": "How I can help you | Emma Siddons property search"
+      },
+      "how-i-can-help-you-seo-description": {
+        "type": "meta",
+        "value": "See how I help you find and buy your next home: a clear brief, a focused property search, independent advice, negotiation and support through completion."
+      },
+      "how-i-can-help-you-text-0": {
+        "type": "text",
+        "value": "How I can help you"
+      },
+      "how-i-can-help-you-text-1": {
+        "type": "text",
+        "value": "A clearer path to your next home."
+      },
+      "how-i-can-help-you-text-2": {
+        "type": "text",
+        "value": "You may be short of time, moving to an unfamiliar area or simply struggling to find the right property. I bring a local perspective and a focused search to help you move forward."
+      },
+      "how-i-can-help-you-text-3": {
+        "type": "text",
+        "value": "Tell me about your plans"
+      },
+      "how-i-can-help-you-text-4": {
+        "type": "text",
+        "value": "Working together"
+      },
+      "how-i-can-help-you-text-5": {
+        "type": "text",
+        "value": "Your priorities."
+      },
+      "how-i-can-help-you-text-6": {
+        "type": "text",
+        "value": "My attention."
+      },
+      "how-i-can-help-you-text-7": {
+        "type": "text",
+        "value": "Every move is different. I tailor the search around you, offering a considered view of each opportunity and practical support at each stage."
+      },
+      "how-i-can-help-you-text-8": {
+        "type": "text",
+        "value": "As a buying agent, I work for you. My advice is independent of the seller and the selling agent."
+      },
+      "how-i-can-help-you-text-9": {
+        "type": "text",
+        "value": "Read about my service and fees →"
+      },
+      "how-i-can-help-you-text-10": {
+        "type": "text",
+        "value": "First, I listen"
+      },
+      "how-i-can-help-you-text-11": {
+        "type": "text",
+        "value": "We talk about the home you want, the way you live and the areas you are considering. I help you turn your priorities into a clear search brief, including what you can be flexible about."
+      },
+      "how-i-can-help-you-text-12": {
+        "type": "text",
+        "value": "I look beyond the listings"
+      },
+      "how-i-can-help-you-text-13": {
+        "type": "text",
+        "value": "I research the market and speak with local agents and contacts. Alongside publicly advertised homes, I look for opportunities being discussed privately or before they come to market."
+      },
+      "how-i-can-help-you-text-14": {
+        "type": "text",
+        "value": "I help you make sense of the options"
+      },
+      "how-i-can-help-you-text-15": {
+        "type": "text",
+        "value": "I can preview homes to save you time and accompany you on viewings. We look carefully at the property, its setting and how well it meets your brief."
+      },
+      "how-i-can-help-you-text-16": {
+        "type": "text",
+        "value": "I negotiate on your behalf"
+      },
+      "how-i-can-help-you-text-17": {
+        "type": "text",
+        "value": "When the right opportunity comes along, I help you assess it and negotiate the price and terms. I represent your interests throughout the conversation."
+      },
+      "how-i-can-help-you-text-18": {
+        "type": "text",
+        "value": "I stay involved through completion"
+      },
+      "how-i-can-help-you-text-19": {
+        "type": "text",
+        "value": "I liaise with agents, solicitors and other professionals to help keep the purchase progressing. You have someone who knows your search alongside you through exchange and completion."
+      },
+      "how-i-can-help-you-text-20": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "how-i-can-help-you-text-21": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "how-i-can-help-you-text-22": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "how-i-can-help-you-text-23": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "how-i-can-help-you-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-research-960.webp",
+          "alt": "Emma researching local information for a home search"
+        }
+      },
+      "how-i-can-help-you-link-0": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "how-i-can-help-you-link-1": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "how-i-can-help-you-link-2": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "how-i-can-help-you-link-3": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "off-market-homes-hertfordshire": {
+      "off-market-homes-hertfordshire-seo-title": {
+        "type": "text",
+        "value": "Off-market homes in Hertfordshire | Emma Siddons"
+      },
+      "off-market-homes-hertfordshire-seo-description": {
+        "type": "meta",
+        "value": "Looking beyond the property portals? I help buyers explore off-market and pre-market homes in Hertfordshire through local knowledge and personal connections."
+      },
+      "off-market-homes-hertfordshire-text-0": {
+        "type": "text",
+        "value": "Off-market homes in Hertfordshire"
+      },
+      "off-market-homes-hertfordshire-text-1": {
+        "type": "text",
+        "value": "Your next home may not be on a property portal."
+      },
+      "off-market-homes-hertfordshire-text-2": {
+        "type": "text",
+        "value": "Some homes change hands quietly, without ever being advertised publicly. I help you explore those possibilities alongside the open market."
+      },
+      "off-market-homes-hertfordshire-text-3": {
+        "type": "text",
+        "value": "Discuss your off-market search"
+      },
+      "off-market-homes-hertfordshire-text-4": {
+        "type": "text",
+        "value": "Looking beyond the listings"
+      },
+      "off-market-homes-hertfordshire-text-5": {
+        "type": "text",
+        "value": "What does off-market mean?"
+      },
+      "off-market-homes-hertfordshire-text-6": {
+        "type": "text",
+        "value": "An off-market home is offered privately, rather than advertised to everyone. A seller may value discretion, want to explore interest before launching, or prefer a quieter sale."
+      },
+      "off-market-homes-hertfordshire-text-7": {
+        "type": "text",
+        "value": "A pre-market opportunity is a little different: the property may be due to launch publicly, but an agent is already speaking to suitable buyers."
+      },
+      "off-market-homes-hertfordshire-text-8": {
+        "type": "text",
+        "value": "My local approach"
+      },
+      "off-market-homes-hertfordshire-text-9": {
+        "type": "text",
+        "value": "Conversations open doors"
+      },
+      "off-market-homes-hertfordshire-text-10": {
+        "type": "text",
+        "value": "I draw on relationships with local agents, word of mouth and direct approaches to homeowners. A clear brief helps me explain what you are looking for and recognise an opportunity that could fit."
+      },
+      "off-market-homes-hertfordshire-text-11": {
+        "type": "text",
+        "value": "Hertfordshire is my main focus. I also help buyers searching in west Essex and South Cambridgeshire."
+      },
+      "off-market-homes-hertfordshire-text-12": {
+        "type": "text",
+        "value": "Explore the areas I cover →"
+      },
+      "off-market-homes-hertfordshire-text-13": {
+        "type": "text",
+        "value": "A considered search"
+      },
+      "off-market-homes-hertfordshire-text-14": {
+        "type": "text",
+        "value": "The right fit matters more than the label"
+      },
+      "off-market-homes-hertfordshire-text-15": {
+        "type": "text",
+        "value": "Off-market does not automatically mean better value, and it does not guarantee an easier purchase. I look carefully at each home, its price and its suitability for you, whether it is being sold privately or openly."
+      },
+      "off-market-homes-hertfordshire-text-16": {
+        "type": "text",
+        "value": "Private opportunities change with the market and your brief. I cannot promise a particular property will be available, but I can help you search more widely and make an informed decision."
+      },
+      "off-market-homes-hertfordshire-text-17": {
+        "type": "text",
+        "value": "Read my off-market guide"
+      },
+      "off-market-homes-hertfordshire-text-18": {
+        "type": "text",
+        "value": "Your questions"
+      },
+      "off-market-homes-hertfordshire-text-19": {
+        "type": "text",
+        "value": "A little more about buying privately"
+      },
+      "off-market-homes-hertfordshire-text-20": {
+        "type": "text",
+        "value": "Can I see a list of off-market properties?"
+      },
+      "off-market-homes-hertfordshire-text-21": {
+        "type": "text",
+        "value": "Private sellers often do not want their homes advertised. I discuss relevant opportunities with clients individually, based on their search brief and the seller’s wishes."
+      },
+      "off-market-homes-hertfordshire-text-22": {
+        "type": "text",
+        "value": "Do I need to be ready to buy?"
+      },
+      "off-market-homes-hertfordshire-text-23": {
+        "type": "text",
+        "value": "It helps to be clear about your budget, timing and buying position. We can discuss these at the start so I can approach opportunities with a realistic understanding of your circumstances."
+      },
+      "off-market-homes-hertfordshire-text-24": {
+        "type": "text",
+        "value": "Will you also look at homes on the open market?"
+      },
+      "off-market-homes-hertfordshire-text-25": {
+        "type": "text",
+        "value": "Yes. My search is led by what suits you. I consider publicly marketed homes as well as private and pre-market opportunities."
+      },
+      "off-market-homes-hertfordshire-text-26": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "off-market-homes-hertfordshire-text-27": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "off-market-homes-hertfordshire-text-28": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "off-market-homes-hertfordshire-text-29": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "off-market-homes-hertfordshire-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-at-home-960.webp",
+          "alt": "Emma outside a country house with her search notes"
+        }
+      },
+      "off-market-homes-hertfordshire-link-0": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "off-market-homes-hertfordshire-link-1": {
+        "type": "link",
+        "value": "/areas-covered/"
+      },
+      "off-market-homes-hertfordshire-link-2": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "off-market-homes-hertfordshire-link-3": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "off-market-homes-hertfordshire-link-4": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market": {
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-seo-title": {
+        "type": "text",
+        "value": "2020 the year of feast and famine in the UK housing market | Emma Siddons archive"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-seo-description": {
+        "type": "meta",
+        "value": "From my archive, originally published 2 October 2020: 2020 the year of feast and famine in the UK housing market."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-0": {
+        "type": "text",
+        "value": "← My journal archive"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-1": {
+        "type": "text",
+        "value": "From my archive · "
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-2": {
+        "type": "text",
+        "value": "2 October 2020"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-3": {
+        "type": "text",
+        "value": "2020 the year of feast and famine in the UK housing market"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-4": {
+        "type": "text",
+        "value": "This article reflects the market and my experience when it was originally published in 2020. Figures, fees, tax references and market commentary are historical."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-5": {
+        "type": "text",
+        "value": "For my current approach, explore "
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-6": {
+        "type": "text",
+        "value": "how I can help you"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-7": {
+        "type": "text",
+        "value": ", "
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-8": {
+        "type": "text",
+        "value": "my services and fees"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-9": {
+        "type": "text",
+        "value": " or "
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-10": {
+        "type": "text",
+        "value": "my off-market guide"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-11": {
+        "type": "text",
+        "value": "."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-12": {
+        "type": "text",
+        "value": "The UK housing market has been enjoying/enduring a rollercoaster ride over the past 9 months."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-13": {
+        "type": "text",
+        "value": "The result of the December 2019 general election brought with it a lessening of the uncertainty surrounding Brexit and improved customer confidence. The start of 2020 showed signs that the housing market was on its way up. Then lockdown brought a sudden famine with viewings at a complete halt, mortgage approvals down 90% and agreed sales running at around 10% of normal levels."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-14": {
+        "type": "text",
+        "value": "Post-lockdown has seen a release of the flood gates with market activity running at its highest pace for 5 years, agreed sales up 75% on 5 year averages, mortgage approvals at their highest level in 13 years. A veritable feast!"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-15": {
+        "type": "text",
+        "value": "Some of this feast is undoubtedly attributable to pent up demand. Some of the increase will be down to the Chancellor’s stamp duty holiday. And some of the increase will be due to changes in lifestyle, where house moves are driven by necessity of changed circumstance or a desire to live a different life."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-16": {
+        "type": "text",
+        "value": "But what does all this mean for the Hertfordshire housing market? According to Rightmove, Hertfordshire is one of the top ten areas to have seen a surge in property searches. Increased activity levels have led to an upward pressure on prices. But it is inevitable that this surge in demand cannot be maintained – what with a second lockdown, the stamp duty holiday coming to an end, a weak underlying economy and rising unemployment levels. Analysts are already seeing a chill in the market."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-17": {
+        "type": "text",
+        "value": "What next for the housing market?"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-18": {
+        "type": "text",
+        "value": "If I could predict the UK housing market over the next 6 months with any certainty then I would be richer than I am! Nonetheless, concentrating on Hertfordshire, I predict a flat market in the -£1m level and a steady rise of 2-3% in the +£1m level."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-19": {
+        "type": "text",
+        "value": "Why do I believe that prices will not drop off in the prime Hertfordshire housing market?"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-20": {
+        "type": "text",
+        "value": "- In the 5 years prior to COVID 19 there was relatively weak growth in the housing market, so pre-COVID prices were not hugely inflated."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-21": {
+        "type": "text",
+        "value": "- Immediately prior to lockdown real demand was strong – the lockdown “famine” was created by a freeze on buyers and sellers rather than an economic downturn"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-22": {
+        "type": "text",
+        "value": "- Interest rates will most likely remain low."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-23": {
+        "type": "text",
+        "value": "- COVID has brought about a shift in lifestyle and consequently a shift in housing needs - property buyers are demanding outdoor space, home offices and more square footage for their family bubbles. Hertfordshire offers value for money, excellent schooling and a slower pace of life whilst being close to London for the weekly/twice weekly trip into the office."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-24": {
+        "type": "text",
+        "value": "I believe that these factors will keep some pressure on the prime housing market in Hertfordshire and prevent the inevitable recession from pushing down prices."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-25": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-26": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-27": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-text-28": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-link-0": {
+        "type": "link",
+        "value": "/blog/"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-link-2": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-link-3": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-link-4": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "post--2020-the-year-of-feast-and-famine-in-the-uk-housing-market-link-5": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "post--it-s-a-minefield": {
+      "post--it-s-a-minefield-seo-title": {
+        "type": "text",
+        "value": "Current sentiment in Hertfordshire's prime housing market | Emma Siddons archive"
+      },
+      "post--it-s-a-minefield-seo-description": {
+        "type": "meta",
+        "value": "From my archive, originally published 28 June 2023: Current sentiment in Hertfordshire's prime housing market."
+      },
+      "post--it-s-a-minefield-text-0": {
+        "type": "text",
+        "value": "← My journal archive"
+      },
+      "post--it-s-a-minefield-text-1": {
+        "type": "text",
+        "value": "From my archive · "
+      },
+      "post--it-s-a-minefield-text-2": {
+        "type": "text",
+        "value": "28 June 2023"
+      },
+      "post--it-s-a-minefield-text-3": {
+        "type": "text",
+        "value": "Current sentiment in Hertfordshire's prime housing market"
+      },
+      "post--it-s-a-minefield-text-4": {
+        "type": "text",
+        "value": "This article reflects the market and my experience when it was originally published in 2023. Figures, fees, tax references and market commentary are historical."
+      },
+      "post--it-s-a-minefield-text-5": {
+        "type": "text",
+        "value": "For my current approach, explore "
+      },
+      "post--it-s-a-minefield-text-6": {
+        "type": "text",
+        "value": "how I can help you"
+      },
+      "post--it-s-a-minefield-text-7": {
+        "type": "text",
+        "value": ", "
+      },
+      "post--it-s-a-minefield-text-8": {
+        "type": "text",
+        "value": "my services and fees"
+      },
+      "post--it-s-a-minefield-text-9": {
+        "type": "text",
+        "value": " or "
+      },
+      "post--it-s-a-minefield-text-10": {
+        "type": "text",
+        "value": "my off-market guide"
+      },
+      "post--it-s-a-minefield-text-11": {
+        "type": "text",
+        "value": "."
+      },
+      "post--it-s-a-minefield-text-12": {
+        "type": "text",
+        "value": "It has been quite a few months in my world of #Hertfordshire #property!"
+      },
+      "post--it-s-a-minefield-text-13": {
+        "type": "text",
+        "value": "I am often asked how I think the market is going. It is impossible to answer this question in a macro sense - every sector of the market is operating differently at the moment."
+      },
+      "post--it-s-a-minefield-text-14": {
+        "type": "text",
+        "value": "I operate in a narrow sector of the market - mainly high value properties in just two Home Counties. There is much of the market that I can’t profess to know much about. But in my sector I have deep knowledge of the houses that are transacting right now, and the current sentiment of buyers and sellers."
+      },
+      "post--it-s-a-minefield-text-15": {
+        "type": "text",
+        "value": "Despite the economic uncertainty and turmoil, pricing in the prime sector remains strong. The supply of good quality prime houses is low, and has been low for a while. Yet some buyers still need to move for all the usual positive reasons, such as change of lifestyle, new schooling, downsizing, and for all the usual negative reasons such as death, divorce and debt. So buyer demand remains high. Many buyers in my sector are largely untouched by current economic factors such as increased cost of living and high interest rates. These buyers are able to take a long term view of property prices, and are still willing and able to make strong bids for the best houses. This means that property prices for good houses are holding in my sector."
+      },
+      "post--it-s-a-minefield-text-16": {
+        "type": "text",
+        "value": "That being said, sellers are being slow to catch up with the reality of current market conditions - many sellers with somewhat compromised houses are taking a far too bullish approach to their house value and they need to be ready to negotiate or they could find themselves kicking themselves in a couple of years time. Cash buyers ought to be snapped up by sellers as financing becomes more and more difficult, with banks slashing valuations in order to de-risk. In short, it’s a bit of a minefield out there at the moment."
+      },
+      "post--it-s-a-minefield-text-17": {
+        "type": "text",
+        "value": "As a buyer, it’s important to know what your options are (both on and #offmarket), to concentrate on the reasons for your move, to know where to compromise and where not to, to understand the motivations of the seller and to understand the micro climate in order to negotiate well. It's important to be close enough to the market to know what other buyers are out there and to know what other opportunities may or may not be round the corner. I can help with all these things. Contact me at emmasiddons.com"
+      },
+      "post--it-s-a-minefield-text-18": {
+        "type": "text",
+        "value": "#buyingagent #buyersagent #hertfordshire #movetothecountry"
+      },
+      "post--it-s-a-minefield-text-19": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "post--it-s-a-minefield-text-20": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "post--it-s-a-minefield-text-21": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "post--it-s-a-minefield-text-22": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "post--it-s-a-minefield-link-0": {
+        "type": "link",
+        "value": "/blog/"
+      },
+      "post--it-s-a-minefield-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "post--it-s-a-minefield-link-2": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "post--it-s-a-minefield-link-3": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "post--it-s-a-minefield-link-4": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "post--it-s-a-minefield-link-5": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "post--should-you-have-a-buying-agent": {
+      "post--should-you-have-a-buying-agent-seo-title": {
+        "type": "text",
+        "value": "Should you have a buying agent? | Emma Siddons archive"
+      },
+      "post--should-you-have-a-buying-agent-seo-description": {
+        "type": "meta",
+        "value": "From my archive, originally published 31 December 2020: Should you have a buying agent?."
+      },
+      "post--should-you-have-a-buying-agent-text-0": {
+        "type": "text",
+        "value": "← My journal archive"
+      },
+      "post--should-you-have-a-buying-agent-text-1": {
+        "type": "text",
+        "value": "From my archive · "
+      },
+      "post--should-you-have-a-buying-agent-text-2": {
+        "type": "text",
+        "value": "31 December 2020"
+      },
+      "post--should-you-have-a-buying-agent-text-3": {
+        "type": "text",
+        "value": "Should you have a buying agent?"
+      },
+      "post--should-you-have-a-buying-agent-text-4": {
+        "type": "text",
+        "value": "This article reflects the market and my experience when it was originally published in 2020. Figures, fees, tax references and market commentary are historical."
+      },
+      "post--should-you-have-a-buying-agent-text-5": {
+        "type": "text",
+        "value": "For my current approach, explore "
+      },
+      "post--should-you-have-a-buying-agent-text-6": {
+        "type": "text",
+        "value": "how I can help you"
+      },
+      "post--should-you-have-a-buying-agent-text-7": {
+        "type": "text",
+        "value": ", "
+      },
+      "post--should-you-have-a-buying-agent-text-8": {
+        "type": "text",
+        "value": "my services and fees"
+      },
+      "post--should-you-have-a-buying-agent-text-9": {
+        "type": "text",
+        "value": " or "
+      },
+      "post--should-you-have-a-buying-agent-text-10": {
+        "type": "text",
+        "value": "my off-market guide"
+      },
+      "post--should-you-have-a-buying-agent-text-11": {
+        "type": "text",
+        "value": "."
+      },
+      "post--should-you-have-a-buying-agent-text-12": {
+        "type": "text",
+        "value": "Well my plan to write a blog every few weeks hasn’t played out very well! It is 8 weeks since my inaugural blog and it has been a whirlwind of new clients, estate agents, on and off market house viewings, extensive on and off market research for my clients and pushing purchases along. What this has proved to me though, more than ever, is that house buying is time consuming. Oh my goodness it is so time consuming! Making sure that no stone is unturned takes TIME, but happily it"
+      },
+      "post--should-you-have-a-buying-agent-text-13": {
+        "type": "text",
+        "value": "does bear fruit for my clients."
+      },
+      "post--should-you-have-a-buying-agent-text-14": {
+        "type": "text",
+        "value": "So, if you are short of time, that is certainly one reason to have a buying agent. But there are many other reasons."
+      },
+      "post--should-you-have-a-buying-agent-text-15": {
+        "type": "text",
+        "value": "The pandemic and the increasingly competitive local property market has led to an increase in demand for buying agents. In popular Hertfordshire villages and countryside locations demand outstrips supply - a buying agent helps you to be on the ball, and get ahead of other buyers. It also prevents you from making an expensive mistake. The level of competition in the past months has led to panic buying with some buyers agreeing scandalous prices for average houses. I have advised my clients in a calm and unemotional fashion about how much they should be paying for a house. I have even advised them to have patience and ride out this wave of property buying which should fade somewhat i"
+      },
+      "post--should-you-have-a-buying-agent-text-16": {
+        "type": "text",
+        "value": "n the second quarter of 2021."
+      },
+      "post--should-you-have-a-buying-agent-text-17": {
+        "type": "text",
+        "value": "I’m often asked about off-market ho"
+      },
+      "post--should-you-have-a-buying-agent-text-18": {
+        "type": "text",
+        "value": "uses - is this really a thing?! Yes, it’s definitely really a thing!! Over half of houses between £2m a"
+      },
+      "post--should-you-have-a-buying-agent-text-19": {
+        "type": "text",
+        "value": "nd £4m are never openly marketed on the internet, and that percentage increases at the higher levels"
+      },
+      "post--should-you-have-a-buying-agent-text-20": {
+        "type": "text",
+        "value": ". Prime sellers are often reluctant to go down the route of multiple viewings, time-wasters pouring over photos of their home on Rightmove, their home and its price becoming an internet commodity that is picked up by Zoopla bots. Once a house hits the internet it is often because the seller hasn’t managed to achieve an off-market sale. Finding off market houses is about networking, relationships and tenacity, all of which I can bring to a house search."
+      },
+      "post--should-you-have-a-buying-agent-text-21": {
+        "type": "text",
+        "value": "But having a buying agent is not just the domain of the prime property buyer. I am finding that buyers at any level are coming to me for help - they may be time-poor, lack local knowledge or focus, or the ability to see potential - some are just weary of dealing with estate agents! (I love dealing with estate agents, so let me do it for you!)"
+      },
+      "post--should-you-have-a-buying-agent-text-22": {
+        "type": "text",
+        "value": "And having a buying agent is not just about off-market properties, it is so much more than that. As remarked above, I offer a huge time-saving for those who are busy. Obviously if my client doesn’t live locally then I offer local knowledge and a physical presence. I offer discretion for those who would rather remain anonymous or low key - the local property market is a small world where market-entrants, whether buyers or sellers, are exciting news! I offer the ability to unemotionally analyse the value of a house and negotiate on my client’s behalf - even though my clients are often professional people who would consider themselves to be excellent negotiators, they are not best placed to negotiate their own house purchase. And I also manage agreed purchases through to exchange then completion, pushing the process along, unsticking blockages and even checking the property on completion day."
+      },
+      "post--should-you-have-a-buying-agent-text-23": {
+        "type": "text",
+        "value": "So how much does all this cost? My fee is bespoke to the house search and the house value but will be in the region of 1-2%. Of course this fee can easily be covered by achieving a lower house price than clients could have achieved alone, and will only be a small proportion of the other costs of moving such as stamp duty - remember a buying agent can stop you from making a very expensive mistake - the stamp duty on a £2m home is more than £150,000, the stamp duty on a £3m is nearly £300,000!"
+      },
+      "post--should-you-have-a-buying-agent-text-24": {
+        "type": "text",
+        "value": "So give me a call (on 07702 630983) or email me (info@emmasiddons.com) if you are considering a move. I’m always happy to talk about the housing market and how you can best position yourself through the house buying journey. And we might even find that we want to make the journey together!"
+      },
+      "post--should-you-have-a-buying-agent-text-25": {
+        "type": "text",
+        "value": "#hertfordshire #buyingagent #hertfordshirebuyingagent #househunter #housefinder #propertyfinder #movetothecountry #homefinder #offmarkethouses #buyersagent #buyersagency"
+      },
+      "post--should-you-have-a-buying-agent-text-26": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "post--should-you-have-a-buying-agent-text-27": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "post--should-you-have-a-buying-agent-text-28": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "post--should-you-have-a-buying-agent-text-29": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "post--should-you-have-a-buying-agent-link-0": {
+        "type": "link",
+        "value": "/blog/"
+      },
+      "post--should-you-have-a-buying-agent-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "post--should-you-have-a-buying-agent-link-2": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "post--should-you-have-a-buying-agent-link-3": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "post--should-you-have-a-buying-agent-link-4": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "post--should-you-have-a-buying-agent-link-5": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "post--the-busy-life-of-a-propertyfinder": {
+      "post--the-busy-life-of-a-propertyfinder-seo-title": {
+        "type": "text",
+        "value": "The busy life of a #propertyfinder | Emma Siddons archive"
+      },
+      "post--the-busy-life-of-a-propertyfinder-seo-description": {
+        "type": "meta",
+        "value": "From my archive, originally published 10 July 2021: The busy life of a #propertyfinder."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-0": {
+        "type": "text",
+        "value": "← My journal archive"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-1": {
+        "type": "text",
+        "value": "From my archive · "
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-2": {
+        "type": "text",
+        "value": "10 July 2021"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-3": {
+        "type": "text",
+        "value": "The busy life of a #propertyfinder"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-4": {
+        "type": "text",
+        "value": "This article reflects the market and my experience when it was originally published in 2021. Figures, fees, tax references and market commentary are historical."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-5": {
+        "type": "text",
+        "value": "For my current approach, explore "
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-6": {
+        "type": "text",
+        "value": "how I can help you"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-7": {
+        "type": "text",
+        "value": ", "
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-8": {
+        "type": "text",
+        "value": "my services and fees"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-9": {
+        "type": "text",
+        "value": " or "
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-10": {
+        "type": "text",
+        "value": "my off-market guide"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-11": {
+        "type": "text",
+        "value": "."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-12": {
+        "type": "text",
+        "value": "I simply cannot believe that it has been 6 months since I wrote my lost blog. What a 6 months it has been!!"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-13": {
+        "type": "text",
+        "value": "I have helped some wonderful clients and exchanged on a number of off market and on market houses. I have dealt with solicitors, selling agents, sellers, flint wall experts, septic tank surveyors, building surveyors, heritage consultants, structural engineers, electricians, plumbers, asbestos specialists, architects, Heritage England, archaeologists, East Herts District Council, Hertsmere District Council, Uttlesford District Council, Hertfordshire County Council.....and I’m sure that there are more!"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-14": {
+        "type": "text",
+        "value": "Most importantly I know that many of my clients are now enjoying their wonderful new homes, and I feel very confident that the homes are right for them and that we’ve bought them on the best possible terms."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-15": {
+        "type": "text",
+        "value": "I have also had a couple of huge disappointments as a result of insincere sellers. This has been another harsh reminder that the English conveyancing process relies on buyers risking huge sums of money on mortgage approvals, solicitors and surveys, as well as being deeply emotionally invested, yet have no recourse when the seller simply changes their mind about selling. Less importantly, this also leaves me exhausted and disappointed with nothing to show for my efforts. BUT I am a firm believer that what will be will be, and the right house will be found for my clients."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-16": {
+        "type": "text",
+        "value": "I am looking forwards to a little bit of a breather, with a smaller client list for a couple of months. This might give me time to blog further about some of my experiences, finally do some real marketing for my business, have a bit of a holiday and re-acquaint myself with my patient family and my beautiful dog."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-17": {
+        "type": "text",
+        "value": "#hertfordshire #offmarketlisting #propertyfinder #buyingagent #hertsbuyingagent #emmasiddons #locationlocationlocation #homefinder #buyersagent"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-18": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-19": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-20": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "post--the-busy-life-of-a-propertyfinder-text-21": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "post--the-busy-life-of-a-propertyfinder-link-0": {
+        "type": "link",
+        "value": "/blog/"
+      },
+      "post--the-busy-life-of-a-propertyfinder-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "post--the-busy-life-of-a-propertyfinder-link-2": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "post--the-busy-life-of-a-propertyfinder-link-3": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "post--the-busy-life-of-a-propertyfinder-link-4": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "post--the-busy-life-of-a-propertyfinder-link-5": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "post--why-it-s-not-okay-to-wait-for-rightmove": {
+      "post--why-it-s-not-okay-to-wait-for-rightmove-seo-title": {
+        "type": "text",
+        "value": "The rise of off-market house buying | Emma Siddons archive"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-seo-description": {
+        "type": "meta",
+        "value": "From my archive, originally published 15 November 2021: The rise of off-market house buying."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-0": {
+        "type": "text",
+        "value": "← My journal archive"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-1": {
+        "type": "text",
+        "value": "From my archive · "
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-2": {
+        "type": "text",
+        "value": "15 November 2021"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-3": {
+        "type": "text",
+        "value": "The rise of off-market house buying"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-4": {
+        "type": "text",
+        "value": "This article reflects the market and my experience when it was originally published in 2021. Figures, fees, tax references and market commentary are historical."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-5": {
+        "type": "text",
+        "value": "For my current approach, explore "
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-6": {
+        "type": "text",
+        "value": "how I can help you"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-7": {
+        "type": "text",
+        "value": ", "
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-8": {
+        "type": "text",
+        "value": "my services and fees"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-9": {
+        "type": "text",
+        "value": " or "
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-10": {
+        "type": "text",
+        "value": "my off-market guide"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-11": {
+        "type": "text",
+        "value": "."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-12": {
+        "type": "text",
+        "value": "Over the past 12 months all of my clients’ house purchases, bar one, have been \"off market\". An \"off market\" house is one which is not openly marketed but is instead for sale in a discrete or private way. More and more house transactions are taking place off market, particularly at the £2m+ level."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-13": {
+        "type": "text",
+        "value": "I am often asked \"why would a seller chose to sell a house off market?\". \"Surely the best way to sell a house is to advertise it to as wide an audience as possible?\" However sharing one's house with the world wide web is not always the way to achieve the best sale."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-14": {
+        "type": "text",
+        "value": "There are in fact many reasons why a seller would chose to sell off market:"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-15": {
+        "type": "text",
+        "value": "PRICE"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-16": {
+        "type": "text",
+        "value": "Surely a seller would achieve the best price by showing their house to as many people as possible? No, this is not true! In fact it is entirely feasible for a seller to achieve a better price by selling off market."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-17": {
+        "type": "text",
+        "value": "In the current market, where prime properties are a scarce resource, buyers are hungry for the best houses. While a house remains off-market it is that “holy grail”, that valuable secret. At this point the best and keenest buyers may be willing to pay more than a house is \"worth\", simply to prevent the house going on the market. Once a house has gone on Rightmove, once even just a few buyers have seen and rejected the house, the balance of power starts to shift - the buyer will feel more confident to negotiate and to seek a discount on the asking price. Of course this balance of power shifts even further once a house has been on the open market for a couple of months or more. The Rightmove and Zoopla bots will track the seller's every move for the world to see, and the mere presence of a \"listing history\" will devalue your home."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-18": {
+        "type": "text",
+        "value": "Equally though a seller might be willing to accept a lower purchase price in order to achieve an off market sale; it really depends on the situation and the motivations of each buyer and each seller."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-19": {
+        "type": "text",
+        "value": "TESTING THE MARKET"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-20": {
+        "type": "text",
+        "value": "A seller might plan to market a house in an open way, but may want to \"test\" the market before undertaking a full marketing campaign - many prime properties in Hertfordshire are real one-offs and it can be difficult for an estate agent/seller to decide what a guide price should be - having a period of \"off marketing\" means that the appetite for a house and its price can be tested ."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-21": {
+        "type": "text",
+        "value": "PRIVACY"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-22": {
+        "type": "text",
+        "value": "A seller might want to retain their privacy because they are well-known or because they are selling for confidential personal reasons (such as divorce or illness). Open marketing inevitably means opening your home to the public and being subjected to viewings by buyers who may not be proceedable, or by viewers who look at other people's homes as a weekend pastime! Off market sales avoid this intrusion."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-23": {
+        "type": "text",
+        "value": "EFFORT"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-24": {
+        "type": "text",
+        "value": "And sometimes a seller just may not want to bother with the effort of presenting their house in the best light for photographs, or preparing their home for hoards of viewings - they just want to be matched with one buyer who is proceedable and who is willing to pay a fair price."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-25": {
+        "type": "text",
+        "value": "EXAMPLES OF MY RECENT OFF-MARKET SUCCESS"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-26": {
+        "type": "text",
+        "value": "In June this year my client completed on the purchase of a £1.1m 4 bedroom family home in Much Hadham, Hertfordshire. This was a highly desirable home because the house was set in the middle of a unusually large plot off the High Street - the seller was always going to be able to sell this house very quickly. However my established relationships and my ability to present my client's buying position strongly enabled us to reach agreement at a competitive price before the house was openly marketed."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-27": {
+        "type": "text",
+        "value": "In September this year my client completed on the purchase of a £3m+ 11,000 sq ft property with land north of Hertford. I agreed a one-off viewing within 24 hours of the agent valuing the property, and was able to reach agreement on the purchase very shortly afterwards. No other buying agent or buyer saw this property."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-28": {
+        "type": "text",
+        "value": "In February and again in October of this year I was successful in agreeing purchase terms directly with two £3m+ homeowners that I had approached directly regarding a private sale."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-29": {
+        "type": "text",
+        "value": "So what is the lesson for the buyer?"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-30": {
+        "type": "text",
+        "value": "Firstly the lesson is that in the current market you cannot wait for a house to come to you - you have to go out and look for it. As a buying agent I am constantly speaking to agents, hearing about houses on the grapevine, approaching home owners directly, using my contacts and local knowledge to work out who might be willing to sell their home. And secondly it is hugely important to find out and analyse the position of the seller - what are their drivers, what are their motivations? As a buying agent I am in your corner, gathering the information that you need and drawing on my house buying experience to put you in the best possible negotiating position."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-31": {
+        "type": "text",
+        "value": "If you would like help on your home buying journey, give me a call on +44 7702 630983"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-32": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-33": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-34": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-text-35": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-link-0": {
+        "type": "link",
+        "value": "/blog/"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-link-2": {
+        "type": "link",
+        "value": "/services-and-fees/"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-link-3": {
+        "type": "link",
+        "value": "/guides/finding-off-market-homes/"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-link-4": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "post--why-it-s-not-okay-to-wait-for-rightmove-link-5": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    },
+    "services-and-fees": {
+      "services-and-fees-seo-title": {
+        "type": "text",
+        "value": "My services & fees | Emma Siddons buying agent"
+      },
+      "services-and-fees-seo-description": {
+        "type": "meta",
+        "value": "Explore my property search and acquisition service, from defining your brief to negotiating and completing a purchase. Learn how my fees work."
+      },
+      "services-and-fees-text-0": {
+        "type": "text",
+        "value": "My services & fees"
+      },
+      "services-and-fees-text-1": {
+        "type": "text",
+        "value": "Personal support, from the first conversation to the keys."
+      },
+      "services-and-fees-text-2": {
+        "type": "text",
+        "value": "Finding a home takes time, local knowledge and a clear sense of what matters. I bring those together in a search shaped around you."
+      },
+      "services-and-fees-text-3": {
+        "type": "text",
+        "value": "Discuss your property search"
+      },
+      "services-and-fees-text-4": {
+        "type": "text",
+        "value": "Search & acquisition"
+      },
+      "services-and-fees-text-5": {
+        "type": "text",
+        "value": "One service, throughout your move"
+      },
+      "services-and-fees-text-6": {
+        "type": "text",
+        "value": "I help you define your brief, research suitable homes and explore opportunities on and off the open market. I can preview properties for you, accompany you on viewings and offer an independent assessment of the options."
+      },
+      "services-and-fees-text-7": {
+        "type": "text",
+        "value": "When you find the right home, I negotiate the price and terms on your behalf, then liaise with the people involved to help keep the purchase moving through exchange and completion."
+      },
+      "services-and-fees-text-8": {
+        "type": "text",
+        "value": "See how I work with you →"
+      },
+      "services-and-fees-text-9": {
+        "type": "text",
+        "value": "Time for your search"
+      },
+      "services-and-fees-text-10": {
+        "type": "text",
+        "value": "A small number of clients"
+      },
+      "services-and-fees-text-11": {
+        "type": "text",
+        "value": "I work with a limited number of buyers so I can give each search the attention it needs. I do not take on clients whose requirements would put them in direct competition with one another."
+      },
+      "services-and-fees-text-12": {
+        "type": "text",
+        "value": "Some searches come together quickly; others need more time. We will discuss your circumstances and agree the scope of my involvement before we begin."
+      },
+      "services-and-fees-text-13": {
+        "type": "text",
+        "value": "My fees"
+      },
+      "services-and-fees-text-14": {
+        "type": "text",
+        "value": "Clear from the outset"
+      },
+      "services-and-fees-text-15": {
+        "type": "text",
+        "value": "My fee has two parts: an initial retainer to begin the search, followed by a success fee when you purchase. The exact fee and terms are agreed with you before I start work."
+      },
+      "services-and-fees-text-16": {
+        "type": "text",
+        "value": "Get in touch to discuss the service that is right for your search."
+      },
+      "services-and-fees-text-17": {
+        "type": "text",
+        "value": "Talk through my fees"
+      },
+      "services-and-fees-text-18": {
+        "type": "text",
+        "value": "Initial retainer"
+      },
+      "services-and-fees-text-19": {
+        "type": "text",
+        "value": "Typically £1,500, plus VAT."
+      },
+      "services-and-fees-text-20": {
+        "type": "text",
+        "value": "Success fee"
+      },
+      "services-and-fees-text-21": {
+        "type": "text",
+        "value": "Typically 1–1.5% of the purchase price, plus VAT."
+      },
+      "services-and-fees-text-22": {
+        "type": "text",
+        "value": "These are indicative fees. I will confirm the full fee arrangement and payment terms for your search in writing."
+      },
+      "services-and-fees-text-23": {
+        "type": "text",
+        "value": "Let’s talk about your next home"
+      },
+      "services-and-fees-text-24": {
+        "type": "text",
+        "value": "Tell me what you are looking for, and I’ll explain how I can help."
+      },
+      "services-and-fees-text-25": {
+        "type": "text",
+        "value": "07702 630983"
+      },
+      "services-and-fees-text-26": {
+        "type": "text",
+        "value": "info@emmasiddons.com"
+      },
+      "services-and-fees-image-0": {
+        "type": "image",
+        "value": {
+          "src": "/images/emma-working-960.webp",
+          "alt": "Emma researching a property search on her laptop"
+        }
+      },
+      "services-and-fees-link-0": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "services-and-fees-link-1": {
+        "type": "link",
+        "value": "/how-i-can-help-you/"
+      },
+      "services-and-fees-link-2": {
+        "type": "link",
+        "value": "/contact/"
+      },
+      "services-and-fees-link-3": {
+        "type": "link",
+        "value": "tel:+447702630983"
+      },
+      "services-and-fees-link-4": {
+        "type": "link",
+        "value": "mailto:info@emmasiddons.com"
+      }
+    }
   }
 }

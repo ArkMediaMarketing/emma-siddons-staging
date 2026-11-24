@@ -18,7 +18,9 @@ if(process.argv.includes('--capture-original')){
  for(const [route,digest] of Object.entries(contract.pages)){if(hash(canonical(await readFile('dist/'+route,'utf8')))!==digest)throw new Error('DOM changed during migration: '+route);}
  for(const [asset,digest] of Object.entries(contract.assets||{}))if(assetHash(asset,await readFile('dist/'+asset))!==digest)throw new Error('Asset changed: '+asset);
  const catalog=JSON.parse(await readFile('worker/catalog.json','utf8'));
- if(catalog.documents.length!==Object.keys(contract.fields).length)throw new Error('CMS document count changed.');
- for(const d of catalog.documents)if(hash(JSON.stringify(d))!==contract.fields[d.id])throw new Error('CMS fields changed: '+d.id);
+ for(const [id,fields]of Object.entries(contract.legacyFields)){
+  const doc=catalog.documents.find(d=>d.id===id);if(!doc)throw new Error('CMS document missing: '+id);
+  for(const [key,original]of Object.entries(fields)){const field=doc.fields.find(f=>f.id===key);if(!field||JSON.stringify({type:field.type,value:field.value})!==JSON.stringify(original))throw new Error('Legacy field changed: '+key);}
+ }
  console.log('PASS: all 16 public page DOMs and all 18 CMS documents match the pre-migration contract.');
 }

@@ -1,7 +1,7 @@
 import type { CmsEnv } from './types.ts';
 import catalog from './catalog.json' with { type: 'json' };
 import { sessionIdentity, authRoute, trustedOrigin, publicOrigin } from './auth.ts';
-import { safeURL, validateValues, defaults } from './validation.ts';
+import { safeURL, validateValues, defaults, sanitizeRichText } from './validation.ts';
 const docs=new Map(catalog.documents.map(d=>[d.id,d]));
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 const now=()=>new Date().toISOString();
@@ -29,6 +29,7 @@ async function render(req:Request,env:CmsEnv,preview=false) {
   const schema=docs.get(row.id);
   for(const field of schema.fields) {
    const value=data[field.id];if(value===undefined)continue;
+   if(field.type==='richtext'){if(value!==null)rewriter.on(`[data-cms-rich="${field.id}"]`,{element(el){el.setInnerContent(sanitizeRichText(value),{html:true});}});continue;}
    if(field.type==='link') rewriter.on(`[data-cms-link="${field.id}"]`,{element(el){el.setAttribute('href',value);}});
    else rewriter.on(`[data-cms="${field.id}"]`,{element(el){
     if(field.type==='image'){el.setAttribute('src',value.src);el.setAttribute('alt',value.alt);if(value.src!==(field.value as {src:string}).src){el.removeAttribute('srcset');el.removeAttribute('sizes');}}

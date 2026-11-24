@@ -36,9 +36,14 @@ async function instrument(file) {
   const fields=[], container=$(scope).first();
   let n=0;
   const sectionName=el=> {
-   const section=$(el).closest('section');
-   return scope!=='main'?scope==='header'?'Brand & navigation':'Footer':section.find('h1,h2,.eyebrow').first().text().trim().slice(0,70)||'Page content';
+   if(scope!=='main')return scope==='header'?'Brand & navigation':'Footer';
+   const section=$(el).closest('section');if(!section.length)return 'Page content';
+   const token=section.attr('id')||section.attr('class')?.split(' ')[0]?.replace(/^(nh|v2)-/,'');
+   const names={home:'Hero',hero:'Hero',service:'Property search service',about:'About me',areas:'Areas covered',contact:'Contact',reviews:'Client reviews',trust:'Credentials',intro:'Introduction',benefits:'How I help',offmarket:'Off-market homes','off-market':'Off-market homes',process:'How I work',fees:'Services & fees',journal:'Journal',guide:'Guide',faq:'Frequently asked questions',testimonials:'Client reviews'};
+   return names[token]||(token?.includes('review')?'Client reviews':null)||'Section '+(container.find('section').toArray().indexOf(section[0])+1);
   };
+  const counts=new Map();
+  const labelFor=(el,role)=>{const key=sectionName(el)+'/'+role;const n=(counts.get(key)||0)+1;counts.set(key,n);return role+' '+n;};
   const nodes=[];
   function walk(node) {
    if(['script','style','svg','noscript'].includes(node.name)) return;
@@ -48,22 +53,35 @@ async function instrument(file) {
   for(const el of container.toArray()) walk(el);
   for(const node of nodes) {
    const key=`${scope==='main'?id:scope}-text-${n++}`;
-   const label=node.data.trim().slice(0,75);
+   const parent=$(node.parent);
+   const role=parent.closest('.brand__name').length?'Brand name':parent.closest('.brand__strapline').length?'Brand tagline':parent.closest('nav').length?'Navigation label':parent.closest('a[href^="tel:"]').length?'Phone number':parent.closest('a[href^="mailto:"]').length?'Email address':parent.closest('a').length?'Button / link text':parent.closest('h1,h2,h3,h4,h5,h6').length?'Heading':parent.closest('.eyebrow').length?'Section label':parent.closest('p,blockquote').length?'Content':parent.closest('summary').length?'Question':'Text';
+   const label=labelFor(node.parent,role);
    const section=sectionName(node.parent);
    $(node).replaceWith($('<cms-text>').attr('data-cms',key).text(node.data));
-   fields.push({id:key,type:'text',label,section,value:node.data});
+   fields.push({id:key,type:'text',label,section,value:node.data,...(/^[+]+$/.test(node.data.trim())?{hiddenFromEditor:true}:{})});
   }
   container.find('img').each((i,el)=>{
    const key=`${scope==='main'?id:scope}-image-${i}`;
    $(el).attr('data-cms',key);
    const src=$(el).attr('src');
-   fields.push({id:key,type:'image',label:$(el).attr('alt')||'Section image',section:sectionName(el),value:{src,alt:$(el).attr('alt')||''}});
+   fields.push({id:key,type:'image',label:labelFor(el,sectionName(el)==='Hero'?'Hero image':'Section image'),section:sectionName(el),value:{src,alt:$(el).attr('alt')||''}});
    if(src?.startsWith('/')&&!library.some(x=>x.src===src)) library.push({src,name:src.split('/').pop()});
   });
   container.find('a').each((i,el)=>{
    const key=`${scope==='main'?id:scope}-link-${i}`;
    $(el).attr('data-cms-link',key);
-   fields.push({id:key,type:'link',label:($(el).text().trim()||$(el).attr('aria-label')||'Link')+' destination',section:sectionName(el),value:$(el).attr('href')||'/'});
+   fields.push({id:key,type:'link',label:labelFor(el,'Button / link URL'),section:sectionName(el),value:$(el).attr('href')||'/'});
+  });
+  // Keep every legacy ID while presenting whole semantic text blocks.
+  let groupIndex=0;
+  container.find('h1,h2,h3,h4,h5,h6,p,blockquote,figcaption').each((_,el)=>{
+   const block=$(el);if(block.find('a,img,svg,button,input,ul,ol,p,blockquote').length)return;
+   const parts=block.find('cms-text').toArray().map(node=>$(node).attr('data-cms'));if(!parts.length)return;
+   const key=`${scope==='main'?id:scope}-rich-${groupIndex++}`;
+   const tag=el.name,role=/^h[1-6]$/.test(tag)?tag==='h1'?'Main heading':'Section heading':block.hasClass('eyebrow')?'Section label':tag==='blockquote'?'Review quote':tag==='figcaption'?'Image caption':sectionName(el)==='Hero'?'Introduction':'Body content';
+   const rich={id:key,type:'richtext',label:labelFor(el,role),section:sectionName(el),value:null,template:block.html(),legacyIds:parts};
+   for(const field of fields)if(parts.includes(field.id))field.editorGroup=key;
+   block.attr('data-cms-rich',key);fields.push(rich);
   });
   if(scope==='main') doc.fields.push(...fields);
   else if(!globals[scope]) globals[scope]={id:scope,title:scope==='header'?'Header & navigation':'Footer',route:'/',fields};

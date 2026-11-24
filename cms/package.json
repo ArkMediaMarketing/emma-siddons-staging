@@ -6,15 +6,19 @@
     "build": "astro build && node scripts/prepare.mjs",
     "dev": "node scripts/dev.mjs",
     "db:local": "wrangler d1 execute emma-siddons-cms --local --env local --file worker/schema.sql",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
     "deploy": "npm run build && wrangler deploy --env \"\"",
     "dev:worker": "wrangler dev --env local --port 8787",
     "auth:setup": "node scripts/setup-admin.mjs",
     "test:migration": "node scripts/check-migration.mjs"
   },
   "dependencies": {
+    "@tiptap/core": "^3.35.0",
+    "@tiptap/pm": "^3.35.0",
+    "@tiptap/starter-kit": "^3.35.0",
     "astro": "7.4.13",
-    "cheerio": "1.1.2"
+    "cheerio": "1.1.2",
+    "sanitize-html": "^2.18.2"
   },
   "devDependencies": {
     "wrangler": "4.167.0"
