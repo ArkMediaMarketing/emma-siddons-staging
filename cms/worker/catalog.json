@@ -395,6 +395,27 @@
           "legacyIds": [
             "footer-text-8",
             "footer-text-9"
+          ],
+          "paragraph": true,
+          "editorGroup": "footer-prose-0"
+        },
+        {
+          "id": "footer-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Footer",
+          "value": null,
+          "blocks": [
+            {
+              "id": "footer-rich-0",
+              "attributes": {
+                "class": "copyright"
+              }
+            }
+          ],
+          "legacyIds": [
+            "footer-text-8",
+            "footer-text-9"
           ]
         }
       ]
@@ -934,7 +955,8 @@
           "legacyIds": [
             "home-text-0",
             "home-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-1",
@@ -948,7 +970,9 @@
             "home-text-3",
             "home-text-4",
             "home-text-5"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-0"
         },
         {
           "id": "home-rich-2",
@@ -959,7 +983,8 @@
           "template": "<cms-text data-cms=\"home-text-7\">Kind words from my clients</cms-text>",
           "legacyIds": [
             "home-text-7"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-3",
@@ -972,7 +997,9 @@
             "home-text-8",
             "home-text-9",
             "home-text-10"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-1"
         },
         {
           "id": "home-rich-4",
@@ -983,7 +1010,9 @@
           "template": "<cms-text data-cms=\"home-text-11\">Rating checked 8 November 2026</cms-text>",
           "legacyIds": [
             "home-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-1"
         },
         {
           "id": "home-rich-5",
@@ -994,7 +1023,9 @@
           "template": "<cms-text data-cms=\"home-text-12\">“Working with Emma was a great experience from start to finish.”</cms-text>",
           "legacyIds": [
             "home-text-12"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-2"
         },
         {
           "id": "home-rich-6",
@@ -1005,7 +1036,8 @@
           "template": "<cms-text data-cms=\"home-text-15\">A complete property search and acquisition service</cms-text>",
           "legacyIds": [
             "home-text-15"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-7",
@@ -1017,7 +1049,9 @@
           "legacyIds": [
             "home-text-16",
             "home-text-17"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-3"
         },
         {
           "id": "home-rich-8",
@@ -1028,7 +1062,8 @@
           "template": "<cms-text data-cms=\"home-text-19\">Define your search</cms-text>",
           "legacyIds": [
             "home-text-19"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-9",
@@ -1039,7 +1074,9 @@
           "template": "<cms-text data-cms=\"home-text-20\">Get to know the area and establish your requirements.</cms-text>",
           "legacyIds": [
             "home-text-20"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-4"
         },
         {
           "id": "home-rich-10",
@@ -1050,7 +1087,8 @@
           "template": "<cms-text data-cms=\"home-text-22\">Find the right properties</cms-text>",
           "legacyIds": [
             "home-text-22"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-11",
@@ -1061,7 +1099,9 @@
           "template": "<cms-text data-cms=\"home-text-23\">Research suitable homes, including off-market opportunities.</cms-text>",
           "legacyIds": [
             "home-text-23"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-5"
         },
         {
           "id": "home-rich-12",
@@ -1072,7 +1112,8 @@
           "template": "<cms-text data-cms=\"home-text-25\">Preview and view</cms-text>",
           "legacyIds": [
             "home-text-25"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-13",
@@ -1083,7 +1124,9 @@
           "template": "<cms-text data-cms=\"home-text-26\">I can view properties on your behalf or accompany you.</cms-text>",
           "legacyIds": [
             "home-text-26"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-6"
         },
         {
           "id": "home-rich-14",
@@ -1094,7 +1137,8 @@
           "template": "<cms-text data-cms=\"home-text-28\">Negotiate the purchase</cms-text>",
           "legacyIds": [
             "home-text-28"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-15",
@@ -1105,7 +1149,9 @@
           "template": "<cms-text data-cms=\"home-text-29\">Support with price and terms to secure the best possible outcome.</cms-text>",
           "legacyIds": [
             "home-text-29"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-7"
         },
         {
           "id": "home-rich-16",
@@ -1116,7 +1162,8 @@
           "template": "<cms-text data-cms=\"home-text-31\">Progress to completion</cms-text>",
           "legacyIds": [
             "home-text-31"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-17",
@@ -1127,7 +1174,9 @@
           "template": "<cms-text data-cms=\"home-text-32\">Provide expertise, liaison and guidance through exchange and completion.</cms-text>",
           "legacyIds": [
             "home-text-32"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-8"
         },
         {
           "id": "home-rich-18",
@@ -1138,7 +1187,8 @@
           "template": "<cms-text data-cms=\"home-text-34\">About me</cms-text>",
           "legacyIds": [
             "home-text-34"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-19",
@@ -1150,7 +1200,8 @@
           "legacyIds": [
             "home-text-35",
             "home-text-36"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-20",
@@ -1161,7 +1212,9 @@
           "template": "<cms-text data-cms=\"home-text-37\">I help buyers find the right home in Hertfordshire, west Essex and South Cambridgeshire. I am completely independent and work for you, the buyer. My personal, discreet service draws on detailed local knowledge and established relationships with local agents.</cms-text>",
           "legacyIds": [
             "home-text-37"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-9"
         },
         {
           "id": "home-rich-21",
@@ -1172,7 +1225,9 @@
           "template": "<cms-text data-cms=\"home-text-38\">I research and preview suitable homes, saving you time and helping you focus on the properties that meet your needs.</cms-text>",
           "legacyIds": [
             "home-text-38"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-9"
         },
         {
           "id": "home-rich-22",
@@ -1183,7 +1238,8 @@
           "template": "<cms-text data-cms=\"home-text-40\">Areas covered</cms-text>",
           "legacyIds": [
             "home-text-40"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-23",
@@ -1194,7 +1250,8 @@
           "template": "<cms-text data-cms=\"home-text-41\">Hertfordshire, west Essex and South Cambridgeshire</cms-text>",
           "legacyIds": [
             "home-text-41"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-24",
@@ -1206,7 +1263,9 @@
           "legacyIds": [
             "home-text-42",
             "home-text-43"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-10"
         },
         {
           "id": "home-rich-25",
@@ -1217,7 +1276,8 @@
           "template": "<cms-text data-cms=\"home-text-45\">Off-market homes</cms-text>",
           "legacyIds": [
             "home-text-45"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-26",
@@ -1228,7 +1288,8 @@
           "template": "<cms-text data-cms=\"home-text-46\">A search beyond the property portals</cms-text>",
           "legacyIds": [
             "home-text-46"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-27",
@@ -1239,7 +1300,9 @@
           "template": "<cms-text data-cms=\"home-text-47\">Some homes are discussed privately before they are ever advertised. I use local knowledge and established relationships to explore opportunities that fit your search.</cms-text>",
           "legacyIds": [
             "home-text-47"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-11"
         },
         {
           "id": "home-rich-28",
@@ -1250,7 +1313,8 @@
           "template": "<cms-text data-cms=\"home-text-49\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "home-text-49"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-rich-29",
@@ -1259,6 +1323,239 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"home-text-50\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "home-text-50"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-prose-12"
+        },
+        {
+          "id": "home-prose-0",
+          "type": "prose",
+          "label": "Introduction",
+          "section": "Hero",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-1",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-2",
+            "home-text-3",
+            "home-text-4",
+            "home-text-5"
+          ]
+        },
+        {
+          "id": "home-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-3",
+              "attributes": {
+                "class": "review-rating"
+              }
+            },
+            {
+              "id": "home-rich-4",
+              "attributes": {
+                "class": "review-date"
+              }
+            }
+          ],
+          "legacyIds": [
+            "home-text-8",
+            "home-text-9",
+            "home-text-10",
+            "home-text-11"
+          ]
+        },
+        {
+          "id": "home-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-5",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-12"
+          ]
+        },
+        {
+          "id": "home-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Property search service",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-7",
+              "attributes": {
+                "class": "service__intro"
+              }
+            }
+          ],
+          "legacyIds": [
+            "home-text-16",
+            "home-text-17"
+          ]
+        },
+        {
+          "id": "home-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Property search service",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-9",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-20"
+          ]
+        },
+        {
+          "id": "home-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Property search service",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-11",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-23"
+          ]
+        },
+        {
+          "id": "home-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Property search service",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-13",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-26"
+          ]
+        },
+        {
+          "id": "home-prose-7",
+          "type": "prose",
+          "label": "Content",
+          "section": "Property search service",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-15",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-29"
+          ]
+        },
+        {
+          "id": "home-prose-8",
+          "type": "prose",
+          "label": "Content",
+          "section": "Property search service",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-17",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-32"
+          ]
+        },
+        {
+          "id": "home-prose-9",
+          "type": "prose",
+          "label": "Content",
+          "section": "About me",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-20",
+              "attributes": {}
+            },
+            {
+              "id": "home-rich-21",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-37",
+            "home-text-38"
+          ]
+        },
+        {
+          "id": "home-prose-10",
+          "type": "prose",
+          "label": "Content",
+          "section": "Areas covered",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-24",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-42",
+            "home-text-43"
+          ]
+        },
+        {
+          "id": "home-prose-11",
+          "type": "prose",
+          "label": "Content",
+          "section": "Off-market homes",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-27",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-text-47"
+          ]
+        },
+        {
+          "id": "home-prose-12",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-rich-29",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "home-text-50"
           ]
@@ -2429,7 +2726,8 @@
           "template": "<cms-text data-cms=\"home-new-text-0\">Your independent Hertfordshire buying agent</cms-text>",
           "legacyIds": [
             "home-new-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-1",
@@ -2442,7 +2740,8 @@
             "home-new-text-1",
             "home-new-text-2",
             "home-new-text-3"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-2",
@@ -2453,7 +2752,9 @@
           "template": "<cms-text data-cms=\"home-new-text-4\">I’m Emma. I help you find and buy a home in Hertfordshire, west Essex and South Cambridgeshire — with local knowledge, independent advice and a personal approach.</cms-text>",
           "legacyIds": [
             "home-new-text-4"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-0"
         },
         {
           "id": "home-new-rich-3",
@@ -2465,7 +2766,9 @@
           "legacyIds": [
             "home-new-text-14",
             "home-new-text-15"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-1"
         },
         {
           "id": "home-new-rich-4",
@@ -2477,7 +2780,9 @@
           "legacyIds": [
             "home-new-text-16",
             "home-new-text-17"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-1"
         },
         {
           "id": "home-new-rich-5",
@@ -2488,7 +2793,8 @@
           "template": "<cms-text data-cms=\"home-new-text-18\">Hello, I’m Emma</cms-text>",
           "legacyIds": [
             "home-new-text-18"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-6",
@@ -2500,7 +2806,8 @@
           "legacyIds": [
             "home-new-text-19",
             "home-new-text-20"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-7",
@@ -2511,7 +2818,9 @@
           "template": "<cms-text data-cms=\"home-new-text-21\">A home is more than its particulars. It is the place you come back to, the life around it and the feeling that it is right for you.</cms-text>",
           "legacyIds": [
             "home-new-text-21"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-2"
         },
         {
           "id": "home-new-rich-8",
@@ -2522,7 +2831,9 @@
           "template": "<cms-text data-cms=\"home-new-text-22\">I am completely independent and work for you, the buyer. I take the time to understand your priorities, then bring a focused search and a clear, considered view to each opportunity.</cms-text>",
           "legacyIds": [
             "home-new-text-22"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-2"
         },
         {
           "id": "home-new-rich-9",
@@ -2533,7 +2844,9 @@
           "template": "<cms-text data-cms=\"home-new-text-23\">My background in law, accountancy and investment banking informs my attention to detail and approach to negotiation. My long-standing connection to Hertfordshire brings the local perspective.</cms-text>",
           "legacyIds": [
             "home-new-text-23"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-2"
         },
         {
           "id": "home-new-rich-10",
@@ -2544,7 +2857,8 @@
           "template": "<cms-text data-cms=\"home-new-text-25\">Room to think. Time to find.</cms-text>",
           "legacyIds": [
             "home-new-text-25"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-11",
@@ -2556,7 +2870,8 @@
           "legacyIds": [
             "home-new-text-26",
             "home-new-text-27"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-12",
@@ -2567,7 +2882,9 @@
           "template": "<cms-text data-cms=\"home-new-text-28\">You may be moving to a new area, short of time or wondering why the right home hasn’t appeared. This is where I can help.</cms-text>",
           "legacyIds": [
             "home-new-text-28"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-3"
         },
         {
           "id": "home-new-rich-13",
@@ -2578,7 +2895,8 @@
           "template": "<cms-text data-cms=\"home-new-text-30\">More time for you</cms-text>",
           "legacyIds": [
             "home-new-text-30"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-14",
@@ -2589,7 +2907,9 @@
           "template": "<cms-text data-cms=\"home-new-text-31\">I research and preview properties, so you can focus your time on the homes that are worth a closer look.</cms-text>",
           "legacyIds": [
             "home-new-text-31"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-4"
         },
         {
           "id": "home-new-rich-15",
@@ -2600,7 +2920,8 @@
           "template": "<cms-text data-cms=\"home-new-text-33\">A local perspective</cms-text>",
           "legacyIds": [
             "home-new-text-33"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-16",
@@ -2611,7 +2932,9 @@
           "template": "<cms-text data-cms=\"home-new-text-34\">I help you look beyond a postcode to the villages, surroundings and everyday details that make a place feel right.</cms-text>",
           "legacyIds": [
             "home-new-text-34"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-5"
         },
         {
           "id": "home-new-rich-17",
@@ -2622,7 +2945,8 @@
           "template": "<cms-text data-cms=\"home-new-text-36\">Someone in your corner</cms-text>",
           "legacyIds": [
             "home-new-text-36"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-18",
@@ -2633,7 +2957,9 @@
           "template": "<cms-text data-cms=\"home-new-text-37\">I offer an independent view, negotiate on your behalf and help you decide when to pursue a home — and when to walk away.</cms-text>",
           "legacyIds": [
             "home-new-text-37"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-6"
         },
         {
           "id": "home-new-rich-19",
@@ -2644,7 +2970,8 @@
           "template": "<cms-text data-cms=\"home-new-text-38\">Off-market homes in Hertfordshire</cms-text>",
           "legacyIds": [
             "home-new-text-38"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-20",
@@ -2656,7 +2983,8 @@
           "legacyIds": [
             "home-new-text-39",
             "home-new-text-40"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-21",
@@ -2667,7 +2995,9 @@
           "template": "<cms-text data-cms=\"home-new-text-41\">Not every home appears on a property portal. Some owners prefer a private sale; others speak to suitable buyers before a public launch.</cms-text>",
           "legacyIds": [
             "home-new-text-41"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-7"
         },
         {
           "id": "home-new-rich-22",
@@ -2678,7 +3008,9 @@
           "template": "<cms-text data-cms=\"home-new-text-42\">I draw on local relationships, word of mouth and direct approaches to homeowners to explore those possibilities alongside the open market.</cms-text>",
           "legacyIds": [
             "home-new-text-42"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-7"
         },
         {
           "id": "home-new-rich-23",
@@ -2689,7 +3021,9 @@
           "template": "<cms-text data-cms=\"home-new-text-43\">A wider search. The same careful consideration of what is right for you.</cms-text>",
           "legacyIds": [
             "home-new-text-43"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-7"
         },
         {
           "id": "home-new-rich-24",
@@ -2700,7 +3034,8 @@
           "template": "<cms-text data-cms=\"home-new-text-45\">How I work with you</cms-text>",
           "legacyIds": [
             "home-new-text-45"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-25",
@@ -2712,7 +3047,8 @@
           "legacyIds": [
             "home-new-text-46",
             "home-new-text-47"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-26",
@@ -2723,7 +3059,9 @@
           "template": "<cms-text data-cms=\"home-new-text-48\">Every search is different. I stay involved at each stage, with practical support and your priorities at the centre.</cms-text>",
           "legacyIds": [
             "home-new-text-48"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-8"
         },
         {
           "id": "home-new-rich-27",
@@ -2734,7 +3072,8 @@
           "template": "<cms-text data-cms=\"home-new-text-51\">First, I listen</cms-text>",
           "legacyIds": [
             "home-new-text-51"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-28",
@@ -2745,7 +3084,9 @@
           "template": "<cms-text data-cms=\"home-new-text-52\">We talk about how you want to live, where you want to be and what your next home needs to offer. Together, we turn that into a clear brief.</cms-text>",
           "legacyIds": [
             "home-new-text-52"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-9"
         },
         {
           "id": "home-new-rich-29",
@@ -2756,7 +3097,8 @@
           "template": "<cms-text data-cms=\"home-new-text-54\">I look beyond the obvious</cms-text>",
           "legacyIds": [
             "home-new-text-54"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-30",
@@ -2767,7 +3109,9 @@
           "template": "<cms-text data-cms=\"home-new-text-55\">I research the open market, speak with local agents and contacts, and explore private and pre-market opportunities that fit your search.</cms-text>",
           "legacyIds": [
             "home-new-text-55"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-10"
         },
         {
           "id": "home-new-rich-31",
@@ -2778,7 +3122,8 @@
           "template": "<cms-text data-cms=\"home-new-text-57\">We explore the possibilities</cms-text>",
           "legacyIds": [
             "home-new-text-57"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-32",
@@ -2789,7 +3134,9 @@
           "template": "<cms-text data-cms=\"home-new-text-58\">I can preview properties for you and accompany you on viewings, helping you weigh up the house, its setting and its potential.</cms-text>",
           "legacyIds": [
             "home-new-text-58"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-11"
         },
         {
           "id": "home-new-rich-33",
@@ -2800,7 +3147,8 @@
           "template": "<cms-text data-cms=\"home-new-text-60\">I negotiate on your behalf</cms-text>",
           "legacyIds": [
             "home-new-text-60"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-34",
@@ -2811,7 +3159,9 @@
           "template": "<cms-text data-cms=\"home-new-text-61\">When the right home comes along, I offer an independent view of its value and negotiate the price and terms with your interests in mind.</cms-text>",
           "legacyIds": [
             "home-new-text-61"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-12"
         },
         {
           "id": "home-new-rich-35",
@@ -2822,7 +3172,8 @@
           "template": "<cms-text data-cms=\"home-new-text-63\">I stay with you to completion</cms-text>",
           "legacyIds": [
             "home-new-text-63"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-36",
@@ -2833,7 +3184,9 @@
           "template": "<cms-text data-cms=\"home-new-text-64\">I liaise with agents, solicitors and other professionals to help keep the purchase moving through exchange and completion.</cms-text>",
           "legacyIds": [
             "home-new-text-64"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-13"
         },
         {
           "id": "home-new-rich-37",
@@ -2844,7 +3197,8 @@
           "template": "<cms-text data-cms=\"home-new-text-65\">My service &amp; fees</cms-text>",
           "legacyIds": [
             "home-new-text-65"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-38",
@@ -2856,7 +3210,8 @@
           "legacyIds": [
             "home-new-text-66",
             "home-new-text-67"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-39",
@@ -2867,7 +3222,9 @@
           "template": "<cms-text data-cms=\"home-new-text-68\">I work with a small number of clients so I can give each search the time it deserves. We agree the scope of my service and the fee arrangement before I begin.</cms-text>",
           "legacyIds": [
             "home-new-text-68"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-14"
         },
         {
           "id": "home-new-rich-40",
@@ -2878,7 +3235,8 @@
           "template": "<cms-text data-cms=\"home-new-text-70\">Initial retainer</cms-text>",
           "legacyIds": [
             "home-new-text-70"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-41",
@@ -2890,7 +3248,9 @@
           "legacyIds": [
             "home-new-text-71",
             "home-new-text-72"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-15"
         },
         {
           "id": "home-new-rich-42",
@@ -2901,7 +3261,9 @@
           "template": "<cms-text data-cms=\"home-new-text-73\">To begin your property search.</cms-text>",
           "legacyIds": [
             "home-new-text-73"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-15"
         },
         {
           "id": "home-new-rich-43",
@@ -2912,7 +3274,8 @@
           "template": "<cms-text data-cms=\"home-new-text-74\">Success fee</cms-text>",
           "legacyIds": [
             "home-new-text-74"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-44",
@@ -2924,7 +3287,9 @@
           "legacyIds": [
             "home-new-text-75",
             "home-new-text-76"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-16"
         },
         {
           "id": "home-new-rich-45",
@@ -2935,7 +3300,9 @@
           "template": "<cms-text data-cms=\"home-new-text-77\">When you purchase your home.</cms-text>",
           "legacyIds": [
             "home-new-text-77"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-16"
         },
         {
           "id": "home-new-rich-46",
@@ -2946,7 +3313,9 @@
           "template": "<cms-text data-cms=\"home-new-text-78\">Indicative fees. I will confirm the full arrangement and payment terms for your individual search in writing.</cms-text>",
           "legacyIds": [
             "home-new-text-78"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-17"
         },
         {
           "id": "home-new-rich-47",
@@ -2957,7 +3326,9 @@
           "template": "<cms-text data-cms=\"home-new-text-79\">Braughing, Hertfordshire</cms-text>",
           "legacyIds": [
             "home-new-text-79"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-18"
         },
         {
           "id": "home-new-rich-48",
@@ -2968,7 +3339,8 @@
           "template": "<cms-text data-cms=\"home-new-text-80\">A place to call home</cms-text>",
           "legacyIds": [
             "home-new-text-80"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-49",
@@ -2980,7 +3352,8 @@
           "legacyIds": [
             "home-new-text-81",
             "home-new-text-82"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-50",
@@ -2991,7 +3364,9 @@
           "template": "<cms-text data-cms=\"home-new-text-83\">Hertfordshire is at the heart of my work. Your search can also take us into neighbouring west Essex and South Cambridgeshire.</cms-text>",
           "legacyIds": [
             "home-new-text-83"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-19"
         },
         {
           "id": "home-new-rich-51",
@@ -3002,7 +3377,8 @@
           "template": "<cms-text data-cms=\"home-new-text-91\">Kind words from my clients</cms-text>",
           "legacyIds": [
             "home-new-text-91"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-52",
@@ -3013,7 +3389,9 @@
           "template": "<cms-text data-cms=\"home-new-text-93\">“Working with Emma was a great experience from start to finish.”</cms-text>",
           "legacyIds": [
             "home-new-text-93"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-20"
         },
         {
           "id": "home-new-rich-53",
@@ -3024,7 +3402,8 @@
           "template": "<cms-text data-cms=\"home-new-text-97\">A little reading before you begin</cms-text>",
           "legacyIds": [
             "home-new-text-97"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-54",
@@ -3036,7 +3415,8 @@
           "legacyIds": [
             "home-new-text-98",
             "home-new-text-99"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-55",
@@ -3047,7 +3427,9 @@
           "template": "<cms-text data-cms=\"home-new-text-100\">What off-market really means, why a home may be sold privately, and how to prepare for a focused search.</cms-text>",
           "legacyIds": [
             "home-new-text-100"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-21"
         },
         {
           "id": "home-new-rich-56",
@@ -3058,7 +3440,8 @@
           "template": "<cms-text data-cms=\"home-new-text-102\">A few things you may be wondering</cms-text>",
           "legacyIds": [
             "home-new-text-102"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-57",
@@ -3070,7 +3453,8 @@
           "legacyIds": [
             "home-new-text-103",
             "home-new-text-104"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-58",
@@ -3081,7 +3465,9 @@
           "template": "<cms-text data-cms=\"home-new-text-105\">And if you would rather talk it through, I’m always happy to hear about your plans.</cms-text>",
           "legacyIds": [
             "home-new-text-105"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-22"
         },
         {
           "id": "home-new-rich-59",
@@ -3092,7 +3478,9 @@
           "template": "<cms-text data-cms=\"home-new-text-109\">I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.</cms-text>",
           "legacyIds": [
             "home-new-text-109"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-23"
         },
         {
           "id": "home-new-rich-60",
@@ -3103,7 +3491,9 @@
           "template": "<cms-text data-cms=\"home-new-text-112\">Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.</cms-text>",
           "legacyIds": [
             "home-new-text-112"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-24"
         },
         {
           "id": "home-new-rich-61",
@@ -3114,7 +3504,9 @@
           "template": "<cms-text data-cms=\"home-new-text-115\">No. I consider homes on the open market alongside private and pre-market opportunities. The important thing is how well a property fits your brief. Off-market availability varies, so I cannot promise a particular home will be available.</cms-text>",
           "legacyIds": [
             "home-new-text-115"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-25"
         },
         {
           "id": "home-new-rich-62",
@@ -3125,7 +3517,9 @@
           "template": "<cms-text data-cms=\"home-new-text-118\">Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other.</cms-text>",
           "legacyIds": [
             "home-new-text-118"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-26"
         },
         {
           "id": "home-new-rich-63",
@@ -3136,7 +3530,9 @@
           "template": "<cms-text data-cms=\"home-new-text-121\">Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.</cms-text>",
           "legacyIds": [
             "home-new-text-121"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-27"
         },
         {
           "id": "home-new-rich-64",
@@ -3147,7 +3543,8 @@
           "template": "<cms-text data-cms=\"home-new-text-122\">Your next chapter</cms-text>",
           "legacyIds": [
             "home-new-text-122"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-65",
@@ -3159,7 +3556,8 @@
           "legacyIds": [
             "home-new-text-123",
             "home-new-text-124"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "home-new-rich-66",
@@ -3168,6 +3566,524 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"home-new-text-125\">A favourite village, more space, a different pace of life.</cms-text><br><cms-text data-cms=\"home-new-text-126\"> Let’s start with what matters to you.</cms-text>",
+          "legacyIds": [
+            "home-new-text-125",
+            "home-new-text-126"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-28"
+        },
+        {
+          "id": "home-new-prose-0",
+          "type": "prose",
+          "label": "Introduction",
+          "section": "Hero",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-2",
+              "attributes": {
+                "class": "nh-lead"
+              }
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-4"
+          ]
+        },
+        {
+          "id": "home-new-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-3",
+              "attributes": {}
+            },
+            {
+              "id": "home-new-rich-4",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-14",
+            "home-new-text-15",
+            "home-new-text-16",
+            "home-new-text-17"
+          ]
+        },
+        {
+          "id": "home-new-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-7",
+              "attributes": {
+                "class": "nh-lead"
+              }
+            },
+            {
+              "id": "home-new-rich-8",
+              "attributes": {}
+            },
+            {
+              "id": "home-new-rich-9",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-21",
+            "home-new-text-22",
+            "home-new-text-23"
+          ]
+        },
+        {
+          "id": "home-new-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-12",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-28"
+          ]
+        },
+        {
+          "id": "home-new-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-14",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-31"
+          ]
+        },
+        {
+          "id": "home-new-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-16",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-34"
+          ]
+        },
+        {
+          "id": "home-new-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-18",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-37"
+          ]
+        },
+        {
+          "id": "home-new-prose-7",
+          "type": "prose",
+          "label": "Content",
+          "section": "Off-market homes",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-21",
+              "attributes": {}
+            },
+            {
+              "id": "home-new-rich-22",
+              "attributes": {}
+            },
+            {
+              "id": "home-new-rich-23",
+              "attributes": {
+                "class": "nh-offmarket__note"
+              }
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-41",
+            "home-new-text-42",
+            "home-new-text-43"
+          ]
+        },
+        {
+          "id": "home-new-prose-8",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-26",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-48"
+          ]
+        },
+        {
+          "id": "home-new-prose-9",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-28",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-52"
+          ]
+        },
+        {
+          "id": "home-new-prose-10",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-30",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-55"
+          ]
+        },
+        {
+          "id": "home-new-prose-11",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-32",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-58"
+          ]
+        },
+        {
+          "id": "home-new-prose-12",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-34",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-61"
+          ]
+        },
+        {
+          "id": "home-new-prose-13",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-36",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-64"
+          ]
+        },
+        {
+          "id": "home-new-prose-14",
+          "type": "prose",
+          "label": "Content",
+          "section": "Services & fees",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-39",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-68"
+          ]
+        },
+        {
+          "id": "home-new-prose-15",
+          "type": "prose",
+          "label": "Content",
+          "section": "Services & fees",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-41",
+              "attributes": {
+                "class": "nh-fee-value"
+              }
+            },
+            {
+              "id": "home-new-rich-42",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-71",
+            "home-new-text-72",
+            "home-new-text-73"
+          ]
+        },
+        {
+          "id": "home-new-prose-16",
+          "type": "prose",
+          "label": "Content",
+          "section": "Services & fees",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-44",
+              "attributes": {
+                "class": "nh-fee-value"
+              }
+            },
+            {
+              "id": "home-new-rich-45",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-75",
+            "home-new-text-76",
+            "home-new-text-77"
+          ]
+        },
+        {
+          "id": "home-new-prose-17",
+          "type": "prose",
+          "label": "Content",
+          "section": "Services & fees",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-46",
+              "attributes": {
+                "class": "nh-fee-note"
+              }
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-78"
+          ]
+        },
+        {
+          "id": "home-new-prose-18",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 8",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-47",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-79"
+          ]
+        },
+        {
+          "id": "home-new-prose-19",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 8",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-50",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-83"
+          ]
+        },
+        {
+          "id": "home-new-prose-20",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 9",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-52",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-93"
+          ]
+        },
+        {
+          "id": "home-new-prose-21",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 10",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-55",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-100"
+          ]
+        },
+        {
+          "id": "home-new-prose-22",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 11",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-58",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-105"
+          ]
+        },
+        {
+          "id": "home-new-prose-23",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 11",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-59",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-109"
+          ]
+        },
+        {
+          "id": "home-new-prose-24",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 11",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-60",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-112"
+          ]
+        },
+        {
+          "id": "home-new-prose-25",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 11",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-61",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-115"
+          ]
+        },
+        {
+          "id": "home-new-prose-26",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 11",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-62",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-118"
+          ]
+        },
+        {
+          "id": "home-new-prose-27",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 11",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-63",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-121"
+          ]
+        },
+        {
+          "id": "home-new-prose-28",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-66",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "home-new-text-125",
             "home-new-text-126"
@@ -3814,7 +4730,8 @@
           "legacyIds": [
             "v2-text-0",
             "v2-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-1",
@@ -3825,7 +4742,9 @@
           "template": "<cms-text data-cms=\"v2-text-2\">A personal property search and acquisition service across Hertfordshire, west Essex and South Cambridgeshire. Independent advice, local knowledge and a sensible, supportive approach.</cms-text>",
           "legacyIds": [
             "v2-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-0"
         },
         {
           "id": "v2-rich-2",
@@ -3837,7 +4756,8 @@
           "legacyIds": [
             "v2-text-4",
             "v2-text-5"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-3",
@@ -3849,7 +4769,9 @@
           "legacyIds": [
             "v2-text-6",
             "v2-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-1"
         },
         {
           "id": "v2-rich-4",
@@ -3860,7 +4782,8 @@
           "template": "<cms-text data-cms=\"v2-text-9\">Define your search</cms-text>",
           "legacyIds": [
             "v2-text-9"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-5",
@@ -3871,7 +4794,9 @@
           "template": "<cms-text data-cms=\"v2-text-10\">Get to know the area and establish what matters to you.</cms-text>",
           "legacyIds": [
             "v2-text-10"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-2"
         },
         {
           "id": "v2-rich-6",
@@ -3882,7 +4807,8 @@
           "template": "<cms-text data-cms=\"v2-text-12\">Find the right properties</cms-text>",
           "legacyIds": [
             "v2-text-12"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-7",
@@ -3893,7 +4819,9 @@
           "template": "<cms-text data-cms=\"v2-text-13\">Research suitable homes, including off-market opportunities.</cms-text>",
           "legacyIds": [
             "v2-text-13"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-3"
         },
         {
           "id": "v2-rich-8",
@@ -3904,7 +4832,8 @@
           "template": "<cms-text data-cms=\"v2-text-15\">Preview and view</cms-text>",
           "legacyIds": [
             "v2-text-15"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-9",
@@ -3915,7 +4844,9 @@
           "template": "<cms-text data-cms=\"v2-text-16\">I can view properties on your behalf or accompany you.</cms-text>",
           "legacyIds": [
             "v2-text-16"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-4"
         },
         {
           "id": "v2-rich-10",
@@ -3926,7 +4857,8 @@
           "template": "<cms-text data-cms=\"v2-text-18\">Negotiate the purchase</cms-text>",
           "legacyIds": [
             "v2-text-18"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-11",
@@ -3937,7 +4869,9 @@
           "template": "<cms-text data-cms=\"v2-text-19\">Independent support with the price and terms of your purchase.</cms-text>",
           "legacyIds": [
             "v2-text-19"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-5"
         },
         {
           "id": "v2-rich-12",
@@ -3948,7 +4882,8 @@
           "template": "<cms-text data-cms=\"v2-text-21\">Progress to completion</cms-text>",
           "legacyIds": [
             "v2-text-21"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-13",
@@ -3959,7 +4894,9 @@
           "template": "<cms-text data-cms=\"v2-text-22\">Personal guidance through exchange and completion.</cms-text>",
           "legacyIds": [
             "v2-text-22"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-6"
         },
         {
           "id": "v2-rich-14",
@@ -3970,7 +4907,8 @@
           "template": "<cms-text data-cms=\"v2-text-24\">About Emma</cms-text>",
           "legacyIds": [
             "v2-text-24"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-15",
@@ -3983,7 +4921,8 @@
             "v2-text-25",
             "v2-text-26",
             "v2-text-27"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-16",
@@ -3994,7 +4933,9 @@
           "template": "<cms-text data-cms=\"v2-text-28\">I help buyers find the right home in Hertfordshire, west Essex and South Cambridgeshire. I am completely independent and work for you, the buyer.</cms-text>",
           "legacyIds": [
             "v2-text-28"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-7"
         },
         {
           "id": "v2-rich-17",
@@ -4005,7 +4946,9 @@
           "template": "<cms-text data-cms=\"v2-text-29\">Hertfordshire has been my home for more than 40 years. My service draws on detailed local knowledge, established relationships with local agents and time spent understanding what matters to you.</cms-text>",
           "legacyIds": [
             "v2-text-29"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-7"
         },
         {
           "id": "v2-rich-18",
@@ -4016,7 +4959,9 @@
           "template": "<cms-text data-cms=\"v2-text-30\">By researching and previewing suitable homes, I save you time and help you focus on the properties that meet your needs.</cms-text>",
           "legacyIds": [
             "v2-text-30"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-7"
         },
         {
           "id": "v2-rich-19",
@@ -4027,7 +4972,8 @@
           "template": "<cms-text data-cms=\"v2-text-32\">Off-market homes</cms-text>",
           "legacyIds": [
             "v2-text-32"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-20",
@@ -4039,7 +4985,8 @@
           "legacyIds": [
             "v2-text-33",
             "v2-text-34"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-21",
@@ -4050,7 +4997,9 @@
           "template": "<cms-text data-cms=\"v2-text-35\">Some homes are discussed privately before they are ever advertised. I draw on local relationships, word of mouth and direct approaches to homeowners to explore those opportunities.</cms-text>",
           "legacyIds": [
             "v2-text-35"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-8"
         },
         {
           "id": "v2-rich-22",
@@ -4061,7 +5010,9 @@
           "template": "<cms-text data-cms=\"v2-text-36\">Alongside the open market, it gives us a wider view of the homes that could be right for you.</cms-text>",
           "legacyIds": [
             "v2-text-36"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-8"
         },
         {
           "id": "v2-rich-23",
@@ -4072,7 +5023,8 @@
           "template": "<cms-text data-cms=\"v2-text-38\">Areas covered</cms-text>",
           "legacyIds": [
             "v2-text-38"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-24",
@@ -4084,7 +5036,8 @@
           "legacyIds": [
             "v2-text-39",
             "v2-text-40"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-25",
@@ -4095,7 +5048,9 @@
           "template": "<cms-text data-cms=\"v2-text-41\">In-depth local knowledge and strong relationships with agents across the region, helping you access the right opportunities.</cms-text>",
           "legacyIds": [
             "v2-text-41"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-9"
         },
         {
           "id": "v2-rich-26",
@@ -4106,7 +5061,8 @@
           "template": "<cms-text data-cms=\"v2-text-43\">Kind words from my clients</cms-text>",
           "legacyIds": [
             "v2-text-43"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-27",
@@ -4117,7 +5073,9 @@
           "template": "<cms-text data-cms=\"v2-text-45\">“Working with Emma was a great experience from start to finish.”</cms-text>",
           "legacyIds": [
             "v2-text-45"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-10"
         },
         {
           "id": "v2-rich-28",
@@ -4128,7 +5086,8 @@
           "template": "<cms-text data-cms=\"v2-text-49\">Before we begin</cms-text>",
           "legacyIds": [
             "v2-text-49"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-29",
@@ -4140,7 +5099,8 @@
           "legacyIds": [
             "v2-text-50",
             "v2-text-51"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-30",
@@ -4151,7 +5111,9 @@
           "template": "<cms-text data-cms=\"v2-text-52\">If you would rather talk it through, I would be happy to hear about your plans.</cms-text>",
           "legacyIds": [
             "v2-text-52"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-11"
         },
         {
           "id": "v2-rich-31",
@@ -4162,7 +5124,9 @@
           "template": "<cms-text data-cms=\"v2-text-55\">I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.</cms-text>",
           "legacyIds": [
             "v2-text-55"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-12"
         },
         {
           "id": "v2-rich-32",
@@ -4173,7 +5137,9 @@
           "template": "<cms-text data-cms=\"v2-text-57\">Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.</cms-text>",
           "legacyIds": [
             "v2-text-57"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-13"
         },
         {
           "id": "v2-rich-33",
@@ -4184,7 +5150,9 @@
           "template": "<cms-text data-cms=\"v2-text-59\">No. I consider homes on the open market alongside private and pre-market opportunities. The important thing is how well a property fits your brief. Availability varies with the market and your requirements.</cms-text>",
           "legacyIds": [
             "v2-text-59"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-14"
         },
         {
           "id": "v2-rich-34",
@@ -4195,7 +5163,9 @@
           "template": "<cms-text data-cms=\"v2-text-61\">Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.</cms-text>",
           "legacyIds": [
             "v2-text-61"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-15"
         },
         {
           "id": "v2-rich-35",
@@ -4206,7 +5176,8 @@
           "template": "<cms-text data-cms=\"v2-text-62\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "v2-text-62"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "v2-rich-36",
@@ -4215,6 +5186,298 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"v2-text-63\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "v2-text-63"
+          ],
+          "paragraph": true,
+          "editorGroup": "v2-prose-16"
+        },
+        {
+          "id": "v2-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-1",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-2"
+          ]
+        },
+        {
+          "id": "v2-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-3",
+              "attributes": {
+                "class": "classic-intro"
+              }
+            }
+          ],
+          "legacyIds": [
+            "v2-text-6",
+            "v2-text-7"
+          ]
+        },
+        {
+          "id": "v2-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-5",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-10"
+          ]
+        },
+        {
+          "id": "v2-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-7",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-13"
+          ]
+        },
+        {
+          "id": "v2-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-9",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-16"
+          ]
+        },
+        {
+          "id": "v2-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-11",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-19"
+          ]
+        },
+        {
+          "id": "v2-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-13",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-22"
+          ]
+        },
+        {
+          "id": "v2-prose-7",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-16",
+              "attributes": {}
+            },
+            {
+              "id": "v2-rich-17",
+              "attributes": {}
+            },
+            {
+              "id": "v2-rich-18",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-28",
+            "v2-text-29",
+            "v2-text-30"
+          ]
+        },
+        {
+          "id": "v2-prose-8",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-21",
+              "attributes": {}
+            },
+            {
+              "id": "v2-rich-22",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-35",
+            "v2-text-36"
+          ]
+        },
+        {
+          "id": "v2-prose-9",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 5",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-25",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-41"
+          ]
+        },
+        {
+          "id": "v2-prose-10",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 6",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-27",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-45"
+          ]
+        },
+        {
+          "id": "v2-prose-11",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 7",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-30",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-52"
+          ]
+        },
+        {
+          "id": "v2-prose-12",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 7",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-31",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-55"
+          ]
+        },
+        {
+          "id": "v2-prose-13",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 7",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-32",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-57"
+          ]
+        },
+        {
+          "id": "v2-prose-14",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 7",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-33",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-59"
+          ]
+        },
+        {
+          "id": "v2-prose-15",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 7",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-34",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "v2-text-61"
+          ]
+        },
+        {
+          "id": "v2-prose-16",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "v2-rich-36",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "v2-text-63"
           ]
@@ -4469,7 +5732,8 @@
           "template": "<cms-text data-cms=\"about-me-text-0\">About me</cms-text>",
           "legacyIds": [
             "about-me-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-1",
@@ -4480,7 +5744,8 @@
           "template": "<cms-text data-cms=\"about-me-text-1\">Local knowledge. A personal perspective.</cms-text>",
           "legacyIds": [
             "about-me-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-2",
@@ -4491,7 +5756,9 @@
           "template": "<cms-text data-cms=\"about-me-text-2\">I’m Emma, an independent buying agent. I help you find and secure a home in Hertfordshire, west Essex and South Cambridgeshire.</cms-text>",
           "legacyIds": [
             "about-me-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-0"
         },
         {
           "id": "about-me-rich-3",
@@ -4502,7 +5769,9 @@
           "template": "<cms-text data-cms=\"about-me-text-3\">I work for you, the buyer, with your priorities at the heart of the search.</cms-text>",
           "legacyIds": [
             "about-me-text-3"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-0"
         },
         {
           "id": "about-me-rich-4",
@@ -4513,7 +5782,8 @@
           "template": "<cms-text data-cms=\"about-me-text-5\">A place I know well</cms-text>",
           "legacyIds": [
             "about-me-text-5"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-5",
@@ -4524,7 +5794,8 @@
           "template": "<cms-text data-cms=\"about-me-text-6\">More than a postcode</cms-text>",
           "legacyIds": [
             "about-me-text-6"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-6",
@@ -4535,7 +5806,9 @@
           "template": "<cms-text data-cms=\"about-me-text-7\">Hertfordshire has been my home for more than 40 years. I know how much the feel of a place can change from one village to the next, and how important those differences are when choosing where to live.</cms-text>",
           "legacyIds": [
             "about-me-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-1"
         },
         {
           "id": "about-me-rich-7",
@@ -4546,7 +5819,9 @@
           "template": "<cms-text data-cms=\"about-me-text-8\">I help you look beyond the particulars: the setting, the surrounding area and how a home could work for your everyday life.</cms-text>",
           "legacyIds": [
             "about-me-text-8"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-1"
         },
         {
           "id": "about-me-rich-8",
@@ -4557,7 +5832,8 @@
           "template": "<cms-text data-cms=\"about-me-text-9\">My background</cms-text>",
           "legacyIds": [
             "about-me-text-9"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-9",
@@ -4568,7 +5844,8 @@
           "template": "<cms-text data-cms=\"about-me-text-10\">A considered approach</cms-text>",
           "legacyIds": [
             "about-me-text-10"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-10",
@@ -4579,7 +5856,9 @@
           "template": "<cms-text data-cms=\"about-me-text-11\">After studying law at UCL, I qualified as a chartered accountant with a Big Five firm and spent ten years in investment banking in the City.</cms-text>",
           "legacyIds": [
             "about-me-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-2"
         },
         {
           "id": "about-me-rich-11",
@@ -4590,7 +5869,9 @@
           "template": "<cms-text data-cms=\"about-me-text-12\">That background informs the way I work: careful research, attention to detail and a clear head when it comes to negotiating a purchase.</cms-text>",
           "legacyIds": [
             "about-me-text-12"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-2"
         },
         {
           "id": "about-me-rich-12",
@@ -4601,7 +5882,8 @@
           "template": "<cms-text data-cms=\"about-me-text-13\">Independent by choice</cms-text>",
           "legacyIds": [
             "about-me-text-13"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-13",
@@ -4612,7 +5894,8 @@
           "template": "<cms-text data-cms=\"about-me-text-14\">You work directly with me</cms-text>",
           "legacyIds": [
             "about-me-text-14"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-14",
@@ -4623,7 +5906,9 @@
           "template": "<cms-text data-cms=\"about-me-text-15\">I take on a small number of searches so I can give each client personal attention. From understanding your brief to keeping a purchase moving, I stay involved throughout.</cms-text>",
           "legacyIds": [
             "about-me-text-15"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-3"
         },
         {
           "id": "about-me-rich-15",
@@ -4634,7 +5919,9 @@
           "template": "<cms-text data-cms=\"about-me-text-16\">My role is to be on your side: offering an independent view, helping you weigh up the options and knowing when a property is worth pursuing — or when it is time to walk away.</cms-text>",
           "legacyIds": [
             "about-me-text-16"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-3"
         },
         {
           "id": "about-me-rich-16",
@@ -4645,7 +5932,8 @@
           "template": "<cms-text data-cms=\"about-me-text-18\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "about-me-text-18"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "about-me-rich-17",
@@ -4654,6 +5942,108 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"about-me-text-19\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "about-me-text-19"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-4"
+        },
+        {
+          "id": "about-me-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-2",
+              "attributes": {}
+            },
+            {
+              "id": "about-me-rich-3",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-2",
+            "about-me-text-3"
+          ]
+        },
+        {
+          "id": "about-me-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-6",
+              "attributes": {}
+            },
+            {
+              "id": "about-me-rich-7",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-7",
+            "about-me-text-8"
+          ]
+        },
+        {
+          "id": "about-me-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-10",
+              "attributes": {}
+            },
+            {
+              "id": "about-me-rich-11",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-11",
+            "about-me-text-12"
+          ]
+        },
+        {
+          "id": "about-me-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-14",
+              "attributes": {}
+            },
+            {
+              "id": "about-me-rich-15",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-15",
+            "about-me-text-16"
+          ]
+        },
+        {
+          "id": "about-me-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-17",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "about-me-text-19"
           ]
@@ -4916,7 +6306,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-0\">Areas I cover</cms-text>",
           "legacyIds": [
             "areas-covered-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-1",
@@ -4927,7 +6318,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-1\">Finding the right place is part of finding the right home.</cms-text>",
           "legacyIds": [
             "areas-covered-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-2",
@@ -4938,7 +6330,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-2\">Hertfordshire is at the heart of my work. I also help buyers find homes in west Essex and South Cambridgeshire.</cms-text>",
           "legacyIds": [
             "areas-covered-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-0"
         },
         {
           "id": "areas-covered-rich-3",
@@ -4949,7 +6343,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-3\">We can start with a favourite village or a much broader brief. I’ll help you focus on the places that fit the way you want to live.</cms-text>",
           "legacyIds": [
             "areas-covered-text-3"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-0"
         },
         {
           "id": "areas-covered-rich-4",
@@ -4960,7 +6356,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-4\">Hertfordshire</cms-text>",
           "legacyIds": [
             "areas-covered-text-4"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-5",
@@ -4971,7 +6368,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-5\">Local knowledge, built over years</cms-text>",
           "legacyIds": [
             "areas-covered-text-5"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-6",
@@ -4982,7 +6380,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-6\">Having lived in Hertfordshire for more than 40 years, I bring a personal understanding of its towns, villages and countryside to your search.</cms-text>",
           "legacyIds": [
             "areas-covered-text-6"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-1"
         },
         {
           "id": "areas-covered-rich-7",
@@ -4993,7 +6393,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-7\">A home’s setting can be as important as the house itself. We can explore what matters to you, from village life and access to the countryside to schools, commuting and day-to-day convenience.</cms-text>",
           "legacyIds": [
             "areas-covered-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-1"
         },
         {
           "id": "areas-covered-rich-8",
@@ -5004,7 +6406,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-9\">My search area focuses on Hertfordshire, west Essex and South Cambridgeshire. The map is illustrative; please contact me about a particular location.</cms-text>",
           "legacyIds": [
             "areas-covered-text-9"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-2"
         },
         {
           "id": "areas-covered-rich-9",
@@ -5015,7 +6419,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-10\">West Essex</cms-text>",
           "legacyIds": [
             "areas-covered-text-10"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-10",
@@ -5026,7 +6431,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-11\">Looking across the border</cms-text>",
           "legacyIds": [
             "areas-covered-text-11"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-11",
@@ -5037,7 +6443,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-12\">A search need not stop at a county boundary. If west Essex is part of your plans, I can help you consider it alongside neighbouring Hertfordshire and understand which locations best match your brief.</cms-text>",
           "legacyIds": [
             "areas-covered-text-12"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-3"
         },
         {
           "id": "areas-covered-rich-12",
@@ -5048,7 +6456,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-13\">South Cambridgeshire</cms-text>",
           "legacyIds": [
             "areas-covered-text-13"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-13",
@@ -5059,7 +6468,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-14\">A wider view of your options</cms-text>",
           "legacyIds": [
             "areas-covered-text-14"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-14",
@@ -5070,7 +6480,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-15\">I also work with buyers considering South Cambridgeshire. We can discuss the areas you are drawn to and the balance you want between your home, work and everyday life.</cms-text>",
           "legacyIds": [
             "areas-covered-text-15"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-4"
         },
         {
           "id": "areas-covered-rich-15",
@@ -5081,7 +6493,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-16\">Still deciding where to look?</cms-text>",
           "legacyIds": [
             "areas-covered-text-16"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-16",
@@ -5092,7 +6505,9 @@
           "template": "<cms-text data-cms=\"areas-covered-text-17\">You do not need to have chosen a postcode before we speak. Tell me what you enjoy about where you live now, what you would like to change and what your next home needs to offer.</cms-text>",
           "legacyIds": [
             "areas-covered-text-17"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-5"
         },
         {
           "id": "areas-covered-rich-17",
@@ -5103,7 +6518,8 @@
           "template": "<cms-text data-cms=\"areas-covered-text-19\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "areas-covered-text-19"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "areas-covered-rich-18",
@@ -5112,6 +6528,132 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"areas-covered-text-20\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "areas-covered-text-20"
+          ],
+          "paragraph": true,
+          "editorGroup": "areas-covered-prose-6"
+        },
+        {
+          "id": "areas-covered-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-2",
+              "attributes": {}
+            },
+            {
+              "id": "areas-covered-rich-3",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "areas-covered-text-2",
+            "areas-covered-text-3"
+          ]
+        },
+        {
+          "id": "areas-covered-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-6",
+              "attributes": {}
+            },
+            {
+              "id": "areas-covered-rich-7",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "areas-covered-text-6",
+            "areas-covered-text-7"
+          ]
+        },
+        {
+          "id": "areas-covered-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-8",
+              "attributes": {
+                "class": "map-note"
+              }
+            }
+          ],
+          "legacyIds": [
+            "areas-covered-text-9"
+          ]
+        },
+        {
+          "id": "areas-covered-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-11",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "areas-covered-text-12"
+          ]
+        },
+        {
+          "id": "areas-covered-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-14",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "areas-covered-text-15"
+          ]
+        },
+        {
+          "id": "areas-covered-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-16",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "areas-covered-text-17"
+          ]
+        },
+        {
+          "id": "areas-covered-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "areas-covered-rich-18",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "areas-covered-text-20"
           ]
@@ -5308,7 +6850,8 @@
           "template": "<cms-text data-cms=\"contact-text-0\">Contact me</cms-text>",
           "legacyIds": [
             "contact-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "contact-rich-1",
@@ -5319,7 +6862,8 @@
           "template": "<cms-text data-cms=\"contact-text-1\">Your next home starts with a conversation.</cms-text>",
           "legacyIds": [
             "contact-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "contact-rich-2",
@@ -5330,7 +6874,9 @@
           "template": "<cms-text data-cms=\"contact-text-2\">Whether you have a clear idea of your next home or are still working out where to begin, I would love to hear from you.</cms-text>",
           "legacyIds": [
             "contact-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "contact-prose-0"
         },
         {
           "id": "contact-rich-3",
@@ -5341,7 +6887,9 @@
           "template": "<cms-text data-cms=\"contact-text-5\">You’ll speak directly to me about your search, the areas you are considering and the support you need.</cms-text>",
           "legacyIds": [
             "contact-text-5"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "contact-prose-1"
         },
         {
           "id": "contact-rich-4",
@@ -5352,7 +6900,8 @@
           "template": "<cms-text data-cms=\"contact-text-6\">Call me</cms-text>",
           "legacyIds": [
             "contact-text-6"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "contact-rich-5",
@@ -5363,7 +6912,9 @@
           "template": "<cms-text data-cms=\"contact-text-8\">A conversation is a good place to start.</cms-text>",
           "legacyIds": [
             "contact-text-8"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "contact-prose-2"
         },
         {
           "id": "contact-rich-6",
@@ -5374,7 +6925,8 @@
           "template": "<cms-text data-cms=\"contact-text-9\">Email me</cms-text>",
           "legacyIds": [
             "contact-text-9"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "contact-rich-7",
@@ -5385,7 +6937,9 @@
           "template": "<cms-text data-cms=\"contact-text-11\">Tell me a little about your plans and what matters to you.</cms-text>",
           "legacyIds": [
             "contact-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "contact-prose-3"
         },
         {
           "id": "contact-rich-8",
@@ -5396,7 +6950,8 @@
           "template": "<cms-text data-cms=\"contact-text-12\">My local focus</cms-text>",
           "legacyIds": [
             "contact-text-12"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "contact-rich-9",
@@ -5408,7 +6963,8 @@
           "legacyIds": [
             "contact-text-13",
             "contact-text-14"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "contact-rich-10",
@@ -5417,6 +6973,88 @@
           "section": "Section 3",
           "value": null,
           "template": "<cms-text data-cms=\"contact-text-15\">My service is personal, independent and tailored to your search. If you are considering a move in or around these areas, get in touch to discuss it with me.</cms-text>",
+          "legacyIds": [
+            "contact-text-15"
+          ],
+          "paragraph": true,
+          "editorGroup": "contact-prose-4"
+        },
+        {
+          "id": "contact-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "contact-rich-2",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "contact-text-2"
+          ]
+        },
+        {
+          "id": "contact-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "contact-rich-3",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "contact-text-5"
+          ]
+        },
+        {
+          "id": "contact-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "contact-rich-5",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "contact-text-8"
+          ]
+        },
+        {
+          "id": "contact-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "contact-rich-7",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "contact-text-11"
+          ]
+        },
+        {
+          "id": "contact-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "contact-rich-10",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "contact-text-15"
           ]
@@ -5639,7 +7277,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-0\">My property-search guide</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-1",
@@ -5650,7 +7289,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-1\">Finding a home beyond the property portals.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-2",
@@ -5661,7 +7301,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-2\">Waiting for a listing can leave you seeing only part of the picture. Here is how I approach a search that includes private and pre-market opportunities.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-0"
         },
         {
           "id": "guides--finding-off-market-homes-rich-3",
@@ -5672,7 +7314,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-3\">Start with what matters to you</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-3"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-4",
@@ -5683,7 +7326,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-4\">Before looking for a property, get clear about the life you want it to support. Think about location, space, budget and timing, as well as the things you could compromise on. A focused brief makes it easier to recognise a suitable opportunity.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-4"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-1"
         },
         {
           "id": "guides--finding-off-market-homes-rich-5",
@@ -5694,7 +7339,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-5\">Understand why a home may be sold privately</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-5"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-6",
@@ -5705,7 +7351,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-6\">Not every seller wants a public launch. Some value privacy; others want to explore demand before committing to a wider marketing campaign. An agent may also introduce a home to a few suitable buyers before it appears online.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-6"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-2"
         },
         {
           "id": "guides--finding-off-market-homes-rich-7",
@@ -5716,7 +7364,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-7\">These situations are different from one another. Understanding the seller’s intentions helps you decide how to approach the opportunity.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-2"
         },
         {
           "id": "guides--finding-off-market-homes-rich-8",
@@ -5727,7 +7377,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-8\">Keep conversations going</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-8"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-9",
@@ -5738,7 +7389,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-9\">Off-market searches depend on people as much as property listings. I stay in touch with local agents and contacts, explain my clients’ requirements and explore relevant introductions. Where appropriate, I also approach homeowners directly.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-9"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-3"
         },
         {
           "id": "guides--finding-off-market-homes-rich-10",
@@ -5749,7 +7402,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-10\">Be clear about your buying position</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-10"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-11",
@@ -5760,7 +7414,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-11\">A seller will want to understand your timing and whether you are in a position to proceed. Having a realistic budget and a clear picture of your own sale, if you have one, helps make those conversations productive.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-4"
         },
         {
           "id": "guides--finding-off-market-homes-rich-12",
@@ -5771,7 +7427,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-12\">Assess the home on its merits</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-12"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-13",
@@ -5782,7 +7439,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-13\">A private sale is not automatically a bargain. Look at how the property meets your needs, its condition, the surrounding area and the asking price. The usual care and professional checks still matter.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-13"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-5"
         },
         {
           "id": "guides--finding-off-market-homes-rich-14",
@@ -5793,7 +7452,9 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-14\">I help my clients weigh up the opportunity, negotiate and keep the purchase progressing. My search includes both openly advertised and privately offered homes: the aim is to find the right fit for you.</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-14"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-5"
         },
         {
           "id": "guides--finding-off-market-homes-rich-15",
@@ -5804,7 +7465,8 @@
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-16\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "guides--finding-off-market-homes-text-16"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "guides--finding-off-market-homes-rich-16",
@@ -5813,6 +7475,130 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"guides--finding-off-market-homes-text-17\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-17"
+          ],
+          "paragraph": true,
+          "editorGroup": "guides--finding-off-market-homes-prose-6"
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-2",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-2"
+          ]
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Page content",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-4",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-4"
+          ]
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Page content",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-6",
+              "attributes": {}
+            },
+            {
+              "id": "guides--finding-off-market-homes-rich-7",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-6",
+            "guides--finding-off-market-homes-text-7"
+          ]
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Page content",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-9",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-9"
+          ]
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Page content",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-11",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-11"
+          ]
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Page content",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-13",
+              "attributes": {}
+            },
+            {
+              "id": "guides--finding-off-market-homes-rich-14",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "guides--finding-off-market-homes-text-13",
+            "guides--finding-off-market-homes-text-14"
+          ]
+        },
+        {
+          "id": "guides--finding-off-market-homes-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "guides--finding-off-market-homes-rich-16",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "guides--finding-off-market-homes-text-17"
           ]
@@ -6073,7 +7859,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-0\">How I can help you</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-1",
@@ -6084,7 +7871,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-1\">A clearer path to your next home.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-2",
@@ -6095,7 +7883,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-2\">You may be short of time, moving to an unfamiliar area or simply struggling to find the right property. I bring a local perspective and a focused search to help you move forward.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-0"
         },
         {
           "id": "how-i-can-help-you-rich-3",
@@ -6106,7 +7896,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-4\">Working together</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-4"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-4",
@@ -6118,7 +7909,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-5",
             "how-i-can-help-you-text-6"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-5",
@@ -6129,7 +7921,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-7\">Every move is different. I tailor the search around you, offering a considered view of each opportunity and practical support at each stage.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-1"
         },
         {
           "id": "how-i-can-help-you-rich-6",
@@ -6140,7 +7934,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-8\">As a buying agent, I work for you. My advice is independent of the seller and the selling agent.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-8"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-1"
         },
         {
           "id": "how-i-can-help-you-rich-7",
@@ -6151,7 +7947,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-10\">First, I listen</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-10"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-8",
@@ -6162,7 +7959,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-11\">We talk about the home you want, the way you live and the areas you are considering. I help you turn your priorities into a clear search brief, including what you can be flexible about.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-2"
         },
         {
           "id": "how-i-can-help-you-rich-9",
@@ -6173,7 +7972,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-12\">I look beyond the listings</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-12"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-10",
@@ -6184,7 +7984,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-13\">I research the market and speak with local agents and contacts. Alongside publicly advertised homes, I look for opportunities being discussed privately or before they come to market.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-13"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-3"
         },
         {
           "id": "how-i-can-help-you-rich-11",
@@ -6195,7 +7997,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-14\">I help you make sense of the options</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-14"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-12",
@@ -6206,7 +8009,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-15\">I can preview homes to save you time and accompany you on viewings. We look carefully at the property, its setting and how well it meets your brief.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-15"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-4"
         },
         {
           "id": "how-i-can-help-you-rich-13",
@@ -6217,7 +8022,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-16\">I negotiate on your behalf</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-16"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-14",
@@ -6228,7 +8034,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-17\">When the right opportunity comes along, I help you assess it and negotiate the price and terms. I represent your interests throughout the conversation.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-17"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-5"
         },
         {
           "id": "how-i-can-help-you-rich-15",
@@ -6239,7 +8047,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-18\">I stay involved through completion</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-18"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-16",
@@ -6250,7 +8059,9 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-19\">I liaise with agents, solicitors and other professionals to help keep the purchase progressing. You have someone who knows your search alongside you through exchange and completion.</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-19"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-6"
         },
         {
           "id": "how-i-can-help-you-rich-17",
@@ -6261,7 +8072,8 @@
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-20\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "how-i-can-help-you-text-20"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "how-i-can-help-you-rich-18",
@@ -6270,6 +8082,141 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"how-i-can-help-you-text-21\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-21"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-7"
+        },
+        {
+          "id": "how-i-can-help-you-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-2",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-2"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-5",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-6",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-7",
+            "how-i-can-help-you-text-8"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-8",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-11"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-10",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-13"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-12",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-15"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-14",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-17"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-16",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-19"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-7",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-18",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "how-i-can-help-you-text-21"
           ]
@@ -6581,7 +8528,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-0\">Off-market homes in Hertfordshire</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-1",
@@ -6592,7 +8540,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-1\">Your next home may not be on a property portal.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-2",
@@ -6603,7 +8552,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-2\">Some homes change hands quietly, without ever being advertised publicly. I help you explore those possibilities alongside the open market.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-0"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-3",
@@ -6614,7 +8565,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-4\">Looking beyond the listings</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-4"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-4",
@@ -6625,7 +8577,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-5\">What does off-market mean?</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-5"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-5",
@@ -6636,7 +8589,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-6\">An off-market home is offered privately, rather than advertised to everyone. A seller may value discretion, want to explore interest before launching, or prefer a quieter sale.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-6"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-1"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-6",
@@ -6647,7 +8602,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-7\">A pre-market opportunity is a little different: the property may be due to launch publicly, but an agent is already speaking to suitable buyers.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-1"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-7",
@@ -6658,7 +8615,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-8\">My local approach</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-8"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-8",
@@ -6669,7 +8627,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-9\">Conversations open doors</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-9"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-9",
@@ -6680,7 +8639,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-10\">I draw on relationships with local agents, word of mouth and direct approaches to homeowners. A clear brief helps me explain what you are looking for and recognise an opportunity that could fit.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-10"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-2"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-10",
@@ -6691,7 +8652,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-11\">Hertfordshire is my main focus. I also help buyers searching in west Essex and South Cambridgeshire.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-2"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-11",
@@ -6702,7 +8665,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-13\">A considered search</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-13"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-12",
@@ -6713,7 +8677,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-14\">The right fit matters more than the label</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-14"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-13",
@@ -6724,7 +8689,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-15\">Off-market does not automatically mean better value, and it does not guarantee an easier purchase. I look carefully at each home, its price and its suitability for you, whether it is being sold privately or openly.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-15"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-3"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-14",
@@ -6735,7 +8702,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-16\">Private opportunities change with the market and your brief. I cannot promise a particular property will be available, but I can help you search more widely and make an informed decision.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-16"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-3"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-15",
@@ -6746,7 +8715,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-18\">Your questions</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-18"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-16",
@@ -6757,7 +8727,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-19\">A little more about buying privately</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-19"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-17",
@@ -6768,7 +8739,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-21\">Private sellers often do not want their homes advertised. I discuss relevant opportunities with clients individually, based on their search brief and the seller’s wishes.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-21"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-4"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-18",
@@ -6779,7 +8752,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-23\">It helps to be clear about your budget, timing and buying position. We can discuss these at the start so I can approach opportunities with a realistic understanding of your circumstances.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-23"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-5"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-19",
@@ -6790,7 +8765,9 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-25\">Yes. My search is led by what suits you. I consider publicly marketed homes as well as private and pre-market opportunities.</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-25"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-6"
         },
         {
           "id": "off-market-homes-hertfordshire-rich-20",
@@ -6801,7 +8778,8 @@
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-26\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "off-market-homes-hertfordshire-text-26"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "off-market-homes-hertfordshire-rich-21",
@@ -6810,6 +8788,151 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-27\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-27"
+          ],
+          "paragraph": true,
+          "editorGroup": "off-market-homes-hertfordshire-prose-7"
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-2",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-2"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-5",
+              "attributes": {}
+            },
+            {
+              "id": "off-market-homes-hertfordshire-rich-6",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-6",
+            "off-market-homes-hertfordshire-text-7"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-9",
+              "attributes": {}
+            },
+            {
+              "id": "off-market-homes-hertfordshire-rich-10",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-10",
+            "off-market-homes-hertfordshire-text-11"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-13",
+              "attributes": {}
+            },
+            {
+              "id": "off-market-homes-hertfordshire-rich-14",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-15",
+            "off-market-homes-hertfordshire-text-16"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-17",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-21"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-18",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-23"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 4",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-19",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "off-market-homes-hertfordshire-text-25"
+          ]
+        },
+        {
+          "id": "off-market-homes-hertfordshire-prose-7",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "off-market-homes-hertfordshire-rich-21",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "off-market-homes-hertfordshire-text-27"
           ]
@@ -7100,7 +9223,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-0\">My services &amp; fees</cms-text>",
           "legacyIds": [
             "services-and-fees-text-0"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-1",
@@ -7111,7 +9235,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-1\">Personal support, from the first conversation to the keys.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-1"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-2",
@@ -7122,7 +9247,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-2\">Finding a home takes time, local knowledge and a clear sense of what matters. I bring those together in a search shaped around you.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-2"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-0"
         },
         {
           "id": "services-and-fees-rich-3",
@@ -7133,7 +9260,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-4\">Search &amp; acquisition</cms-text>",
           "legacyIds": [
             "services-and-fees-text-4"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-4",
@@ -7144,7 +9272,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-5\">One service, throughout your move</cms-text>",
           "legacyIds": [
             "services-and-fees-text-5"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-5",
@@ -7155,7 +9284,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-6\">I help you define your brief, research suitable homes and explore opportunities on and off the open market. I can preview properties for you, accompany you on viewings and offer an independent assessment of the options.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-6"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-1"
         },
         {
           "id": "services-and-fees-rich-6",
@@ -7166,7 +9297,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-7\">When you find the right home, I negotiate the price and terms on your behalf, then liaise with the people involved to help keep the purchase moving through exchange and completion.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-7"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-1"
         },
         {
           "id": "services-and-fees-rich-7",
@@ -7177,7 +9310,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-9\">Time for your search</cms-text>",
           "legacyIds": [
             "services-and-fees-text-9"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-8",
@@ -7188,7 +9322,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-10\">A small number of clients</cms-text>",
           "legacyIds": [
             "services-and-fees-text-10"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-9",
@@ -7199,7 +9334,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-11\">I work with a limited number of buyers so I can give each search the attention it needs. I do not take on clients whose requirements would put them in direct competition with one another.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-11"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-2"
         },
         {
           "id": "services-and-fees-rich-10",
@@ -7210,7 +9347,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-12\">Some searches come together quickly; others need more time. We will discuss your circumstances and agree the scope of my involvement before we begin.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-12"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-2"
         },
         {
           "id": "services-and-fees-rich-11",
@@ -7221,7 +9360,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-13\">My fees</cms-text>",
           "legacyIds": [
             "services-and-fees-text-13"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-12",
@@ -7232,7 +9372,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-14\">Clear from the outset</cms-text>",
           "legacyIds": [
             "services-and-fees-text-14"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-13",
@@ -7243,7 +9384,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-15\">My fee has two parts: an initial retainer to begin the search, followed by a success fee when you purchase. The exact fee and terms are agreed with you before I start work.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-15"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-3"
         },
         {
           "id": "services-and-fees-rich-14",
@@ -7254,7 +9397,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-16\">Get in touch to discuss the service that is right for your search.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-16"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-3"
         },
         {
           "id": "services-and-fees-rich-15",
@@ -7265,7 +9410,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-18\">Initial retainer</cms-text>",
           "legacyIds": [
             "services-and-fees-text-18"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-16",
@@ -7276,7 +9422,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-19\">Typically £1,500, plus VAT.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-19"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-4"
         },
         {
           "id": "services-and-fees-rich-17",
@@ -7287,7 +9435,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-20\">Success fee</cms-text>",
           "legacyIds": [
             "services-and-fees-text-20"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-18",
@@ -7298,7 +9447,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-21\">Typically 1–1.5% of the purchase price, plus VAT.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-21"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-5"
         },
         {
           "id": "services-and-fees-rich-19",
@@ -7309,7 +9460,9 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-22\">These are indicative fees. I will confirm the full fee arrangement and payment terms for your search in writing.</cms-text>",
           "legacyIds": [
             "services-and-fees-text-22"
-          ]
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-5"
         },
         {
           "id": "services-and-fees-rich-20",
@@ -7320,7 +9473,8 @@
           "template": "<cms-text data-cms=\"services-and-fees-text-23\">Let’s talk about your next home</cms-text>",
           "legacyIds": [
             "services-and-fees-text-23"
-          ]
+          ],
+          "paragraph": false
         },
         {
           "id": "services-and-fees-rich-21",
@@ -7329,6 +9483,140 @@
           "section": "Contact",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-24\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "services-and-fees-text-24"
+          ],
+          "paragraph": true,
+          "editorGroup": "services-and-fees-prose-6"
+        },
+        {
+          "id": "services-and-fees-prose-0",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 1",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-2",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "services-and-fees-text-2"
+          ]
+        },
+        {
+          "id": "services-and-fees-prose-1",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-5",
+              "attributes": {}
+            },
+            {
+              "id": "services-and-fees-rich-6",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "services-and-fees-text-6",
+            "services-and-fees-text-7"
+          ]
+        },
+        {
+          "id": "services-and-fees-prose-2",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 2",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-9",
+              "attributes": {}
+            },
+            {
+              "id": "services-and-fees-rich-10",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "services-and-fees-text-11",
+            "services-and-fees-text-12"
+          ]
+        },
+        {
+          "id": "services-and-fees-prose-3",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-13",
+              "attributes": {}
+            },
+            {
+              "id": "services-and-fees-rich-14",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "services-and-fees-text-15",
+            "services-and-fees-text-16"
+          ]
+        },
+        {
+          "id": "services-and-fees-prose-4",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-16",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "services-and-fees-text-19"
+          ]
+        },
+        {
+          "id": "services-and-fees-prose-5",
+          "type": "prose",
+          "label": "Content",
+          "section": "Section 3",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-18",
+              "attributes": {}
+            },
+            {
+              "id": "services-and-fees-rich-19",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "services-and-fees-text-21",
+            "services-and-fees-text-22"
+          ]
+        },
+        {
+          "id": "services-and-fees-prose-6",
+          "type": "prose",
+          "label": "Content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "services-and-fees-rich-21",
+              "attributes": {}
+            }
+          ],
           "legacyIds": [
             "services-and-fees-text-24"
           ]

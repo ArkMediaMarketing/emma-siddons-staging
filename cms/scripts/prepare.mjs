@@ -79,10 +79,22 @@ async function instrument(file) {
    const parts=block.find('cms-text').toArray().map(node=>$(node).attr('data-cms'));if(!parts.length)return;
    const key=`${scope==='main'?id:scope}-rich-${groupIndex++}`;
    const tag=el.name,role=/^h[1-6]$/.test(tag)?tag==='h1'?'Main heading':'Section heading':block.hasClass('eyebrow')?'Section label':tag==='blockquote'?'Review quote':tag==='figcaption'?'Image caption':sectionName(el)==='Hero'?'Introduction':'Body content';
-   const rich={id:key,type:'richtext',label:labelFor(el,role),section:sectionName(el),value:null,template:block.html(),legacyIds:parts};
+   const rich={id:key,type:'richtext',label:labelFor(el,role),section:sectionName(el),value:null,template:block.html(),legacyIds:parts,paragraph:tag==='p'&&!block.hasClass('eyebrow')};
    for(const field of fields)if(parts.includes(field.id))field.editorGroup=key;
    block.attr('data-cms-rich',key);fields.push(rich);
   });
+  // One editor per adjacent run of body paragraphs; retain prior rich fields for compatibility.
+  const paragraphFields=fields.filter(f=>f.paragraph),visited=new Set();let proseIndex=0;
+  for(const first of paragraphFields){
+   if(visited.has(first.id))continue;
+   let node=container.find(`[data-cms-rich="${first.id}"]`),blocks=[];
+   while(node.length){const field=paragraphFields.find(f=>f.id===node.attr('data-cms-rich'));if(!field||visited.has(field.id))break;visited.add(field.id);blocks.push({id:field.id,attributes:Object.fromEntries(Object.entries(node[0].attribs).filter(([key])=>!key.startsWith('data-cms')))});node=node.next();}
+   const key=`${scope==='main'?id:scope}-prose-${proseIndex++}`;
+   const members=blocks.map(b=>fields.find(f=>f.id===b.id));
+   const prose={id:key,type:'prose',label:first.section==='Hero'?'Introduction':'Content',section:first.section,value:null,blocks,legacyIds:members.flatMap(f=>f.legacyIds)};
+   for(const member of members)member.editorGroup=key;
+   container.find(`[data-cms-rich="${first.id}"]`).attr('data-cms-prose',key);fields.push(prose);
+  }
   if(scope==='main') doc.fields.push(...fields);
   else if(!globals[scope]) globals[scope]={id:scope,title:scope==='header'?'Header & navigation':'Footer',route:'/',fields};
  }
