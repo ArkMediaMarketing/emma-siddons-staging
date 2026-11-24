@@ -23,7 +23,7 @@
 .new-home h3 { font-size: var(--nh-subheading); line-height: 1.2; margin: 0 0 var(--nh-space-sm); }
 .new-home em { font-weight: 400; color: var(--green); }
 .new-home :is(h1,h2,h3,h4,h5,h6),
-.new-home :is(h1,h2,h3,h4,h5,h6) em { font-style: normal; font-weight: 600; }
+.new-home :is(h1,h2,h3,h4,h5,h6) em { font-style: normal; font-weight: 500; }
 .new-home p { font-size: var(--nh-body); line-height: var(--nh-leading); margin: 0 0 var(--nh-space-md); }
 .new-home .nh-lead { font-size: var(--nh-lead); line-height: 1.6; }
 .new-home .eyebrow { font: var(--nh-label)/1.6 var(--sans); letter-spacing: .19em; color: var(--green); margin: 0 0 var(--nh-space-md); text-transform: uppercase; }
