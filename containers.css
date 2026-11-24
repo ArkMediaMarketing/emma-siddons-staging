@@ -1,0 +1,63 @@
+/* Shared outer geometry for /, /home-new/ and /v2/ only.
+   Section backgrounds and intentional full-bleed images remain on their sections. */
+.container-pages {
+  container-type: inline-size;
+  --site-container-max: 1600px;
+  --site-gutter: 5cqw;
+}
+.container-pages .site-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--site-container-max);
+  margin-inline: auto;
+  padding-inline: var(--site-gutter);
+  min-width: 0;
+}
+/* Footer and contact backgrounds span the viewport; their rows are contained. */
+.container-pages .footer {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+.container-pages .page-footer__inner,
+.container-pages .page-contact__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+.container-pages .classic-home > .contact {
+  display: block;
+  padding-inline: 0;
+}
+/* Match the shared container without constraining the hero photograph. */
+.container-pages .nh-hero__copy { padding-left: var(--site-gutter); }
+.container-pages .nh-offmarket__copy {
+  padding-right: max(var(--site-gutter), calc((100cqw - var(--site-container-max)) / 2 + var(--site-gutter)));
+}
+@media (max-width: 1350px) {
+  .container-pages { --site-gutter: 4cqw; }
+}
+@media (max-width: 1300px) {
+  .container-pages .page-footer__inner,
+  .container-pages .page-contact__inner { flex-wrap: wrap; }
+}
+@media (max-width: 1100px) {
+  .container-pages { --site-gutter: 5cqw; }
+  .container-pages .page-footer__inner,
+  .container-pages .page-contact__inner { gap: 20px; }
+}
+@media (max-width: 800px) {
+  .container-pages .page-footer__inner { flex-wrap: wrap; gap: 25px; }
+  .container-pages .page-contact__inner { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 600px) {
+  .container-pages .nh-hero__copy,
+  .container-pages .nh-offmarket__copy { padding-inline: var(--site-gutter); }
+}
+@media (max-width: 540px) {
+  .container-pages { --site-gutter: 6cqw; }
+  .container-pages .page-footer__inner { align-items: flex-start; }
+}
