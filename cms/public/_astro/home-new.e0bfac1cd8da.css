@@ -53,13 +53,13 @@
 .nh-photo-caption span:last-child { font: 11px/1.5 var(--serif); letter-spacing: .04em; color: var(--green); }
 .nh-assurance { grid-template-rows: minmax(180px,auto); padding-block: 32px; display: grid; grid-template-columns: minmax(0,.8fr) repeat(2,minmax(0,1fr)); column-gap: var(--nh-card-gap); row-gap: 16px; align-items: stretch; }
 .new-home .nh-assurance { border-bottom: 1px solid var(--nh-divider); }
-.nh-reviews__summary { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; }
+.nh-reviews__summary { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; }
 .new-home .nh-reviews__summary .nh-reviews__label { margin-bottom: 0; }
 .nh-assurance .nh-stars { font-size: 21px; letter-spacing: 2px; white-space: nowrap; }
 .new-home .nh-reviews__summary .nh-review-rating { font: 18px/1.6 var(--serif); margin: 0; }
 .nh-reviews__summary strong { font-weight: 500; color: var(--green); }
 .nh-reviews__summary .nh-review-rating > span { display: block; color: var(--muted); font-size: 18px; }
-.nh-review { margin: 0; padding-left: 30px; border-left: 1px solid var(--nh-divider); display: flex; flex-direction: column; justify-content: flex-start; gap: 10px; }
+.nh-review { margin: 0; padding-left: 30px; border-left: 1px solid var(--nh-divider); display: flex; flex-direction: column; justify-content: center; gap: 10px; }
 .nh-review blockquote { margin: 0; }
 .new-home .nh-review blockquote p { font-size: 20px; line-height: 1.45; margin: 0; color: var(--ink); }
 .nh-review figcaption { font: 16px/1.6 var(--serif); color: var(--green); }
