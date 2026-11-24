@@ -1,7 +1,7 @@
 /** Editorial names are explicit metadata, independent of editable copy. */
 const sections={
  home:['Hero','Client reviews','Property search service','About me','Areas covered','Off-market homes','Contact'],
- 'home-new':['Hero','Credentials','About Emma','Buyer benefits','Off-market homes','Buying process','Services & fees','Areas covered','Client testimonial','Off-market guide','Frequently asked questions','Contact'],
+ 'home-new':['Hero','Credentials','About Emma','Buyer benefits','Off-market homes','Buying process','Services & fees','Areas covered','Client testimonial','Off-market guide','Frequently asked questions','Contact','Client reviews'],
  v2:['Hero','Property search service','About Emma','Off-market homes','Areas covered','Client testimonial','Frequently asked questions','Contact'],
  'about-me':['Introduction','Local knowledge & background','Personal service','Contact'],
  'areas-covered':['Introduction','Hertfordshire','Neighbouring counties','Choosing an area','Contact'],
