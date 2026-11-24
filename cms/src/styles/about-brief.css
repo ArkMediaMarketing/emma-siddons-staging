@@ -34,7 +34,7 @@
 
 .about-brief{background:#fff}
 /* Profile hero */
-.about-brief .b-hero{background:linear-gradient(150deg,#e7eff4,#f1f4f2 52%,#dfe6da);padding:clamp(40px,6vw,90px) 0 clamp(50px,7vw,100px);overflow:hidden}
+.about-brief .b-hero{background:var(--cream);padding:clamp(40px,6vw,90px) 0 clamp(50px,7vw,100px);overflow:hidden}
 .about-brief .b-hero__grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(36px,6vw,100px);align-items:center}
 .about-brief .b-hero h1{font-size:clamp(40px,4.6vw,70px);line-height:1.04;margin-bottom:22px}
 .about-brief .b-hero .lead{font-size:clamp(17px,1.45vw,21px);color:var(--ink);max-width:31em;margin-bottom:30px}
