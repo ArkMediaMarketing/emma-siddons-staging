@@ -22,5 +22,5 @@ if(process.argv.includes('--capture-original')){
   const doc=catalog.documents.find(d=>d.id===id);if(!doc)throw new Error('CMS document missing: '+id);
   for(const [key,original]of Object.entries(fields)){const field=doc.fields.find(f=>f.id===key);if(!field||JSON.stringify({type:field.type,value:field.value})!==JSON.stringify(original))throw new Error('Legacy field changed: '+key);}
  }
- console.log('PASS: all 16 public page DOMs and all 18 CMS documents match the pre-migration contract.');
+ console.log(`PASS: ${Object.keys(contract.pages).length} retained page DOMs and ${Object.keys(contract.legacyFields).length} CMS documents preserve their content.`);
 }

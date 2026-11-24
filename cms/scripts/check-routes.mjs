@@ -13,6 +13,7 @@ for(const doc of catalog.documents.filter(d=>!['header','footer'].includes(d.id)
  });
 }
 for(const route of targets){const response=await fetch(origin+route);if(response.status!==200)throw new Error(`${route}: ${response.status}`);}
+for(const route of ['/blog/','/post/','/blog/categories/property','/post/it-s-a-minefield/']){const r=await fetch(origin+route);if(r.status!==410)throw new Error('Retired route still available: '+route);}
 const denied=await fetch(origin+'/api/pages');
 if(!origin.includes('localhost')&&denied.status!==401)throw new Error('Production admin API was not protected.');
-console.log(`PASS: 16 pages and ${targets.size} linked internal routes/assets on ${origin}`);
+console.log(`PASS: ${catalog.documents.filter(d=>!['header','footer'].includes(d.id)).length} pages and ${targets.size} linked internal routes/assets on ${origin}`);

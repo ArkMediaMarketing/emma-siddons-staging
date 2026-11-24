@@ -49,6 +49,7 @@ async function render(req:Request,env:CmsEnv,preview=false) {
 }
 export default {async fetch(req:Request,env:CmsEnv){
  const url=new URL(req.url), p=url.pathname;
+ if(/^\/(?:blog|post)(?:\/|\.html(?:\/|$)|$)/i.test(p))return new Response('This page is no longer available.',{status:410,headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow'}});
  try {
   const auth=await authRoute(req,env);if(auth)return auth;
   if(['/admin/login','/admin/login/','/admin/setup','/admin/setup/'].includes(p)) {

@@ -1,6 +1,6 @@
 # Emma Siddons website studio
 
-Astro public website and admin, with HTML/CSS templates, TypeScript interactions, a TypeScript Cloudflare Workers API and persistent Cloudflare D1 content storage. All 16 public pages compile from `src/pages/**/*.astro` through `src/layouts/SiteLayout.astro`. Original CSS and photographs live in `public/` and keep their existing URLs.
+Astro public website and admin, with HTML/CSS templates, TypeScript interactions, a TypeScript Cloudflare Workers API and persistent Cloudflare D1 content storage. All 10 public pages compile from `src/pages/**/*.astro` through `src/layouts/SiteLayout.astro`. Original CSS and photographs live in `public/` and keep their existing URLs.
 
 ## Run locally
 
@@ -18,7 +18,7 @@ The local server uses Node 24 SQLite and executes the same Worker handlers, with
 
 ## Content workflow
 
-- Overview links to 16 pages, shared header/footer, and media.
+- Overview links to 10 pages, shared header/footer, and media.
 - Select a page and then a section. Text, links, SEO title/description and image alternative text are editable.
 - Choose an existing photograph, or upload JPEG, PNG or WebP files up to 1 MB. Uploads are durable in D1. Existing original site images stay at their original quality.
 - Save draft persists private changes. Preview opens saved drafts, including shared content. Publish makes the saved page visible on the Worker-hosted website. Each document publishes independently.
@@ -77,3 +77,5 @@ Multi-user accounts are stored in `administrator_accounts`. Applying `worker/sch
 ## Visual content editing
 
 Headings and paragraphs are edited as complete blocks using the bundled Tiptap editor (bold, italic, underline, links, line breaks and undo/redo). Images, button/link text, destinations and SEO remain separate fields. Labels describe their purpose rather than duplicating content. Original text IDs remain in the schema for saved-content compatibility; grouped fields use nullable overrides and reconstruct untouched content from the original fragments. No database rewrite is required. Both API saves and rendering sanitize rich HTML to permitted inline formatting, stripping scripts, event handlers, styles and unsafe URLs. Existing layouts and public assets remain unchanged.
+
+The blog archive and five post pages have been retired. `/blog`, `/blog/*`, `/post` and `/post/*` return HTTP 410, including old HTML variants. They are absent from the Astro routes and CMS catalog. Historical D1 records are retained for recovery and are not served by the website.
