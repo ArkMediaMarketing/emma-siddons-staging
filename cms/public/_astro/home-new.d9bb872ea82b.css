@@ -199,4 +199,5 @@
   .new-home .nh-text-link svg, .new-home .nh-faq summary span { transition: none; }
 }
 
-.nh-introduction__photo { display: block; width: 100%; height: auto; }
+.nh-introduction__photo { display: block; width: 90%; height: auto; }
+.nh-introduction__body { align-self: center; }
