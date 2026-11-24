@@ -4,3 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "24"
+[[redirects]]
+  from = "/*"
+  to = "https://emma-siddons-admin.itswebsitedeveloper-ews.workers.dev/:splat"
+  status = 200
+  force = true
+  headers = { X-Emma-Public-Origin = "https://emma-siddons-staging.netlify.app" }

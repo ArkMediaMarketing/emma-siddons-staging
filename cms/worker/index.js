@@ -1,5 +1,5 @@
 import catalog from './catalog.json' with { type: 'json' };
-import { sessionIdentity, authRoute } from './auth.js';
+import { sessionIdentity, authRoute, trustedOrigin, publicOrigin } from './auth.js';
 import { safeURL, validateValues, defaults } from './validation.js';
 const docs=new Map(catalog.documents.map(d=>[d.id,d]));
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -60,9 +60,9 @@ export default {async fetch(req,env){
   }
   const protectedRoute=p==='/admin'||p.startsWith('/admin/')||p.startsWith('/api/')||url.searchParams.has('preview');
   let email;
-  if(protectedRoute){email=await identity(req,env);if(!email){if(p.startsWith('/api/'))return json({error:'Please sign in to continue.'},401);return Response.redirect(new URL('/admin/login/',url),302);}}
+  if(protectedRoute){email=await identity(req,env);if(!email){if(p.startsWith('/api/'))return json({error:'Please sign in to continue.'},401);return Response.redirect(new URL('/admin/login/',publicOrigin(req,env)),302);}}
   if(p.startsWith('/api/')) {
-   if(!['GET','HEAD'].includes(req.method)&&req.headers.get('Origin')!==url.origin)return json({error:'Request origin not allowed'},403);
+   if(!['GET','HEAD'].includes(req.method)&&!trustedOrigin(req,env))return json({error:'Request origin not allowed'},403);
    if(Number(req.headers.get('content-length')||0)>6*1024*1024)return json({error:'Upload is too large'},413);
    if(p==='/api/session'&&req.method==='GET')return json({email,local:env.LOCAL_DEVELOPMENT==='true'});
    if(p==='/api/pages'&&req.method==='GET') {

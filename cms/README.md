@@ -51,7 +51,7 @@ Deploy updates with `npm run build` then `npx wrangler deploy --env ""`.
 
 ## Netlify integration
 
-`netlify.toml` builds a small routing-only deployment using `scripts/netlify-bridge.mjs`. The existing legacy redirects are preserved. Public routes are forced proxy rewrites to the Worker, preserving the Netlify URL, including uploaded media. `/admin` and `/admin/*` redirect to the Worker origin so secure login cookies remain host-only. No source code, credentials, dependencies or local databases are included in the Netlify deploy directory.
+`netlify.toml` builds a small routing-only deployment using `scripts/netlify-bridge.mjs`. The existing legacy redirects are preserved. Public routes are forced proxy rewrites to the Worker, preserving the Netlify URL, including uploaded media. The admin, login and API are proxied on the Netlify origin too. Secure host-only cookies are issued for the Netlify hostname; the browser stays on Netlify. A fixed proxy header is used only for client-facing redirects. CSRF checks allow only the explicitly configured Netlify and Worker origins. No source code, credentials, dependencies or local databases are included in the Netlify deploy directory.
 
 The Worker returns `Cache-Control: no-store` and `Netlify-CDN-Cache-Control: no-store` for rendered HTML. Publishing a page in the admin immediately changes the content served on Netlify, without rebuilding Netlify. Drafts remain private. Source layout or code changes still require a Worker build/deployment; routing changes require a Netlify deploy. Keep the Worker and its D1 database active, since they now supply the live website.
 

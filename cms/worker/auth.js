@@ -1,3 +1,5 @@
+export function trustedOrigin(req,env){const origin=req.headers.get('Origin');return origin===new URL(req.url).origin||(!!env.PUBLIC_SITE_ORIGIN&&origin===env.PUBLIC_SITE_ORIGIN);}
+export function publicOrigin(req,env){return env.PUBLIC_SITE_ORIGIN&&req.headers.get('X-Emma-Public-Origin')===env.PUBLIC_SITE_ORIGIN?env.PUBLIC_SITE_ORIGIN:new URL(req.url).origin;}
 const encoder=new TextEncoder();
 const hex=bytes=>Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('');
 export const hashToken=async token=>hex(await crypto.subtle.digest('SHA-256',encoder.encode(token)));
@@ -15,7 +17,7 @@ export async function authRoute(req,env){
  const url=new URL(req.url),path=url.pathname;
  if(!path.startsWith('/auth/'))return null;
  if(req.method!=='POST')return json({error:'Method not allowed'},405);
- if(req.headers.get('Origin')!==url.origin)return json({error:'Request origin not allowed'},403);
+ if(!trustedOrigin(req,env))return json({error:'Request origin not allowed'},403);
  if(Number(req.headers.get('content-length')||0)>8192)return json({error:'Request too large'},413);
  if(path==='/auth/logout'){const token=cookieToken(req);if(token)await env.DB.prepare('DELETE FROM admin_sessions WHERE token_hash=?').bind(await hashToken(token)).run();return json({ok:true},200,cookie('',0));}
  if(!['/auth/login','/auth/setup'].includes(path))return json({error:'Not found'},404);

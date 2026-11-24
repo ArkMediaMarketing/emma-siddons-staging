@@ -15,7 +15,8 @@
     }
   ],
   "vars": {
-    "ADMIN_EMAIL": "itswebsitedeveloper.ews@gmail.com"
+    "ADMIN_EMAIL": "itswebsitedeveloper.ews@gmail.com",
+    "PUBLIC_SITE_ORIGIN": "https://emma-siddons-staging.netlify.app"
   },
   "env": {
     "local": {
