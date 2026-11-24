@@ -46,8 +46,7 @@ async function instrument(file) {
    const names={home:'Hero',hero:'Hero',support:'How I help',introduction:'About me',places:'Areas covered',questions:'Frequently asked questions',proof:'Credentials',reading:'Reading guide',service:'Property search service',about:'About me',areas:'Areas covered',contact:'Contact',reviews:'Client reviews',trust:'Credentials',intro:'Introduction',benefits:'How I help',offmarket:'Off-market homes','off-market':'Off-market homes',process:'How I work',fees:'Services & fees',journal:'Journal',guide:'Guide',faq:'Frequently asked questions',testimonials:'Client reviews'};
    return names[token]||(token?.includes('review')?'Client reviews':null)||'Section '+(container.find('section').toArray().indexOf(section[0])+1);
   };
-  const counts=new Map();
-  const labelFor=(el,role)=>{const key=sectionName(el)+'/'+role;const n=(counts.get(key)||0)+1;counts.set(key,n);return role+' '+n;};
+  const labelFor=(_el,role)=>role;
   const nodes=[];
   function walk(node) {
    if(['script','style','svg','noscript'].includes(node.name)) return;
