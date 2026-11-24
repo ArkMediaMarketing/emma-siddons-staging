@@ -1,0 +1,8 @@
+/* Shared footer typography, including published CMS content. */
+body .footer nav,body .footer nav a{font-size:16px;line-height:1.5}
+body .footer .copyright{white-space:nowrap;flex-shrink:0}
+body .footer .copyright cms-text{white-space:normal}
+body .footer .copyright br{display:none}
+body .footer .copyright br+cms-text:before{content:" "}
+@media(max-width:1200px){body .footer,body .footer .page-footer__inner{flex-wrap:wrap;row-gap:24px}}
+@media(max-width:360px){body .footer .copyright{white-space:normal}}
