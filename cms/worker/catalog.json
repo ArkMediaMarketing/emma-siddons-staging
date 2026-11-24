@@ -2364,21 +2364,24 @@
           "type": "text",
           "label": "Button Text",
           "section": "Credentials",
-          "value": "5.0 on Google"
+          "value": "5.0 on Google",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-12",
           "type": "text",
           "label": "Button Text",
           "section": "Credentials",
-          "value": " · 19 reviews"
+          "value": " · 19 reviews",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-13",
           "type": "text",
           "label": "Button Text",
           "section": "Credentials",
-          "value": "Checked 8 November 2026"
+          "value": "Checked 8 November 2026",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-14",
@@ -2386,7 +2389,8 @@
           "label": "Credentials content",
           "section": "Credentials",
           "value": "Hertfordshire has been",
-          "editorGroup": "home-new-rich-3"
+          "editorGroup": "home-new-rich-3",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-15",
@@ -2394,7 +2398,8 @@
           "label": "Credentials content",
           "section": "Credentials",
           "value": "my home for over 40 years",
-          "editorGroup": "home-new-rich-3"
+          "editorGroup": "home-new-rich-3",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-16",
@@ -2402,7 +2407,8 @@
           "label": "Credentials content",
           "section": "Credentials",
           "value": "From the first conversation",
-          "editorGroup": "home-new-rich-4"
+          "editorGroup": "home-new-rich-4",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-17",
@@ -2410,7 +2416,8 @@
           "label": "Credentials content",
           "section": "Credentials",
           "value": "you work directly with me",
-          "editorGroup": "home-new-rich-4"
+          "editorGroup": "home-new-rich-4",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-18",
@@ -3049,7 +3056,8 @@
           "type": "text",
           "label": "Button Text",
           "section": "Client testimonial",
-          "value": "Read my Google reviews "
+          "value": "Read my Google reviews ",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-97",
@@ -3323,6 +3331,77 @@
           "value": "info@emmasiddons.com"
         },
         {
+          "id": "home-new-text-131",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "★★★★★"
+        },
+        {
+          "id": "home-new-text-132",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "5.0 on Google",
+          "editorGroup": "home-new-rich-67"
+        },
+        {
+          "id": "home-new-text-133",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "19 reviews",
+          "editorGroup": "home-new-rich-67"
+        },
+        {
+          "id": "home-new-text-134",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Emma is quite simply exceptional at what she does.”",
+          "editorGroup": "home-new-rich-68"
+        },
+        {
+          "id": "home-new-text-135",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Mark Sheldon",
+          "editorGroup": "home-new-rich-69"
+        },
+        {
+          "id": "home-new-text-136",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Google review",
+          "editorGroup": "home-new-rich-69"
+        },
+        {
+          "id": "home-new-text-137",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Emma has been brilliant to have in our corner across two properties now.”",
+          "editorGroup": "home-new-rich-70"
+        },
+        {
+          "id": "home-new-text-138",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Oriel Gordon",
+          "editorGroup": "home-new-rich-71"
+        },
+        {
+          "id": "home-new-text-139",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Google review",
+          "editorGroup": "home-new-rich-71"
+        },
+        {
           "id": "home-new-image-0",
           "type": "image",
           "label": "Hero image",
@@ -3393,7 +3472,8 @@
           ],
           "label": "Button URL",
           "section": "Credentials",
-          "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
+          "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-link-3",
@@ -3453,7 +3533,8 @@
           ],
           "label": "Button URL",
           "section": "Client testimonial",
-          "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
+          "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-link-9",
@@ -3548,7 +3629,8 @@
             "home-new-text-15"
           ],
           "paragraph": true,
-          "editorGroup": "home-new-prose-1"
+          "editorGroup": "home-new-prose-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-rich-4",
@@ -3562,7 +3644,8 @@
             "home-new-text-17"
           ],
           "paragraph": true,
-          "editorGroup": "home-new-prose-1"
+          "editorGroup": "home-new-prose-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-rich-5",
@@ -4362,6 +4445,72 @@
           "editorGroup": "home-new-prose-28"
         },
         {
+          "id": "home-new-rich-67",
+          "type": "richtext",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<strong><cms-text data-cms=\"home-new-text-132\">5.0 on Google</cms-text></strong><span><cms-text data-cms=\"home-new-text-133\">19 reviews</cms-text></span>",
+          "legacyIds": [
+            "home-new-text-132",
+            "home-new-text-133"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-29"
+        },
+        {
+          "id": "home-new-rich-68",
+          "type": "richtext",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-134\">“Emma is quite simply exceptional at what she does.”</cms-text>",
+          "legacyIds": [
+            "home-new-text-134"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-30"
+        },
+        {
+          "id": "home-new-rich-69",
+          "type": "richtext",
+          "label": "Client reviews image",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-135\">Mark Sheldon</cms-text><span><cms-text data-cms=\"home-new-text-136\">Google review</cms-text></span>",
+          "legacyIds": [
+            "home-new-text-135",
+            "home-new-text-136"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "home-new-rich-70",
+          "type": "richtext",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-137\">“Emma has been brilliant to have in our corner across two properties now.”</cms-text>",
+          "legacyIds": [
+            "home-new-text-137"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-31"
+        },
+        {
+          "id": "home-new-rich-71",
+          "type": "richtext",
+          "label": "Client reviews image",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-138\">Oriel Gordon</cms-text><span><cms-text data-cms=\"home-new-text-139\">Google review</cms-text></span>",
+          "legacyIds": [
+            "home-new-text-138",
+            "home-new-text-139"
+          ],
+          "paragraph": false
+        },
+        {
           "id": "home-new-prose-0",
           "type": "prose",
           "label": "Hero content",
@@ -4400,7 +4549,8 @@
             "home-new-text-15",
             "home-new-text-16",
             "home-new-text-17"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-prose-2",
@@ -4888,6 +5038,55 @@
           "legacyIds": [
             "home-new-text-125",
             "home-new-text-126"
+          ]
+        },
+        {
+          "id": "home-new-prose-29",
+          "type": "prose",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-67",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-132",
+            "home-new-text-133"
+          ]
+        },
+        {
+          "id": "home-new-prose-30",
+          "type": "prose",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-68",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-134"
+          ]
+        },
+        {
+          "id": "home-new-prose-31",
+          "type": "prose",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-70",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-137"
           ]
         },
         {
