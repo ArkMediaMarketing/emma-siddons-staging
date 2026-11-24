@@ -11450,7 +11450,8 @@
           "label": "Introduction label",
           "section": "Introduction",
           "value": "How I can help you",
-          "editorGroup": "how-i-can-help-you-rich-0"
+          "editorGroup": "how-i-can-help-you-rich-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-1",
@@ -11458,7 +11459,8 @@
           "label": "Introduction heading",
           "section": "Introduction",
           "value": "A clearer path to your next home.",
-          "editorGroup": "how-i-can-help-you-rich-1"
+          "editorGroup": "how-i-can-help-you-rich-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-2",
@@ -11466,14 +11468,16 @@
           "label": "Introduction content",
           "section": "Introduction",
           "value": "You may be short of time, moving to an unfamiliar area or simply struggling to find the right property. I bring a local perspective and a focused search to help you move forward.",
-          "editorGroup": "how-i-can-help-you-rich-2"
+          "editorGroup": "how-i-can-help-you-rich-2",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-3",
           "type": "text",
           "label": "Button Text",
           "section": "Introduction",
-          "value": "Tell me about your plans"
+          "value": "Tell me about your plans",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-4",
@@ -11481,7 +11485,8 @@
           "label": "Buying process label",
           "section": "Buying process",
           "value": "Working together",
-          "editorGroup": "how-i-can-help-you-rich-3"
+          "editorGroup": "how-i-can-help-you-rich-3",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-5",
@@ -11489,7 +11494,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "Your priorities.",
-          "editorGroup": "how-i-can-help-you-rich-4"
+          "editorGroup": "how-i-can-help-you-rich-4",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-6",
@@ -11497,7 +11503,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "My attention.",
-          "editorGroup": "how-i-can-help-you-rich-4"
+          "editorGroup": "how-i-can-help-you-rich-4",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-7",
@@ -11505,7 +11512,8 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "Every move is different. I tailor the search around you, offering a considered view of each opportunity and practical support at each stage.",
-          "editorGroup": "how-i-can-help-you-rich-5"
+          "editorGroup": "how-i-can-help-you-rich-5",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-8",
@@ -11513,14 +11521,16 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "As a buying agent, I work for you. My advice is independent of the seller and the selling agent.",
-          "editorGroup": "how-i-can-help-you-rich-6"
+          "editorGroup": "how-i-can-help-you-rich-6",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-9",
           "type": "text",
           "label": "Button Text",
           "section": "Buying process",
-          "value": "Read about my service and fees →"
+          "value": "Read about my service and fees →",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-10",
@@ -11528,7 +11538,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "First, I listen",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-11",
@@ -11536,7 +11547,8 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "We talk about the home you want, the way you live and the areas you are considering. I help you turn your priorities into a clear search brief, including what you can be flexible about.",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-12",
@@ -11544,7 +11556,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "I look beyond the listings",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-13",
@@ -11552,7 +11565,8 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "I research the market and speak with local agents and contacts. Alongside publicly advertised homes, I look for opportunities being discussed privately or before they come to market.",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-14",
@@ -11560,7 +11574,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "I help you make sense of the options",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-15",
@@ -11568,7 +11583,8 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "I can preview homes to save you time and accompany you on viewings. We look carefully at the property, its setting and how well it meets your brief.",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-16",
@@ -11576,7 +11592,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "I negotiate on your behalf",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-17",
@@ -11584,7 +11601,8 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "When the right opportunity comes along, I help you assess it and negotiate the price and terms. I represent your interests throughout the conversation.",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-18",
@@ -11592,7 +11610,8 @@
           "label": "Buying process heading",
           "section": "Buying process",
           "value": "I stay involved through completion",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-19",
@@ -11600,7 +11619,8 @@
           "label": "Buying process content",
           "section": "Buying process",
           "value": "I liaise with agents, solicitors and other professionals to help keep the purchase progressing. You have someone who knows your search alongside you through exchange and completion.",
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-20",
@@ -11608,7 +11628,8 @@
           "label": "Contact heading",
           "section": "Contact",
           "value": "Let’s talk about your next home",
-          "editorGroup": "how-i-can-help-you-rich-17"
+          "editorGroup": "how-i-can-help-you-rich-17",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-21",
@@ -11616,17 +11637,579 @@
           "label": "Contact content",
           "section": "Contact",
           "value": "Tell me what you are looking for, and I’ll explain how I can help.",
-          "editorGroup": "how-i-can-help-you-rich-18"
+          "editorGroup": "how-i-can-help-you-rich-18",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-22",
           "type": "text",
           "label": "Phone number",
           "section": "Contact",
-          "value": "07702 630983"
+          "value": "07702 630983",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-text-23",
+          "type": "text",
+          "label": "Email address",
+          "section": "Contact",
+          "value": "info@emmasiddons.com",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "how-i-can-help-you-text-24",
+          "type": "text",
+          "label": "Search introduction label",
+          "section": "Search introduction",
+          "value": "How I can help you",
+          "editorGroup": "how-i-can-help-you-rich-19"
+        },
+        {
+          "id": "how-i-can-help-you-text-25",
+          "type": "text",
+          "label": "Search introduction heading",
+          "section": "Search introduction",
+          "value": "A clearer path to your next home.",
+          "editorGroup": "how-i-can-help-you-rich-20"
+        },
+        {
+          "id": "how-i-can-help-you-text-26",
+          "type": "text",
+          "label": "Search introduction content",
+          "section": "Search introduction",
+          "value": "You may be short of time, moving to an unfamiliar area or simply struggling to find the right property. I bring a local perspective and a focused search to help you move forward.",
+          "editorGroup": "how-i-can-help-you-rich-21"
+        },
+        {
+          "id": "how-i-can-help-you-text-27",
+          "type": "text",
+          "label": "Button Text",
+          "section": "Search introduction",
+          "value": "Tell me about your plans"
+        },
+        {
+          "id": "how-i-can-help-you-text-28",
+          "type": "text",
+          "label": "Button Text",
+          "section": "Search introduction",
+          "value": "Which sounds like you?"
+        },
+        {
+          "id": "how-i-can-help-you-text-29",
+          "type": "text",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": "Room to think. Time to find.",
+          "editorGroup": "how-i-can-help-you-rich-22"
+        },
+        {
+          "id": "how-i-can-help-you-text-30",
+          "type": "text",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": "Which sounds like you?",
+          "editorGroup": "how-i-can-help-you-rich-23"
+        },
+        {
+          "id": "how-i-can-help-you-text-31",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "I’m short of time"
+        },
+        {
+          "id": "how-i-can-help-you-text-32",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "I’m new to the area"
+        },
+        {
+          "id": "how-i-can-help-you-text-33",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "The right home hasn’t appeared"
+        },
+        {
+          "id": "how-i-can-help-you-text-34",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "I’d rather keep my search low-key"
+        },
+        {
+          "id": "how-i-can-help-you-text-35",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "I want someone to negotiate for me"
+        },
+        {
+          "id": "how-i-can-help-you-text-36",
+          "type": "text",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": "Time saved",
+          "editorGroup": "how-i-can-help-you-rich-24"
+        },
+        {
+          "id": "how-i-can-help-you-text-37",
+          "type": "text",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": "House hunting is hugely time-consuming.",
+          "editorGroup": "how-i-can-help-you-rich-25"
+        },
+        {
+          "id": "how-i-can-help-you-text-38",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "I research your search area, liaise with agents and preview properties on your behalf, so you can focus on the homes worth a closer look.",
+          "editorGroup": "how-i-can-help-you-rich-26"
+        },
+        {
+          "id": "how-i-can-help-you-text-39",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "I accompany you to viewings with a realistic commentary, vision and ideas.",
+          "editorGroup": "how-i-can-help-you-rich-27"
+        },
+        {
+          "id": "how-i-can-help-you-text-40",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "Search area researched for you",
+          "editorGroup": "how-i-can-help-you-repeater-1"
+        },
+        {
+          "id": "how-i-can-help-you-text-41",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "Properties previewed on your behalf",
+          "editorGroup": "how-i-can-help-you-repeater-1"
+        },
+        {
+          "id": "how-i-can-help-you-text-42",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "The purchase managed through exchange and completion",
+          "editorGroup": "how-i-can-help-you-repeater-1"
+        },
+        {
+          "id": "how-i-can-help-you-text-43",
+          "type": "text",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": "Local knowledge and vision",
+          "editorGroup": "how-i-can-help-you-rich-28"
+        },
+        {
+          "id": "how-i-can-help-you-text-44",
+          "type": "text",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": "Look beyond a postcode.",
+          "editorGroup": "how-i-can-help-you-rich-29"
+        },
+        {
+          "id": "how-i-can-help-you-text-45",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "I have lived locally for more than 40 years. I know the villages, the communities, the schools, the commute, the shops and definitely the pubs and restaurants.",
+          "editorGroup": "how-i-can-help-you-rich-30"
+        },
+        {
+          "id": "how-i-can-help-you-text-46",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "I cut through the marketing to see what a property really is and imagine what it could become. I also understand the practical issues that come with country homes:",
+          "editorGroup": "how-i-can-help-you-rich-31"
+        },
+        {
+          "id": "how-i-can-help-you-text-47",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "Listed buildings",
+          "editorGroup": "how-i-can-help-you-repeater-2"
+        },
+        {
+          "id": "how-i-can-help-you-text-48",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "Land boundaries and classifications",
+          "editorGroup": "how-i-can-help-you-repeater-2"
+        },
+        {
+          "id": "how-i-can-help-you-text-49",
+          "type": "text",
+          "label": "Your situation supporting text",
+          "section": "Your situation",
+          "value": "Off-mains drainage and public footpaths",
+          "editorGroup": "how-i-can-help-you-repeater-2"
+        },
+        {
+          "id": "how-i-can-help-you-text-50",
+          "type": "text",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": "Access to off-market homes",
+          "editorGroup": "how-i-can-help-you-rich-32"
+        },
+        {
+          "id": "how-i-can-help-you-text-51",
+          "type": "text",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": "Some doors open through a conversation.",
+          "editorGroup": "how-i-can-help-you-rich-33"
+        },
+        {
+          "id": "how-i-can-help-you-text-52",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "Not every home appears on a property portal. I work hard to find homes being sold “off” or “pre” market: through word of mouth, my existing relationships with other agents and direct approaches to homeowners.",
+          "editorGroup": "how-i-can-help-you-rich-34"
+        },
+        {
+          "id": "how-i-can-help-you-text-53",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "Off-market availability varies, so I cannot promise a particular home will be available.",
+          "editorGroup": "how-i-can-help-you-rich-35"
+        },
+        {
+          "id": "how-i-can-help-you-text-54",
+          "type": "text",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": "Independence and discretion",
+          "editorGroup": "how-i-can-help-you-rich-36"
+        },
+        {
+          "id": "how-i-can-help-you-text-55",
+          "type": "text",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": "On your side, and discreet.",
+          "editorGroup": "how-i-can-help-you-rich-37"
+        },
+        {
+          "id": "how-i-can-help-you-text-56",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "Selling agents serve the needs of sellers, not buyers. As an independent buying agent I have complete autonomy from selling agents, and I look out for you and you alone.",
+          "editorGroup": "how-i-can-help-you-rich-38"
+        },
+        {
+          "id": "how-i-can-help-you-text-57",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "If you would rather remain anonymous or keep your search low-key, I offer complete discretion.",
+          "editorGroup": "how-i-can-help-you-rich-39"
+        },
+        {
+          "id": "how-i-can-help-you-text-58",
+          "type": "text",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": "Negotiation",
+          "editorGroup": "how-i-can-help-you-rich-40"
+        },
+        {
+          "id": "how-i-can-help-you-text-59",
+          "type": "text",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": "Someone clear-headed in your corner.",
+          "editorGroup": "how-i-can-help-you-rich-41"
+        },
+        {
+          "id": "how-i-can-help-you-text-60",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "I help negotiate the best possible deal, potentially saving many multiples of my fee.",
+          "editorGroup": "how-i-can-help-you-rich-42"
+        },
+        {
+          "id": "how-i-can-help-you-text-61",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "When you fall in love with a home, you are not best placed to negotiate on your own behalf. I understand the local market and the value of a local property.",
+          "editorGroup": "how-i-can-help-you-rich-43"
+        },
+        {
+          "id": "how-i-can-help-you-text-62",
+          "type": "text",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": "I research a seller’s motivation and pressure points to help secure the best price and terms, and I know when it is time to walk away.",
+          "editorGroup": "how-i-can-help-you-rich-44"
+        },
+        {
+          "id": "how-i-can-help-you-text-63",
+          "type": "text",
+          "label": "Working together label",
+          "section": "Working together",
+          "value": "Working together",
+          "editorGroup": "how-i-can-help-you-rich-45"
+        },
+        {
+          "id": "how-i-can-help-you-text-64",
+          "type": "text",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": "Your priorities. My attention.",
+          "editorGroup": "how-i-can-help-you-rich-46"
+        },
+        {
+          "id": "how-i-can-help-you-text-65",
+          "type": "text",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": "Every move is different. I tailor the search around you, offering a considered view of each opportunity and practical support at each stage.",
+          "editorGroup": "how-i-can-help-you-rich-47"
+        },
+        {
+          "id": "how-i-can-help-you-text-66",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "01"
+        },
+        {
+          "id": "how-i-can-help-you-text-67",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "First, I listen"
+        },
+        {
+          "id": "how-i-can-help-you-text-68",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "02"
+        },
+        {
+          "id": "how-i-can-help-you-text-69",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "I look beyond the listings"
+        },
+        {
+          "id": "how-i-can-help-you-text-70",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "03"
+        },
+        {
+          "id": "how-i-can-help-you-text-71",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "I help you make sense of the options"
+        },
+        {
+          "id": "how-i-can-help-you-text-72",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "04"
+        },
+        {
+          "id": "how-i-can-help-you-text-73",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "I negotiate on your behalf"
+        },
+        {
+          "id": "how-i-can-help-you-text-74",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "05"
+        },
+        {
+          "id": "how-i-can-help-you-text-75",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "I stay involved through completion"
+        },
+        {
+          "id": "how-i-can-help-you-text-76",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "01"
+        },
+        {
+          "id": "how-i-can-help-you-text-77",
+          "type": "text",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": "First, I listen",
+          "editorGroup": "how-i-can-help-you-rich-48"
+        },
+        {
+          "id": "how-i-can-help-you-text-78",
+          "type": "text",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": "We talk about the home you want, the way you live and the areas you are considering. I help you turn your priorities into a clear search brief, including what you can be flexible about.",
+          "editorGroup": "how-i-can-help-you-rich-49"
+        },
+        {
+          "id": "how-i-can-help-you-text-79",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "02"
+        },
+        {
+          "id": "how-i-can-help-you-text-80",
+          "type": "text",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": "I look beyond the listings",
+          "editorGroup": "how-i-can-help-you-rich-50"
+        },
+        {
+          "id": "how-i-can-help-you-text-81",
+          "type": "text",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": "I research the market and speak with local agents and contacts. Alongside publicly advertised homes, I look for opportunities being discussed privately or before they come to market.",
+          "editorGroup": "how-i-can-help-you-rich-51"
+        },
+        {
+          "id": "how-i-can-help-you-text-82",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "03"
+        },
+        {
+          "id": "how-i-can-help-you-text-83",
+          "type": "text",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": "I help you make sense of the options",
+          "editorGroup": "how-i-can-help-you-rich-52"
+        },
+        {
+          "id": "how-i-can-help-you-text-84",
+          "type": "text",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": "I can preview homes to save you time and accompany you on viewings. We look carefully at the property, its setting and how well it meets your brief, and I give you a realistic commentary, vision and ideas.",
+          "editorGroup": "how-i-can-help-you-rich-53"
+        },
+        {
+          "id": "how-i-can-help-you-text-85",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "04"
+        },
+        {
+          "id": "how-i-can-help-you-text-86",
+          "type": "text",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": "I negotiate on your behalf",
+          "editorGroup": "how-i-can-help-you-rich-54"
+        },
+        {
+          "id": "how-i-can-help-you-text-87",
+          "type": "text",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": "When the right opportunity comes along, I help you assess it and negotiate the price and terms. I research the seller’s motivation and pressure points, and I represent your interests throughout the conversation.",
+          "editorGroup": "how-i-can-help-you-rich-55"
+        },
+        {
+          "id": "how-i-can-help-you-text-88",
+          "type": "text",
+          "label": "Working together supporting text",
+          "section": "Working together",
+          "value": "05"
+        },
+        {
+          "id": "how-i-can-help-you-text-89",
+          "type": "text",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": "I stay involved through completion",
+          "editorGroup": "how-i-can-help-you-rich-56"
+        },
+        {
+          "id": "how-i-can-help-you-text-90",
+          "type": "text",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": "I liaise with agents, solicitors and other professionals to help keep the purchase progressing. You have someone who knows your search alongside you through exchange and completion.",
+          "editorGroup": "how-i-can-help-you-rich-57"
+        },
+        {
+          "id": "how-i-can-help-you-text-91",
+          "type": "text",
+          "label": "Independent advice content",
+          "section": "Independent advice",
+          "value": "As a buying agent, I work for you. My advice is independent of the seller and the selling agent.",
+          "editorGroup": "how-i-can-help-you-rich-58"
+        },
+        {
+          "id": "how-i-can-help-you-text-92",
+          "type": "text",
+          "label": "Button Text",
+          "section": "Independent advice",
+          "value": "Read about my service and fees "
+        },
+        {
+          "id": "how-i-can-help-you-text-93",
+          "type": "text",
+          "label": "Contact heading",
+          "section": "Contact",
+          "value": "Let’s talk about your next home.",
+          "editorGroup": "how-i-can-help-you-rich-59"
+        },
+        {
+          "id": "how-i-can-help-you-text-94",
+          "type": "text",
+          "label": "Contact content",
+          "section": "Contact",
+          "value": "Tell me what you are looking for, and I’ll explain how I can help.",
+          "editorGroup": "how-i-can-help-you-rich-60"
+        },
+        {
+          "id": "how-i-can-help-you-text-95",
+          "type": "text",
+          "label": "Phone number",
+          "section": "Contact",
+          "value": "07702 630983"
+        },
+        {
+          "id": "how-i-can-help-you-text-96",
           "type": "text",
           "label": "Email address",
           "section": "Contact",
@@ -11640,6 +12223,67 @@
           "value": {
             "src": "/images/emma-research-960.webp",
             "alt": "Emma researching local information for a home search"
+          },
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "how-i-can-help-you-image-1",
+          "type": "image",
+          "label": "Search introduction image",
+          "section": "Search introduction",
+          "value": {
+            "src": "/images/help-situations-0.webp",
+            "alt": "Emma researching local information for a home search"
+          }
+        },
+        {
+          "id": "how-i-can-help-you-image-2",
+          "type": "image",
+          "label": "Your situation image",
+          "section": "Your situation",
+          "value": {
+            "src": "/images/help-situations-1.webp",
+            "alt": "Emma outside a country house with her tablet"
+          }
+        },
+        {
+          "id": "how-i-can-help-you-image-3",
+          "type": "image",
+          "label": "Your situation image",
+          "section": "Your situation",
+          "value": {
+            "src": "/images/help-situations-2.webp",
+            "alt": "Much Hadham village sign beside a traditional house"
+          }
+        },
+        {
+          "id": "how-i-can-help-you-image-4",
+          "type": "image",
+          "label": "Your situation image",
+          "section": "Your situation",
+          "value": {
+            "src": "/images/help-situations-3.webp",
+            "alt": "A country house beyond a pond and a tree-lined garden"
+          }
+        },
+        {
+          "id": "how-i-can-help-you-image-5",
+          "type": "image",
+          "label": "Your situation image",
+          "section": "Your situation",
+          "value": {
+            "src": "/images/help-situations-4.webp",
+            "alt": "Emma Siddons outdoors in Hertfordshire"
+          }
+        },
+        {
+          "id": "how-i-can-help-you-image-6",
+          "type": "image",
+          "label": "Your situation image",
+          "section": "Your situation",
+          "value": {
+            "src": "/images/help-situations-5.webp",
+            "alt": "Emma Siddons seated on a leather sofa with her laptop"
           }
         },
         {
@@ -11650,7 +12294,8 @@
           ],
           "label": "Button URL",
           "section": "Introduction",
-          "value": "/contact/"
+          "value": "/contact/",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-link-1",
@@ -11660,7 +12305,8 @@
           ],
           "label": "Button URL",
           "section": "Buying process",
-          "value": "/services-and-fees/"
+          "value": "/services-and-fees/",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-link-2",
@@ -11670,13 +12316,65 @@
           ],
           "label": "Button URL",
           "section": "Contact",
-          "value": "tel:+447702630983"
+          "value": "tel:+447702630983",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-link-3",
           "type": "link",
           "linkTextIds": [
             "how-i-can-help-you-text-23"
+          ],
+          "label": "Button URL",
+          "section": "Contact",
+          "value": "mailto:info@emmasiddons.com",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "how-i-can-help-you-link-4",
+          "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-27"
+          ],
+          "label": "Button URL",
+          "section": "Search introduction",
+          "value": "#talk"
+        },
+        {
+          "id": "how-i-can-help-you-link-5",
+          "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-28"
+          ],
+          "label": "Button URL",
+          "section": "Search introduction",
+          "value": "#situations"
+        },
+        {
+          "id": "how-i-can-help-you-link-6",
+          "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-92"
+          ],
+          "label": "Button URL",
+          "section": "Independent advice",
+          "value": "/services-and-fees/"
+        },
+        {
+          "id": "how-i-can-help-you-link-7",
+          "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-95"
+          ],
+          "label": "Button URL",
+          "section": "Contact",
+          "value": "tel:+447702630983"
+        },
+        {
+          "id": "how-i-can-help-you-link-8",
+          "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-96"
           ],
           "label": "Button URL",
           "section": "Contact",
@@ -11692,7 +12390,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-0"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-1",
@@ -11704,7 +12403,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-1"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-2",
@@ -11717,7 +12417,8 @@
             "how-i-can-help-you-text-2"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-prose-0"
+          "editorGroup": "how-i-can-help-you-prose-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-3",
@@ -11729,7 +12430,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-4"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-4",
@@ -11742,7 +12444,8 @@
             "how-i-can-help-you-text-5",
             "how-i-can-help-you-text-6"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-5",
@@ -11755,7 +12458,8 @@
             "how-i-can-help-you-text-7"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-prose-1"
+          "editorGroup": "how-i-can-help-you-prose-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-6",
@@ -11768,7 +12472,8 @@
             "how-i-can-help-you-text-8"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-prose-1"
+          "editorGroup": "how-i-can-help-you-prose-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-7",
@@ -11781,7 +12486,8 @@
             "how-i-can-help-you-text-10"
           ],
           "paragraph": false,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-8",
@@ -11794,7 +12500,8 @@
             "how-i-can-help-you-text-11"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-9",
@@ -11807,7 +12514,8 @@
             "how-i-can-help-you-text-12"
           ],
           "paragraph": false,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-10",
@@ -11820,7 +12528,8 @@
             "how-i-can-help-you-text-13"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-11",
@@ -11833,7 +12542,8 @@
             "how-i-can-help-you-text-14"
           ],
           "paragraph": false,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-12",
@@ -11846,7 +12556,8 @@
             "how-i-can-help-you-text-15"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-13",
@@ -11859,7 +12570,8 @@
             "how-i-can-help-you-text-16"
           ],
           "paragraph": false,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-14",
@@ -11872,7 +12584,8 @@
             "how-i-can-help-you-text-17"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-15",
@@ -11885,7 +12598,8 @@
             "how-i-can-help-you-text-18"
           ],
           "paragraph": false,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-16",
@@ -11898,7 +12612,8 @@
             "how-i-can-help-you-text-19"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-17",
@@ -11910,7 +12625,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-20"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-rich-18",
@@ -11923,7 +12639,532 @@
             "how-i-can-help-you-text-21"
           ],
           "paragraph": true,
-          "editorGroup": "how-i-can-help-you-prose-7"
+          "editorGroup": "how-i-can-help-you-prose-7",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "how-i-can-help-you-rich-19",
+          "type": "richtext",
+          "label": "Search introduction label",
+          "section": "Search introduction",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-24\">How I can help you</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-24"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-20",
+          "type": "richtext",
+          "label": "Search introduction heading",
+          "section": "Search introduction",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-25\">A clearer path to your next home.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-25"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-21",
+          "type": "richtext",
+          "label": "Search introduction content",
+          "section": "Search introduction",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-26\">You may be short of time, moving to an unfamiliar area or simply struggling to find the right property. I bring a local perspective and a focused search to help you move forward.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-26"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-8"
+        },
+        {
+          "id": "how-i-can-help-you-rich-22",
+          "type": "richtext",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-29\">Room to think. Time to find.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-29"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-23",
+          "type": "richtext",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-30\">Which sounds like you?</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-30"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-24",
+          "type": "richtext",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-36\">Time saved</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-36"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-25",
+          "type": "richtext",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-37\">House hunting is hugely time-consuming.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-37"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-26",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-38\">I research your search area, liaise with agents and preview properties on your behalf, so you can focus on the homes worth a closer look.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-38"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-9"
+        },
+        {
+          "id": "how-i-can-help-you-rich-27",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-39\">I accompany you to viewings with a realistic commentary, vision and ideas.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-39"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-9"
+        },
+        {
+          "id": "how-i-can-help-you-rich-28",
+          "type": "richtext",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-43\">Local knowledge and vision</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-43"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-29",
+          "type": "richtext",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-44\">Look beyond a postcode.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-44"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-30",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-45\">I have lived locally for more than 40 years. I know the villages, the communities, the schools, the commute, the shops and definitely the pubs and restaurants.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-45"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-10"
+        },
+        {
+          "id": "how-i-can-help-you-rich-31",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-46\">I cut through the marketing to see what a property really is and imagine what it could become. I also understand the practical issues that come with country homes:</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-46"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-10"
+        },
+        {
+          "id": "how-i-can-help-you-rich-32",
+          "type": "richtext",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-50\">Access to off-market homes</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-50"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-33",
+          "type": "richtext",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-51\">Some doors open through a conversation.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-51"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-34",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-52\">Not every home appears on a property portal. I work hard to find homes being sold “off” or “pre” market: through word of mouth, my existing relationships with other agents and direct approaches to homeowners.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-52"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-11"
+        },
+        {
+          "id": "how-i-can-help-you-rich-35",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-53\">Off-market availability varies, so I cannot promise a particular home will be available.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-53"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-11"
+        },
+        {
+          "id": "how-i-can-help-you-rich-36",
+          "type": "richtext",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-54\">Independence and discretion</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-54"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-37",
+          "type": "richtext",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-55\">On your side, and discreet.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-55"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-38",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-56\">Selling agents serve the needs of sellers, not buyers. As an independent buying agent I have complete autonomy from selling agents, and I look out for you and you alone.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-56"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-12"
+        },
+        {
+          "id": "how-i-can-help-you-rich-39",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-57\">If you would rather remain anonymous or keep your search low-key, I offer complete discretion.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-57"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-12"
+        },
+        {
+          "id": "how-i-can-help-you-rich-40",
+          "type": "richtext",
+          "label": "Your situation label",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-58\">Negotiation</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-58"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-41",
+          "type": "richtext",
+          "label": "Your situation heading",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-59\">Someone clear-headed in your corner.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-59"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-42",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-60\">I help negotiate the best possible deal, potentially saving many multiples of my fee.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-60"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-13"
+        },
+        {
+          "id": "how-i-can-help-you-rich-43",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-61\">When you fall in love with a home, you are not best placed to negotiate on your own behalf. I understand the local market and the value of a local property.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-61"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-13"
+        },
+        {
+          "id": "how-i-can-help-you-rich-44",
+          "type": "richtext",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-62\">I research a seller’s motivation and pressure points to help secure the best price and terms, and I know when it is time to walk away.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-62"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-13"
+        },
+        {
+          "id": "how-i-can-help-you-rich-45",
+          "type": "richtext",
+          "label": "Working together label",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-63\">Working together</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-63"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-46",
+          "type": "richtext",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-64\">Your priorities. My attention.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-64"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-47",
+          "type": "richtext",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-65\">Every move is different. I tailor the search around you, offering a considered view of each opportunity and practical support at each stage.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-65"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-14"
+        },
+        {
+          "id": "how-i-can-help-you-rich-48",
+          "type": "richtext",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-77\">First, I listen</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-77"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-49",
+          "type": "richtext",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-78\">We talk about the home you want, the way you live and the areas you are considering. I help you turn your priorities into a clear search brief, including what you can be flexible about.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-78"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-15"
+        },
+        {
+          "id": "how-i-can-help-you-rich-50",
+          "type": "richtext",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-80\">I look beyond the listings</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-80"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-51",
+          "type": "richtext",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-81\">I research the market and speak with local agents and contacts. Alongside publicly advertised homes, I look for opportunities being discussed privately or before they come to market.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-81"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-16"
+        },
+        {
+          "id": "how-i-can-help-you-rich-52",
+          "type": "richtext",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-83\">I help you make sense of the options</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-83"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-53",
+          "type": "richtext",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-84\">I can preview homes to save you time and accompany you on viewings. We look carefully at the property, its setting and how well it meets your brief, and I give you a realistic commentary, vision and ideas.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-84"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-17"
+        },
+        {
+          "id": "how-i-can-help-you-rich-54",
+          "type": "richtext",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-86\">I negotiate on your behalf</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-86"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-55",
+          "type": "richtext",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-87\">When the right opportunity comes along, I help you assess it and negotiate the price and terms. I research the seller’s motivation and pressure points, and I represent your interests throughout the conversation.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-87"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-18"
+        },
+        {
+          "id": "how-i-can-help-you-rich-56",
+          "type": "richtext",
+          "label": "Working together heading",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-89\">I stay involved through completion</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-89"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-57",
+          "type": "richtext",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-90\">I liaise with agents, solicitors and other professionals to help keep the purchase progressing. You have someone who knows your search alongside you through exchange and completion.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-90"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-19"
+        },
+        {
+          "id": "how-i-can-help-you-rich-58",
+          "type": "richtext",
+          "label": "Independent advice content",
+          "section": "Independent advice",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-91\">As a buying agent, I work for you. My advice is independent of the seller and the selling agent.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-91"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-20"
+        },
+        {
+          "id": "how-i-can-help-you-rich-59",
+          "type": "richtext",
+          "label": "Contact heading",
+          "section": "Contact",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-93\">Let’s talk about your next home.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-93"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "how-i-can-help-you-rich-60",
+          "type": "richtext",
+          "label": "Contact content",
+          "section": "Contact",
+          "value": null,
+          "template": "<cms-text data-cms=\"how-i-can-help-you-text-94\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "how-i-can-help-you-text-94"
+          ],
+          "paragraph": true,
+          "editorGroup": "how-i-can-help-you-prose-21"
         },
         {
           "id": "how-i-can-help-you-prose-0",
@@ -11939,7 +13180,8 @@
           ],
           "legacyIds": [
             "how-i-can-help-you-text-2"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-1",
@@ -11960,7 +13202,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-7",
             "how-i-can-help-you-text-8"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-2",
@@ -11977,7 +13220,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-11"
           ],
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-3",
@@ -11994,7 +13238,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-13"
           ],
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-4",
@@ -12011,7 +13256,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-15"
           ],
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-5",
@@ -12028,7 +13274,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-17"
           ],
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-6",
@@ -12045,7 +13292,8 @@
           "legacyIds": [
             "how-i-can-help-you-text-19"
           ],
-          "editorGroup": "how-i-can-help-you-repeater-0"
+          "editorGroup": "how-i-can-help-you-repeater-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "how-i-can-help-you-prose-7",
@@ -12061,6 +13309,261 @@
           ],
           "legacyIds": [
             "how-i-can-help-you-text-21"
+          ],
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "how-i-can-help-you-prose-8",
+          "type": "prose",
+          "label": "Search introduction content",
+          "section": "Search introduction",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-21",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-26"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-9",
+          "type": "prose",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-26",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-27",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-38",
+            "how-i-can-help-you-text-39"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-10",
+          "type": "prose",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-30",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-31",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-45",
+            "how-i-can-help-you-text-46"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-11",
+          "type": "prose",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-34",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-35",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-52",
+            "how-i-can-help-you-text-53"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-12",
+          "type": "prose",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-38",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-39",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-56",
+            "how-i-can-help-you-text-57"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-13",
+          "type": "prose",
+          "label": "Your situation content",
+          "section": "Your situation",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-42",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-43",
+              "attributes": {}
+            },
+            {
+              "id": "how-i-can-help-you-rich-44",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-60",
+            "how-i-can-help-you-text-61",
+            "how-i-can-help-you-text-62"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-14",
+          "type": "prose",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-47",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-65"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-15",
+          "type": "prose",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-49",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-78"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-16",
+          "type": "prose",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-51",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-81"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-17",
+          "type": "prose",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-53",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-84"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-18",
+          "type": "prose",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-55",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-87"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-19",
+          "type": "prose",
+          "label": "Working together content",
+          "section": "Working together",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-57",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-90"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-20",
+          "type": "prose",
+          "label": "Independent advice content",
+          "section": "Independent advice",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-58",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-91"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-prose-21",
+          "type": "prose",
+          "label": "Contact content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "how-i-can-help-you-rich-60",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-94"
           ]
         },
         {
@@ -12574,6 +14077,177 @@
             "how-i-can-help-you-text-17",
             "how-i-can-help-you-text-18",
             "how-i-can-help-you-text-19"
+          ],
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "how-i-can-help-you-repeater-1",
+          "type": "repeater",
+          "label": "Areas",
+          "section": "Your situation",
+          "value": null,
+          "items": [
+            {
+              "template": "<li><cms-text data-cms=\"how-i-can-help-you-text-40\">Search area researched for you</cms-text></li>",
+              "fields": [
+                {
+                  "id": "how-i-can-help-you-text-40",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Your situation",
+                  "value": "Search area researched for you"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "how-i-can-help-you-text-40",
+                  "type": "text",
+                  "label": "Your situation supporting text",
+                  "section": "Your situation",
+                  "value": "Search area researched for you"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><cms-text data-cms=\"how-i-can-help-you-text-41\">Properties previewed on your behalf</cms-text></li>",
+              "fields": [
+                {
+                  "id": "how-i-can-help-you-text-41",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Your situation",
+                  "value": "Properties previewed on your behalf"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "how-i-can-help-you-text-41",
+                  "type": "text",
+                  "label": "Your situation supporting text",
+                  "section": "Your situation",
+                  "value": "Properties previewed on your behalf"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><cms-text data-cms=\"how-i-can-help-you-text-42\">The purchase managed through exchange and completion</cms-text></li>",
+              "fields": [
+                {
+                  "id": "how-i-can-help-you-text-42",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Your situation",
+                  "value": "The purchase managed through exchange and completion"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "how-i-can-help-you-text-42",
+                  "type": "text",
+                  "label": "Your situation supporting text",
+                  "section": "Your situation",
+                  "value": "The purchase managed through exchange and completion"
+                }
+              ],
+              "icon": null
+            }
+          ],
+          "childIds": [
+            "how-i-can-help-you-text-40",
+            "how-i-can-help-you-text-41",
+            "how-i-can-help-you-text-42"
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-40",
+            "how-i-can-help-you-text-41",
+            "how-i-can-help-you-text-42"
+          ]
+        },
+        {
+          "id": "how-i-can-help-you-repeater-2",
+          "type": "repeater",
+          "label": "Areas",
+          "section": "Your situation",
+          "value": null,
+          "items": [
+            {
+              "template": "<li><cms-text data-cms=\"how-i-can-help-you-text-47\">Listed buildings</cms-text></li>",
+              "fields": [
+                {
+                  "id": "how-i-can-help-you-text-47",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Your situation",
+                  "value": "Listed buildings"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "how-i-can-help-you-text-47",
+                  "type": "text",
+                  "label": "Your situation supporting text",
+                  "section": "Your situation",
+                  "value": "Listed buildings"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><cms-text data-cms=\"how-i-can-help-you-text-48\">Land boundaries and classifications</cms-text></li>",
+              "fields": [
+                {
+                  "id": "how-i-can-help-you-text-48",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Your situation",
+                  "value": "Land boundaries and classifications"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "how-i-can-help-you-text-48",
+                  "type": "text",
+                  "label": "Your situation supporting text",
+                  "section": "Your situation",
+                  "value": "Land boundaries and classifications"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><cms-text data-cms=\"how-i-can-help-you-text-49\">Off-mains drainage and public footpaths</cms-text></li>",
+              "fields": [
+                {
+                  "id": "how-i-can-help-you-text-49",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Your situation",
+                  "value": "Off-mains drainage and public footpaths"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "how-i-can-help-you-text-49",
+                  "type": "text",
+                  "label": "Your situation supporting text",
+                  "section": "Your situation",
+                  "value": "Off-mains drainage and public footpaths"
+                }
+              ],
+              "icon": null
+            }
+          ],
+          "childIds": [
+            "how-i-can-help-you-text-47",
+            "how-i-can-help-you-text-48",
+            "how-i-can-help-you-text-49"
+          ],
+          "legacyIds": [
+            "how-i-can-help-you-text-47",
+            "how-i-can-help-you-text-48",
+            "how-i-can-help-you-text-49"
           ]
         }
       ]
@@ -14077,6 +15751,30 @@
     {
       "src": "/images/emma-research-960.webp",
       "name": "emma-research-960.webp"
+    },
+    {
+      "src": "/images/help-situations-0.webp",
+      "name": "help-situations-0.webp"
+    },
+    {
+      "src": "/images/help-situations-1.webp",
+      "name": "help-situations-1.webp"
+    },
+    {
+      "src": "/images/help-situations-2.webp",
+      "name": "help-situations-2.webp"
+    },
+    {
+      "src": "/images/help-situations-3.webp",
+      "name": "help-situations-3.webp"
+    },
+    {
+      "src": "/images/help-situations-4.webp",
+      "name": "help-situations-4.webp"
+    },
+    {
+      "src": "/images/help-situations-5.webp",
+      "name": "help-situations-5.webp"
     },
     {
       "src": "/images/emma-at-home-960.webp",

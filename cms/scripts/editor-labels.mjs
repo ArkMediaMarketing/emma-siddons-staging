@@ -7,7 +7,7 @@ const sections={
  'areas-covered':['Introduction','Hertfordshire','Neighbouring counties','Choosing an area','Contact'],
  contact:['Introduction','Contact options','Search coverage'],
  'guides--finding-off-market-homes':['Guide introduction','Contact'],
- 'how-i-can-help-you':['Introduction','Buying process','Contact'],
+ 'how-i-can-help-you':['Introduction','Buying process','Contact','Search introduction','Your situation','Working together','Independent advice','Contact'],
  'off-market-homes-hertfordshire':['Introduction','Understanding off-market homes','Finding the right fit','Private buying guide','Contact'],
  'services-and-fees':['Introduction','Property search service','Fees & payment','Contact'],
 };
