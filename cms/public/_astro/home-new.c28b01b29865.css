@@ -22,7 +22,7 @@
 .new-home .nh-section { padding-block: var(--nh-section-space); }
 .new-home h2 { font-size: var(--nh-heading); letter-spacing: -.025em; line-height: 1.14; margin: 0 0 28px; }
 .new-home h3 { font-size: var(--nh-subheading); line-height: 1.2; margin: 0 0 var(--nh-space-sm); }
-.new-home em { font-weight: 400; color: var(--ink); }
+.new-home em { font-weight: 400; color: var(--green); }
 .new-home :is(h1,h2,h3,h4,h5,h6),
 .new-home :is(h1,h2,h3,h4,h5,h6) em { font-style: normal; font-weight: 500; }
 .new-home p { font-size: var(--nh-body); line-height: var(--nh-leading); margin: 0 0 var(--nh-space-md); }
