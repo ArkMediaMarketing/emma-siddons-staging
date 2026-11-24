@@ -3402,6 +3402,118 @@
           "editorGroup": "home-new-rich-71"
         },
         {
+          "id": "home-new-text-140",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Working with Emma was a great experience from start to finish.”",
+          "editorGroup": "home-new-rich-72"
+        },
+        {
+          "id": "home-new-text-141",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Andy Clark",
+          "editorGroup": "home-new-rich-73"
+        },
+        {
+          "id": "home-new-text-142",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Google review",
+          "editorGroup": "home-new-rich-73"
+        },
+        {
+          "id": "home-new-text-143",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Emma knew what we needed before even we did and we are so grateful.”",
+          "editorGroup": "home-new-rich-74"
+        },
+        {
+          "id": "home-new-text-144",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Anna Touschek",
+          "editorGroup": "home-new-rich-75"
+        },
+        {
+          "id": "home-new-text-145",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Google review",
+          "editorGroup": "home-new-rich-75"
+        },
+        {
+          "id": "home-new-text-146",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“We would never even have thought to view our new house without Emma's guidance.”",
+          "editorGroup": "home-new-rich-76"
+        },
+        {
+          "id": "home-new-text-147",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Nick Daly",
+          "editorGroup": "home-new-rich-77"
+        },
+        {
+          "id": "home-new-text-148",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Google review",
+          "editorGroup": "home-new-rich-77"
+        },
+        {
+          "id": "home-new-text-149",
+          "type": "text",
+          "label": "Client reviews label",
+          "section": "Client reviews",
+          "value": "Kind words from my clients",
+          "editorGroup": "home-new-rich-78"
+        },
+        {
+          "id": "home-new-text-150",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Previous",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "home-new-text-151",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Pause",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "home-new-text-152",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Next",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "home-new-text-153",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "1–2 of 5",
+          "hiddenFromEditor": true
+        },
+        {
           "id": "home-new-image-0",
           "type": "image",
           "label": "Hero image",
@@ -4511,6 +4623,96 @@
           "paragraph": false
         },
         {
+          "id": "home-new-rich-72",
+          "type": "richtext",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-140\">“Working with Emma was a great experience from start to finish.”</cms-text>",
+          "legacyIds": [
+            "home-new-text-140"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-32"
+        },
+        {
+          "id": "home-new-rich-73",
+          "type": "richtext",
+          "label": "Client reviews image",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-141\">Andy Clark</cms-text><span><cms-text data-cms=\"home-new-text-142\">Google review</cms-text></span>",
+          "legacyIds": [
+            "home-new-text-141",
+            "home-new-text-142"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "home-new-rich-74",
+          "type": "richtext",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-143\">“Emma knew what we needed before even we did and we are so grateful.”</cms-text>",
+          "legacyIds": [
+            "home-new-text-143"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-33"
+        },
+        {
+          "id": "home-new-rich-75",
+          "type": "richtext",
+          "label": "Client reviews image",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-144\">Anna Touschek</cms-text><span><cms-text data-cms=\"home-new-text-145\">Google review</cms-text></span>",
+          "legacyIds": [
+            "home-new-text-144",
+            "home-new-text-145"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "home-new-rich-76",
+          "type": "richtext",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-146\">“We would never even have thought to view our new house without Emma's guidance.”</cms-text>",
+          "legacyIds": [
+            "home-new-text-146"
+          ],
+          "paragraph": true,
+          "editorGroup": "home-new-prose-34"
+        },
+        {
+          "id": "home-new-rich-77",
+          "type": "richtext",
+          "label": "Client reviews image",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-147\">Nick Daly</cms-text><span><cms-text data-cms=\"home-new-text-148\">Google review</cms-text></span>",
+          "legacyIds": [
+            "home-new-text-147",
+            "home-new-text-148"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "home-new-rich-78",
+          "type": "richtext",
+          "label": "Client reviews label",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"home-new-text-149\">Kind words from my clients</cms-text>",
+          "legacyIds": [
+            "home-new-text-149"
+          ],
+          "paragraph": false
+        },
+        {
           "id": "home-new-prose-0",
           "type": "prose",
           "label": "Hero content",
@@ -5049,7 +5251,9 @@
           "blocks": [
             {
               "id": "home-new-rich-67",
-              "attributes": {}
+              "attributes": {
+                "class": "nh-review-rating"
+              }
             }
           ],
           "legacyIds": [
@@ -5087,6 +5291,54 @@
           ],
           "legacyIds": [
             "home-new-text-137"
+          ]
+        },
+        {
+          "id": "home-new-prose-32",
+          "type": "prose",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-72",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-140"
+          ]
+        },
+        {
+          "id": "home-new-prose-33",
+          "type": "prose",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-74",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-143"
+          ]
+        },
+        {
+          "id": "home-new-prose-34",
+          "type": "prose",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": null,
+          "blocks": [
+            {
+              "id": "home-new-rich-76",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "home-new-text-146"
           ]
         },
         {
