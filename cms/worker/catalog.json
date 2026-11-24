@@ -1593,7 +1593,8 @@
           "label": "Client reviews content",
           "section": "Client reviews",
           "value": "19 reviews",
-          "editorGroup": "home-new-rich-67"
+          "editorGroup": "home-new-rich-67",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-134",
@@ -2815,13 +2816,14 @@
           "label": "Client reviews content",
           "section": "Client reviews",
           "value": null,
-          "template": "<strong><cms-text data-cms=\"home-new-text-132\">5.0 on Google</cms-text></strong><span><cms-text data-cms=\"home-new-text-133\">19 reviews</cms-text></span>",
+          "template": "<strong><cms-text data-cms=\"home-new-text-132\">5.0 on Google</cms-text></strong><span data-retired=\"\"><cms-text data-cms=\"home-new-text-133\">19 reviews</cms-text></span>",
           "legacyIds": [
             "home-new-text-132",
             "home-new-text-133"
           ],
           "paragraph": true,
-          "editorGroup": "home-new-prose-29"
+          "editorGroup": "home-new-prose-29",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-rich-68",
@@ -3512,7 +3514,8 @@
           "legacyIds": [
             "home-new-text-132",
             "home-new-text-133"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-prose-30",
