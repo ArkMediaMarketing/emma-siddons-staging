@@ -1,7 +1,8 @@
+import {applyContent} from './content.ts';
 import type { CmsEnv } from './types.ts';
 import catalog from './catalog.json' with { type: 'json' };
 import { sessionIdentity, authRoute, trustedOrigin, publicOrigin } from './auth.ts';
-import { safeURL, validateValues, defaults, sanitizeRichText, proseParagraphs, paragraphHTML } from './validation.ts';
+import { safeURL, validateValues, defaults } from './validation.ts';
 const docs=new Map(catalog.documents.map(d=>[d.id,d]));
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 const now=()=>new Date().toISOString();
@@ -27,28 +28,7 @@ async function render(req:Request,env:CmsEnv,preview=false) {
  for(const row of rows.results) {
   const data=preview?JSON.parse(row.draft):row.published?JSON.parse(row.published):{};
   const schema=docs.get(row.id);
-  const proseFields=schema.fields.filter(field=>field.type==='prose'&&data[field.id]!==undefined&&data[field.id]!==null);
-  const covered=new Set(proseFields.flatMap(field=>field.blocks.map(block=>block.id)));
-  for(const field of schema.fields) {
-   if(field.type==='prose'){
-    if(data[field.id]!==undefined&&data[field.id]!==null){
-     const paragraphs=proseParagraphs(data[field.id]),blocks=field.blocks;
-     const html=paragraphs.map((content,index)=>{const attributes:Record<string,string>={...blocks[Math.min(index,blocks.length-1)].attributes};if(index>=blocks.length)delete attributes.id;return paragraphHTML(content,attributes);}).join('');
-     rewriter.on(`[data-cms-prose="${field.id}"]`,{element(el){el.replace(html,{html:true});}});
-     for(const block of blocks.slice(1))rewriter.on(`[data-cms-rich="${block.id}"]`,{element(el){el.remove();}});
-    }
-    continue;
-   }
-   if(covered.has(field.id))continue;
-   const value=data[field.id];if(value===undefined)continue;
-   if(field.type==='richtext'){if(value!==null)rewriter.on(`[data-cms-rich="${field.id}"]`,{element(el){el.setInnerContent(sanitizeRichText(value),{html:true});}});continue;}
-   if(field.type==='link') rewriter.on(`[data-cms-link="${field.id}"]`,{element(el){el.setAttribute('href',value);}});
-   else rewriter.on(`[data-cms="${field.id}"]`,{element(el){
-    if(field.type==='image'){el.setAttribute('src',value.src);el.setAttribute('alt',value.alt);if(value.src!==(field.value as {src:string}).src){el.removeAttribute('srcset');el.removeAttribute('sizes');}}
-    else if(field.type==='meta')el.setAttribute('content',value);
-    else el.setInnerContent(value);
-   }});
-  }
+  await applyContent(rewriter,schema.fields,data);
  }
  const result=rewriter.transform(asset);const headers=new Headers(result.headers);
  headers.set('Cache-Control','no-store');headers.set('Netlify-CDN-Cache-Control','no-store');headers.set('CDN-Cache-Control','no-store');headers.set('X-Content-Type-Options','nosniff');

@@ -1,3 +1,4 @@
+import {instrumentRepeaters} from './repeaters.mjs';
 import { readFile, writeFile, mkdir, readdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
@@ -38,8 +39,11 @@ async function instrument(file) {
   const sectionName=el=> {
    if(scope!=='main')return scope==='header'?'Brand & navigation':'Footer';
    const section=$(el).closest('section');if(!section.length)return 'Page content';
-   const token=section.attr('id')||section.attr('class')?.split(' ')[0]?.replace(/^(nh|v2)-/,'');
-   const names={home:'Hero',hero:'Hero',service:'Property search service',about:'About me',areas:'Areas covered',contact:'Contact',reviews:'Client reviews',trust:'Credentials',intro:'Introduction',benefits:'How I help',offmarket:'Off-market homes','off-market':'Off-market homes',process:'How I work',fees:'Services & fees',journal:'Journal',guide:'Guide',faq:'Frequently asked questions',testimonials:'Client reviews'};
+   const classes=(section.attr('class')||'').split(' ');
+   const specific=classes.filter(name=>/^(nh|classic|v2)-/.test(name)&&!/(container|section)$/.test(name)).pop();
+   const token=section.attr('id')||(specific||classes[0])?.replace(/^(nh|classic|v2)-/,'');
+   if(section.find('ol.numbered-list').length)return 'How I work';
+   const names={home:'Hero',hero:'Hero',support:'How I help',introduction:'About me',places:'Areas covered',questions:'Frequently asked questions',proof:'Credentials',reading:'Reading guide',service:'Property search service',about:'About me',areas:'Areas covered',contact:'Contact',reviews:'Client reviews',trust:'Credentials',intro:'Introduction',benefits:'How I help',offmarket:'Off-market homes','off-market':'Off-market homes',process:'How I work',fees:'Services & fees',journal:'Journal',guide:'Guide',faq:'Frequently asked questions',testimonials:'Client reviews'};
    return names[token]||(token?.includes('review')?'Client reviews':null)||'Section '+(container.find('section').toArray().indexOf(section[0])+1);
   };
   const counts=new Map();
@@ -95,14 +99,14 @@ async function instrument(file) {
    for(const member of members)member.editorGroup=key;
    container.find(`[data-cms-rich="${first.id}"]`).attr('data-cms-prose',key);fields.push(prose);
   }
-  if(scope==='main') doc.fields.push(...fields);
+  if(scope==='main') {instrumentRepeaters({$,container,fields,id,sectionName});doc.fields.push(...fields);}
   else if(!globals[scope]) globals[scope]={id:scope,title:scope==='header'?'Header & navigation':'Footer',route:'/',fields};
  }
  const titleId=`${id}-seo-title`, descriptionId=`${id}-seo-description`;
  $('title').attr('data-cms',titleId);
  $('meta[name="description"]').attr('data-cms',descriptionId);
  doc.fields.unshift({id:titleId,type:'text',label:'Page title',section:'Search appearance',value:$('title').text()},{id:descriptionId,type:'meta',label:'Search description',section:'Search appearance',value:$('meta[name="description"]').attr('content')||''});
- $('head').append('<style>cms-text{display:contents;white-space:pre-line}</style>');
+ $('head').append('<style>cms-text{display:contents;white-space:pre-line}@media(min-width:1100px){.steps[data-cms-repeat]{grid-template-columns:repeat(var(--cms-repeater-count,5),minmax(0,1fr))}}</style>');
  await writeFile(file,$.html()); documents.push(doc);
 }
 await scan(out);

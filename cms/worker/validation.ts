@@ -1,6 +1,6 @@
 import sanitizeHtml from 'sanitize-html';
 export interface ImageValue { src:string; alt:string; }
-export interface ContentField { id:string; type:string; value:string|ImageValue|null; }
+export interface ContentField { id:string; type:string; value:string|ImageValue|null; items?:any[]; }
 export interface ContentDocument { fields:ContentField[]; }
 export function safeURL(value, image=false) {
  if(typeof value!=='string'||value.length>2048||/[\u0000-\u0020\\]/.test(value)) return false;
@@ -13,6 +13,7 @@ export function validateValues(doc:ContentDocument, values:Record<string,any>) {
  const allowed=new Map(doc.fields.map(f=>[f.id,f]));
  for(const [key,value] of Object.entries(values)) {
   const f=allowed.get(key); if(!f) throw new Error('Unknown content field.');
+  if(f.type==='repeater'){if(value!==null)values[key]=validateRepeater(f,value);continue;}
   if(f.type==='prose'){if(value!==null&&(typeof value!=='string'||value.length>80000))throw new Error('Invalid paragraph content.');if(typeof value==='string')values[key]=sanitizeProse(value);continue;}
   if(f.type==='richtext'){if(value!==null&&(typeof value!=='string'||value.length>40000))throw new Error('Invalid rich text.');if(typeof value==='string')values[key]=sanitizeRichText(value);continue;}
   if(f.type==='image') {
@@ -35,4 +36,15 @@ export function proseParagraphs(value:string):string[]{const clean=sanitizeProse
 export function paragraphHTML(content:string,attributes:Record<string,string>):string {
  const escape=(value:string)=>value.replace(/[&"<>]/g,c=>({'&':'&amp;','"':'&quot;','<':'&lt;','>':'&gt;'}[c]));
  return '<p'+Object.entries(attributes).filter(([key])=>['class','id','role','aria-label'].includes(key)).map(([key,value])=>' '+key+'="'+escape(value)+'"').join('')+'>'+content+'</p>';
+}
+
+export interface RepeaterRow {templateIndex:number; iconIndex:number; values:Record<string,any>;}
+export function validateRepeater(field:ContentField,value:unknown):RepeaterRow[]{
+ if(!Array.isArray(value)||value.length>30)throw new Error('Use up to 30 repeater entries.');
+ return value.map(row=>{
+  if(!row||!Number.isInteger(row.templateIndex)||row.templateIndex<0||row.templateIndex>=field.items.length)throw new Error('Invalid repeater entry.');
+  const iconIndex=row.iconIndex??row.templateIndex;
+  if(!Number.isInteger(iconIndex)||iconIndex<0||iconIndex>=field.items.length)throw new Error('Invalid entry icon.');
+  return {templateIndex:row.templateIndex,iconIndex,values:validateValues({fields:field.items[row.templateIndex].allFields},row.values)};
+ });
 }

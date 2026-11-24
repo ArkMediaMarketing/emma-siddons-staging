@@ -81,3 +81,7 @@ Headings and paragraphs are edited as complete blocks using the bundled Tiptap e
 The blog archive and five post pages have been retired. `/blog`, `/blog/*`, `/post` and `/post/*` return HTTP 410, including old HTML variants. They are absent from the Astro routes and CMS catalog. Historical D1 records are retained for recovery and are not served by the website.
 
 Related adjacent body paragraphs now share one Content editor. Forced single line breaks are normalized to spaces in the editing view; Enter creates real paragraphs. Nullable paragraph-group overrides preserve existing fragment and rich-text values until edited. Publishing replaces the paragraph run with sanitized paragraph HTML, keeping source paragraph classes and preventing duplicate old paragraphs.
+
+## Repeating content
+
+Eight repeater groups cover homepage/V2 service steps, Home New benefits/journey/areas/FAQs, V2 FAQs, and the How I can help you process. Entries can be added (up to 30), removed, expanded, and moved up/down. Their title, description/answer, optional links/images and original step icons stay together. Numbered templates generate their numbers from array order; manual number fields are hidden. Existing flat field IDs remain compatible and seed the repeater until it is edited. Changes stay private until published. Source SVG templates and sanitized nested field values are used for rendering; administrators cannot supply arbitrary markup or scripts.
