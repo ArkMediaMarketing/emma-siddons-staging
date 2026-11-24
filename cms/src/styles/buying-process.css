@@ -1,0 +1,8 @@
+/* Keep the introduction visible while the adjacent process list scrolls. */
+@media(min-width:901px) and (min-height:650px){
+ .site-refined .editorial-grid:has(>.numbered-list)>div:first-child{
+  position:sticky;
+  top:32px;
+  align-self:start;
+ }
+}
