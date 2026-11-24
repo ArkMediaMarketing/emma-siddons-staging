@@ -24,7 +24,7 @@ The local server uses Node 24 SQLite and executes the same Worker handlers, with
 - Save draft persists private changes. Preview opens saved drafts, including shared content. Publish makes the saved page visible on the Worker-hosted website. Each document publishes independently.
 - Discard draft restores the last published values (or original content).
 - Revision checking prevents silently overwriting another editor's saved work.
-- The admin edits existing sections. It does not add/delete pages, change section layouts, manage email delivery or provision additional users.
+- The admin edits existing sections. It does not add/delete pages, change section layouts, manage email delivery or provision users through the browser. Account invitations are issued through the authenticated Cloudflare CLI.
 
 The build injects display-contents `cms-text` elements into the deployable copy. This permits safe plain-text updates while preserving the original nested emphasis and page layouts. The source templates are never rewritten by this preparation.
 
@@ -39,7 +39,7 @@ The build injects display-contents `cms-text` elements into the deployable copy.
 
 The studio uses its own email/password login. There is no Cloudflare Access or Zero Trust subscription requirement.
 
-Run `npm run auth:setup` from `cms` to issue a private, single-use setup link for the configured administrator. The account owner opens that link and chooses a password of at least 14 characters. Links expire after 24 hours. Issuing a new unused link invalidates previous unused links. Setup is disabled once an administrator exists.
+Run `npm run auth:setup` from `cms` to issue a private, single-use setup link for the configured administrator. The account owner opens that link and chooses a password of at least 14 characters. Links expire after 24 hours. Issuing a new unused link invalidates previous unused links. Setup is disabled for an email once that administrator exists. To invite an additional administrator, run `npm run auth:setup -- ben@webdesignessex.io` from `cms` and privately share the one-use link. Each administrator has separate credentials and sessions; all administrators have the same CMS permissions.
 
 Passwords are salted and hashed using Web Crypto PBKDF2-SHA256 (100,000 iterations). Sessions are opaque random tokens, stored only as SHA256 hashes in D1, and expire after eight hours. The browser receives a Secure, HttpOnly, SameSite=Strict cookie. Sign out revokes the session. Authentication is rate-limited to ten attempts per IP per 15 minutes. A setup token cannot be reused.
 
@@ -71,3 +71,5 @@ Run `npm run build` after changing Astro templates, CSS, TypeScript or images. C
 ## Astro migration verification
 
 From the repository root, `npm run check` checks application TypeScript, `npm test` runs the API/auth/media tests (local server on 8787), and `npm run test:migration` checks the built DOMs, original assets, and CMS field identities against the pre-migration contract. Intentional future edits require reviewing and updating that snapshot. No browser JavaScript framework is shipped. Public-page TypeScript handles mobile-menu dismissal; FAQ details, navigation and page content remain native HTML/CSS. Admin interactions and Cloudflare request handlers use TypeScript. Node.js remains a build/test dependency required by Astro, not a public hosting server.
+
+Multi-user accounts are stored in `administrator_accounts`. Applying `worker/schema.sql` copies the legacy owner account without changing its password hash. The legacy table is retained for rollback; sessions are checked against the active account table.

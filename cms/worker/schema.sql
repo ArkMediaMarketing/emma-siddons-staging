@@ -5,3 +5,7 @@ CREATE TABLE IF NOT EXISTS administrators (id INTEGER PRIMARY KEY CHECK(id=1), e
 CREATE TABLE IF NOT EXISTS admin_sessions (token_hash TEXT PRIMARY KEY, email TEXT NOT NULL, expires_at INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS setup_tokens (token_hash TEXT PRIMARY KEY, email TEXT NOT NULL, expires_at INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS login_limits (key TEXT PRIMARY KEY, attempts INTEGER NOT NULL, expires_at INTEGER NOT NULL);
+
+-- Multi-user accounts; keep the legacy table intact for rollback.
+CREATE TABLE IF NOT EXISTS administrator_accounts (email TEXT PRIMARY KEY, password_hash TEXT NOT NULL, salt TEXT NOT NULL, created_at INTEGER NOT NULL);
+INSERT OR IGNORE INTO administrator_accounts(email,password_hash,salt,created_at) SELECT lower(email),password_hash,salt,created_at FROM administrators;
