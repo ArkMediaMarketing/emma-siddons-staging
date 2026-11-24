@@ -2924,7 +2924,7 @@
           "type": "text",
           "label": "Areas covered content",
           "section": "Areas covered",
-          "value": "Braughing, Hertfordshire",
+          "value": "Much Hadham, Hertfordshire",
           "editorGroup": "home-new-rich-47"
         },
         {
@@ -3539,8 +3539,8 @@
           "label": "Areas covered image",
           "section": "Areas covered",
           "value": {
-            "src": "/images/braughing.webp",
-            "alt": "Traditional houses along a quiet lane in Braughing"
+            "src": "/images/much-hadham-sign-and-house-1080.webp",
+            "alt": "Much Hadham village sign beside a traditional house"
           }
         },
         {
@@ -4316,7 +4316,7 @@
           "label": "Areas covered content",
           "section": "Areas covered",
           "value": null,
-          "template": "<cms-text data-cms=\"home-new-text-79\">Braughing, Hertfordshire</cms-text>",
+          "template": "<cms-text data-cms=\"home-new-text-79\">Much Hadham, Hertfordshire</cms-text>",
           "legacyIds": [
             "home-new-text-79"
           ],
@@ -14053,8 +14053,8 @@
       "name": "offmarket-house-garden-41e52701.webp"
     },
     {
-      "src": "/images/braughing.webp",
-      "name": "braughing.webp"
+      "src": "/images/much-hadham-sign-and-house-1080.webp",
+      "name": "much-hadham-sign-and-house-1080.webp"
     },
     {
       "src": "/images/village.jpg",
