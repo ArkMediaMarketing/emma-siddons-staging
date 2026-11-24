@@ -1,0 +1,17 @@
+---
+import '../../styles/admin.css';
+---
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Website studio | Emma Siddons</title></head><body>
+<a class="skip" href="#workspace">Skip to workspace</a>
+<div class="app-shell">
+<aside class="sidebar"><a class="brand" href="/" target="_blank" rel="noopener"><span>Emma Siddons</span><small>Hertfordshire buying agent</small></a><div class="studio-label">WEBSITE STUDIO</div>
+<nav aria-label="Studio navigation"><button data-view="overview" class="nav-item active"><span>◫</span>Overview</button><details open class="nav-group"><summary>Website pages <span id="page-count"></span></summary><div id="page-nav"></div></details><details class="nav-group" open><summary>Shared content</summary><button class="nav-item" data-page="header">Header & navigation</button><button class="nav-item" data-page="footer">Footer</button></details><button class="nav-item" data-view="media"><span>▧</span>Media library</button><button class="nav-item" data-view="settings"><span>⚙</span>Publishing & access</button></nav>
+<div class="sidebar-bottom"><a href="/" target="_blank" rel="noopener">View website <span>↗</span></a><button class="signout" id="signout">Sign out</button><div class="account"><span class="avatar">E</span><div><strong>Administrator</strong><small id="account-email">Connecting…</small></div></div></div></aside>
+<div class="main-shell"><header class="topbar"><button id="menu-toggle" aria-label="Toggle sidebar" aria-expanded="false">☰</button><p>Emma Siddons <span>/</span> <span id="breadcrumb">Overview</span></p><span class="topbar-label">Website administration</span></header>
+<main id="workspace" tabindex="-1"><div id="connection" role="status">Connecting to your website…</div><div id="content"></div></main><footer class="studio-footer"><span>Emma Siddons · Website studio</span><span>Independent. Local. On your side.</span></footer></div></div>
+<dialog id="media-dialog"><div class="dialog-head"><div><p class="eyebrow">YOUR IMAGE COLLECTION</p><h2>Choose an image</h2></div><button id="close-media" aria-label="Close media library">×</button></div><div class="media-tools"><label class="upload-button">Upload image<input type="file" id="media-upload" accept="image/jpeg,image/png,image/webp"/></label><p>JPEG, PNG or WebP · up to 1 MB</p></div><p id="media-status" role="status"></p><div id="media-grid" class="media-grid"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+import '../../studio.js';
+</script>
+</body></html>

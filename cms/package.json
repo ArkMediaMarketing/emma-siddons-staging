@@ -1,0 +1,21 @@
+{
+  "name": "emma-siddons-cms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build && node scripts/prepare.mjs",
+    "dev": "node scripts/dev.mjs",
+    "db:local": "wrangler d1 execute emma-siddons-cms --local --env local --file worker/schema.sql",
+    "test": "node --test tests/*.test.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "dev:worker": "wrangler dev --env local --port 8787",
+    "auth:setup": "node scripts/setup-admin.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.13",
+    "cheerio": "1.1.2"
+  },
+  "devDependencies": {
+    "wrangler": "4.167.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "emma-siddons-admin",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-24",
+  "assets": {
+    "directory": "./dist/site",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "emma-siddons-cms",
+      "database_id": "cd1f882e-9172-4c28-b8af-103fa93b1d72"
+    }
+  ],
+  "vars": {
+    "ADMIN_EMAIL": "itswebsitedeveloper.ews@gmail.com"
+  },
+  "env": {
+    "local": {
+      "name": "emma-siddons-admin-local",
+      "vars": {
+        "LOCAL_DEVELOPMENT": "true",
+        "ADMIN_EMAIL": "itswebsitedeveloper.ews@gmail.com"
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "emma-siddons-cms",
+          "database_id": "local-emma-cms"
+        }
+      ]
+    }
+  }
+}

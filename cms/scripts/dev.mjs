@@ -1,0 +1,16 @@
+import http from 'node:http';
+import {readFile,mkdir} from 'node:fs/promises';
+import path from 'node:path';
+import {DatabaseSync} from 'node:sqlite';
+import {load} from 'cheerio';
+import worker from '../worker/index.js';
+await mkdir('.local',{recursive:true});
+const db=new DatabaseSync('.local/content.sqlite');db.exec(await readFile('worker/schema.sql','utf8'));
+const DB={async batch(statements){db.exec('BEGIN');try{const results=[];for(const s of statements)results.push(await s.run());db.exec('COMMIT');return results;}catch(e){db.exec('ROLLBACK');throw e;}},prepare(sql){let args=[];return {bind(...values){args=values.map(v=>v instanceof ArrayBuffer?new Uint8Array(v):v);return this;},async first(){return db.prepare(sql).get(...args)||null;},async all(){return {results:db.prepare(sql).all(...args)};},async run(){const r=db.prepare(sql).run(...args);return {meta:{changes:r.changes}};}};}};
+globalThis.HTMLRewriter=class {handlers=[];on(selector,handler){this.handlers.push({selector,handler});return this;}transform(response){const handlers=this.handlers;const stream=new ReadableStream({async start(controller){try{const $=load(await response.text());for(const {selector,handler}of handlers){$(selector).each((_,node)=>{const el=$(node);handler.element({setAttribute:(k,v)=>el.attr(k,v),removeAttribute:k=>el.removeAttr(k),setInnerContent:v=>el.text(v)});});}controller.enqueue(new TextEncoder().encode($.html()));controller.close();}catch(e){controller.error(e);}}});return new Response(stream,{status:response.status,headers:response.headers});}};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.txt':'text/plain'};
+const assetRoot=path.resolve('dist/site');
+const ASSETS={async fetch(req){const url=new URL(req.url);let name=decodeURIComponent(url.pathname);if(name.endsWith('/'))name+='index.html';else if(!path.extname(name))name+='/index.html';const file=path.resolve(assetRoot,'.'+name);if(!file.startsWith(assetRoot+path.sep))return new Response('Not found',{status:404});try{const bytes=await readFile(file);return new Response(bytes,{headers:{'Content-Type':types[path.extname(file)]||'application/octet-stream'}});}catch{return new Response('Not found',{status:404});}}};
+const env={DB,ASSETS,LOCAL_DEVELOPMENT:'true',ADMIN_EMAIL:'itswebsitedeveloper.ews@gmail.com'};
+const server=http.createServer(async(req,res)=>{try{const chunks=[];for await(const chunk of req)chunks.push(chunk);const request=new Request('http://'+req.headers.host+req.url,{method:req.method,headers:req.headers,...(!['GET','HEAD'].includes(req.method)?{body:Buffer.concat(chunks)}:{})});const response=await worker.fetch(request,env);res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));}catch(e){console.error(e);res.writeHead(500);res.end('Local server error');}});
+server.listen(8787,'127.0.0.1',()=>console.log('Emma Siddons studio: http://localhost:8787/admin/ (local SQLite; same Worker API handlers)'));
