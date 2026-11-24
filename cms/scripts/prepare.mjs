@@ -31,9 +31,9 @@ async function instrument(file) {
  const html=(await readFile(file,'utf8')).replace(/\/_astro\/[^\"'\s<>]+/g, value=>value.toLowerCase()), $=load(html);
  const relative=path.relative(out,file).replaceAll('\\','/');
  const route='/'+relative.replace(/index\.html$/,'');
- const id=route==='/'?'home':route.replace(/^\/|\/$/g,'').replaceAll('/','--');
+ const id=route==='/'?'home-new':route.replace(/^\/|\/$/g,'').replaceAll('/','--');
  const title=$('title').text().split('|')[0].trim();
- const doc={id,title: id==='home'?'Home':id==='home-new'?'Home New':id==='v2'?'Home V2':title,route,fields:[]};
+ const doc={id,title: id==='home-new'?'Home':id==='v2'?'Home V2':title,route,fields:[]};
  for(const scope of ['header','main','footer']) {
   const fields=[], container=$(scope).first();
   if(scope==='main')nameEditorSections($,container,id);
