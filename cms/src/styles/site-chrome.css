@@ -1,0 +1,59 @@
+/* One homepage header/footer layout for every public page. Scope overrides so
+   legacy page styles cannot resize or rearrange the shared navigation. */
+body .site-chrome { --chrome-gutter: 5vw; font-family: var(--serif); color: var(--ink); }
+body .header.site-chrome .header__inner,
+body .footer.site-chrome .page-footer__inner { box-sizing: border-box; width: 100%; max-width: 1600px; margin-inline: auto; padding-inline: var(--chrome-gutter); display: flex; align-items: center; justify-content: space-between; }
+body .header.site-chrome .header__inner { min-height: 98px; padding-block: 18px; gap: 28px; }
+body .site-chrome.header .brand__name,
+body .site-chrome.footer .brand__name { font-size: clamp(29px,2.9vw,43px); line-height: 1; }
+body .site-chrome.header .brand__strapline,
+body .site-chrome.footer .brand__strapline { font: 10px/1.5 var(--sans); letter-spacing: 2.6px; margin-top: 7px; }
+body .header.site-chrome .desktop-nav { display: flex; gap: 22px; font-size: 14px; line-height: 1.5; }
+body .header.site-chrome .desktop-nav a { display: block; min-height: auto; padding-block: 9px; }
+body .header.site-chrome .header__contact { display: flex; flex-direction: row; align-items: center; gap: 25px; font-size: 14px; }
+body .header.site-chrome .header__contact a { gap: 10px; }
+body .header.site-chrome .mobile-menu { display: none; }
+body .footer.site-chrome { display: block; width: 100%; max-width: none; margin-inline: 0; padding: 28px 0 35px; }
+body .footer.site-chrome .page-footer__inner { gap: 35px; }
+body .footer.site-chrome nav { display: flex; flex-wrap: wrap; width: auto; gap: 24px; font-size: 16px; line-height: 1.5; }
+body .footer.site-chrome nav a { min-height: auto; padding: 0; font-size: 16px; }
+@media(max-width:1350px) {
+  body .site-chrome { --chrome-gutter: 4vw; }
+  body .header.site-chrome .header__inner { min-height: 86px; padding-block: 20px; gap: 20px; }
+  body .header.site-chrome .desktop-nav { gap: 16px; font-size: 12px; }
+  body .header.site-chrome .header__contact { gap: 18px; font-size: 12px; }
+  body .header.site-chrome .header__contact a { gap: 8px; }
+  body .site-chrome.header .brand__strapline,
+  body .site-chrome.footer .brand__strapline { font-size: 8px; letter-spacing: 2px; }
+  body .footer.site-chrome nav { gap: 18px; }
+}
+@media(max-width:1300px) { body .footer.site-chrome .page-footer__inner { flex-wrap: wrap; } }
+@media(max-width:1100px) {
+  body .site-chrome { --chrome-gutter: 5vw; }
+  body .header.site-chrome .header__inner { min-height: 82px; padding-block: 16px; }
+  body .header.site-chrome .header__contact { display: none; }
+  body .header.site-chrome .desktop-nav { gap: 15px; }
+  body .footer.site-chrome .page-footer__inner { gap: 20px; }
+  body .footer.site-chrome nav { gap: 14px; }
+}
+@media(max-width:800px) {
+  body .header.site-chrome .desktop-nav { display: none; }
+  body .header.site-chrome .mobile-menu { display: block; }
+  body .header.site-chrome .mobile-menu summary { font: 13px var(--sans); }
+  body .header.site-chrome .mobile-menu nav { padding: 15px 5vw 25px; }
+  body .header.site-chrome .mobile-menu nav a { font-size: 16px; line-height: 1.5; }
+  body .footer.site-chrome { padding-block: 30px; }
+  body .footer.site-chrome .page-footer__inner { gap: 25px; }
+  body .footer.site-chrome nav { gap: 15px; }
+}
+@media(max-width:540px) {
+  body .site-chrome { --chrome-gutter: 6vw; }
+  body .header.site-chrome .header__inner { min-height: 80px; }
+  body .site-chrome.header .brand__name,
+  body .site-chrome.footer .brand__name { font-size: 30px; }
+  body .site-chrome.header .brand__strapline,
+  body .site-chrome.footer .brand__strapline { font-size: 7.5px; letter-spacing: 1.8px; }
+  body .footer.site-chrome .page-footer__inner { align-items: flex-start; }
+  body .footer.site-chrome nav { display: grid; grid-template-columns: 1fr 1fr; width: 100%; gap: 0 15px; }
+  body .footer.site-chrome nav a { padding-block: 10px; min-height: 42px; }
+}

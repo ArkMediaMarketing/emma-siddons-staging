@@ -19,10 +19,12 @@ function rotateReviews(carousel: HTMLElement, cards: HTMLElement[], single = fal
   }
 
   carousel.tabIndex = 0;
-  carousel.setAttribute('aria-description', 'Reviews rotate automatically. Focus here to pause.');
-  carousel.addEventListener('mouseenter', () => { hovered = true; });
-  carousel.addEventListener('mouseleave', () => { hovered = false; });
-  carousel.addEventListener('focusin', () => { focused = true; });
+  carousel.setAttribute('aria-description', 'Reviews rotate automatically. Focus here with the keyboard to pause.');
+  if (!single) {
+    carousel.addEventListener('mouseenter', () => { hovered = true; });
+    carousel.addEventListener('mouseleave', () => { hovered = false; });
+  }
+  carousel.addEventListener('focusin', () => { focused = !single || carousel.matches(':focus-visible'); });
   carousel.addEventListener('focusout', event => {
     focused = event.relatedTarget instanceof Node && carousel.contains(event.relatedTarget);
   });
