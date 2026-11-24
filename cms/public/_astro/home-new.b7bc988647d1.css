@@ -50,24 +50,30 @@
 .nh-hero__photo > img { object-position: 49% center; }
 .nh-photo-caption { position: absolute; bottom: 0; inset-inline: 0; background: #f8f7f4f5; padding: 20px 30px; display: flex; justify-content: space-between; align-items: center; gap: 15px; }
 .nh-photo-caption span:first-child { font-size: 23px; }
-.nh-photo-caption span:last-child { font: 11px/1.5 var(--sans); letter-spacing: .04em; color: var(--ink); }
-.nh-assurance { padding-block: 32px; display: grid; grid-template-columns: minmax(0,.8fr) repeat(2,minmax(0,1fr)); gap: var(--nh-card-gap); align-items: stretch; }
+.nh-photo-caption span:last-child { font: 11px/1.5 var(--serif); letter-spacing: .04em; color: var(--ink); }
+.nh-assurance { grid-template-rows: minmax(180px,auto) auto; padding-block: 32px; display: grid; grid-template-columns: minmax(0,.8fr) repeat(2,minmax(0,1fr)); column-gap: var(--nh-card-gap); row-gap: 16px; align-items: stretch; }
 .new-home .nh-assurance { border-bottom: 1px solid var(--nh-divider); }
-.nh-reviews__summary { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; }
+.nh-reviews__summary { grid-column: 1; grid-row: 1 / span 2; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; }
 .nh-assurance .nh-stars { font-size: 21px; letter-spacing: 2px; white-space: nowrap; }
-.new-home .nh-reviews__summary p { font: 16px/1.6 var(--sans); margin: 0; }
+.new-home .nh-reviews__summary .nh-review-rating { font: 18px/1.6 var(--serif); margin: 0; }
 .nh-reviews__summary strong { font-weight: 500; color: var(--ink); }
-.nh-reviews__summary p > span { display: block; color: var(--muted); font-size: 14px; }
+.nh-reviews__summary .nh-review-rating > span { display: block; color: var(--ink); font-size: 18px; }
 .nh-review { margin: 0; padding-left: 30px; border-left: 1px solid var(--nh-divider); display: flex; flex-direction: column; justify-content: space-between; gap: 18px; }
 .nh-review blockquote { margin: 0; }
 .new-home .nh-review blockquote p { font-size: 20px; line-height: 1.45; margin: 0; color: var(--ink); }
-.nh-review figcaption { font: 14px/1.6 var(--sans); color: var(--ink); }
-.nh-review figcaption span { display: block; color: var(--muted); }
-.nh-stars { color: var(--ink); letter-spacing: 5px; font-family: var(--sans); }
+.nh-review figcaption { font: 16px/1.6 var(--serif); color: var(--ink); }
+.nh-review figcaption span { display: block; color: var(--ink); font-size: 14px; }
+.nh-review[hidden], .nh-review-controls[hidden] { display: none; }
+.nh-review-controls { grid-column: 2 / -1; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.nh-review-controls button { appearance: none; font: 16px/1.4 var(--serif); color: #000; background: transparent; border: 1px solid #000; border-radius: 0; padding: 9px 16px; min-height: 44px; cursor: pointer; }
+.nh-review-controls button:hover { background: var(--cream); }
+.nh-review-controls button:focus-visible { outline: 2px solid #000; outline-offset: 3px; }
+.nh-review-controls [data-review-status] { font: 16px/1.4 var(--serif); margin-left: auto; color: #000; }
+.nh-stars { color: var(--ink); letter-spacing: 5px; font-family: var(--serif); }
 .nh-section-heading { align-items: end; margin-bottom: var(--nh-space-lg); }
 .nh-benefits { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: var(--nh-card-gap); }
 .nh-benefits article, .nh-fees__figures > div { border-top: 1px solid #9da79c; padding-top: var(--nh-space-md); }
-.nh-index { display: block; font: 13px/1.4 var(--sans); letter-spacing: .08em; color: var(--ink); margin-bottom: var(--nh-space-md); }
+.nh-index { display: block; font: 13px/1.4 var(--serif); letter-spacing: .08em; color: var(--ink); margin-bottom: var(--nh-space-md); }
 .new-home .nh-benefits p { margin-bottom: 0; }
 .nh-offmarket { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); background: var(--green); color: var(--cream); }
 .nh-offmarket__photo { position: relative; min-height: 620px; }
@@ -92,25 +98,25 @@
 .nh-fees__figures { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: var(--nh-space-lg); }
 .new-home .nh-fees__figures h3 { font: 12px/1.5 var(--sans); text-transform: uppercase; letter-spacing: .12em; }
 .new-home .nh-fee-value { font-size: 38px; line-height: 1.2; color: var(--ink); }
-.nh-fee-value span { font: 12px/1.6 var(--sans); display: block; margin-top: 10px; }
+.nh-fee-value span { font: 16px/1.6 var(--serif); display: block; margin-top: 10px; }
 .new-home .nh-fee-note { grid-column: 1/-1; font-size: 13px; color: var(--muted); border-top: 1px solid var(--nh-divider); padding-top: var(--nh-space-md); margin: 0; }
 .nh-places__photo img { width: 100%; height: 530px; object-fit: cover; object-position: 40% center; }
-.new-home .nh-places__photo p { font: 11px/1.6 var(--sans); letter-spacing: .09em; margin: 14px 0 0; }
+.new-home .nh-places__photo p { font: 14px/1.6 var(--serif); letter-spacing: .09em; margin: 14px 0 0; }
 .nh-area-list { list-style: none; padding: 0; margin: var(--nh-space-md) 0; }
 .nh-area-list li { border-top: 1px solid var(--nh-divider); padding: var(--nh-space-sm) 0; }
 .nh-area-list span { font-size: var(--nh-subheading); line-height: 1.2; display: block; }
-.nh-area-list small { font: 12px/1.6 var(--sans); color: var(--muted); display: block; margin-top: 5px; }
+.nh-area-list small { font: 16px/1.6 var(--serif); color: var(--muted); display: block; margin-top: 5px; }
 .nh-testimonial { background: var(--sage); padding-block: var(--nh-section-space); text-align: center; }
 .nh-testimonial blockquote { margin: var(--nh-space-md) auto; max-width: 850px; }
 .new-home .nh-testimonial blockquote p { font-size: clamp(29px,3.2vw,46px); line-height: 1.3; color: var(--ink); letter-spacing: -.02em; }
-.nh-testimonial cite { font: 14px/1.8 var(--sans); font-style: normal; }
-.nh-testimonial cite span { display: block; font-size: 11px; color: var(--muted); }
+.nh-testimonial cite { font: 16px/1.8 var(--serif); font-style: normal; }
+.nh-testimonial cite span { display: block; font-size: 14px; color: var(--muted); }
 .nh-guide > img { width: 100%; height: auto; }
 .nh-faq { border-top: 1px solid var(--nh-divider); padding: var(--nh-space-md) 0; }
 .nh-faq:last-child { border-bottom: 1px solid var(--nh-divider); }
 .nh-faq summary { list-style: none; display: flex; justify-content: space-between; align-items: baseline; gap: 18px; font-size: 22px; cursor: pointer; line-height: 1.35; }
 .nh-faq summary::-webkit-details-marker { display: none; }
-.nh-faq summary span { font: 25px/1 var(--sans); color: var(--ink); transition: transform .15s; }
+.nh-faq summary span { font: 25px/1 var(--serif); color: var(--ink); transition: transform .15s; }
 .nh-faq[open] summary span { transform: rotate(45deg); }
 .new-home .nh-faq p { margin: var(--nh-space-md) 0 0; }
 .nh-contact { background: var(--green); color: var(--cream); }
@@ -130,6 +136,7 @@
   .nh-hero__copy { padding: 55px 40px 55px 5cqw; }
   .nh-hero__photo { min-height: 620px; }
   .nh-photo-caption { flex-direction: column; align-items: flex-start; gap: 3px; }
+  .nh-assurance { grid-template-rows: minmax(225px,auto) auto; }
   .nh-review { padding-left: 22px; }
   .nh-offmarket__copy { padding-right: 5cqw; }
 }
@@ -140,9 +147,10 @@
   .new-home .nh-hero h1 { font-size: 43px; }
   .nh-hero__photo { min-height: 610px; }
   .new-home .nh-hero .nh-lead { font-size: 17px; }
-  .nh-assurance { grid-template-columns: minmax(0,1fr) minmax(0,1fr); padding-block: var(--nh-space-md); }
-  .nh-reviews__summary { grid-column: 1/-1; align-items: center; text-align: center; }
+  .nh-assurance { grid-template-columns: minmax(0,1fr) minmax(0,1fr); grid-template-rows: auto minmax(180px,auto) auto; padding-block: var(--nh-space-md); }
+  .nh-reviews__summary { grid-column: 1/-1; grid-row: auto; align-items: center; text-align: center; }
   .nh-review { padding-left: 0; border-left: 0; }
+  .nh-review-controls { grid-column: 1 / -1; }
   .nh-offmarket__copy { padding-block: 45px; }
   .nh-offmarket__photo { min-height: 650px; }
   .new-home :is(.nh-process,.nh-questions__inner,.nh-fees__inner,.nh-contact__inner) { grid-template-columns: minmax(0,1fr); }
@@ -165,7 +173,7 @@
   .nh-photo-caption { padding: 15px 24px; flex-direction: row; align-items: center; }
   .nh-photo-caption span:first-child { font-size: 21px; }
   .nh-photo-caption span:last-child { font-size: 10px; max-width: 145px; text-align: right; }
-  .nh-assurance { grid-template-columns: minmax(0,1fr); gap: 24px; }
+  .nh-assurance { grid-template-columns: minmax(0,1fr); grid-template-rows: auto minmax(200px,auto) auto; gap: 24px; }
   .nh-reviews__summary { align-items: flex-start; text-align: left; }
   .nh-review { border-top: 1px solid var(--nh-divider); padding-top: 24px; }
   .new-home .nh-review blockquote p { font-size: 20px; }

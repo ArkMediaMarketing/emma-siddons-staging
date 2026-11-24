@@ -122,7 +122,13 @@ async function instrument(file) {
     if(['Fee overview','Fee breakdown','Initial retainer','Success fee & payment terms'].includes(field.section))field.section='Fees & payment';
    }
    // New review fields are appended in source to retain all existing content IDs.
-   if(id==='home-new')container.find('[data-home-new-reviews]').insertBefore(container.find('.nh-assurance[data-retired]'));
+   if(id==='home-new'){
+    const reviews=container.find('[data-home-new-reviews]');
+    reviews.find('[data-review-label]').prependTo(reviews.find('.nh-reviews__summary'));
+    reviews.insertBefore(container.find('.nh-assurance[data-retired]'));
+    const controlIds=new Set(reviews.find('[data-review-controls] cms-text').toArray().map(el=>$(el).attr('data-cms')));
+    for(const field of fields)if(controlIds.has(field.id))field.hiddenFromEditor=true;
+   }
    // Retire rendered elements after assigning IDs so saved CMS content stays aligned.
    if(['services-and-fees','home-new'].includes(id)){
     const retired=container.find('[data-retired]'),keys=new Set();
