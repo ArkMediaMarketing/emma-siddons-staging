@@ -74,7 +74,8 @@ async function instrument(file) {
   container.find('a').each((i,el)=>{
    const key=`${scope==='main'?id:scope}-link-${i}`;
    $(el).attr('data-cms-link',key);
-   fields.push({id:key,type:'link',label:labelFor(el,'Button / link URL'),section:sectionName(el),value:$(el).attr('href')||'/'});
+   const linkTextIds=$(el).find('cms-text[data-cms]').toArray().map(node=>$(node).attr('data-cms')).filter(key=>{const field=fields.find(f=>f.id===key);if(field&&/^[↗→↓+★]+$/.test(field.value.trim())){field.hiddenFromEditor=true;return false;}return field&&field.type==='text';});
+   fields.push({id:key,type:'link',linkTextIds,label:labelFor(el,'Button / link URL'),section:sectionName(el),value:$(el).attr('href')||'/'});
   });
   // Keep every legacy ID while presenting whole semantic text blocks.
   let groupIndex=0;

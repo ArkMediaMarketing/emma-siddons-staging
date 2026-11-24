@@ -141,6 +141,10 @@
         {
           "id": "header-link-0",
           "type": "link",
+          "linkTextIds": [
+            "header-text-0",
+            "header-text-1"
+          ],
           "label": "Button / link URL 1",
           "section": "Brand & navigation",
           "value": "/"
@@ -148,6 +152,9 @@
         {
           "id": "header-link-1",
           "type": "link",
+          "linkTextIds": [
+            "header-text-2"
+          ],
           "label": "Button / link URL 2",
           "section": "Brand & navigation",
           "value": "/about-me/"
@@ -155,6 +162,9 @@
         {
           "id": "header-link-2",
           "type": "link",
+          "linkTextIds": [
+            "header-text-3"
+          ],
           "label": "Button / link URL 3",
           "section": "Brand & navigation",
           "value": "/how-i-can-help-you/"
@@ -162,6 +172,9 @@
         {
           "id": "header-link-3",
           "type": "link",
+          "linkTextIds": [
+            "header-text-4"
+          ],
           "label": "Button / link URL 4",
           "section": "Brand & navigation",
           "value": "/services-and-fees/"
@@ -169,6 +182,9 @@
         {
           "id": "header-link-4",
           "type": "link",
+          "linkTextIds": [
+            "header-text-5"
+          ],
           "label": "Button / link URL 5",
           "section": "Brand & navigation",
           "value": "/off-market-homes-hertfordshire/"
@@ -176,6 +192,9 @@
         {
           "id": "header-link-5",
           "type": "link",
+          "linkTextIds": [
+            "header-text-6"
+          ],
           "label": "Button / link URL 6",
           "section": "Brand & navigation",
           "value": "/areas-covered/"
@@ -183,6 +202,9 @@
         {
           "id": "header-link-6",
           "type": "link",
+          "linkTextIds": [
+            "header-text-7"
+          ],
           "label": "Button / link URL 7",
           "section": "Brand & navigation",
           "value": "/contact/"
@@ -190,6 +212,9 @@
         {
           "id": "header-link-7",
           "type": "link",
+          "linkTextIds": [
+            "header-text-8"
+          ],
           "label": "Button / link URL 8",
           "section": "Brand & navigation",
           "value": "tel:+447702630983"
@@ -197,6 +222,9 @@
         {
           "id": "header-link-8",
           "type": "link",
+          "linkTextIds": [
+            "header-text-9"
+          ],
           "label": "Button / link URL 9",
           "section": "Brand & navigation",
           "value": "mailto:info@emmasiddons.com"
@@ -204,6 +232,9 @@
         {
           "id": "header-link-9",
           "type": "link",
+          "linkTextIds": [
+            "header-text-11"
+          ],
           "label": "Button / link URL 10",
           "section": "Brand & navigation",
           "value": "/about-me/"
@@ -211,6 +242,9 @@
         {
           "id": "header-link-10",
           "type": "link",
+          "linkTextIds": [
+            "header-text-12"
+          ],
           "label": "Button / link URL 11",
           "section": "Brand & navigation",
           "value": "/how-i-can-help-you/"
@@ -218,6 +252,9 @@
         {
           "id": "header-link-11",
           "type": "link",
+          "linkTextIds": [
+            "header-text-13"
+          ],
           "label": "Button / link URL 12",
           "section": "Brand & navigation",
           "value": "/services-and-fees/"
@@ -225,6 +262,9 @@
         {
           "id": "header-link-12",
           "type": "link",
+          "linkTextIds": [
+            "header-text-14"
+          ],
           "label": "Button / link URL 13",
           "section": "Brand & navigation",
           "value": "/off-market-homes-hertfordshire/"
@@ -232,6 +272,9 @@
         {
           "id": "header-link-13",
           "type": "link",
+          "linkTextIds": [
+            "header-text-15"
+          ],
           "label": "Button / link URL 14",
           "section": "Brand & navigation",
           "value": "/areas-covered/"
@@ -239,6 +282,9 @@
         {
           "id": "header-link-14",
           "type": "link",
+          "linkTextIds": [
+            "header-text-16"
+          ],
           "label": "Button / link URL 15",
           "section": "Brand & navigation",
           "value": "/contact/"
@@ -246,6 +292,9 @@
         {
           "id": "header-link-15",
           "type": "link",
+          "linkTextIds": [
+            "header-text-17"
+          ],
           "label": "Button / link URL 16",
           "section": "Brand & navigation",
           "value": "tel:+447702630983"
@@ -253,6 +302,9 @@
         {
           "id": "header-link-16",
           "type": "link",
+          "linkTextIds": [
+            "header-text-18"
+          ],
           "label": "Button / link URL 17",
           "section": "Brand & navigation",
           "value": "mailto:info@emmasiddons.com"
@@ -339,6 +391,10 @@
         {
           "id": "footer-link-0",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-0",
+            "footer-text-1"
+          ],
           "label": "Button / link URL 1",
           "section": "Footer",
           "value": "/"
@@ -346,6 +402,9 @@
         {
           "id": "footer-link-1",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-2"
+          ],
           "label": "Button / link URL 2",
           "section": "Footer",
           "value": "/about-me/"
@@ -353,6 +412,9 @@
         {
           "id": "footer-link-2",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-3"
+          ],
           "label": "Button / link URL 3",
           "section": "Footer",
           "value": "/how-i-can-help-you/"
@@ -360,6 +422,9 @@
         {
           "id": "footer-link-3",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-4"
+          ],
           "label": "Button / link URL 4",
           "section": "Footer",
           "value": "/services-and-fees/"
@@ -367,6 +432,9 @@
         {
           "id": "footer-link-4",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-5"
+          ],
           "label": "Button / link URL 5",
           "section": "Footer",
           "value": "/off-market-homes-hertfordshire/"
@@ -374,6 +442,9 @@
         {
           "id": "footer-link-5",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-6"
+          ],
           "label": "Button / link URL 6",
           "section": "Footer",
           "value": "/areas-covered/"
@@ -381,6 +452,9 @@
         {
           "id": "footer-link-6",
           "type": "link",
+          "linkTextIds": [
+            "footer-text-7"
+          ],
           "label": "Button / link URL 7",
           "section": "Footer",
           "value": "/contact/"
@@ -907,6 +981,9 @@
         {
           "id": "home-link-0",
           "type": "link",
+          "linkTextIds": [
+            "home-text-6"
+          ],
           "label": "Button / link URL 1",
           "section": "Hero",
           "value": "#contact"
@@ -914,6 +991,9 @@
         {
           "id": "home-link-1",
           "type": "link",
+          "linkTextIds": [
+            "home-text-14"
+          ],
           "label": "Button / link URL 1",
           "section": "Client reviews",
           "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
@@ -921,6 +1001,9 @@
         {
           "id": "home-link-2",
           "type": "link",
+          "linkTextIds": [
+            "home-text-33"
+          ],
           "label": "Button / link URL 1",
           "section": "Property search service",
           "value": "/how-i-can-help-you/"
@@ -928,6 +1011,9 @@
         {
           "id": "home-link-3",
           "type": "link",
+          "linkTextIds": [
+            "home-text-39"
+          ],
           "label": "Button / link URL 1",
           "section": "About me",
           "value": "/about-me/"
@@ -935,6 +1021,9 @@
         {
           "id": "home-link-4",
           "type": "link",
+          "linkTextIds": [
+            "home-text-44"
+          ],
           "label": "Button / link URL 1",
           "section": "Areas covered",
           "value": "/areas-covered/"
@@ -942,6 +1031,9 @@
         {
           "id": "home-link-5",
           "type": "link",
+          "linkTextIds": [
+            "home-text-48"
+          ],
           "label": "Button / link URL 1",
           "section": "Off-market homes",
           "value": "/off-market-homes-hertfordshire/"
@@ -949,6 +1041,9 @@
         {
           "id": "home-link-6",
           "type": "link",
+          "linkTextIds": [
+            "home-text-51"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -956,6 +1051,9 @@
         {
           "id": "home-link-7",
           "type": "link",
+          "linkTextIds": [
+            "home-text-52"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -2233,7 +2331,8 @@
           "type": "text",
           "label": "Button / link text 3",
           "section": "Hero",
-          "value": "↓"
+          "value": "↓",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-8",
@@ -2254,7 +2353,8 @@
           "type": "text",
           "label": "Button / link text 1",
           "section": "Section 2",
-          "value": "★★★★★"
+          "value": "★★★★★",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-11",
@@ -3262,6 +3362,9 @@
         {
           "id": "home-new-link-0",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-5"
+          ],
           "label": "Button / link URL 1",
           "section": "Hero",
           "value": "#contact"
@@ -3269,6 +3372,9 @@
         {
           "id": "home-new-link-1",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-6"
+          ],
           "label": "Button / link URL 2",
           "section": "Hero",
           "value": "#how-i-work"
@@ -3276,6 +3382,11 @@
         {
           "id": "home-new-link-2",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-11",
+            "home-new-text-12",
+            "home-new-text-13"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 2",
           "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
@@ -3283,6 +3394,9 @@
         {
           "id": "home-new-link-3",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-24"
+          ],
           "label": "Button / link URL 1",
           "section": "About me",
           "value": "/about-me/"
@@ -3290,6 +3404,9 @@
         {
           "id": "home-new-link-4",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-44"
+          ],
           "label": "Button / link URL 1",
           "section": "Off-market homes",
           "value": "/off-market-homes-hertfordshire/"
@@ -3297,6 +3414,9 @@
         {
           "id": "home-new-link-5",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-49"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 6",
           "value": "/how-i-can-help-you/"
@@ -3304,6 +3424,9 @@
         {
           "id": "home-new-link-6",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-69"
+          ],
           "label": "Button / link URL 1",
           "section": "Services & fees",
           "value": "/services-and-fees/"
@@ -3311,6 +3434,9 @@
         {
           "id": "home-new-link-7",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-90"
+          ],
           "label": "Button / link URL 1",
           "section": "Areas covered",
           "value": "/areas-covered/"
@@ -3318,6 +3444,9 @@
         {
           "id": "home-new-link-8",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-96"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 9",
           "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
@@ -3325,6 +3454,9 @@
         {
           "id": "home-new-link-9",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-101"
+          ],
           "label": "Button / link URL 1",
           "section": "Guide",
           "value": "/guides/finding-off-market-homes/"
@@ -3332,6 +3464,9 @@
         {
           "id": "home-new-link-10",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-106"
+          ],
           "label": "Button / link URL 1",
           "section": "Frequently asked questions",
           "value": "tel:+447702630983"
@@ -3339,6 +3474,10 @@
         {
           "id": "home-new-link-11",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-127",
+            "home-new-text-128"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -3346,6 +3485,10 @@
         {
           "id": "home-new-link-12",
           "type": "link",
+          "linkTextIds": [
+            "home-new-text-129",
+            "home-new-text-130"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -6670,7 +6813,8 @@
           "type": "text",
           "label": "Button / link text 2",
           "section": "Section 6",
-          "value": "→"
+          "value": "→",
+          "hiddenFromEditor": true
         },
         {
           "id": "v2-text-49",
@@ -6848,6 +6992,9 @@
         {
           "id": "v2-link-0",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-3"
+          ],
           "label": "Button / link URL 1",
           "section": "Hero",
           "value": "#contact"
@@ -6855,6 +7002,9 @@
         {
           "id": "v2-link-1",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-23"
+          ],
           "label": "Button / link URL 1",
           "section": "Property search service",
           "value": "/how-i-can-help-you/"
@@ -6862,6 +7012,9 @@
         {
           "id": "v2-link-2",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-31"
+          ],
           "label": "Button / link URL 1",
           "section": "About me",
           "value": "/about-me/"
@@ -6869,6 +7022,9 @@
         {
           "id": "v2-link-3",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-37"
+          ],
           "label": "Button / link URL 1",
           "section": "Off-market homes",
           "value": "/off-market-homes-hertfordshire/"
@@ -6876,6 +7032,9 @@
         {
           "id": "v2-link-4",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-42"
+          ],
           "label": "Button / link URL 1",
           "section": "Areas covered",
           "value": "/areas-covered/"
@@ -6883,6 +7042,9 @@
         {
           "id": "v2-link-5",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-47"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 6",
           "value": "https://www.google.com/maps/place/Emma+Siddons+Hertfordshire+Buying+Agent/@51.9086136,0.021855,17z/data=!3m1!4b1!4m6!3m5!1s0x47d883cc26b9d5f3:0xfccc5acba3f52be8!8m2!3d51.9086103!4d0.0244299!16s%2Fg%2F11qpzpnrlc"
@@ -6890,6 +7052,9 @@
         {
           "id": "v2-link-6",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-53"
+          ],
           "label": "Button / link URL 1",
           "section": "Frequently asked questions",
           "value": "/services-and-fees/"
@@ -6897,6 +7062,9 @@
         {
           "id": "v2-link-7",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-64"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -6904,6 +7072,9 @@
         {
           "id": "v2-link-8",
           "type": "link",
+          "linkTextIds": [
+            "v2-text-65"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -8805,6 +8976,9 @@
         {
           "id": "about-me-link-0",
           "type": "link",
+          "linkTextIds": [
+            "about-me-text-4"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 1",
           "value": "/contact/"
@@ -8812,6 +8986,9 @@
         {
           "id": "about-me-link-1",
           "type": "link",
+          "linkTextIds": [
+            "about-me-text-17"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 3",
           "value": "/services-and-fees/"
@@ -8819,6 +8996,9 @@
         {
           "id": "about-me-link-2",
           "type": "link",
+          "linkTextIds": [
+            "about-me-text-20"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -8826,6 +9006,9 @@
         {
           "id": "about-me-link-3",
           "type": "link",
+          "linkTextIds": [
+            "about-me-text-21"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -9379,6 +9562,9 @@
         {
           "id": "areas-covered-link-0",
           "type": "link",
+          "linkTextIds": [
+            "areas-covered-text-8"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 2",
           "value": "/off-market-homes-hertfordshire/"
@@ -9386,6 +9572,9 @@
         {
           "id": "areas-covered-link-1",
           "type": "link",
+          "linkTextIds": [
+            "areas-covered-text-18"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 4",
           "value": "/contact/"
@@ -9393,6 +9582,9 @@
         {
           "id": "areas-covered-link-2",
           "type": "link",
+          "linkTextIds": [
+            "areas-covered-text-21"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -9400,6 +9592,9 @@
         {
           "id": "areas-covered-link-3",
           "type": "link",
+          "linkTextIds": [
+            "areas-covered-text-22"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -9923,6 +10118,9 @@
         {
           "id": "contact-link-0",
           "type": "link",
+          "linkTextIds": [
+            "contact-text-3"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 1",
           "value": "tel:+447702630983"
@@ -9930,6 +10128,9 @@
         {
           "id": "contact-link-1",
           "type": "link",
+          "linkTextIds": [
+            "contact-text-4"
+          ],
           "label": "Button / link URL 2",
           "section": "Section 1",
           "value": "mailto:info@emmasiddons.com"
@@ -9937,6 +10138,9 @@
         {
           "id": "contact-link-2",
           "type": "link",
+          "linkTextIds": [
+            "contact-text-7"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 2",
           "value": "tel:+447702630983"
@@ -9944,6 +10148,9 @@
         {
           "id": "contact-link-3",
           "type": "link",
+          "linkTextIds": [
+            "contact-text-10"
+          ],
           "label": "Button / link URL 2",
           "section": "Section 2",
           "value": "mailto:info@emmasiddons.com"
@@ -10357,6 +10564,9 @@
         {
           "id": "guides--finding-off-market-homes-link-0",
           "type": "link",
+          "linkTextIds": [
+            "guides--finding-off-market-homes-text-15"
+          ],
           "label": "Button / link URL 1",
           "section": "Page content",
           "value": "/off-market-homes-hertfordshire/"
@@ -10364,6 +10574,9 @@
         {
           "id": "guides--finding-off-market-homes-link-1",
           "type": "link",
+          "linkTextIds": [
+            "guides--finding-off-market-homes-text-18"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -10371,6 +10584,9 @@
         {
           "id": "guides--finding-off-market-homes-link-2",
           "type": "link",
+          "linkTextIds": [
+            "guides--finding-off-market-homes-text-19"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -10932,6 +11148,9 @@
         {
           "id": "how-i-can-help-you-link-0",
           "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-3"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 1",
           "value": "/contact/"
@@ -10939,6 +11158,9 @@
         {
           "id": "how-i-can-help-you-link-1",
           "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-9"
+          ],
           "label": "Button / link URL 1",
           "section": "How I work",
           "value": "/services-and-fees/"
@@ -10946,6 +11168,9 @@
         {
           "id": "how-i-can-help-you-link-2",
           "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-22"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -10953,6 +11178,9 @@
         {
           "id": "how-i-can-help-you-link-3",
           "type": "link",
+          "linkTextIds": [
+            "how-i-can-help-you-text-23"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -12117,6 +12345,9 @@
         {
           "id": "off-market-homes-hertfordshire-link-0",
           "type": "link",
+          "linkTextIds": [
+            "off-market-homes-hertfordshire-text-3"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 1",
           "value": "/contact/"
@@ -12124,6 +12355,9 @@
         {
           "id": "off-market-homes-hertfordshire-link-1",
           "type": "link",
+          "linkTextIds": [
+            "off-market-homes-hertfordshire-text-12"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 2",
           "value": "/areas-covered/"
@@ -12131,6 +12365,9 @@
         {
           "id": "off-market-homes-hertfordshire-link-2",
           "type": "link",
+          "linkTextIds": [
+            "off-market-homes-hertfordshire-text-17"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 3",
           "value": "/guides/finding-off-market-homes/"
@@ -12138,6 +12375,9 @@
         {
           "id": "off-market-homes-hertfordshire-link-3",
           "type": "link",
+          "linkTextIds": [
+            "off-market-homes-hertfordshire-text-28"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -12145,6 +12385,9 @@
         {
           "id": "off-market-homes-hertfordshire-link-4",
           "type": "link",
+          "linkTextIds": [
+            "off-market-homes-hertfordshire-text-29"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
@@ -12812,6 +13055,9 @@
         {
           "id": "services-and-fees-link-0",
           "type": "link",
+          "linkTextIds": [
+            "services-and-fees-text-3"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 1",
           "value": "/contact/"
@@ -12819,6 +13065,9 @@
         {
           "id": "services-and-fees-link-1",
           "type": "link",
+          "linkTextIds": [
+            "services-and-fees-text-8"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 2",
           "value": "/how-i-can-help-you/"
@@ -12826,6 +13075,9 @@
         {
           "id": "services-and-fees-link-2",
           "type": "link",
+          "linkTextIds": [
+            "services-and-fees-text-17"
+          ],
           "label": "Button / link URL 1",
           "section": "Section 3",
           "value": "/contact/"
@@ -12833,6 +13085,9 @@
         {
           "id": "services-and-fees-link-3",
           "type": "link",
+          "linkTextIds": [
+            "services-and-fees-text-25"
+          ],
           "label": "Button / link URL 1",
           "section": "Contact",
           "value": "tel:+447702630983"
@@ -12840,6 +13095,9 @@
         {
           "id": "services-and-fees-link-4",
           "type": "link",
+          "linkTextIds": [
+            "services-and-fees-text-26"
+          ],
           "label": "Button / link URL 2",
           "section": "Contact",
           "value": "mailto:info@emmasiddons.com"
