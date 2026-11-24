@@ -1,15 +1,15 @@
 /* About banner: a quiet copy panel beside an edge-to-edge portrait. */
-.site-refined .page-intro.about-banner{grid-template-columns:54% 46%;gap:0;padding:0;min-height:clamp(520px,33vw,660px);background:#f1eee9}
-.site-refined .about-banner .page-intro__copy{padding:58px 48px 58px max(var(--content-gutter),calc((100vw - var(--content-width))/2));align-self:center}
+.site-refined .page-intro.about-banner{grid-template-columns:54% 46%;gap:0;padding:0;min-height:500px;background:#f1eee9}
+.site-refined .about-banner .page-intro__copy{padding:40px 48px 40px max(var(--content-gutter),calc((100vw - var(--content-width))/2));align-self:center}
 .site-refined .about-banner h1{font-size:clamp(36px,3.2vw,52px);line-height:1.08;max-width:540px;margin:0 0 24px}
 .site-refined .about-banner .eyebrow{margin:0 0 20px}
 .site-refined .about-banner .rule{margin-bottom:26px}
 .site-refined .about-banner .page-intro__lead{max-width:510px}
-.site-refined .about-banner .page-intro__lead p{font-size:clamp(18px,1.2vw,21px);line-height:1.45;margin:0 0 20px}
+.site-refined .about-banner .page-intro__lead p{font-size:18px;line-height:1.45;margin:0 0 20px}
 .site-refined .about-banner .page-intro__media{min-height:100%;margin:0;height:auto}
 .site-refined .about-banner .page-intro__media.portrait img{object-position:50% 35%}
 @media(max-width:900px){.site-refined .about-banner .page-intro__copy{padding-top:44px;padding-bottom:44px;padding-right:30px}.site-refined .about-banner h1{font-size:36px}}
-@media(max-width:650px){.site-refined .page-intro.about-banner{grid-template-columns:1fr;min-height:0}.site-refined .about-banner .page-intro__copy{padding:40px var(--content-gutter)}.site-refined .about-banner h1{font-size:36px}.site-refined .about-banner .page-intro__media{height:420px;min-height:0}.site-refined .about-banner .page-intro__media.portrait img{object-position:50% 30%}}
+@media(max-width:650px){.site-refined .page-intro.about-banner{grid-template-columns:1fr;min-height:0}.site-refined .about-banner .page-intro__copy{padding:40px var(--content-gutter)}.site-refined .about-banner h1{font-size:36px}.site-refined .about-banner .page-intro__media{height:340px;min-height:0}.site-refined .about-banner .page-intro__media.portrait img{object-position:50% 30%}}
 /* A paired editorial spread, aligned with the existing site container. */
 .site-refined section.about-perspective{display:grid;grid-template-columns:1.05fr .95fr;gap:0;padding:0;margin-block:72px;background:#e2e8e1;align-items:stretch}
 .about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:clamp(28px,3.2vw,48px);min-width:0}
