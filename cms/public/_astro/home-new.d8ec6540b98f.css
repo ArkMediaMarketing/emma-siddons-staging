@@ -116,7 +116,7 @@
 .nh-faq summary span { font: 25px/1 var(--serif); color: var(--green); transition: transform .15s; }
 .nh-faq[open] summary span { transform: rotate(45deg); }
 .new-home .nh-faq p { margin: var(--nh-space-md) 0 0; }
-.nh-contact { background: var(--green); color: var(--cream); }
+.nh-contact { background-color: var(--green); background-image: linear-gradient(rgba(24,39,29,.68),rgba(24,39,29,.68)), url("/images/chp-7043-next-chapter.webp"); background-size: cover; background-position: center 40%; background-repeat: no-repeat; color: var(--cream); }
 .nh-contact__links > a { display: grid; grid-template-columns: minmax(0,1fr) auto; border-top: 1px solid #829182; padding: var(--nh-space-md) 0; gap: 14px; }
 .nh-contact__links > a:last-child { border-bottom: 1px solid #829182; }
 .nh-contact__links a > span { grid-column: 1/-1; display: flex; align-items: center; gap: 10px; font: 12px/1.6 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
