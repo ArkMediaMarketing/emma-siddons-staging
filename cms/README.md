@@ -1,6 +1,6 @@
 # Emma Siddons website studio
 
-Astro.js admin with a Cloudflare Workers API and persistent Cloudflare D1 content storage. The public website is built from the existing static HTML, CSS and photographs; the source templates remain intact.
+Astro public website and admin, with HTML/CSS templates, TypeScript interactions, a TypeScript Cloudflare Workers API and persistent Cloudflare D1 content storage. All 16 public pages compile from `src/pages/**/*.astro` through `src/layouts/SiteLayout.astro`. Original CSS and photographs live in `public/` and keep their existing URLs.
 
 ## Run locally
 
@@ -12,7 +12,7 @@ npm run build
 npm run dev
 ```
 
-Open http://localhost:8787/admin/ . This serves the complete website and admin on the same origin. The old Python server at port 8000 serves static source files only and cannot run the API.
+Open http://localhost:8787/admin/ . This serves the complete website and admin on the same origin. From the repository root, run `npm ci`, `npm --prefix cms ci`, then `npm run dev` to build Astro and serve the website at http://localhost:8000/ with the admin at `/admin/`. Rebuild after editing Astro templates or CSS. Do not use a Python static server; public source is now Astro, not root HTML files.
 
 The local server uses Node 24 SQLite and executes the same Worker handlers, with a small local implementation of the asset binding and HTMLRewriter. Its database is `.local/content.sqlite`, excluded from Git. This fallback is provided because the native Windows workerd binary crashes on this machine. On a supported workerd host, `npm run db:local` followed by `npm run dev:worker` uses Cloudflare's native local runtime.
 
@@ -66,4 +66,8 @@ Tests require the local server running. They cover draft isolation, private prev
 
 ## Maintenance
 
-Run `npm run build` after changing source HTML or images. Content field identifiers are derived from page and element order, so inserting/removing source text or links can shift identifiers. Before structural source changes, export/backup D1 and reconcile saved overrides with the generated `worker/catalog.json`. Keep `node_modules`, `.local`, `.wrangler` and `.dev.vars` out of Git and public assets.
+Run `npm run build` after changing Astro templates, CSS, TypeScript or images. Content field identifiers are derived from page and element order, so inserting/removing source text or links can shift identifiers. Before structural source changes, export/backup D1 and reconcile saved overrides with the generated `worker/catalog.json`. Keep `node_modules`, `.local`, `.wrangler` and `.dev.vars` out of Git and public assets.
+
+## Astro migration verification
+
+From the repository root, `npm run check` checks application TypeScript, `npm test` runs the API/auth/media tests (local server on 8787), and `npm run test:migration` checks the built DOMs, original assets, and CMS field identities against the pre-migration contract. Intentional future edits require reviewing and updating that snapshot. No browser JavaScript framework is shipped. Public-page TypeScript handles mobile-menu dismissal; FAQ details, navigation and page content remain native HTML/CSS. Admin interactions and Cloudflare request handlers use TypeScript. Node.js remains a build/test dependency required by Astro, not a public hosting server.

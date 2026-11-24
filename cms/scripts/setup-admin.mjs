@@ -1,6 +1,6 @@
 import {spawnSync} from 'node:child_process';
 import {readFileSync} from 'node:fs';
-import {randomToken,hashToken} from '../worker/auth.js';
+import {randomToken,hashToken} from '../worker/auth.ts';
 const config=JSON.parse(readFileSync('wrangler.json','utf8'));
 const email=config.vars.ADMIN_EMAIL;
 if(!/^[a-zA-Z0-9._+\-]+@[a-zA-Z0-9.\-]+$/.test(email))throw new Error('Invalid administrator email.');

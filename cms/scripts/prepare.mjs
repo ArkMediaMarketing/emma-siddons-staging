@@ -1,21 +1,20 @@
 import { readFile, writeFile, mkdir, readdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
-import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
-const root = path.resolve('..'), out = path.resolve('dist/site');
+const out = path.resolve('dist/site');
+// All public pages and admin pages are Astro output. Never copy source into hosting.
 await mkdir(out, {recursive:true});
 async function copy(dir, dest) {
  await mkdir(dest,{recursive:true});
  for (const e of await readdir(dir,{withFileTypes:true})) {
-  if(e.name.startsWith('.') || e.name==='cms' || e.name==='node_modules') continue;
+  if(e.name==='site') continue;
   const src=path.join(dir,e.name), target=path.join(dest,e.name);
   if(e.isDirectory()) await copy(src,target);
-  else if(/\.(html|css|js|jpg|jpeg|png|webp|svg|ico|txt)$/i.test(e.name)||['_headers','_redirects'].includes(e.name)) await copyFile(src,target);
+  else await copyFile(src,target);
  }
 }
-await copy(root,out);
-await copy(path.resolve('dist/admin'),path.join(out,'admin'));
-await copy(path.resolve('dist/admin-assets'),path.join(out,'admin-assets'));
+await copy(path.resolve('dist'),out);
+for(const name of ['_headers','_redirects']) await copyFile(path.resolve('..',name),path.join(out,name));
 const documents=[], library=[];
 async function scan(dir) {
  for(const e of await readdir(dir,{withFileTypes:true})) {
@@ -80,4 +79,4 @@ await scan(out);
 const order = id => { const i=['home','home-new','v2'].indexOf(id);return i<0?100:i; };
 documents.sort((a,b)=>order(a.id)-order(b.id));
 await writeFile('worker/catalog.json',JSON.stringify({documents:[...Object.values(globals),...documents],library},null,2));
-console.log(`Prepared ${documents.length} pages and ${library.length} images; source templates are unchanged.`);
+console.log(`Prepared ${documents.length} pages and ${library.length} images; Astro templates compiled.`);

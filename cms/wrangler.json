@@ -1,6 +1,6 @@
 {
   "name": "emma-siddons-admin",
-  "main": "worker/index.js",
+  "main": "worker/index.ts",
   "compatibility_date": "2026-11-24",
   "assets": {
     "directory": "./dist/site",

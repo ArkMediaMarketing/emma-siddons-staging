@@ -7,9 +7,10 @@
     "dev": "node scripts/dev.mjs",
     "db:local": "wrangler d1 execute emma-siddons-cms --local --env local --file worker/schema.sql",
     "test": "node --test tests/*.test.mjs",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy --env \"\"",
     "dev:worker": "wrangler dev --env local --port 8787",
-    "auth:setup": "node scripts/setup-admin.mjs"
+    "auth:setup": "node scripts/setup-admin.mjs",
+    "test:migration": "node scripts/check-migration.mjs"
   },
   "dependencies": {
     "astro": "7.4.13",

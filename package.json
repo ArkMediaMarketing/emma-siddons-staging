@@ -1,0 +1,16 @@
+{
+  "name": "emma-siddons-website",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix cms run build",
+    "dev": "npm --prefix cms run build && npm --prefix cms run dev -- --port=8000",
+    "test": "npm --prefix cms test",
+    "deploy": "npm --prefix cms run deploy",
+    "check": "tsc -p cms/tsconfig.json",
+    "test:migration": "npm --prefix cms run test:migration"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261124.1",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,2 +1,2 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ output: 'static', outDir: './dist', build: { assets: 'admin-assets' } });
+export default defineConfig({ output: 'static', compressHTML: false, outDir: './dist', build: { assets: 'admin-assets' } });

@@ -1,7 +1,7 @@
 // Explicit live integration check. Re-publishes identical content; no visible copy changes.
 // An account-authorized, short-lived verification session is revoked in finally.
 import {spawnSync} from 'node:child_process';
-import {randomToken,hashToken} from '../worker/auth.js';
+import {randomToken,hashToken} from '../worker/auth.ts';
 const worker='https://emma-siddons-admin.itswebsitedeveloper-ews.workers.dev';
 const live='https://emma-siddons-staging.netlify.app';
 const sql=command=>{const result=spawnSync(process.execPath,['node_modules/wrangler/bin/wrangler.js','d1','execute','emma-siddons-cms','--remote','--env','','--command',command,'--json'],{encoding:'utf8'});if(result.status!==0)throw new Error('Database verification command failed.');return JSON.parse(result.stdout);};

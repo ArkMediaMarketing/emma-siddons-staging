@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {validateValues,safeURL} from '../worker/validation.js';
-import worker from '../worker/index.js';
+import {validateValues,safeURL} from '../worker/validation.ts';
+import worker from '../worker/index.ts';
 const origin='http://localhost:8787';
 const request=async(path,method='GET',body)=>{const response=await fetch(origin+path,{method,headers:method==='GET'?{}:{Origin:origin,'Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{})});return {status:response.status,data:await response.json()};};
 test('URL validation rejects executable and protocol-relative URLs',()=>{for(const value of ['javascript:alert(1)','//evil.test','data:text/html,x','/\\evil.test','https://x.test/ bad'])assert.equal(safeURL(value),false);assert.equal(safeURL('/contact/'),true);assert.equal(safeURL('https://example.com/image.jpg',true),true);assert.equal(safeURL('mailto:emma@example.com'),true);assert.throws(()=>validateValues({fields:[]},{unrecognised:'x'}));});

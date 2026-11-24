@@ -1,2 +1,4 @@
 .wrangler/
 .netlify-site/
+
+node_modules/

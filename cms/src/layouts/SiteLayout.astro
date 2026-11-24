@@ -1,0 +1,5 @@
+---
+interface Props { bodyClass?: string; }
+const { bodyClass } = Astro.props;
+---
+<!DOCTYPE html><html lang="en-GB"><head><slot name="head" /></head><body class={bodyClass}><slot /><script>import '../scripts/mobile-menu';</script></body></html>
