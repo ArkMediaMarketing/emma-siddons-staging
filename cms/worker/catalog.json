@@ -12992,7 +12992,8 @@
           "label": "Initial retainer heading",
           "section": "Fees & payment",
           "value": "Initial retainer",
-          "editorGroup": "services-and-fees-rich-15"
+          "editorGroup": "services-and-fees-rich-15",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-text-19",
@@ -13000,7 +13001,8 @@
           "label": "Initial retainer content",
           "section": "Fees & payment",
           "value": "Typically £1,500, plus VAT.",
-          "editorGroup": "services-and-fees-rich-16"
+          "editorGroup": "services-and-fees-rich-16",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-text-20",
@@ -13008,7 +13010,8 @@
           "label": "Success fee & payment terms heading",
           "section": "Fees & payment",
           "value": "Success fee",
-          "editorGroup": "services-and-fees-rich-17"
+          "editorGroup": "services-and-fees-rich-17",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-text-21",
@@ -13016,7 +13019,8 @@
           "label": "Success fee & payment terms content",
           "section": "Fees & payment",
           "value": "Typically 1–1.5% of the purchase price, plus VAT.",
-          "editorGroup": "services-and-fees-rich-18"
+          "editorGroup": "services-and-fees-rich-18",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-text-22",
@@ -13024,7 +13028,8 @@
           "label": "Success fee & payment terms content",
           "section": "Fees & payment",
           "value": "These are indicative fees. I will confirm the full fee arrangement and payment terms for your search in writing.",
-          "editorGroup": "services-and-fees-rich-19"
+          "editorGroup": "services-and-fees-rich-19",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-text-23",
@@ -13064,6 +13069,16 @@
           "value": {
             "src": "/images/emma-working-960.webp",
             "alt": "Emma researching a property search on her laptop"
+          }
+        },
+        {
+          "id": "services-and-fees-image-1",
+          "type": "image",
+          "label": "Fees & payment image",
+          "section": "Fees & payment",
+          "value": {
+            "src": "/images/country-home.jpg",
+            "alt": "Country home and garden"
           }
         },
         {
@@ -13313,7 +13328,8 @@
           "legacyIds": [
             "services-and-fees-text-18"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-rich-16",
@@ -13326,7 +13342,8 @@
             "services-and-fees-text-19"
           ],
           "paragraph": true,
-          "editorGroup": "services-and-fees-prose-4"
+          "editorGroup": "services-and-fees-prose-4",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-rich-17",
@@ -13338,7 +13355,8 @@
           "legacyIds": [
             "services-and-fees-text-20"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-rich-18",
@@ -13351,7 +13369,8 @@
             "services-and-fees-text-21"
           ],
           "paragraph": true,
-          "editorGroup": "services-and-fees-prose-5"
+          "editorGroup": "services-and-fees-prose-5",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-rich-19",
@@ -13364,7 +13383,8 @@
             "services-and-fees-text-22"
           ],
           "paragraph": true,
-          "editorGroup": "services-and-fees-prose-5"
+          "editorGroup": "services-and-fees-prose-5",
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-rich-20",
@@ -13486,7 +13506,8 @@
           ],
           "legacyIds": [
             "services-and-fees-text-19"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-prose-5",
@@ -13511,7 +13532,8 @@
           "legacyIds": [
             "services-and-fees-text-21",
             "services-and-fees-text-22"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "services-and-fees-prose-6",
@@ -13592,6 +13614,10 @@
     {
       "src": "/images/emma-working-960.webp",
       "name": "emma-working-960.webp"
+    },
+    {
+      "src": "/images/country-home.jpg",
+      "name": "country-home.jpg"
     },
     {
       "src": "/images/country-house-hero-1920.webp",

@@ -121,6 +121,12 @@ async function instrument(file) {
     if(['Property search service','Personal attention'].includes(field.section))field.section='Property search service';
     if(['Fee overview','Fee breakdown','Initial retainer','Success fee & payment terms'].includes(field.section))field.section='Fees & payment';
    }
+   if(id==='services-and-fees'){
+    const retired=container.find('[data-retired]'),keys=new Set();
+    retired.find('*').addBack().each((_,el)=>{for(const [attr,value]of Object.entries(el.attribs||{}))if(attr.startsWith('data-cms'))keys.add(value);});
+    for(const field of fields)if(keys.has(field.id)||field.legacyIds?.some(key=>keys.has(key)))field.hiddenFromEditor=true;
+    retired.remove();
+   }
    doc.fields.push(...fields);
   }
   else if(!globals[scope]) globals[scope]={id:scope,title:scope==='header'?'Header & navigation':'Footer',route:'/',fields};

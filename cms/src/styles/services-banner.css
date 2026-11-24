@@ -15,22 +15,14 @@
 @media(max-width:800px){.site-refined .services-banner+.editorial-grid{grid-template-columns:1fr;padding-block:40px;gap:24px}}
 @media(max-width:480px){.services-banner+.editorial-grid>div{padding:24px}.services-banner+.editorial-grid .eyebrow{gap:16px;font-size:11px}.services-banner+.editorial-grid h2{font-size:28px}}
 
-/* Fee summary, with distinct retainer, success fee and payment terms. */
-.site-refined:has(.services-banner) .quiet-panel{background:#f8f6f3}
-.site-refined:has(.services-banner) .quiet-panel .editorial-grid{gap:48px;align-items:center}
-.services-banner~.quiet-panel .editorial-grid>div:first-child .eyebrow{margin:0 0 24px}
-.services-banner~.quiet-panel .editorial-grid>div:first-child .eyebrow:after{content:"";display:block;width:42px;height:2px;background:#344d3d;margin-top:22px}
-.services-banner~.quiet-panel .editorial-grid>div:first-child h2{font-size:clamp(30px,2.3vw,40px);line-height:1.15;margin-bottom:28px}
-.services-banner~.quiet-panel .editorial-grid>div:first-child p:not(.eyebrow){font-size:18px;line-height:1.6}
-.services-banner~.quiet-panel .button{background:#344d3d;color:#fff;border-color:#344d3d}
-.site-refined:has(.services-banner) .fee-panel{position:relative;padding:32px;border:1px solid #bfcbb7;border-radius:18px;background:#fff;box-shadow:0 5px 12px #263c2b0b;min-width:0}
-.services-banner~.quiet-panel .fee-panel h3{position:relative;padding-left:112px;margin:0 0 8px;font-size:26px;line-height:1.2;font-weight:600}
-.services-banner~.quiet-panel .fee-panel h3:before{content:"";position:absolute;left:8px;top:0;width:64px;height:64px;border-radius:50%;background:#edf1e7 center/36px no-repeat}
-.services-banner~.quiet-panel .fee-panel h3:after{content:"";position:absolute;left:90px;top:0;height:64px;width:1px;background:#c5cebc}
-.services-banner~.quiet-panel .fee-panel h3:first-child:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23344d3d' stroke-width='1.3' stroke-linejoin='round'%3E%3Cpath d='m2 8 4-4 5 1 3-1 8 5-4 9-3 2-3-1-3 1-7-6 2-6Zm4-4 5 4 4-2 6 5M5 13l7 6m-4-8 8 7m-5-9 8 6'/%3E%3C/svg%3E")}
-.services-banner~.quiet-panel .fee-panel h3:nth-of-type(2):before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23344d3d' stroke-width='1.3'%3E%3Cellipse cx='15' cy='5' rx='6' ry='3'/%3E%3Cpath d='M9 5v9c0 4 12 4 12 0V5M9 9c0 4 12 4 12 0m-12 4c0 4 12 4 12 0'/%3E%3Cellipse cx='7' cy='16' rx='5' ry='2.5'/%3E%3Cpath d='M2 16v4c0 3 10 3 10 0v-4m-10 2c0 3 10 3 10 0'/%3E%3C/svg%3E")}
-.services-banner~.quiet-panel .fee-panel p{font-size:17px;line-height:1.5;margin:0;padding-left:112px}
-.services-banner~.quiet-panel .fee-panel p:first-of-type{padding-bottom:32px;margin-bottom:28px;border-bottom:1px solid #e1e3dc;min-height:56px}
-.services-banner~.quiet-panel .fee-panel p:last-child{padding:20px 24px;margin-top:32px;border-radius:12px;background:#edf1e7;font-style:italic;font-size:16px}
-@media(max-width:800px){.site-refined:has(.services-banner) .quiet-panel .editorial-grid{grid-template-columns:1fr;gap:32px}}
-@media(max-width:480px){.site-refined:has(.services-banner) .fee-panel{padding:24px 20px}.services-banner~.quiet-panel .fee-panel h3{font-size:23px;padding-left:84px}.services-banner~.quiet-panel .fee-panel h3:before{left:0;width:52px;height:52px;background-size:30px}.services-banner~.quiet-panel .fee-panel h3:after{left:68px;height:58px}.services-banner~.quiet-panel .fee-panel p{padding-left:84px;font-size:16px}.services-banner~.quiet-panel .fee-panel p:last-child{padding:18px;margin-top:26px}}
+/* Image and fee overview, with all content inside the shared container. */
+.site-refined:has(.services-banner) .fees-image-section{background:#f8f6f3}
+.site-refined:has(.services-banner) .fees-image-section .editorial-grid{gap:56px;align-items:center}
+.fees-image-section .fees-image{grid-column:1;grid-row:1;width:100%;height:420px;object-fit:cover;display:block}
+.fees-image-section .fees-copy{grid-column:2;grid-row:1;min-width:0}
+.fees-image-section .fees-copy .eyebrow{margin:0 0 24px}
+.fees-image-section .fees-copy .eyebrow:after{content:"";display:block;width:42px;height:2px;background:#344d3d;margin-top:22px}
+.fees-image-section .fees-copy h2{font-size:clamp(30px,2.3vw,40px);line-height:1.15;margin-bottom:28px}
+.fees-image-section .fees-copy p:not(.eyebrow){font-size:18px;line-height:1.6}
+.fees-image-section .button{background:#344d3d;color:#fff;border-color:#344d3d}
+@media(max-width:800px){.site-refined:has(.services-banner) .fees-image-section .editorial-grid{grid-template-columns:1fr;gap:32px}.fees-image-section .fees-copy,.fees-image-section .fees-image{grid-column:auto;grid-row:auto}.fees-image-section .fees-image{height:340px;order:-1}}
