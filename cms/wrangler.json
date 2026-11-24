@@ -11,19 +11,19 @@
     {
       "binding": "DB",
       "database_name": "emma-siddons-cms",
-      "database_id": "cd1f882e-9172-4c28-b8af-103fa93b1d72"
+      "database_id": "66e8853a-ee80-4442-97ab-eacd5d2ebfd8"
     }
   ],
   "vars": {
-    "ADMIN_EMAIL": "itswebsitedeveloper.ews@gmail.com",
-    "PUBLIC_SITE_ORIGIN": "https://emma-siddons-staging.netlify.app"
+    "ADMIN_EMAIL": "ben@webdesignessex.io",
+    "PUBLIC_SITE_ORIGIN": "https://emma-siddons-admin.tight-darkness-d12f.workers.dev"
   },
   "env": {
     "local": {
       "name": "emma-siddons-admin-local",
       "vars": {
         "LOCAL_DEVELOPMENT": "true",
-        "ADMIN_EMAIL": "itswebsitedeveloper.ews@gmail.com"
+        "ADMIN_EMAIL": "ben@webdesignessex.io"
       },
       "d1_databases": [
         {
@@ -33,5 +33,6 @@
         }
       ]
     }
-  }
+  },
+  "account_id": "1db9e5cc88c4798f56a21f0bad526c3d"
 }

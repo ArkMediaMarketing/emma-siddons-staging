@@ -28,12 +28,21 @@ The local server uses Node 24 SQLite and executes the same Worker handlers, with
 
 The build injects display-contents `cms-text` elements into the deployable copy. This permits safe plain-text updates while preserving the original nested emphasis and page layouts. The source templates are never rewritten by this preparation.
 
-## Deployment already provisioned
+## Deployment in Ben's Cloudflare account
 
+- Account: Hello@inf-tec.com's Account; account ID `1db9e5cc88c4798f56a21f0bad526c3d`, confirmed by Ben on 24 November 2026.
 - Worker: `emma-siddons-admin`
-- URL: https://emma-siddons-admin.itswebsitedeveloper-ews.workers.dev
-- Database: `emma-siddons-cms`
-- Administrator: `itswebsitedeveloper.ews@gmail.com`
+- Website: https://emma-siddons-admin.tight-darkness-d12f.workers.dev/
+- Proposed future homepage: https://emma-siddons-admin.tight-darkness-d12f.workers.dev/home-new/
+- Admin: https://emma-siddons-admin.tight-darkness-d12f.workers.dev/admin/
+- Database: `emma-siddons-cms`, ID `66e8853a-ee80-4442-97ab-eacd5d2ebfd8`.
+- Administrator: `ben@webdesignessex.io`. Ben's existing supplied website password remains valid on the migrated site; passwords are never committed.
+
+The existing homepage remains at `/`. Work on `/home-new/` must not replace it until Ben requests the final switch.
+
+The 24 November migration copied the three saved CMS documents, including separate drafts/published values and revisions. The source reported no uploaded media. Repository image assets deploy with the Worker. Historical audit records and other administrators' password hashes were not available through the source CMS API; source sessions, setup tokens and unknown accounts were not copied. Ben's administrator account was recreated with the existing password and a fresh salt. The former hosting remains a rollback source until deliberately retired.
+
+Each developer uses their own Cloudflare login and account membership. Run `npx wrangler login`, then deploy from the repository root using `npm run deploy`. The tracked configuration pins Ben's account and database, so deployments cannot silently target a developer's own account. Do not share Ben's Cloudflare password. For team permissions, give deployment access to the Emma Worker and the required database access; avoid unrelated account administration.
 
 ### Administrator sign-in (no Zero Trust required)
 
@@ -49,11 +58,11 @@ Production rejects API requests without a valid session and redirects unauthenti
 
 Deploy updates with `npm run build` then `npx wrangler deploy --env ""`.
 
-## Netlify integration
+## Former Netlify address
 
-`netlify.toml` builds a small routing-only deployment using `scripts/netlify-bridge.mjs`. The existing legacy redirects are preserved. Public routes are forced proxy rewrites to the Worker, preserving the Netlify URL, including uploaded media. The admin, login and API are proxied on the Netlify origin too. Secure host-only cookies are issued for the Netlify hostname; the browser stays on Netlify. A fixed proxy header is used only for client-facing redirects. CSRF checks allow only the explicitly configured Netlify and Worker origins. No source code, credentials, dependencies or local databases are included in the Netlify deploy directory.
+Netlify is no longer the website's hosting entry point. The retained `netlify.toml` exists only to redirect old Netlify links to the new Cloudflare URL, preserving their paths. It must not proxy to the former developer-account Worker. The website, CMS and D1 content database run in Ben's Cloudflare account; no Netlify build is needed to publish changes there.
 
-The Worker returns `Cache-Control: no-store` and `Netlify-CDN-Cache-Control: no-store` for rendered HTML. Publishing a page in the admin immediately changes the content served on Netlify, without rebuilding Netlify. Drafts remain private. Source layout or code changes still require a Worker build/deployment; routing changes require a Netlify deploy. Keep the Worker and its D1 database active, since they now supply the live website.
+To publish source changes, run `npm run deploy` from the repository root. CMS publishing updates the Cloudflare website immediately without a source rebuild. Drafts remain private and documents publish independently. Keep the Worker and its D1 database active.
 
 ## Verification
 
