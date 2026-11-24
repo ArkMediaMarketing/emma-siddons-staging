@@ -7498,7 +7498,8 @@
           "label": "Introduction label",
           "section": "Introduction",
           "value": "About me",
-          "editorGroup": "about-me-rich-0"
+          "editorGroup": "about-me-rich-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-1",
@@ -7506,7 +7507,8 @@
           "label": "Introduction heading",
           "section": "Introduction",
           "value": "Local knowledge. A personal perspective.",
-          "editorGroup": "about-me-rich-1"
+          "editorGroup": "about-me-rich-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-2",
@@ -7514,7 +7516,8 @@
           "label": "Introduction content",
           "section": "Introduction",
           "value": "I’m Emma, an independent buying agent. I help you find and secure a home in Hertfordshire, west Essex and South Cambridgeshire.",
-          "editorGroup": "about-me-rich-2"
+          "editorGroup": "about-me-rich-2",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-3",
@@ -7522,14 +7525,16 @@
           "label": "Introduction content",
           "section": "Introduction",
           "value": "I work for you, the buyer, with your priorities at the heart of the search.",
-          "editorGroup": "about-me-rich-3"
+          "editorGroup": "about-me-rich-3",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-4",
           "type": "text",
           "label": "Button Text",
           "section": "Introduction",
-          "value": "Talk to me about your move"
+          "value": "Talk to me about your move",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-5",
@@ -7537,7 +7542,8 @@
           "label": "Local knowledge label",
           "section": "Local knowledge",
           "value": "A place I know well",
-          "editorGroup": "about-me-rich-4"
+          "editorGroup": "about-me-rich-4",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-6",
@@ -7545,7 +7551,8 @@
           "label": "Local knowledge heading",
           "section": "Local knowledge",
           "value": "More than a postcode",
-          "editorGroup": "about-me-rich-5"
+          "editorGroup": "about-me-rich-5",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-7",
@@ -7553,7 +7560,8 @@
           "label": "Local knowledge content",
           "section": "Local knowledge",
           "value": "Hertfordshire has been my home for more than 40 years. I know how much the feel of a place can change from one village to the next, and how important those differences are when choosing where to live.",
-          "editorGroup": "about-me-rich-6"
+          "editorGroup": "about-me-rich-6",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-8",
@@ -7561,7 +7569,8 @@
           "label": "Local knowledge content",
           "section": "Local knowledge",
           "value": "I help you look beyond the particulars: the setting, the surrounding area and how a home could work for your everyday life.",
-          "editorGroup": "about-me-rich-7"
+          "editorGroup": "about-me-rich-7",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-9",
@@ -7569,7 +7578,8 @@
           "label": "Professional background label",
           "section": "Professional background",
           "value": "My background",
-          "editorGroup": "about-me-rich-8"
+          "editorGroup": "about-me-rich-8",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-10",
@@ -7577,7 +7587,8 @@
           "label": "Professional background heading",
           "section": "Professional background",
           "value": "A considered approach",
-          "editorGroup": "about-me-rich-9"
+          "editorGroup": "about-me-rich-9",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-11",
@@ -7585,7 +7596,8 @@
           "label": "Professional background content",
           "section": "Professional background",
           "value": "After studying law at UCL, I qualified as a chartered accountant with a Big Five firm and spent ten years in investment banking in the City.",
-          "editorGroup": "about-me-rich-10"
+          "editorGroup": "about-me-rich-10",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-12",
@@ -7593,7 +7605,8 @@
           "label": "Professional background content",
           "section": "Professional background",
           "value": "That background informs the way I work: careful research, attention to detail and a clear head when it comes to negotiating a purchase.",
-          "editorGroup": "about-me-rich-11"
+          "editorGroup": "about-me-rich-11",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-13",
@@ -7601,7 +7614,8 @@
           "label": "Personal service label",
           "section": "Personal service",
           "value": "Independent by choice",
-          "editorGroup": "about-me-rich-12"
+          "editorGroup": "about-me-rich-12",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-14",
@@ -7609,7 +7623,8 @@
           "label": "Personal service heading",
           "section": "Personal service",
           "value": "You work directly with me",
-          "editorGroup": "about-me-rich-13"
+          "editorGroup": "about-me-rich-13",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-15",
@@ -7617,7 +7632,8 @@
           "label": "Personal service content",
           "section": "Personal service",
           "value": "I take on a small number of searches so I can give each client personal attention. From understanding your brief to keeping a purchase moving, I stay involved throughout.",
-          "editorGroup": "about-me-rich-14"
+          "editorGroup": "about-me-rich-14",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-16",
@@ -7625,14 +7641,16 @@
           "label": "Personal service content",
           "section": "Personal service",
           "value": "My role is to be on your side: offering an independent view, helping you weigh up the options and knowing when a property is worth pursuing — or when it is time to walk away.",
-          "editorGroup": "about-me-rich-15"
+          "editorGroup": "about-me-rich-15",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-17",
           "type": "text",
           "label": "Button Text",
           "section": "Personal service",
-          "value": "Explore my service"
+          "value": "Explore my service",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-18",
@@ -7640,7 +7658,8 @@
           "label": "Contact heading",
           "section": "Contact",
           "value": "Let’s talk about your next home",
-          "editorGroup": "about-me-rich-16"
+          "editorGroup": "about-me-rich-16",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-19",
@@ -7648,17 +7667,507 @@
           "label": "Contact content",
           "section": "Contact",
           "value": "Tell me what you are looking for, and I’ll explain how I can help.",
-          "editorGroup": "about-me-rich-17"
+          "editorGroup": "about-me-rich-17",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-20",
           "type": "text",
           "label": "Phone number",
           "section": "Contact",
-          "value": "07702 630983"
+          "value": "07702 630983",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-21",
+          "type": "text",
+          "label": "Email address",
+          "section": "Contact",
+          "value": "info@emmasiddons.com",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "about-me-text-22",
+          "type": "text",
+          "label": "Profile label",
+          "section": "Profile",
+          "value": "About me",
+          "editorGroup": "about-me-rich-18"
+        },
+        {
+          "id": "about-me-text-23",
+          "type": "text",
+          "label": "Profile heading",
+          "section": "Profile",
+          "value": "Local knowledge. A personal perspective.",
+          "editorGroup": "about-me-rich-19"
+        },
+        {
+          "id": "about-me-text-24",
+          "type": "text",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": "I’m Emma, an independent buying agent. I help you find and secure a home in Hertfordshire, west Essex and South Cambridgeshire. I work for you, the buyer, with your priorities at the heart of the search.",
+          "editorGroup": "about-me-rich-20"
+        },
+        {
+          "id": "about-me-text-25",
+          "type": "text",
+          "label": "Button Text",
+          "section": "Profile",
+          "value": "Talk to me about your move "
+        },
+        {
+          "id": "about-me-text-26",
+          "type": "text",
+          "label": "Button Text",
+          "section": "Profile",
+          "value": "How I work"
+        },
+        {
+          "id": "about-me-text-27",
+          "type": "text",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": "★★★★★",
+          "editorGroup": "about-me-rich-21"
+        },
+        {
+          "id": "about-me-text-28",
+          "type": "text",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": " 5.0 on Google",
+          "editorGroup": "about-me-rich-21"
+        },
+        {
+          "id": "about-me-text-29",
+          "type": "text",
+          "label": "Profile supporting text",
+          "section": "Profile",
+          "value": "40+"
+        },
+        {
+          "id": "about-me-text-30",
+          "type": "text",
+          "label": "Profile supporting text",
+          "section": "Profile",
+          "value": "years living in Hertfordshire"
+        },
+        {
+          "id": "about-me-text-31",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "40+ yrs",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-32",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "Hertfordshire has been my home",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-33",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "UCL",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-34",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "Studied law",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-35",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "Big Five",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-36",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "Qualified chartered accountant",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-37",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "10 yrs",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-38",
+          "type": "text",
+          "label": "Emma in brief supporting text",
+          "section": "Emma in brief",
+          "value": "In investment banking in the City",
+          "editorGroup": "about-me-repeater-0"
+        },
+        {
+          "id": "about-me-text-39",
+          "type": "text",
+          "label": "What I bring label",
+          "section": "What I bring",
+          "value": "What I bring",
+          "editorGroup": "about-me-rich-22"
+        },
+        {
+          "id": "about-me-text-40",
+          "type": "text",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": "Finding a home is personal. So is the way I work.",
+          "editorGroup": "about-me-rich-23"
+        },
+        {
+          "id": "about-me-text-41",
+          "type": "text",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": "A home is more than its particulars. It is the place you come back to, the life around it and the feeling that it is right for you.",
+          "editorGroup": "about-me-rich-24"
+        },
+        {
+          "id": "about-me-text-42",
+          "type": "text",
+          "label": "Button Text",
+          "section": "What I bring",
+          "value": "Explore my service"
+        },
+        {
+          "id": "about-me-text-43",
+          "type": "text",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": "Independent",
+          "editorGroup": "about-me-rich-25"
+        },
+        {
+          "id": "about-me-text-44",
+          "type": "text",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": "I work for you, the buyer. My role is to be on your side and offer an independent view.",
+          "editorGroup": "about-me-rich-26"
+        },
+        {
+          "id": "about-me-text-45",
+          "type": "text",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": "Personal",
+          "editorGroup": "about-me-rich-27"
+        },
+        {
+          "id": "about-me-text-46",
+          "type": "text",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": "I take on a small number of searches, and you work directly with me throughout.",
+          "editorGroup": "about-me-rich-28"
+        },
+        {
+          "id": "about-me-text-47",
+          "type": "text",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": "Considered",
+          "editorGroup": "about-me-rich-29"
+        },
+        {
+          "id": "about-me-text-48",
+          "type": "text",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": "Careful research, attention to detail and a clear head when it comes to negotiating a purchase.",
+          "editorGroup": "about-me-rich-30"
+        },
+        {
+          "id": "about-me-text-49",
+          "type": "text",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": "Local",
+          "editorGroup": "about-me-rich-31"
+        },
+        {
+          "id": "about-me-text-50",
+          "type": "text",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": "I know how much the feel of a place can change from one village to the next.",
+          "editorGroup": "about-me-rich-32"
+        },
+        {
+          "id": "about-me-text-51",
+          "type": "text",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": "With you to the end",
+          "editorGroup": "about-me-rich-33"
+        },
+        {
+          "id": "about-me-text-52",
+          "type": "text",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": "From understanding your brief to keeping a purchase moving, I stay involved throughout, and I’ll tell you when a property is worth pursuing, or when it is time to walk away.",
+          "editorGroup": "about-me-rich-34"
+        },
+        {
+          "id": "about-me-text-53",
+          "type": "text",
+          "label": "Client reviews label",
+          "section": "Client reviews",
+          "value": "Kind words from my clients",
+          "editorGroup": "about-me-rich-35"
+        },
+        {
+          "id": "about-me-text-54",
+          "type": "text",
+          "label": "Client reviews heading",
+          "section": "Client reviews",
+          "value": "In their words.",
+          "editorGroup": "about-me-rich-36"
+        },
+        {
+          "id": "about-me-text-55",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "★★★★★"
+        },
+        {
+          "id": "about-me-text-56",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Emma is quite simply exceptional at what she does.”",
+          "editorGroup": "about-me-rich-37"
+        },
+        {
+          "id": "about-me-text-57",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Mark Sheldon"
+        },
+        {
+          "id": "about-me-text-58",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "★★★★★"
+        },
+        {
+          "id": "about-me-text-59",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Emma has been brilliant to have in our corner across two properties now.”",
+          "editorGroup": "about-me-rich-38"
+        },
+        {
+          "id": "about-me-text-60",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Oriel Gordon"
+        },
+        {
+          "id": "about-me-text-61",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "★★★★★"
+        },
+        {
+          "id": "about-me-text-62",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Working with Emma was a great experience from start to finish.”",
+          "editorGroup": "about-me-rich-39"
+        },
+        {
+          "id": "about-me-text-63",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Andy Clark"
+        },
+        {
+          "id": "about-me-text-64",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "★★★★★"
+        },
+        {
+          "id": "about-me-text-65",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“Emma knew what we needed before even we did and we are so grateful.”",
+          "editorGroup": "about-me-rich-40"
+        },
+        {
+          "id": "about-me-text-66",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Anna Touschek"
+        },
+        {
+          "id": "about-me-text-67",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "★★★★★"
+        },
+        {
+          "id": "about-me-text-68",
+          "type": "text",
+          "label": "Client reviews content",
+          "section": "Client reviews",
+          "value": "“We would never even have thought to view our new house without Emma's guidance.”",
+          "editorGroup": "about-me-rich-41"
+        },
+        {
+          "id": "about-me-text-69",
+          "type": "text",
+          "label": "Client reviews supporting text",
+          "section": "Client reviews",
+          "value": "Nick Daly"
+        },
+        {
+          "id": "about-me-text-70",
+          "type": "text",
+          "label": "Working with me label",
+          "section": "Working with me",
+          "value": "Working with me",
+          "editorGroup": "about-me-rich-42"
+        },
+        {
+          "id": "about-me-text-71",
+          "type": "text",
+          "label": "Working with me heading",
+          "section": "Working with me",
+          "value": "A few things you may be wondering.",
+          "editorGroup": "about-me-rich-43"
+        },
+        {
+          "id": "about-me-text-72",
+          "type": "text",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": "And if you would rather talk it through, I’m always happy to hear about your plans.",
+          "editorGroup": "about-me-rich-44"
+        },
+        {
+          "id": "about-me-text-73",
+          "type": "text",
+          "label": "Working with me question",
+          "section": "Working with me",
+          "value": "Will I work with you directly?",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-74",
+          "type": "text",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": "Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other.",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-75",
+          "type": "text",
+          "label": "Working with me question",
+          "section": "Working with me",
+          "value": "Can you help if I don’t know the area?",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-76",
+          "type": "text",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": "Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-77",
+          "type": "text",
+          "label": "Working with me question",
+          "section": "Working with me",
+          "value": "What does a buying agent do?",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-78",
+          "type": "text",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": "I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-79",
+          "type": "text",
+          "label": "Working with me question",
+          "section": "Working with me",
+          "value": "How do I get started?",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-80",
+          "type": "text",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": "Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.",
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-text-81",
+          "type": "text",
+          "label": "Contact heading",
+          "section": "Contact",
+          "value": "Let’s talk about your next home.",
+          "editorGroup": "about-me-rich-49"
+        },
+        {
+          "id": "about-me-text-82",
+          "type": "text",
+          "label": "Contact content",
+          "section": "Contact",
+          "value": "Tell me what you are looking for, and I’ll explain how I can help.",
+          "editorGroup": "about-me-rich-50"
+        },
+        {
+          "id": "about-me-text-83",
+          "type": "text",
+          "label": "Phone number",
+          "section": "Contact",
+          "value": "07702 630983"
+        },
+        {
+          "id": "about-me-text-84",
           "type": "text",
           "label": "Email address",
           "section": "Contact",
@@ -7672,7 +8181,8 @@
           "value": {
             "src": "/images/emma-village-960.webp",
             "alt": "Emma Siddons outdoors in Hertfordshire"
-          }
+          },
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-image-1",
@@ -7682,6 +8192,37 @@
           "value": {
             "src": "/images/emma-countryside-960.webp",
             "alt": "Emma with her dog in the Hertfordshire countryside"
+          },
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "about-me-image-2",
+          "type": "image",
+          "label": "Profile image",
+          "section": "Profile",
+          "value": {
+            "src": "/images/about-brief-0.webp",
+            "alt": "Emma Siddons outdoors in Hertfordshire"
+          }
+        },
+        {
+          "id": "about-me-image-3",
+          "type": "image",
+          "label": "What I bring image",
+          "section": "What I bring",
+          "value": {
+            "src": "/images/about-brief-1.webp",
+            "alt": "Emma with her dog in the Hertfordshire countryside"
+          }
+        },
+        {
+          "id": "about-me-image-4",
+          "type": "image",
+          "label": "Contact image",
+          "section": "Contact",
+          "value": {
+            "src": "/images/about-brief-2.webp",
+            "alt": ""
           }
         },
         {
@@ -7692,7 +8233,8 @@
           ],
           "label": "Button URL",
           "section": "Introduction",
-          "value": "/contact/"
+          "value": "/contact/",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-link-1",
@@ -7702,7 +8244,8 @@
           ],
           "label": "Button URL",
           "section": "Personal service",
-          "value": "/services-and-fees/"
+          "value": "/services-and-fees/",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-link-2",
@@ -7712,13 +8255,65 @@
           ],
           "label": "Button URL",
           "section": "Contact",
-          "value": "tel:+447702630983"
+          "value": "tel:+447702630983",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-link-3",
           "type": "link",
           "linkTextIds": [
             "about-me-text-21"
+          ],
+          "label": "Button URL",
+          "section": "Contact",
+          "value": "mailto:info@emmasiddons.com",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "about-me-link-4",
+          "type": "link",
+          "linkTextIds": [
+            "about-me-text-25"
+          ],
+          "label": "Button URL",
+          "section": "Profile",
+          "value": "#talk"
+        },
+        {
+          "id": "about-me-link-5",
+          "type": "link",
+          "linkTextIds": [
+            "about-me-text-26"
+          ],
+          "label": "Button URL",
+          "section": "Profile",
+          "value": "#story"
+        },
+        {
+          "id": "about-me-link-6",
+          "type": "link",
+          "linkTextIds": [
+            "about-me-text-42"
+          ],
+          "label": "Button URL",
+          "section": "What I bring",
+          "value": "/how-i-can-help-you/"
+        },
+        {
+          "id": "about-me-link-7",
+          "type": "link",
+          "linkTextIds": [
+            "about-me-text-83"
+          ],
+          "label": "Button URL",
+          "section": "Contact",
+          "value": "tel:+447702630983"
+        },
+        {
+          "id": "about-me-link-8",
+          "type": "link",
+          "linkTextIds": [
+            "about-me-text-84"
           ],
           "label": "Button URL",
           "section": "Contact",
@@ -7734,7 +8329,8 @@
           "legacyIds": [
             "about-me-text-0"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-1",
@@ -7746,7 +8342,8 @@
           "legacyIds": [
             "about-me-text-1"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-2",
@@ -7759,7 +8356,8 @@
             "about-me-text-2"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-0"
+          "editorGroup": "about-me-prose-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-3",
@@ -7772,7 +8370,8 @@
             "about-me-text-3"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-0"
+          "editorGroup": "about-me-prose-0",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-4",
@@ -7784,7 +8383,8 @@
           "legacyIds": [
             "about-me-text-5"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-5",
@@ -7796,7 +8396,8 @@
           "legacyIds": [
             "about-me-text-6"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-6",
@@ -7809,7 +8410,8 @@
             "about-me-text-7"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-1"
+          "editorGroup": "about-me-prose-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-7",
@@ -7822,7 +8424,8 @@
             "about-me-text-8"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-1"
+          "editorGroup": "about-me-prose-1",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-8",
@@ -7834,7 +8437,8 @@
           "legacyIds": [
             "about-me-text-9"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-9",
@@ -7846,7 +8450,8 @@
           "legacyIds": [
             "about-me-text-10"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-10",
@@ -7859,7 +8464,8 @@
             "about-me-text-11"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-2"
+          "editorGroup": "about-me-prose-2",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-11",
@@ -7872,7 +8478,8 @@
             "about-me-text-12"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-2"
+          "editorGroup": "about-me-prose-2",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-12",
@@ -7884,7 +8491,8 @@
           "legacyIds": [
             "about-me-text-13"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-13",
@@ -7896,7 +8504,8 @@
           "legacyIds": [
             "about-me-text-14"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-14",
@@ -7909,7 +8518,8 @@
             "about-me-text-15"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-3"
+          "editorGroup": "about-me-prose-3",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-15",
@@ -7922,7 +8532,8 @@
             "about-me-text-16"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-3"
+          "editorGroup": "about-me-prose-3",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-16",
@@ -7934,7 +8545,8 @@
           "legacyIds": [
             "about-me-text-18"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-17",
@@ -7947,7 +8559,419 @@
             "about-me-text-19"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-4"
+          "editorGroup": "about-me-prose-4",
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "about-me-rich-18",
+          "type": "richtext",
+          "label": "Profile label",
+          "section": "Profile",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-22\">About me</cms-text>",
+          "legacyIds": [
+            "about-me-text-22"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-19",
+          "type": "richtext",
+          "label": "Profile heading",
+          "section": "Profile",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-23\">Local knowledge. A personal perspective.</cms-text>",
+          "legacyIds": [
+            "about-me-text-23"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-20",
+          "type": "richtext",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-24\">I’m Emma, an independent buying agent. I help you find and secure a home in Hertfordshire, west Essex and South Cambridgeshire. I work for you, the buyer, with your priorities at the heart of the search.</cms-text>",
+          "legacyIds": [
+            "about-me-text-24"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-5"
+        },
+        {
+          "id": "about-me-rich-21",
+          "type": "richtext",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": null,
+          "template": "<span class=\"stars\" aria-hidden=\"true\"><cms-text data-cms=\"about-me-text-27\">★★★★★</cms-text></span><cms-text data-cms=\"about-me-text-28\"> 5.0 on Google</cms-text>",
+          "legacyIds": [
+            "about-me-text-27",
+            "about-me-text-28"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-6"
+        },
+        {
+          "id": "about-me-rich-22",
+          "type": "richtext",
+          "label": "What I bring label",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-39\">What I bring</cms-text>",
+          "legacyIds": [
+            "about-me-text-39"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-23",
+          "type": "richtext",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-40\">Finding a home is personal. So is the way I work.</cms-text>",
+          "legacyIds": [
+            "about-me-text-40"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-24",
+          "type": "richtext",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-41\">A home is more than its particulars. It is the place you come back to, the life around it and the feeling that it is right for you.</cms-text>",
+          "legacyIds": [
+            "about-me-text-41"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-7"
+        },
+        {
+          "id": "about-me-rich-25",
+          "type": "richtext",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-43\">Independent</cms-text>",
+          "legacyIds": [
+            "about-me-text-43"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-26",
+          "type": "richtext",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-44\">I work for you, the buyer. My role is to be on your side and offer an independent view.</cms-text>",
+          "legacyIds": [
+            "about-me-text-44"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-8"
+        },
+        {
+          "id": "about-me-rich-27",
+          "type": "richtext",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-45\">Personal</cms-text>",
+          "legacyIds": [
+            "about-me-text-45"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-28",
+          "type": "richtext",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-46\">I take on a small number of searches, and you work directly with me throughout.</cms-text>",
+          "legacyIds": [
+            "about-me-text-46"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-9"
+        },
+        {
+          "id": "about-me-rich-29",
+          "type": "richtext",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-47\">Considered</cms-text>",
+          "legacyIds": [
+            "about-me-text-47"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-30",
+          "type": "richtext",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-48\">Careful research, attention to detail and a clear head when it comes to negotiating a purchase.</cms-text>",
+          "legacyIds": [
+            "about-me-text-48"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-10"
+        },
+        {
+          "id": "about-me-rich-31",
+          "type": "richtext",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-49\">Local</cms-text>",
+          "legacyIds": [
+            "about-me-text-49"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-32",
+          "type": "richtext",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-50\">I know how much the feel of a place can change from one village to the next.</cms-text>",
+          "legacyIds": [
+            "about-me-text-50"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-11"
+        },
+        {
+          "id": "about-me-rich-33",
+          "type": "richtext",
+          "label": "What I bring heading",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-51\">With you to the end</cms-text>",
+          "legacyIds": [
+            "about-me-text-51"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-34",
+          "type": "richtext",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-52\">From understanding your brief to keeping a purchase moving, I stay involved throughout, and I’ll tell you when a property is worth pursuing, or when it is time to walk away.</cms-text>",
+          "legacyIds": [
+            "about-me-text-52"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-12"
+        },
+        {
+          "id": "about-me-rich-35",
+          "type": "richtext",
+          "label": "Client reviews label",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-53\">Kind words from my clients</cms-text>",
+          "legacyIds": [
+            "about-me-text-53"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-36",
+          "type": "richtext",
+          "label": "Client reviews heading",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-54\">In their words.</cms-text>",
+          "legacyIds": [
+            "about-me-text-54"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-37",
+          "type": "richtext",
+          "label": "Review quote",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-56\">“Emma is quite simply exceptional at what she does.”</cms-text>",
+          "legacyIds": [
+            "about-me-text-56"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-38",
+          "type": "richtext",
+          "label": "Review quote",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-59\">“Emma has been brilliant to have in our corner across two properties now.”</cms-text>",
+          "legacyIds": [
+            "about-me-text-59"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-39",
+          "type": "richtext",
+          "label": "Review quote",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-62\">“Working with Emma was a great experience from start to finish.”</cms-text>",
+          "legacyIds": [
+            "about-me-text-62"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-40",
+          "type": "richtext",
+          "label": "Review quote",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-65\">“Emma knew what we needed before even we did and we are so grateful.”</cms-text>",
+          "legacyIds": [
+            "about-me-text-65"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-41",
+          "type": "richtext",
+          "label": "Review quote",
+          "section": "Client reviews",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-68\">“We would never even have thought to view our new house without Emma's guidance.”</cms-text>",
+          "legacyIds": [
+            "about-me-text-68"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-42",
+          "type": "richtext",
+          "label": "Working with me label",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-70\">Working with me</cms-text>",
+          "legacyIds": [
+            "about-me-text-70"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-43",
+          "type": "richtext",
+          "label": "Working with me heading",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-71\">A few things you may be wondering.</cms-text>",
+          "legacyIds": [
+            "about-me-text-71"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-44",
+          "type": "richtext",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-72\">And if you would rather talk it through, I’m always happy to hear about your plans.</cms-text>",
+          "legacyIds": [
+            "about-me-text-72"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-13"
+        },
+        {
+          "id": "about-me-rich-45",
+          "type": "richtext",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-74\">Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other.</cms-text>",
+          "legacyIds": [
+            "about-me-text-74"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-rich-46",
+          "type": "richtext",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-76\">Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.</cms-text>",
+          "legacyIds": [
+            "about-me-text-76"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-rich-47",
+          "type": "richtext",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-78\">I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.</cms-text>",
+          "legacyIds": [
+            "about-me-text-78"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-rich-48",
+          "type": "richtext",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-80\">Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.</cms-text>",
+          "legacyIds": [
+            "about-me-text-80"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-rich-49",
+          "type": "richtext",
+          "label": "Contact heading",
+          "section": "Contact",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-81\">Let’s talk about your next home.</cms-text>",
+          "legacyIds": [
+            "about-me-text-81"
+          ],
+          "paragraph": false
+        },
+        {
+          "id": "about-me-rich-50",
+          "type": "richtext",
+          "label": "Contact content",
+          "section": "Contact",
+          "value": null,
+          "template": "<cms-text data-cms=\"about-me-text-82\">Tell me what you are looking for, and I’ll explain how I can help.</cms-text>",
+          "legacyIds": [
+            "about-me-text-82"
+          ],
+          "paragraph": true,
+          "editorGroup": "about-me-prose-18"
         },
         {
           "id": "about-me-prose-0",
@@ -7968,7 +8992,8 @@
           "legacyIds": [
             "about-me-text-2",
             "about-me-text-3"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-prose-1",
@@ -7989,7 +9014,8 @@
           "legacyIds": [
             "about-me-text-7",
             "about-me-text-8"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-prose-2",
@@ -8010,7 +9036,8 @@
           "legacyIds": [
             "about-me-text-11",
             "about-me-text-12"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-prose-3",
@@ -8031,7 +9058,8 @@
           "legacyIds": [
             "about-me-text-15",
             "about-me-text-16"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-prose-4",
@@ -8047,6 +9075,750 @@
           ],
           "legacyIds": [
             "about-me-text-19"
+          ],
+          "hiddenFromEditor": true
+        },
+        {
+          "id": "about-me-prose-5",
+          "type": "prose",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-20",
+              "attributes": {
+                "class": "lead"
+              }
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-24"
+          ]
+        },
+        {
+          "id": "about-me-prose-6",
+          "type": "prose",
+          "label": "Profile content",
+          "section": "Profile",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-21",
+              "attributes": {
+                "class": "trust"
+              }
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-27",
+            "about-me-text-28"
+          ]
+        },
+        {
+          "id": "about-me-prose-7",
+          "type": "prose",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-24",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-41"
+          ]
+        },
+        {
+          "id": "about-me-prose-8",
+          "type": "prose",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-26",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-44"
+          ]
+        },
+        {
+          "id": "about-me-prose-9",
+          "type": "prose",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-28",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-46"
+          ]
+        },
+        {
+          "id": "about-me-prose-10",
+          "type": "prose",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-30",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-48"
+          ]
+        },
+        {
+          "id": "about-me-prose-11",
+          "type": "prose",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-32",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-50"
+          ]
+        },
+        {
+          "id": "about-me-prose-12",
+          "type": "prose",
+          "label": "What I bring content",
+          "section": "What I bring",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-34",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-52"
+          ]
+        },
+        {
+          "id": "about-me-prose-13",
+          "type": "prose",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-44",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-72"
+          ]
+        },
+        {
+          "id": "about-me-prose-14",
+          "type": "prose",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-45",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-74"
+          ],
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-prose-15",
+          "type": "prose",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-46",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-76"
+          ],
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-prose-16",
+          "type": "prose",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-47",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-78"
+          ],
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-prose-17",
+          "type": "prose",
+          "label": "Working with me content",
+          "section": "Working with me",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-48",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-80"
+          ],
+          "editorGroup": "about-me-repeater-1"
+        },
+        {
+          "id": "about-me-prose-18",
+          "type": "prose",
+          "label": "Contact content",
+          "section": "Contact",
+          "value": null,
+          "blocks": [
+            {
+              "id": "about-me-rich-50",
+              "attributes": {}
+            }
+          ],
+          "legacyIds": [
+            "about-me-text-82"
+          ]
+        },
+        {
+          "id": "about-me-repeater-0",
+          "type": "repeater",
+          "label": "Areas",
+          "section": "Emma in brief",
+          "value": null,
+          "items": [
+            {
+              "template": "<li><span class=\"facts__big\"><cms-text data-cms=\"about-me-text-31\">40+ yrs</cms-text></span><span class=\"facts__label\"><cms-text data-cms=\"about-me-text-32\">Hertfordshire has been my home</cms-text></span></li>",
+              "fields": [
+                {
+                  "id": "about-me-text-31",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Emma in brief",
+                  "value": "40+ yrs"
+                },
+                {
+                  "id": "about-me-text-32",
+                  "type": "text",
+                  "label": "Description",
+                  "section": "Emma in brief",
+                  "value": "Hertfordshire has been my home"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-31",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "40+ yrs"
+                },
+                {
+                  "id": "about-me-text-32",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "Hertfordshire has been my home"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><span class=\"facts__big\"><cms-text data-cms=\"about-me-text-33\">UCL</cms-text></span><span class=\"facts__label\"><cms-text data-cms=\"about-me-text-34\">Studied law</cms-text></span></li>",
+              "fields": [
+                {
+                  "id": "about-me-text-33",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Emma in brief",
+                  "value": "UCL"
+                },
+                {
+                  "id": "about-me-text-34",
+                  "type": "text",
+                  "label": "Description",
+                  "section": "Emma in brief",
+                  "value": "Studied law"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-33",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "UCL"
+                },
+                {
+                  "id": "about-me-text-34",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "Studied law"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><span class=\"facts__big\"><cms-text data-cms=\"about-me-text-35\">Big Five</cms-text></span><span class=\"facts__label\"><cms-text data-cms=\"about-me-text-36\">Qualified chartered accountant</cms-text></span></li>",
+              "fields": [
+                {
+                  "id": "about-me-text-35",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Emma in brief",
+                  "value": "Big Five"
+                },
+                {
+                  "id": "about-me-text-36",
+                  "type": "text",
+                  "label": "Description",
+                  "section": "Emma in brief",
+                  "value": "Qualified chartered accountant"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-35",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "Big Five"
+                },
+                {
+                  "id": "about-me-text-36",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "Qualified chartered accountant"
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<li><span class=\"facts__big\"><cms-text data-cms=\"about-me-text-37\">10 yrs</cms-text></span><span class=\"facts__label\"><cms-text data-cms=\"about-me-text-38\">In investment banking in the City</cms-text></span></li>",
+              "fields": [
+                {
+                  "id": "about-me-text-37",
+                  "type": "text",
+                  "label": "Title",
+                  "section": "Emma in brief",
+                  "value": "10 yrs"
+                },
+                {
+                  "id": "about-me-text-38",
+                  "type": "text",
+                  "label": "Description",
+                  "section": "Emma in brief",
+                  "value": "In investment banking in the City"
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-37",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "10 yrs"
+                },
+                {
+                  "id": "about-me-text-38",
+                  "type": "text",
+                  "label": "Emma in brief supporting text",
+                  "section": "Emma in brief",
+                  "value": "In investment banking in the City"
+                }
+              ],
+              "icon": null
+            }
+          ],
+          "childIds": [
+            "about-me-text-31",
+            "about-me-text-32",
+            "about-me-text-33",
+            "about-me-text-34",
+            "about-me-text-35",
+            "about-me-text-36",
+            "about-me-text-37",
+            "about-me-text-38"
+          ],
+          "legacyIds": [
+            "about-me-text-31",
+            "about-me-text-32",
+            "about-me-text-33",
+            "about-me-text-34",
+            "about-me-text-35",
+            "about-me-text-36",
+            "about-me-text-37",
+            "about-me-text-38"
+          ]
+        },
+        {
+          "id": "about-me-repeater-1",
+          "type": "repeater",
+          "label": "FAQs",
+          "section": "Working with me",
+          "value": null,
+          "items": [
+            {
+              "template": "<details open=\"\"><summary><cms-text data-cms=\"about-me-text-73\">Will I work with you directly?</cms-text></summary><p data-cms-rich=\"about-me-rich-45\" data-cms-prose=\"about-me-prose-14\"><cms-text data-cms=\"about-me-text-74\">Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other.</cms-text></p></details>",
+              "fields": [
+                {
+                  "id": "about-me-text-73",
+                  "type": "text",
+                  "label": "Question",
+                  "section": "Working with me",
+                  "value": "Will I work with you directly?"
+                },
+                {
+                  "id": "about-me-prose-14",
+                  "type": "prose",
+                  "label": "Answer",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-45",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-74"
+                  ]
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-73",
+                  "type": "text",
+                  "label": "Working with me question",
+                  "section": "Working with me",
+                  "value": "Will I work with you directly?"
+                },
+                {
+                  "id": "about-me-text-74",
+                  "type": "text",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": "Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other.",
+                  "editorGroup": "about-me-rich-45"
+                },
+                {
+                  "id": "about-me-rich-45",
+                  "type": "richtext",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "template": "<cms-text data-cms=\"about-me-text-74\">Yes. My business is personal: you work directly with me throughout the search. I take on a small number of clients and avoid searches that would put my clients in direct competition with each other.</cms-text>",
+                  "legacyIds": [
+                    "about-me-text-74"
+                  ],
+                  "paragraph": true,
+                  "editorGroup": "about-me-prose-14"
+                },
+                {
+                  "id": "about-me-prose-14",
+                  "type": "prose",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-45",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-74"
+                  ]
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<details><summary><cms-text data-cms=\"about-me-text-75\">Can you help if I don’t know the area?</cms-text></summary><p data-cms-rich=\"about-me-rich-46\" data-cms-prose=\"about-me-prose-15\"><cms-text data-cms=\"about-me-text-76\">Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.</cms-text></p></details>",
+              "fields": [
+                {
+                  "id": "about-me-text-75",
+                  "type": "text",
+                  "label": "Question",
+                  "section": "Working with me",
+                  "value": "Can you help if I don’t know the area?"
+                },
+                {
+                  "id": "about-me-prose-15",
+                  "type": "prose",
+                  "label": "Answer",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-46",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-76"
+                  ]
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-75",
+                  "type": "text",
+                  "label": "Working with me question",
+                  "section": "Working with me",
+                  "value": "Can you help if I don’t know the area?"
+                },
+                {
+                  "id": "about-me-text-76",
+                  "type": "text",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": "Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.",
+                  "editorGroup": "about-me-rich-46"
+                },
+                {
+                  "id": "about-me-rich-46",
+                  "type": "richtext",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "template": "<cms-text data-cms=\"about-me-text-76\">Yes. We can start with what matters to you rather than a postcode. I help you focus your search across Hertfordshire, west Essex and South Cambridgeshire, considering how each location could work for your life.</cms-text>",
+                  "legacyIds": [
+                    "about-me-text-76"
+                  ],
+                  "paragraph": true,
+                  "editorGroup": "about-me-prose-15"
+                },
+                {
+                  "id": "about-me-prose-15",
+                  "type": "prose",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-46",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-76"
+                  ]
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<details><summary><cms-text data-cms=\"about-me-text-77\">What does a buying agent do?</cms-text></summary><p data-cms-rich=\"about-me-rich-47\" data-cms-prose=\"about-me-prose-16\"><cms-text data-cms=\"about-me-text-78\">I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.</cms-text></p></details>",
+              "fields": [
+                {
+                  "id": "about-me-text-77",
+                  "type": "text",
+                  "label": "Question",
+                  "section": "Working with me",
+                  "value": "What does a buying agent do?"
+                },
+                {
+                  "id": "about-me-prose-16",
+                  "type": "prose",
+                  "label": "Answer",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-47",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-78"
+                  ]
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-77",
+                  "type": "text",
+                  "label": "Working with me question",
+                  "section": "Working with me",
+                  "value": "What does a buying agent do?"
+                },
+                {
+                  "id": "about-me-text-78",
+                  "type": "text",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": "I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.",
+                  "editorGroup": "about-me-rich-47"
+                },
+                {
+                  "id": "about-me-rich-47",
+                  "type": "richtext",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "template": "<cms-text data-cms=\"about-me-text-78\">I represent you, the buyer. I help define your brief, find and assess suitable homes, negotiate a purchase and support you through to completion. The selling agent represents the seller; I am there to look after your interests.</cms-text>",
+                  "legacyIds": [
+                    "about-me-text-78"
+                  ],
+                  "paragraph": true,
+                  "editorGroup": "about-me-prose-16"
+                },
+                {
+                  "id": "about-me-prose-16",
+                  "type": "prose",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-47",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-78"
+                  ]
+                }
+              ],
+              "icon": null
+            },
+            {
+              "template": "<details><summary><cms-text data-cms=\"about-me-text-79\">How do I get started?</cms-text></summary><p data-cms-rich=\"about-me-rich-48\" data-cms-prose=\"about-me-prose-17\"><cms-text data-cms=\"about-me-text-80\">Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.</cms-text></p></details>",
+              "fields": [
+                {
+                  "id": "about-me-text-79",
+                  "type": "text",
+                  "label": "Question",
+                  "section": "Working with me",
+                  "value": "How do I get started?"
+                },
+                {
+                  "id": "about-me-prose-17",
+                  "type": "prose",
+                  "label": "Answer",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-48",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-80"
+                  ]
+                }
+              ],
+              "allFields": [
+                {
+                  "id": "about-me-text-79",
+                  "type": "text",
+                  "label": "Working with me question",
+                  "section": "Working with me",
+                  "value": "How do I get started?"
+                },
+                {
+                  "id": "about-me-text-80",
+                  "type": "text",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": "Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.",
+                  "editorGroup": "about-me-rich-48"
+                },
+                {
+                  "id": "about-me-rich-48",
+                  "type": "richtext",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "template": "<cms-text data-cms=\"about-me-text-80\">Call or email me and tell me a little about your plans. We can discuss where you are looking, your timing and the support you need. I will explain my service and agree the fee arrangement with you before any work begins.</cms-text>",
+                  "legacyIds": [
+                    "about-me-text-80"
+                  ],
+                  "paragraph": true,
+                  "editorGroup": "about-me-prose-17"
+                },
+                {
+                  "id": "about-me-prose-17",
+                  "type": "prose",
+                  "label": "Working with me content",
+                  "section": "Working with me",
+                  "value": null,
+                  "blocks": [
+                    {
+                      "id": "about-me-rich-48",
+                      "attributes": {}
+                    }
+                  ],
+                  "legacyIds": [
+                    "about-me-text-80"
+                  ]
+                }
+              ],
+              "icon": null
+            }
+          ],
+          "childIds": [
+            "about-me-text-73",
+            "about-me-text-74",
+            "about-me-rich-45",
+            "about-me-prose-14",
+            "about-me-text-75",
+            "about-me-text-76",
+            "about-me-rich-46",
+            "about-me-prose-15",
+            "about-me-text-77",
+            "about-me-text-78",
+            "about-me-rich-47",
+            "about-me-prose-16",
+            "about-me-text-79",
+            "about-me-text-80",
+            "about-me-rich-48",
+            "about-me-prose-17"
+          ],
+          "legacyIds": [
+            "about-me-text-73",
+            "about-me-text-74",
+            "about-me-text-75",
+            "about-me-text-76",
+            "about-me-text-77",
+            "about-me-text-78",
+            "about-me-text-79",
+            "about-me-text-80"
           ]
         }
       ]
@@ -12273,6 +14045,18 @@
     {
       "src": "/images/emma-countryside-960.webp",
       "name": "emma-countryside-960.webp"
+    },
+    {
+      "src": "/images/about-brief-0.webp",
+      "name": "about-brief-0.webp"
+    },
+    {
+      "src": "/images/about-brief-1.webp",
+      "name": "about-brief-1.webp"
+    },
+    {
+      "src": "/images/about-brief-2.webp",
+      "name": "about-brief-2.webp"
     },
     {
       "src": "/images/emma-local-960.webp",

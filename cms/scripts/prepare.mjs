@@ -135,7 +135,7 @@ async function instrument(file) {
     for(const field of fields)if(controlIds.has(field.id))field.hiddenFromEditor=true;
    }
    // Retire rendered elements after assigning IDs so saved CMS content stays aligned.
-   if(['services-and-fees','home-new'].includes(id)){
+   if(['services-and-fees','home-new','about-me'].includes(id)){
     const retired=container.find('[data-retired]'),keys=new Set();
     retired.find('*').addBack().each((_,el)=>{for(const [attr,value]of Object.entries(el.attribs||{}))if(attr.startsWith('data-cms'))keys.add(value);});
     for(const field of fields)if(keys.has(field.id)||field.legacyIds?.some(key=>keys.has(key)))field.hiddenFromEditor=true;
