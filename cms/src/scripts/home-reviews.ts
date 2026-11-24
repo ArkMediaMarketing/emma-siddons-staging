@@ -40,5 +40,5 @@ if (carousel) {
       first = (first + count()) % cards.length;
       show();
     }
-  }, 7000);
+  }, 4000);
 }
