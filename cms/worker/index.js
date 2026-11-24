@@ -37,7 +37,11 @@ async function render(req,env,preview=false) {
   }
  }
  const result=rewriter.transform(asset);const headers=new Headers(result.headers);
- headers.set('Cache-Control','no-store');headers.set('X-Content-Type-Options','nosniff');
+ headers.set('Cache-Control','no-store');headers.set('Netlify-CDN-Cache-Control','no-store');headers.set('CDN-Cache-Control','no-store');headers.set('X-Content-Type-Options','nosniff');
+ const publication=rows.results.filter(row=>row.published).sort((a,b)=>a.id.localeCompare(b.id)).map(row=>[row.id,row.published_at,row.published]);
+ const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(publication)));
+ headers.set('X-CMS-Published-Version',Array.from(new Uint8Array(digest),v=>v.toString(16).padStart(2,'0')).join('').slice(0,16));
+ headers.set('X-CMS-Origin','emma-siddons-admin');
  if(preview)headers.set('X-Robots-Tag','noindex, nofollow');
  return new Response(result.body,{status:result.status,headers});
 }

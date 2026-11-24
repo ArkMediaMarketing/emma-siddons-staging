@@ -1,0 +1,11 @@
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const origin='https://emma-siddons-admin.itswebsitedeveloper-ews.workers.dev';
+const out=path.join(root,'.netlify-site');
+await mkdir(out,{recursive:true});
+const legacy=await readFile(path.join(root,'_redirects'),'utf8');
+await writeFile(path.join(out,'_redirects'),`${legacy}\n# Admin cookies remain on their secure Worker origin.\n/admin ${origin}/admin/ 302!\n/admin/* ${origin}/admin/:splat 302!\n# Every public route uses the CMS-published version, including media uploads.\n/* ${origin}/:splat 200!\n`);
+await writeFile(path.join(out,'_headers'),'/*\n  X-Robots-Tag: noindex, nofollow\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Cache-Control: no-store\n  Netlify-CDN-Cache-Control: no-store\n');
+console.log('Netlify bridge ready: public content follows CMS publishing; source files are excluded.');

@@ -49,9 +49,11 @@ Production rejects API requests without a valid session and redirects unauthenti
 
 Deploy updates with `npm run build` then `npx wrangler deploy --env ""`.
 
-## Existing Netlify site
+## Netlify integration
 
-No Netlify routing, deployment, Git commit or push was performed. The admin publishes the Worker-hosted version. After sign-in is configured, point Netlify public page requests at the Worker (or migrate the public domain) if Netlify should display these live edits. Keep the admin on the Worker origin so the login and API share their secure session cookie. Do not publish the repository root including `cms/` as raw static assets: use `cms/dist/site` as the deployable asset set.
+`netlify.toml` builds a small routing-only deployment using `scripts/netlify-bridge.mjs`. The existing legacy redirects are preserved. Public routes are forced proxy rewrites to the Worker, preserving the Netlify URL, including uploaded media. `/admin` and `/admin/*` redirect to the Worker origin so secure login cookies remain host-only. No source code, credentials, dependencies or local databases are included in the Netlify deploy directory.
+
+The Worker returns `Cache-Control: no-store` and `Netlify-CDN-Cache-Control: no-store` for rendered HTML. Publishing a page in the admin immediately changes the content served on Netlify, without rebuilding Netlify. Drafts remain private. Source layout or code changes still require a Worker build/deployment; routing changes require a Netlify deploy. Keep the Worker and its D1 database active, since they now supply the live website.
 
 ## Verification
 
