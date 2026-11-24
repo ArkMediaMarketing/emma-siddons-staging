@@ -6,7 +6,6 @@
   NODE_VERSION = "24"
 [[redirects]]
   from = "/*"
-  to = "https://emma-siddons-admin.itswebsitedeveloper-ews.workers.dev/:splat"
-  status = 200
+  to = "https://emma-siddons-admin.tight-darkness-d12f.workers.dev/:splat"
+  status = 301
   force = true
-  headers = { X-Emma-Public-Origin = "https://emma-siddons-staging.netlify.app" }

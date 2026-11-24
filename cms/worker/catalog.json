@@ -2324,7 +2324,8 @@
           "type": "text",
           "label": "Button Text",
           "section": "Hero",
-          "value": "Explore how I can help "
+          "value": "Explore how I can help ",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-7",
@@ -2339,14 +2340,16 @@
           "type": "text",
           "label": "Hero supporting text",
           "section": "Hero",
-          "value": "Emma Siddons"
+          "value": "Emma Siddons",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-9",
           "type": "text",
           "label": "Hero supporting text",
           "section": "Hero",
-          "value": "Independent. Local. On your side."
+          "value": "Independent. Local. On your side.",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-10",
@@ -3377,7 +3380,8 @@
           ],
           "label": "Button URL",
           "section": "Hero",
-          "value": "#how-i-work"
+          "value": "#how-i-work",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-link-2",
