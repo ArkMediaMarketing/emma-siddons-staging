@@ -31,7 +31,7 @@ test('Paragraph groups preserve paragraph boundaries without forced line breaks'
  }
 });
 test('Complete heading field keeps drafts private, publishes formatting and restores original state',async()=>{
- const initial=await call('/api/pages/home'),field=initial.document.fields.find(f=>f.type==='richtext'&&f.label.startsWith('Main heading'));
+ const initial=await call('/api/pages/home'),field=initial.document.fields.find(f=>f.type==='richtext'&&f.section==='Hero'&&f.label.endsWith('heading'));
  assert.ok(field.legacyIds.length>1);const original=structuredClone(initial.values);
  try{
   const saved=await call('/api/pages/home','PUT',{revision:initial.revision,values:{...original,[field.id]:'A <em>formatted</em> test heading'}});

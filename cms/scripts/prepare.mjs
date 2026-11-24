@@ -1,3 +1,4 @@
+import {nameEditorSections} from './editor-labels.mjs';
 import {instrumentRepeaters} from './repeaters.mjs';
 import { readFile, writeFile, mkdir, readdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -35,9 +36,11 @@ async function instrument(file) {
  const doc={id,title: id==='home'?'Home':id==='home-new'?'Home New':id==='v2'?'Home V2':title,route,fields:[]};
  for(const scope of ['header','main','footer']) {
   const fields=[], container=$(scope).first();
+  if(scope==='main')nameEditorSections($,container,id);
   let n=0;
   const sectionName=el=> {
    if(scope!=='main')return scope==='header'?'Brand & navigation':'Footer';
+   const named=$(el).closest('[data-editor-section]').attr('data-editor-section');if(named)return named;
    const section=$(el).closest('section');if(!section.length)return 'Page content';
    const classes=(section.attr('class')||'').split(' ');
    const specific=classes.filter(name=>/^(nh|classic|v2)-/.test(name)&&!/(container|section)$/.test(name)).pop();
@@ -46,7 +49,19 @@ async function instrument(file) {
    const names={home:'Hero',hero:'Hero',support:'How I help',introduction:'About me',places:'Areas covered',questions:'Frequently asked questions',proof:'Credentials',reading:'Reading guide',service:'Property search service',about:'About me',areas:'Areas covered',contact:'Contact',reviews:'Client reviews',trust:'Credentials',intro:'Introduction',benefits:'How I help',offmarket:'Off-market homes','off-market':'Off-market homes',process:'How I work',fees:'Services & fees',journal:'Journal',guide:'Guide',faq:'Frequently asked questions',testimonials:'Client reviews'};
    return names[token]||(token?.includes('review')?'Client reviews':null)||'Section '+(container.find('section').toArray().indexOf(section[0])+1);
   };
-  const labelFor=(_el,role)=>role;
+  const labelFor=(el,role)=>{
+   const context=sectionName(el);
+   if($(el).closest('.copyright').length)return 'Copyright text';
+   if(/heading/i.test(role))return context+' heading';
+   if(role==='Section label')return context+' label';
+   if(/image/i.test(role))return $(el).attr('src')?.includes('map')?'Coverage map':context+' image';
+   if(['Body content','Content','Introduction'].includes(role))return context+' content';
+   if(role==='Text')return context+' supporting text';
+   if(role==='Button / link text')return 'Button Text';
+   if(role==='Button / link URL')return 'Button URL';
+   if(role==='Question')return context+' question';
+   return role;
+  };
   const nodes=[];
   function walk(node) {
    if(['script','style','svg','noscript'].includes(node.name)) return;
@@ -95,7 +110,7 @@ async function instrument(file) {
    while(node.length){const field=paragraphFields.find(f=>f.id===node.attr('data-cms-rich'));if(!field||visited.has(field.id))break;visited.add(field.id);blocks.push({id:field.id,attributes:Object.fromEntries(Object.entries(node[0].attribs).filter(([key])=>!key.startsWith('data-cms')))});node=node.next();}
    const key=`${scope==='main'?id:scope}-prose-${proseIndex++}`;
    const members=blocks.map(b=>fields.find(f=>f.id===b.id));
-   const prose={id:key,type:'prose',label:first.section==='Hero'?'Introduction':'Content',section:first.section,value:null,blocks,legacyIds:members.flatMap(f=>f.legacyIds)};
+   const prose={id:key,type:'prose',label:first.label==='Copyright text'?'Copyright text':first.section+' content',section:first.section,value:null,blocks,legacyIds:members.flatMap(f=>f.legacyIds)};
    for(const member of members)member.editorGroup=key;
    container.find(`[data-cms-rich="${first.id}"]`).attr('data-cms-prose',key);fields.push(prose);
   }

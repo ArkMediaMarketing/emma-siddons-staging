@@ -1,0 +1,15 @@
+/* A paired editorial spread, aligned with the existing site container. */
+.site-refined section.about-perspective{display:grid;grid-template-columns:1.05fr .95fr;gap:0;padding:0;margin-block:72px;background:#e2e8e1;align-items:stretch}
+.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:clamp(28px,3.2vw,48px);min-width:0}
+.about-perspective__local{background:#e2e8e1;color:#24392c}
+.about-perspective__background{background:#344d3d;color:#f8f7f4}
+.about-perspective .eyebrow{margin:0 0 20px;font-size:11px;line-height:1.6;letter-spacing:2px}
+.about-perspective .eyebrow:before{content:"";display:block;width:36px;height:1px;background:currentColor;opacity:.55;margin-bottom:22px}
+.about-perspective h2{font-size:clamp(29px,2.3vw,38px);line-height:1.18;letter-spacing:-.5px;margin:0 0 24px}
+.about-perspective .about-perspective__local h2{color:#24392c}
+.about-perspective .about-perspective__background h2,.about-perspective .about-perspective__background .eyebrow{color:#f8f7f4}
+.about-perspective p:not(.eyebrow){font-size:18px;line-height:1.75;margin:0 0 20px}
+.about-perspective .about-perspective__background p:not(.eyebrow){color:#edf1eb}
+.about-perspective p:last-child{margin-bottom:0}
+@media(max-width:800px){.site-refined section.about-perspective{grid-template-columns:1fr;margin-block:48px}.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:30px}.about-perspective h2{font-size:30px}}
+@media(max-width:480px){.site-refined section.about-perspective{margin-block:36px}.about-perspective>.about-perspective__local,.about-perspective>.about-perspective__background{padding:26px 24px}.about-perspective h2{font-size:28px}.about-perspective p:not(.eyebrow){font-size:17px;line-height:1.7}}

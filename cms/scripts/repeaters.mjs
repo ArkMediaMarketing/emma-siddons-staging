@@ -17,7 +17,7 @@ export function instrumentRepeaters({$,container,fields,id,sectionName}){
    const allFields=fields.filter(f=>ids.has(f.id));allFields.forEach(f=>childIds.add(f.id));
    const visible=allFields.filter(f=>!f.editorGroup&&!f.hiddenFromEditor&&!f.autoNumber);
    let plainIndex=0;
-   const editable=visible.map(f=>({...structuredClone(f),label:f.type==='image'?'Image':f.type==='link'?'Link URL':f.type==='prose'?(kind==='FAQs'?'Answer':'Description'):f.label.includes('heading')?'Title':f.label.startsWith('Question')?'Question':f.label.includes('link text')?'Link text':f.type==='text'?(++plainIndex===1?'Title':'Description'):f.label}));
+   const editable=visible.map(f=>({...structuredClone(f),label:f.type==='image'?'Image':f.type==='link'?'Link URL':f.type==='prose'?(kind==='FAQs'?'Answer':'Description'):f.label.includes('heading')?'Title':kind==='FAQs'&&f.label.toLowerCase().includes('question')?'Question':(f.label.includes('link text')||f.label==='Button Text')?'Link text':f.type==='text'?(++plainIndex===1?'Title':'Description'):f.label}));
    const icon=item.find('svg').first();let iconHTML=null;
    if(kind==='Steps'&&icon.length){icon.attr('data-cms-repeat-icon','');iconHTML=$.html(icon);}
    items.push({template:$.html(item),fields:editable,allFields:structuredClone(allFields),icon:iconHTML});
