@@ -114,7 +114,15 @@ async function instrument(file) {
    for(const member of members)member.editorGroup=key;
    container.find(`[data-cms-rich="${first.id}"]`).attr('data-cms-prose',key);fields.push(prose);
   }
-  if(scope==='main') {instrumentRepeaters({$,container,fields,id,sectionName});doc.fields.push(...fields);}
+  if(scope==='main') {
+   instrumentRepeaters({$,container,fields,id,sectionName});
+   // Match the two visual sections while retaining descriptive column labels.
+   if(id==='services-and-fees')for(const field of fields){
+    if(['Property search service','Personal attention'].includes(field.section))field.section='Property search service';
+    if(['Fee overview','Fee breakdown','Initial retainer','Success fee & payment terms'].includes(field.section))field.section='Fees & payment';
+   }
+   doc.fields.push(...fields);
+  }
   else if(!globals[scope]) globals[scope]={id:scope,title:scope==='header'?'Header & navigation':'Footer',route:'/',fields};
  }
  const titleId=`${id}-seo-title`, descriptionId=`${id}-seo-description`;

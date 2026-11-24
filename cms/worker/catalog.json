@@ -12919,7 +12919,7 @@
           "id": "services-and-fees-text-9",
           "type": "text",
           "label": "Personal attention label",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": "Time for your search",
           "editorGroup": "services-and-fees-rich-7"
         },
@@ -12927,7 +12927,7 @@
           "id": "services-and-fees-text-10",
           "type": "text",
           "label": "Personal attention heading",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": "A small number of clients",
           "editorGroup": "services-and-fees-rich-8"
         },
@@ -12935,7 +12935,7 @@
           "id": "services-and-fees-text-11",
           "type": "text",
           "label": "Personal attention content",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": "I work with a limited number of buyers so I can give each search the attention it needs. I do not take on clients whose requirements would put them in direct competition with one another.",
           "editorGroup": "services-and-fees-rich-9"
         },
@@ -12943,7 +12943,7 @@
           "id": "services-and-fees-text-12",
           "type": "text",
           "label": "Personal attention content",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": "Some searches come together quickly; others need more time. We will discuss your circumstances and agree the scope of my involvement before we begin.",
           "editorGroup": "services-and-fees-rich-10"
         },
@@ -12951,7 +12951,7 @@
           "id": "services-and-fees-text-13",
           "type": "text",
           "label": "Fee overview label",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": "My fees",
           "editorGroup": "services-and-fees-rich-11"
         },
@@ -12959,7 +12959,7 @@
           "id": "services-and-fees-text-14",
           "type": "text",
           "label": "Fee overview heading",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": "Clear from the outset",
           "editorGroup": "services-and-fees-rich-12"
         },
@@ -12967,7 +12967,7 @@
           "id": "services-and-fees-text-15",
           "type": "text",
           "label": "Fee overview content",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": "My fee has two parts: an initial retainer to begin the search, followed by a success fee when you purchase. The exact fee and terms are agreed with you before I start work.",
           "editorGroup": "services-and-fees-rich-13"
         },
@@ -12975,7 +12975,7 @@
           "id": "services-and-fees-text-16",
           "type": "text",
           "label": "Fee overview content",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": "Get in touch to discuss the service that is right for your search.",
           "editorGroup": "services-and-fees-rich-14"
         },
@@ -12983,14 +12983,14 @@
           "id": "services-and-fees-text-17",
           "type": "text",
           "label": "Button Text",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": "Talk through my fees"
         },
         {
           "id": "services-and-fees-text-18",
           "type": "text",
           "label": "Initial retainer heading",
-          "section": "Initial retainer",
+          "section": "Fees & payment",
           "value": "Initial retainer",
           "editorGroup": "services-and-fees-rich-15"
         },
@@ -12998,7 +12998,7 @@
           "id": "services-and-fees-text-19",
           "type": "text",
           "label": "Initial retainer content",
-          "section": "Initial retainer",
+          "section": "Fees & payment",
           "value": "Typically £1,500, plus VAT.",
           "editorGroup": "services-and-fees-rich-16"
         },
@@ -13006,7 +13006,7 @@
           "id": "services-and-fees-text-20",
           "type": "text",
           "label": "Success fee & payment terms heading",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": "Success fee",
           "editorGroup": "services-and-fees-rich-17"
         },
@@ -13014,7 +13014,7 @@
           "id": "services-and-fees-text-21",
           "type": "text",
           "label": "Success fee & payment terms content",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": "Typically 1–1.5% of the purchase price, plus VAT.",
           "editorGroup": "services-and-fees-rich-18"
         },
@@ -13022,7 +13022,7 @@
           "id": "services-and-fees-text-22",
           "type": "text",
           "label": "Success fee & payment terms content",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": "These are indicative fees. I will confirm the full fee arrangement and payment terms for your search in writing.",
           "editorGroup": "services-and-fees-rich-19"
         },
@@ -13093,7 +13093,7 @@
             "services-and-fees-text-17"
           ],
           "label": "Button URL",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": "/contact/"
         },
         {
@@ -13207,7 +13207,7 @@
           "id": "services-and-fees-rich-7",
           "type": "richtext",
           "label": "Personal attention label",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-9\">Time for your search</cms-text>",
           "legacyIds": [
@@ -13219,7 +13219,7 @@
           "id": "services-and-fees-rich-8",
           "type": "richtext",
           "label": "Personal attention heading",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-10\">A small number of clients</cms-text>",
           "legacyIds": [
@@ -13231,7 +13231,7 @@
           "id": "services-and-fees-rich-9",
           "type": "richtext",
           "label": "Personal attention content",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-11\">I work with a limited number of buyers so I can give each search the attention it needs. I do not take on clients whose requirements would put them in direct competition with one another.</cms-text>",
           "legacyIds": [
@@ -13244,7 +13244,7 @@
           "id": "services-and-fees-rich-10",
           "type": "richtext",
           "label": "Personal attention content",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-12\">Some searches come together quickly; others need more time. We will discuss your circumstances and agree the scope of my involvement before we begin.</cms-text>",
           "legacyIds": [
@@ -13257,7 +13257,7 @@
           "id": "services-and-fees-rich-11",
           "type": "richtext",
           "label": "Fee overview label",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-13\">My fees</cms-text>",
           "legacyIds": [
@@ -13269,7 +13269,7 @@
           "id": "services-and-fees-rich-12",
           "type": "richtext",
           "label": "Fee overview heading",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-14\">Clear from the outset</cms-text>",
           "legacyIds": [
@@ -13281,7 +13281,7 @@
           "id": "services-and-fees-rich-13",
           "type": "richtext",
           "label": "Fee overview content",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-15\">My fee has two parts: an initial retainer to begin the search, followed by a success fee when you purchase. The exact fee and terms are agreed with you before I start work.</cms-text>",
           "legacyIds": [
@@ -13294,7 +13294,7 @@
           "id": "services-and-fees-rich-14",
           "type": "richtext",
           "label": "Fee overview content",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-16\">Get in touch to discuss the service that is right for your search.</cms-text>",
           "legacyIds": [
@@ -13307,7 +13307,7 @@
           "id": "services-and-fees-rich-15",
           "type": "richtext",
           "label": "Initial retainer heading",
-          "section": "Initial retainer",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-18\">Initial retainer</cms-text>",
           "legacyIds": [
@@ -13319,7 +13319,7 @@
           "id": "services-and-fees-rich-16",
           "type": "richtext",
           "label": "Initial retainer content",
-          "section": "Initial retainer",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-19\">Typically £1,500, plus VAT.</cms-text>",
           "legacyIds": [
@@ -13332,7 +13332,7 @@
           "id": "services-and-fees-rich-17",
           "type": "richtext",
           "label": "Success fee & payment terms heading",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-20\">Success fee</cms-text>",
           "legacyIds": [
@@ -13344,7 +13344,7 @@
           "id": "services-and-fees-rich-18",
           "type": "richtext",
           "label": "Success fee & payment terms content",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-21\">Typically 1–1.5% of the purchase price, plus VAT.</cms-text>",
           "legacyIds": [
@@ -13357,7 +13357,7 @@
           "id": "services-and-fees-rich-19",
           "type": "richtext",
           "label": "Success fee & payment terms content",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": null,
           "template": "<cms-text data-cms=\"services-and-fees-text-22\">These are indicative fees. I will confirm the full fee arrangement and payment terms for your search in writing.</cms-text>",
           "legacyIds": [
@@ -13432,7 +13432,7 @@
           "id": "services-and-fees-prose-2",
           "type": "prose",
           "label": "Personal attention content",
-          "section": "Personal attention",
+          "section": "Property search service",
           "value": null,
           "blocks": [
             {
@@ -13453,7 +13453,7 @@
           "id": "services-and-fees-prose-3",
           "type": "prose",
           "label": "Fee overview content",
-          "section": "Fee overview",
+          "section": "Fees & payment",
           "value": null,
           "blocks": [
             {
@@ -13474,7 +13474,7 @@
           "id": "services-and-fees-prose-4",
           "type": "prose",
           "label": "Initial retainer content",
-          "section": "Initial retainer",
+          "section": "Fees & payment",
           "value": null,
           "blocks": [
             {
@@ -13492,7 +13492,7 @@
           "id": "services-and-fees-prose-5",
           "type": "prose",
           "label": "Success fee & payment terms content",
-          "section": "Success fee & payment terms",
+          "section": "Fees & payment",
           "value": null,
           "blocks": [
             {
