@@ -127,7 +127,7 @@ async function instrument(file) {
     const introductionPhoto=container.find('[data-home-new-introduction-photo]');
     const introductionImageField=fields.find(field=>field.id===introductionPhoto.attr('data-cms'));
     if(introductionImageField){introductionImageField.section='About me';introductionImageField.label='About me image';}
-    introductionPhoto.insertAfter(container.find('#meet-emma'));
+    introductionPhoto.insertAfter(container.find('.nh-introduction__heading'));
     const reviews=container.find('[data-home-new-reviews]');
     reviews.find('[data-review-label]').prependTo(reviews.find('.nh-reviews__summary'));
     reviews.insertBefore(container.find('.nh-assurance[data-retired]'));

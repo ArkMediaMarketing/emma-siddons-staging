@@ -200,4 +200,11 @@
 }
 
 .nh-introduction__photo { display: block; width: 90%; height: auto; }
-.nh-introduction__body { align-self: center; }
+.new-home .nh-introduction { row-gap: 28px; }
+.nh-introduction__heading { grid-column: 1; grid-row: 1; }
+.new-home .nh-introduction__heading h2 { margin-bottom: 0; }
+.nh-introduction__photo { grid-column: 1; grid-row: 2; }
+.nh-introduction__body { grid-column: 2; grid-row: 2; align-self: start; }
+@media (max-width:600px) {
+  .nh-introduction__body { grid-column: 1; grid-row: 3; }
+}
