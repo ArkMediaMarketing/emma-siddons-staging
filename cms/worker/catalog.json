@@ -3020,7 +3020,8 @@
           "label": "Client testimonial label",
           "section": "Client testimonial",
           "value": "Kind words from my clients",
-          "editorGroup": "home-new-rich-51"
+          "editorGroup": "home-new-rich-51",
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-text-92",
@@ -4371,7 +4372,8 @@
           "legacyIds": [
             "home-new-text-91"
           ],
-          "paragraph": false
+          "paragraph": false,
+          "hiddenFromEditor": true
         },
         {
           "id": "home-new-rich-52",
