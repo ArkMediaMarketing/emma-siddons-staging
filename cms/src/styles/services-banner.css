@@ -1,20 +1,5 @@
 @import './inset-banner.css';
-/* Search and acquisition: paired cards within the shared content boundaries. */
-.site-refined .services-banner+.editorial-grid{gap:28px;padding-block:64px;align-items:stretch}
-.services-banner+.editorial-grid>div{min-width:0;padding:32px;border-radius:18px;background:#fff;border:1px solid #dedfdb}
-.services-banner+.editorial-grid>div+div{background:#edf1e9;border-color:transparent}
-.services-banner+.editorial-grid .eyebrow{display:flex;align-items:center;gap:24px;margin:0 0 18px;font-size:12px;letter-spacing:1.5px;font-weight:600;color:#344d3d}
-.services-banner+.editorial-grid .eyebrow:before{content:"";display:block;flex:0 0 52px;width:52px;height:52px;border-radius:50%;background:#e8eee5 center/30px no-repeat}
-.services-banner+.editorial-grid>div:first-child .eyebrow:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23344d3d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 10 9-8 9 8M5 9v13h5v-7h4v7h5V9'/%3E%3C/svg%3E")}
-.services-banner+.editorial-grid>div+div .eyebrow:before{border:1px solid white;background-color:transparent;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23344d3d' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='8' cy='7' r='4'/%3E%3Ccircle cx='18' cy='7' r='3'/%3E%3Cpath d='M1 21v-3a7 7 0 0 1 14 0v3m0-8a6 6 0 0 1 8 5v3'/%3E%3C/svg%3E")}
-.services-banner+.editorial-grid h2{font-size:clamp(28px,2vw,36px);line-height:1.2;margin:0 0 24px}
-.services-banner+.editorial-grid p:not(.eyebrow){font-size:18px;line-height:1.55;margin:0 0 20px;color:#465050}
-.services-banner+.editorial-grid .text-link{display:inline-block;background:#344d3d;color:#fff;padding:14px 24px;border:1px solid #344d3d;border-radius:2px;text-decoration:none;font-size:18px;line-height:1.4;margin-top:6px}
-.services-banner+.editorial-grid .text-link:hover{background:#243b2d}
-.services-banner+.editorial-grid .text-link:focus-visible{outline:2px solid #344d3d;outline-offset:4px}
-@media(max-width:800px){.site-refined .services-banner+.editorial-grid{grid-template-columns:1fr;padding-block:40px;gap:24px}}
-@media(max-width:480px){.services-banner+.editorial-grid>div{padding:24px}.services-banner+.editorial-grid .eyebrow{gap:16px;font-size:11px}.services-banner+.editorial-grid h2{font-size:28px}}
-
+@import './service-content-cards.css';
 /* Image and fee overview, with all content inside the shared container. */
 .site-refined:has(.services-banner) .fees-image-section{background:#f8f6f3}
 .site-refined:has(.services-banner) .fees-image-section .editorial-grid{gap:56px;align-items:center}
