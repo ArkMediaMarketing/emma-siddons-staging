@@ -10,3 +10,19 @@
 .considered-search__body .button:hover{background:#243b2d}
 @media(max-width:900px){.site-refined .considered-search>.editorial{gap:36px;padding-block:54px}.considered-search__body{padding-left:28px}}
 @media(max-width:650px){.site-refined .considered-search>.editorial{grid-template-columns:1fr;gap:28px;padding-block:40px}.considered-search__body{padding:26px 0 0;border-left:0;border-top:1px solid #b6c3b3}.considered-search__heading h2{font-size:32px}}
+
+/* Native details keep keyboard and screen-reader behaviour intact. */
+.site-refined .offmarket-questions{display:grid;grid-template-columns:.8fr 1.2fr;column-gap:72px;row-gap:16px;align-items:start;padding-block:72px}
+.offmarket-questions__heading{grid-column:1;grid-row:1 / span 3}
+.offmarket-questions__heading .eyebrow{margin:0 0 24px;color:#344d3d}
+.offmarket-questions__heading h2{font-size:clamp(30px,2.3vw,40px);line-height:1.18;margin:0;max-width:420px}
+.offmarket-questions .faq{grid-column:2;border:1px solid #dce3d8;border-radius:14px;background:#f8f9f6;padding:0;margin:0;overflow:hidden}
+.offmarket-questions .faq[open]{background:#fff;border-color:#a8b8a1}
+.offmarket-questions .faq summary{position:relative;list-style:none;padding:24px 74px 24px 26px;font-size:22px;line-height:1.35;cursor:pointer}
+.offmarket-questions .faq summary::-webkit-details-marker{display:none}
+.offmarket-questions .faq summary:after{content:"+";position:absolute;right:22px;top:22px;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;background:#e2e9dc;color:#344d3d;font-family:Arial,sans-serif;font-size:24px;font-weight:400}
+.offmarket-questions .faq[open] summary:after{content:"−";background:#344d3d;color:#fff}
+.offmarket-questions .faq summary:focus-visible{outline:2px solid #344d3d;outline-offset:-4px;border-radius:12px}
+.offmarket-questions .faq p{padding:0 26px 24px;margin:0;font-size:18px;line-height:1.65;color:#465050;max-width:none}
+@media(max-width:900px){.site-refined .offmarket-questions{column-gap:36px;padding-block:54px}.offmarket-questions .faq summary{font-size:20px}}
+@media(max-width:650px){.site-refined .offmarket-questions{grid-template-columns:1fr;padding-block:40px;gap:14px}.offmarket-questions__heading{grid-column:auto;grid-row:auto;margin-bottom:16px}.offmarket-questions .faq{grid-column:auto}.offmarket-questions .faq summary{padding:22px 62px 22px 20px;font-size:20px}.offmarket-questions .faq summary:after{right:16px;top:20px}.offmarket-questions .faq p{padding:0 20px 22px}}
