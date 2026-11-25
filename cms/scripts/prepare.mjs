@@ -117,6 +117,9 @@ async function instrument(file) {
   if(scope==='main') {
    instrumentRepeaters({$,container,fields,id,sectionName});
    // Match the two visual sections while retaining descriptive column labels.
+   if(id==='off-market-homes-hertfordshire')for(const field of fields){
+    if(['Off-market buying','Finding private opportunities'].includes(field.section))field.section='Understanding off-market homes';
+   }
    if(id==='services-and-fees')for(const field of fields){
     if(['Property search service','Personal attention'].includes(field.section))field.section='Property search service';
     if(['Fee overview','Fee breakdown','Initial retainer','Success fee & payment terms'].includes(field.section))field.section='Fees & payment';

@@ -10,6 +10,8 @@
 .service-content-cards p:not(.eyebrow){font-size:18px;line-height:1.55;margin:0 0 20px;color:#465050}
 .service-content-cards .text-link{display:inline-block;background:#344d3d;color:#fff;padding:14px 24px;border:1px solid #344d3d;border-radius:2px;text-decoration:none;font-size:18px;line-height:1.4;margin-top:6px}
 .service-content-cards .text-link:hover{background:#243b2d}
+body.site-refined .service-content-cards a.text-link,body.site-refined .service-content-cards a.text-link:hover,body.site-refined .service-content-cards a.text-link:focus{ text-decoration:none;border-bottom-style:solid; }
+body.site-refined .service-content-cards a.text-link *{text-decoration:none}
 .service-content-cards .text-link:focus-visible{outline:2px solid #344d3d;outline-offset:4px}
 @media(max-width:800px){.site-refined .service-content-cards{grid-template-columns:1fr;padding-block:40px;gap:24px}}
 @media(max-width:480px){.service-content-cards>div{padding:24px}.service-content-cards .eyebrow{gap:16px;font-size:11px}.service-content-cards h2{font-size:28px}}

@@ -14306,7 +14306,7 @@
           "id": "off-market-homes-hertfordshire-text-4",
           "type": "text",
           "label": "Off-market buying label",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": "Looking beyond the listings",
           "editorGroup": "off-market-homes-hertfordshire-rich-3"
         },
@@ -14314,7 +14314,7 @@
           "id": "off-market-homes-hertfordshire-text-5",
           "type": "text",
           "label": "Off-market buying heading",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": "What does off-market mean?",
           "editorGroup": "off-market-homes-hertfordshire-rich-4"
         },
@@ -14322,7 +14322,7 @@
           "id": "off-market-homes-hertfordshire-text-6",
           "type": "text",
           "label": "Off-market buying content",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": "An off-market home is offered privately, rather than advertised to everyone. A seller may value discretion, want to explore interest before launching, or prefer a quieter sale.",
           "editorGroup": "off-market-homes-hertfordshire-rich-5"
         },
@@ -14330,7 +14330,7 @@
           "id": "off-market-homes-hertfordshire-text-7",
           "type": "text",
           "label": "Off-market buying content",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": "A pre-market opportunity is a little different: the property may be due to launch publicly, but an agent is already speaking to suitable buyers.",
           "editorGroup": "off-market-homes-hertfordshire-rich-6"
         },
@@ -14338,7 +14338,7 @@
           "id": "off-market-homes-hertfordshire-text-8",
           "type": "text",
           "label": "Finding private opportunities label",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": "My local approach",
           "editorGroup": "off-market-homes-hertfordshire-rich-7"
         },
@@ -14346,7 +14346,7 @@
           "id": "off-market-homes-hertfordshire-text-9",
           "type": "text",
           "label": "Finding private opportunities heading",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": "Conversations open doors",
           "editorGroup": "off-market-homes-hertfordshire-rich-8"
         },
@@ -14354,7 +14354,7 @@
           "id": "off-market-homes-hertfordshire-text-10",
           "type": "text",
           "label": "Finding private opportunities content",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": "I draw on relationships with local agents, word of mouth and direct approaches to homeowners. A clear brief helps me explain what you are looking for and recognise an opportunity that could fit.",
           "editorGroup": "off-market-homes-hertfordshire-rich-9"
         },
@@ -14362,7 +14362,7 @@
           "id": "off-market-homes-hertfordshire-text-11",
           "type": "text",
           "label": "Finding private opportunities content",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": "Hertfordshire is my main focus. I also help buyers searching in west Essex and South Cambridgeshire.",
           "editorGroup": "off-market-homes-hertfordshire-rich-10"
         },
@@ -14370,7 +14370,7 @@
           "id": "off-market-homes-hertfordshire-text-12",
           "type": "text",
           "label": "Button Text",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": "Explore the areas I cover →"
         },
         {
@@ -14530,7 +14530,7 @@
             "off-market-homes-hertfordshire-text-12"
           ],
           "label": "Button URL",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": "/areas-covered/"
         },
         {
@@ -14604,7 +14604,7 @@
           "id": "off-market-homes-hertfordshire-rich-3",
           "type": "richtext",
           "label": "Off-market buying label",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-4\">Looking beyond the listings</cms-text>",
           "legacyIds": [
@@ -14616,7 +14616,7 @@
           "id": "off-market-homes-hertfordshire-rich-4",
           "type": "richtext",
           "label": "Off-market buying heading",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-5\">What does off-market mean?</cms-text>",
           "legacyIds": [
@@ -14628,7 +14628,7 @@
           "id": "off-market-homes-hertfordshire-rich-5",
           "type": "richtext",
           "label": "Off-market buying content",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-6\">An off-market home is offered privately, rather than advertised to everyone. A seller may value discretion, want to explore interest before launching, or prefer a quieter sale.</cms-text>",
           "legacyIds": [
@@ -14641,7 +14641,7 @@
           "id": "off-market-homes-hertfordshire-rich-6",
           "type": "richtext",
           "label": "Off-market buying content",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-7\">A pre-market opportunity is a little different: the property may be due to launch publicly, but an agent is already speaking to suitable buyers.</cms-text>",
           "legacyIds": [
@@ -14654,7 +14654,7 @@
           "id": "off-market-homes-hertfordshire-rich-7",
           "type": "richtext",
           "label": "Finding private opportunities label",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-8\">My local approach</cms-text>",
           "legacyIds": [
@@ -14666,7 +14666,7 @@
           "id": "off-market-homes-hertfordshire-rich-8",
           "type": "richtext",
           "label": "Finding private opportunities heading",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-9\">Conversations open doors</cms-text>",
           "legacyIds": [
@@ -14678,7 +14678,7 @@
           "id": "off-market-homes-hertfordshire-rich-9",
           "type": "richtext",
           "label": "Finding private opportunities content",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-10\">I draw on relationships with local agents, word of mouth and direct approaches to homeowners. A clear brief helps me explain what you are looking for and recognise an opportunity that could fit.</cms-text>",
           "legacyIds": [
@@ -14691,7 +14691,7 @@
           "id": "off-market-homes-hertfordshire-rich-10",
           "type": "richtext",
           "label": "Finding private opportunities content",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": null,
           "template": "<cms-text data-cms=\"off-market-homes-hertfordshire-text-11\">Hertfordshire is my main focus. I also help buyers searching in west Essex and South Cambridgeshire.</cms-text>",
           "legacyIds": [
@@ -14858,7 +14858,7 @@
           "id": "off-market-homes-hertfordshire-prose-1",
           "type": "prose",
           "label": "Off-market buying content",
-          "section": "Off-market buying",
+          "section": "Understanding off-market homes",
           "value": null,
           "blocks": [
             {
@@ -14879,7 +14879,7 @@
           "id": "off-market-homes-hertfordshire-prose-2",
           "type": "prose",
           "label": "Finding private opportunities content",
-          "section": "Finding private opportunities",
+          "section": "Understanding off-market homes",
           "value": null,
           "blocks": [
             {
