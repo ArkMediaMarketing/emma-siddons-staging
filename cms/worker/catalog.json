@@ -389,6 +389,36 @@
           "editorGroup": "footer-rich-0"
         },
         {
+          "id": "footer-text-10",
+          "type": "text",
+          "label": "Footer content",
+          "section": "Footer",
+          "value": "Let’s talk",
+          "editorGroup": "footer-rich-1"
+        },
+        {
+          "id": "footer-text-11",
+          "type": "text",
+          "label": "Phone number",
+          "section": "Footer",
+          "value": "07702 630983"
+        },
+        {
+          "id": "footer-text-12",
+          "type": "text",
+          "label": "Email address",
+          "section": "Footer",
+          "value": "info@emmasiddons.com"
+        },
+        {
+          "id": "footer-text-13",
+          "type": "text",
+          "label": "Footer content",
+          "section": "Footer",
+          "value": "Independent buying advice in Hertfordshire, west Essex and South Cambridgeshire.",
+          "editorGroup": "footer-rich-2"
+        },
+        {
           "id": "footer-link-0",
           "type": "link",
           "linkTextIds": [
@@ -484,6 +514,26 @@
           "value": "https://www.linkedin.com/in/emma-siddons-1bb59520/"
         },
         {
+          "id": "footer-link-10",
+          "type": "link",
+          "linkTextIds": [
+            "footer-text-11"
+          ],
+          "label": "Button URL",
+          "section": "Footer",
+          "value": "tel:+447702630983"
+        },
+        {
+          "id": "footer-link-11",
+          "type": "link",
+          "linkTextIds": [
+            "footer-text-12"
+          ],
+          "label": "Button URL",
+          "section": "Footer",
+          "value": "mailto:info@emmasiddons.com"
+        },
+        {
           "id": "footer-rich-0",
           "type": "richtext",
           "label": "Copyright text",
@@ -496,6 +546,32 @@
           ],
           "paragraph": true,
           "editorGroup": "footer-prose-0"
+        },
+        {
+          "id": "footer-rich-1",
+          "type": "richtext",
+          "label": "Footer content",
+          "section": "Footer",
+          "value": null,
+          "template": "<cms-text data-cms=\"footer-text-10\">Let’s talk</cms-text>",
+          "legacyIds": [
+            "footer-text-10"
+          ],
+          "paragraph": true,
+          "editorGroup": "footer-prose-1"
+        },
+        {
+          "id": "footer-rich-2",
+          "type": "richtext",
+          "label": "Footer content",
+          "section": "Footer",
+          "value": null,
+          "template": "<cms-text data-cms=\"footer-text-13\">Independent buying advice in Hertfordshire, west Essex and South Cambridgeshire.</cms-text>",
+          "legacyIds": [
+            "footer-text-13"
+          ],
+          "paragraph": true,
+          "editorGroup": "footer-prose-2"
         },
         {
           "id": "footer-prose-0",
@@ -514,6 +590,42 @@
           "legacyIds": [
             "footer-text-8",
             "footer-text-9"
+          ]
+        },
+        {
+          "id": "footer-prose-1",
+          "type": "prose",
+          "label": "Footer content",
+          "section": "Footer",
+          "value": null,
+          "blocks": [
+            {
+              "id": "footer-rich-1",
+              "attributes": {
+                "class": "footer-label"
+              }
+            }
+          ],
+          "legacyIds": [
+            "footer-text-10"
+          ]
+        },
+        {
+          "id": "footer-prose-2",
+          "type": "prose",
+          "label": "Footer content",
+          "section": "Footer",
+          "value": null,
+          "blocks": [
+            {
+              "id": "footer-rich-2",
+              "attributes": {
+                "class": "footer-summary"
+              }
+            }
+          ],
+          "legacyIds": [
+            "footer-text-13"
           ]
         }
       ]
