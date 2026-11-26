@@ -419,6 +419,20 @@
           "editorGroup": "footer-rich-2"
         },
         {
+          "id": "footer-text-14",
+          "type": "text",
+          "label": "Footer supporting text",
+          "section": "Footer",
+          "value": "Website by "
+        },
+        {
+          "id": "footer-text-15",
+          "type": "text",
+          "label": "Button Text",
+          "section": "Footer",
+          "value": "Web Design Essex"
+        },
+        {
           "id": "footer-link-0",
           "type": "link",
           "linkTextIds": [
@@ -532,6 +546,16 @@
           "label": "Button URL",
           "section": "Footer",
           "value": "mailto:info@emmasiddons.com"
+        },
+        {
+          "id": "footer-link-12",
+          "type": "link",
+          "linkTextIds": [
+            "footer-text-15"
+          ],
+          "label": "Button URL",
+          "section": "Footer",
+          "value": "https://webdesignessex.io/"
         },
         {
           "id": "footer-rich-0",

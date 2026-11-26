@@ -148,6 +148,8 @@ async function instrument(file) {
   }
   else if(!globals[scope]) globals[scope]={id:scope,title:scope==='header'?'Header & navigation':'Footer',route:'/',fields};
  }
+ // Place the new credit after instrumentation to retain existing footer field IDs.
+ $('footer .footer-copyright').append($('footer .footer-credit'));
  const titleId=`${id}-seo-title`, descriptionId=`${id}-seo-description`;
  $('title').attr('data-cms',titleId);
  $('meta[name="description"]').attr('data-cms',descriptionId);
