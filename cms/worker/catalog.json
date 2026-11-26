@@ -12407,8 +12407,8 @@
           "label": "Your situation image",
           "section": "Your situation",
           "value": {
-            "src": "/images/help-situations-1.webp",
-            "alt": "Emma outside a country house with her tablet"
+            "src": "/images/chp-6781-emma-viewing-home.webp",
+            "alt": "Emma Siddons looking at a home from the pavement"
           }
         },
         {
@@ -15922,8 +15922,8 @@
       "name": "help-hero-country-house-6bae513f.webp"
     },
     {
-      "src": "/images/help-situations-1.webp",
-      "name": "help-situations-1.webp"
+      "src": "/images/chp-6781-emma-viewing-home.webp",
+      "name": "chp-6781-emma-viewing-home.webp"
     },
     {
       "src": "/images/help-situations-2.webp",
