@@ -7730,7 +7730,8 @@
           "label": "Profile content",
           "section": "Profile",
           "value": "★★★★★",
-          "editorGroup": "about-me-rich-21"
+          "editorGroup": "about-me-rich-21",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-28",
@@ -7738,7 +7739,8 @@
           "label": "Profile content",
           "section": "Profile",
           "value": " 5.0 on Google",
-          "editorGroup": "about-me-rich-21"
+          "editorGroup": "about-me-rich-21",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-text-29",
@@ -8611,7 +8613,8 @@
             "about-me-text-28"
           ],
           "paragraph": true,
-          "editorGroup": "about-me-prose-6"
+          "editorGroup": "about-me-prose-6",
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-rich-22",
@@ -9106,14 +9109,16 @@
             {
               "id": "about-me-rich-21",
               "attributes": {
-                "class": "trust"
+                "class": "trust",
+                "data-retired": ""
               }
             }
           ],
           "legacyIds": [
             "about-me-text-27",
             "about-me-text-28"
-          ]
+          ],
+          "hiddenFromEditor": true
         },
         {
           "id": "about-me-prose-7",
