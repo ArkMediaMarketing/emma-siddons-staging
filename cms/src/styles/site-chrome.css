@@ -57,3 +57,13 @@ body .footer.site-chrome nav a { min-height: auto; padding: 0; font-size: 16px; 
   body .footer.site-chrome nav { display: grid; grid-template-columns: 1fr 1fr; width: 100%; gap: 0 15px; }
   body .footer.site-chrome nav a { padding-block: 10px; min-height: 42px; }
 }
+
+/* Shared social links: generous click targets, compact brand icons. */
+body .footer.site-chrome .footer-meta { display:flex; flex-direction:column; align-items:flex-end; gap:12px; }
+body .footer.site-chrome .footer-meta .copyright { margin:0; }
+body .footer.site-chrome .footer-socials { display:flex; align-items:center; gap:8px; }
+body .footer.site-chrome .footer-socials a { display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; min-height:44px; padding:0; color:var(--green); border:1px solid transparent; border-radius:50%; text-decoration:none; transition:background-color .2s; }
+body .footer.site-chrome .footer-socials a:hover { background-color:#e8ece6; }
+body .footer.site-chrome .footer-socials a:focus-visible { outline:2px solid currentColor; outline-offset:2px; }
+body .footer.site-chrome .footer-socials svg { width:22px; height:22px; flex-shrink:0; }
+@media(max-width:540px) { body .footer.site-chrome .footer-meta { align-items:flex-start; } }

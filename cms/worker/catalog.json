@@ -460,6 +460,30 @@
           "value": "/contact/"
         },
         {
+          "id": "footer-link-7",
+          "type": "link",
+          "linkTextIds": [],
+          "label": "Button URL",
+          "section": "Footer",
+          "value": "https://www.facebook.com/hertfordshirebuyingagent/"
+        },
+        {
+          "id": "footer-link-8",
+          "type": "link",
+          "linkTextIds": [],
+          "label": "Button URL",
+          "section": "Footer",
+          "value": "https://www.instagram.com/emmasiddons.hertsbuyingagent/"
+        },
+        {
+          "id": "footer-link-9",
+          "type": "link",
+          "linkTextIds": [],
+          "label": "Button URL",
+          "section": "Footer",
+          "value": "https://www.linkedin.com/in/emma-siddons-1bb59520/"
+        },
+        {
           "id": "footer-rich-0",
           "type": "richtext",
           "label": "Copyright text",
